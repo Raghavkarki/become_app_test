@@ -1,0 +1,58 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Pregnancy registration"
+    },
+    {
+      "locale": "ne",
+      "content": "गर्भवती दर्ता"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person' && contact.gender =='female' && summary.show_pregnancy_form && (!contact.date_of_birth || (ageInYears(contact) >= 15 && ageInYears(contact) <= 49)) && user._id != contact._id"
+  },
+  "icon": "icon-pregnancy",
+  "hidden_fields": [
+    "risk_factors",
+    "safe_pregnancy_practices",
+    "danger_signs.refer_patient_note_1",
+    "gestational_age",
+    "patient_uuid",
+    "anc_visits_hf",
+    "anc_visits_hf.anc_visits_hf_past.visit_number_note",
+    "anc_visits_hf.anc_visits_hf_past.visited_dates_group",
+    "patient_short_name",
+    "patient_short_name_start",
+    "lmp_method_approx",
+    "t_danger_signs_referral_follow_up",
+    "anc_visits_hf_past.visited_dates_group",
+    "anc_visits_hf.anc_visits_hf_past.visit_number_note",
+    "anc_visits_hf.anc_visits_hf_past",
+    "risk_factors.risk_factor_history",
+    "t_pregnancy_follow_up",
+    "t_pregnancy_follow_up_date",
+    "tt_received",
+    "deworming_med_received",
+    "hiv_status_known",
+    "weeks_since_lmp_rounded",
+    "weeks_since_lmp",
+    "patient_age_in_years",
+    "danger_signs.r_danger_sign_present",
+    "risk_factors.secondary_group",
+    "patient_name",
+    "patient_id",
+    "danger_signs.danger_signs_note",
+    "risk_factors.secondary_group.r_risk_factor_present",
+    "risk_factors.secondary_group",
+    "next_visit_weeks",
+     "next_visit_date",
+     "days_since_lmp",
+     "r_danger_sign_present",
+     "suggestion_list_note",
+     "summary"
+
+]
+}

@@ -1,0 +1,975 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>PNC Referral follow up Form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pnc_referral_followup_form/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pnc_referral_followup_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pnc_referral_followup_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pnc_referral_followup_form/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility:label">
+            <value>Have you had a check-up at a health facility?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child1/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child1/getting_better:label">
+            <value>Getting Better</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child1/same:label">
+            <value>Is the Same</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child1:label">
+            <value>How is the condition of <output value=" /pnc_referral_followup_form/baby_name_1_ctx "/> now ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child2/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child2/getting_better:label">
+            <value>Getting Better</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child2/same:label">
+            <value>Is the Same</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child2:label">
+            <value>How is the condition of <output value=" /pnc_referral_followup_form/baby_name_2_ctx "/> now ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child3/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child3/getting_better:label">
+            <value>Getting Better</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child3/same:label">
+            <value>Is the Same</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child3:label">
+            <value>How is the condition of <output value=" /pnc_referral_followup_form/baby_name_3_ctx "/> now ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child4/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child4/getting_better:label">
+            <value>Getting Better</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child4/same:label">
+            <value>Is the Same</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child4:label">
+            <value>How is the condition of <output value=" /pnc_referral_followup_form/baby_name_4_ctx "/> now ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_mother/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_mother/getting_better:label">
+            <value>Getting Better</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_mother/same:label">
+            <value>Is the Same</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_mother:label">
+            <value>How is the condition of <output value=" /pnc_referral_followup_form/patient_name "/> now ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1:label">
+            <value>**Following signs and symptoms were noticed in <output value=" /pnc_referral_followup_form/baby_name_1_ctx "/>**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_1:label">
+            <value>&gt; Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_2:label">
+            <value>&gt; Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_3:label">
+            <value>&gt; Is there a pus from umbilical or readness around the umbilical area.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_4:label">
+            <value>&gt; Yellow palms (hands) or soles (feet).</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_5:label">
+            <value>&gt; Pustules more than 10 or 1 big pustule size more than 1 mm.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_6:label">
+            <value>&gt; No movement or poor movement only after stimulation.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_7:label">
+            <value>&gt; Is there a fever and convulsion.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_8:label">
+            <value>&gt; Refuse to suck breast feed .</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_9:label">
+            <value>&gt; Vomits everything eaten .</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2:label">
+            <value>**Following signs and symptoms were noticed in <output value=" /pnc_referral_followup_form/baby_name_2_ctx "/>**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_1:label">
+            <value>&gt; Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_2:label">
+            <value>&gt; Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_3:label">
+            <value>&gt; Is there a pus from umbilical or readness around the umbilical area.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_4:label">
+            <value>&gt; Yellow palms (hands) or soles (feet).</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_5:label">
+            <value>&gt; Pustules more than 10 or 1 big pustule size more than 1 mm.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_6:label">
+            <value>&gt; No movement or poor movement only after stimulation.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_7:label">
+            <value>&gt; Is there a fever and convulsion.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_8:label">
+            <value>&gt; Refuse to suck breast feed .</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_9:label">
+            <value>&gt; Vomits everything eaten .</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3:label">
+            <value>**Following signs and symptoms were noticed in <output value=" /pnc_referral_followup_form/baby_name_3_ctx "/>**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_1:label">
+            <value>&gt; Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_2:label">
+            <value>&gt; Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_3:label">
+            <value>&gt; Is there a pus from umbilical or readness around the umbilical area.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_4:label">
+            <value>&gt; Yellow palms (hands) or soles (feet).</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_5:label">
+            <value>&gt; Pustules more than 10 or 1 big pustule size more than 1 mm.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_6:label">
+            <value>&gt; No movement or poor movement only after stimulation.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_7:label">
+            <value>&gt; Is there a fever and convulsion.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_8:label">
+            <value>&gt; Refuse to suck breast feed .</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_9:label">
+            <value>&gt; Vomits everything eaten .</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4:label">
+            <value>**Following signs and symptoms were noticed in <output value=" /pnc_referral_followup_form/baby_name_4_ctx "/>**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_1:label">
+            <value>&gt; Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_2:label">
+            <value>&gt; Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_3:label">
+            <value>&gt; Is there a pus from umbilical or readness around the umbilical area.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_4:label">
+            <value>&gt; Yellow palms (hands) or soles (feet).</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_5:label">
+            <value>&gt; Pustules more than 10 or 1 big pustule size more than 1 mm.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_6:label">
+            <value>&gt; No movement or poor movement only after stimulation.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_7:label">
+            <value>&gt; Is there a fever and convulsion.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_8:label">
+            <value>&gt; Refuse to suck breast feed .</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_9:label">
+            <value>&gt; Vomits everything eaten .</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother:label">
+            <value>**Following signs and symptoms were noticed in <output value=" /pnc_referral_followup_form/patient_name "/>(Mother)**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_10:label">
+            <value>&gt; In women who have given birth by surgery, is bleeding at the site of surgery, very painful?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_1:label">
+            <value>&gt; Fever</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_2:label">
+            <value>&gt; Excesive vaginal bleeding</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_3:label">
+            <value>&gt; Will the body be spasm?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_4:label">
+            <value>&gt; Severe continuous headache or blurred vision</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_5:label">
+            <value>&gt; Severe lower abdominal pain</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_6:label">
+            <value>&gt; Foul-smelling white discharge from the vagina</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_7:label">
+            <value>&gt; Redness of Calf or swollen or difficulty in breathing or chest pain</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_8:label">
+            <value>&gt; Difficulty in micturition or leak urine</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_9:label">
+            <value>&gt; Do you have mood and emotional swings?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/generated_note_name_28:label">
+            <value>Note* Provide the PNC service via phone only if you are unable to provide it in person. for example, if a delivery woman is in her parent's home.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/generated_note_name_86:label">
+            <value>Counsell about the severity of diseases and refer them immediately for further management. 
+If possible please give them company.</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/way_of_meeting/in_person:label">
+            <value>In-person</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/way_of_meeting/via_phone:label">
+            <value>Via Phone</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/way_of_meeting:label">
+            <value>How did you meet <output value=" /pnc_referral_followup_form/patient_name "/> again?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form:label">
+            <value>PNC Referral follow up Form</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/pnc_referral_followup_form/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pnc_referral_followup_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pnc_referral_followup_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pnc_referral_followup_form/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility:label">
+            <value>के स्वास्थ्य संस्थामा गयर जाँच गराउनु भएको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child1/cured:label">
+            <value>निको भइसकेको छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child1/getting_better:label">
+            <value>सुधारन्मुख</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child1/same:label">
+            <value>उस्तै छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child1:label">
+            <value>हाल <output value=" /pnc_referral_followup_form/baby_name_1_ctx "/> को अवस्था कस्तो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child2/cured:label">
+            <value>निको भइसकेको छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child2/getting_better:label">
+            <value>सुधारन्मुख</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child2/same:label">
+            <value>उस्तै छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child2:label">
+            <value>हाल <output value=" /pnc_referral_followup_form/baby_name_2_ctx "/> को अवस्था कस्तो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child3/cured:label">
+            <value>निको भइसकेको छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child3/getting_better:label">
+            <value>सुधारन्मुख</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child3/same:label">
+            <value>उस्तै छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child3:label">
+            <value>हाल <output value=" /pnc_referral_followup_form/baby_name_3_ctx "/> को अवस्था कस्तो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child4/cured:label">
+            <value>निको भइसकेको छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child4/getting_better:label">
+            <value>सुधारन्मुख</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child4/same:label">
+            <value>उस्तै छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_child4:label">
+            <value>हाल <output value=" /pnc_referral_followup_form/baby_name_4_ctx "/> को अवस्था कस्तो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_mother/cured:label">
+            <value>निको भइसकेको छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_mother/getting_better:label">
+            <value>सुधारन्मुख</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_mother/same:label">
+            <value>उस्तै छ</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/condition_mother:label">
+            <value>हाल <output value=" /pnc_referral_followup_form/patient_name "/> को अवस्था कस्तो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1:label">
+            <value>**<output value=" /pnc_referral_followup_form/baby_name_1_ctx "/> मा निम्न चिन्ह, लक्ष्णहरु देखियका थिए ?**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_1:label">
+            <value>&gt; (श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_2:label">
+            <value>&gt; कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_3:label">
+            <value>&gt; नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_4:label">
+            <value>&gt; हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_5:label">
+            <value>&gt; शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_6:label">
+            <value>&gt; सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_7:label">
+            <value>&gt; ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_8:label">
+            <value>&gt; दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_9:label">
+            <value>&gt; खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2:label">
+            <value>**<output value=" /pnc_referral_followup_form/baby_name_2_ctx "/> मा निम्न चिन्ह, लक्ष्णहरु देखियका थिए ?**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_1:label">
+            <value>&gt; (श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_2:label">
+            <value>&gt; कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_3:label">
+            <value>&gt; नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_4:label">
+            <value>&gt; हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_5:label">
+            <value>&gt; शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_6:label">
+            <value>&gt; सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_7:label">
+            <value>&gt; ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_8:label">
+            <value>&gt; दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_9:label">
+            <value>&gt; खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3:label">
+            <value>**<output value=" /pnc_referral_followup_form/baby_name_3_ctx "/> मा निम्न चिन्ह, लक्ष्णहरु देखियका थिए ?**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_1:label">
+            <value>&gt; (श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_2:label">
+            <value>&gt; कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_3:label">
+            <value>&gt; नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_4:label">
+            <value>&gt; हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_5:label">
+            <value>&gt; शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_6:label">
+            <value>&gt; सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_7:label">
+            <value>&gt; ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_8:label">
+            <value>&gt; दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_9:label">
+            <value>&gt; खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4:label">
+            <value>**<output value=" /pnc_referral_followup_form/baby_name_4_ctx "/> मा निम्न चिन्ह, लक्ष्णहरु देखियका थिए ?**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_1:label">
+            <value>&gt; (श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_2:label">
+            <value>&gt; कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_3:label">
+            <value>&gt; नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_4:label">
+            <value>&gt; हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_5:label">
+            <value>&gt; शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_6:label">
+            <value>&gt; सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_7:label">
+            <value>&gt; ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_8:label">
+            <value>&gt; दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_9:label">
+            <value>&gt; खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother:label">
+            <value>**<output value=" /pnc_referral_followup_form/patient_name "/> मा निम्न चिन्ह, लक्ष्णहरु देखियका थिए ?**</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_10:label">
+            <value>&gt; शल्यक्रिया गरेर प्रसुति गराएका महिला मा शल्यक्रिया गरेको ठाउँमा रगत बगिरहेको, निकै कडा दुखिरहेको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_1:label">
+            <value>&gt; उच्च ज्वरो आएको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_2:label">
+            <value>&gt; योनिबाट अत्यधिक रक्तस्राव छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_3:label">
+            <value>&gt; शरिर बाउँडिने छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_4:label">
+            <value>&gt; कडा / लगातार टाउको दुख्नु वा दृष्टि धमिलो छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_5:label">
+            <value>&gt; तल्लो पेट कडादुख्नु / तारन्तार बान्ता भैरहेको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_6:label">
+            <value>&gt; यौनि बाट सेतो गन्ध आउने पानि बगीरहेको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_7:label">
+            <value>&gt; पिंडुला रातो भएको वा सुन्निएको, श्वास फेर्न गाह्रो हुनु वा छाती दुखी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_8:label">
+            <value>&gt; पिसाब सजिलै फेर्न नसक्ने वा पिसाब चुहिन छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_9:label">
+            <value>&gt; मुड र भावनात्मक परिवर्तन /दोधार भइरह्न्छ ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/generated_note_name_28:label">
+            <value>नोट * : आफै भेटेर पि एन सी सेवा दिन नसक्ने अवस्थामा मात्र फोन बाट सेवा दिनुहोस् ।जस्तो; आमा माइत गयको बेला …</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/generated_note_name_86:label">
+            <value>बिरामीपनको गम्भीरता बारे परामर्श दिनुहोस् र तत्काल उपचारको लागि प्रेषण गर्नुहोस् ।
+मिल्छ भने तपाई पनि साथै जानुहोस् ।</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/way_of_meeting/in_person:label">
+            <value>आफै भेटेर</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/way_of_meeting/via_phone:label">
+            <value>फोन बाट</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form/way_of_meeting:label">
+            <value><output value=" /pnc_referral_followup_form/patient_name "/> लाई पुन: भेट कसरी गर्नुभयो ?</value>
+          </text>
+          <text id="/pnc_referral_followup_form/pnc_referral_form:label">
+            <value>पि एन सी प्रेसण फलोअप फाराम</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pnc_referral_followup_form id="pnc_referral_followup_form" prefix="J1!pnc_referral_followup_form!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <patient_id/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_id/>
+          <motherstatus_ctx/>
+          <baby_name_1_ctx tag="hidden"/>
+          <baby_name_2_ctx tag="hidden"/>
+          <baby_name_3_ctx tag="hidden"/>
+          <baby_name_4_ctx tag="hidden"/>
+          <baby_status_1_ctx tag="hidden"/>
+          <baby_status_2_ctx tag="hidden"/>
+          <baby_status_3_ctx tag="hidden"/>
+          <baby_status_4_ctx tag="hidden"/>
+          <danger_sign_mother tag="hidden"/>
+          <danger_sign_child tag="hidden"/>
+          <pnc_referral_form>
+            <way_of_meeting/>
+            <generated_note_name_28 tag="hidden"/>
+            <danger_signs_mother tag="hidden"/>
+            <danger_signs_mother_1 tag="hidden"/>
+            <danger_signs_mother_2 tag="hidden"/>
+            <danger_signs_mother_3 tag="hidden"/>
+            <danger_signs_mother_4 tag="hidden"/>
+            <danger_signs_mother_5 tag="hidden"/>
+            <danger_signs_mother_6 tag="hidden"/>
+            <danger_signs_mother_7 tag="hidden"/>
+            <danger_signs_mother_8 tag="hidden"/>
+            <danger_signs_mother_9 tag="hidden"/>
+            <danger_signs_mother_10 tag="hidden"/>
+            <condition_mother/>
+            <danger_signs_child1 tag="hidden"/>
+            <danger_signs_child1_1 tag="hidden"/>
+            <danger_signs_child1_2 tag="hidden"/>
+            <danger_signs_child1_3 tag="hidden"/>
+            <danger_signs_child1_4 tag="hidden"/>
+            <danger_signs_child1_5 tag="hidden"/>
+            <danger_signs_child1_6 tag="hidden"/>
+            <danger_signs_child1_7 tag="hidden"/>
+            <danger_signs_child1_8 tag="hidden"/>
+            <danger_signs_child1_9 tag="hidden"/>
+            <condition_child1/>
+            <danger_signs_child2 tag="hidden"/>
+            <danger_signs_child2_1 tag="hidden"/>
+            <danger_signs_child2_2 tag="hidden"/>
+            <danger_signs_child2_3 tag="hidden"/>
+            <danger_signs_child2_4 tag="hidden"/>
+            <danger_signs_child2_5 tag="hidden"/>
+            <danger_signs_child2_6 tag="hidden"/>
+            <danger_signs_child2_7 tag="hidden"/>
+            <danger_signs_child2_8 tag="hidden"/>
+            <danger_signs_child2_9 tag="hidden"/>
+            <condition_child2/>
+            <danger_signs_child3 tag="hidden"/>
+            <danger_signs_child3_1 tag="hidden"/>
+            <danger_signs_child3_2 tag="hidden"/>
+            <danger_signs_child3_3 tag="hidden"/>
+            <danger_signs_child3_4 tag="hidden"/>
+            <danger_signs_child3_5 tag="hidden"/>
+            <danger_signs_child3_6 tag="hidden"/>
+            <danger_signs_child3_7 tag="hidden"/>
+            <danger_signs_child3_8 tag="hidden"/>
+            <danger_signs_child3_9 tag="hidden"/>
+            <condition_child3/>
+            <danger_signs_child4 tag="hidden"/>
+            <danger_signs_child4_1 tag="hidden"/>
+            <danger_signs_child4_2 tag="hidden"/>
+            <danger_signs_child4_3 tag="hidden"/>
+            <danger_signs_child4_4 tag="hidden"/>
+            <danger_signs_child4_5 tag="hidden"/>
+            <danger_signs_child4_6 tag="hidden"/>
+            <danger_signs_child4_7 tag="hidden"/>
+            <danger_signs_child4_8 tag="hidden"/>
+            <danger_signs_child4_9 tag="hidden"/>
+            <condition_child4/>
+            <checked_up_at_health_facility/>
+            <generated_note_name_86 tag="hidden"/>
+          </pnc_referral_form>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pnc_referral_followup_form>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pnc_referral_followup_form/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pnc_referral_followup_form/inputs/source" type="string"/>
+      <bind nodeset="/pnc_referral_followup_form/inputs/source_id" type="string"/>
+      <bind nodeset="/pnc_referral_followup_form/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pnc_referral_followup_form/inputs/contact/name" type="string"/>
+      <bind nodeset="/pnc_referral_followup_form/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pnc_referral_followup_form/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pnc_referral_followup_form/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pnc_referral_followup_form/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pnc_referral_followup_form/motherstatus_ctx" type="string" calculate="if(instance('contact-summary')/context/motherstatus_ctx, instance('contact-summary')/context/motherstatus_ctx, .)"/>
+      <bind nodeset="/pnc_referral_followup_form/baby_name_1_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_name_1_ctx, instance('contact-summary')/context/baby_name_1_ctx, .)"/>
+      <bind nodeset="/pnc_referral_followup_form/baby_name_2_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_name_2_ctx, instance('contact-summary')/context/baby_name_2_ctx, .)"/>
+      <bind nodeset="/pnc_referral_followup_form/baby_name_3_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_name_3_ctx, instance('contact-summary')/context/baby_name_3_ctx, .)"/>
+      <bind nodeset="/pnc_referral_followup_form/baby_name_4_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_name_4_ctx, instance('contact-summary')/context/baby_name_4_ctx, .)"/>
+      <bind nodeset="/pnc_referral_followup_form/baby_status_1_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_status_1_ctx, instance('contact-summary')/context/baby_status_1_ctx, .)"/>
+      <bind nodeset="/pnc_referral_followup_form/baby_status_2_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_status_2_ctx, instance('contact-summary')/context/baby_status_2_ctx, .)"/>
+      <bind nodeset="/pnc_referral_followup_form/baby_status_3_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_status_3_ctx, instance('contact-summary')/context/baby_status_3_ctx, .)"/>
+      <bind nodeset="/pnc_referral_followup_form/baby_status_4_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_status_4_ctx, instance('contact-summary')/context/baby_status_4_ctx, .)"/>
+      <bind nodeset="/pnc_referral_followup_form/danger_sign_mother" type="string"/>
+      <bind nodeset="/pnc_referral_followup_form/danger_sign_child" type="string"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form" relevant=" /pnc_referral_followup_form/motherstatus_ctx  = 'healthy' or  /pnc_referral_followup_form/motherstatus_ctx  = 'unhealthy' or  /pnc_referral_followup_form/motherstatus_ctx  = ''"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/way_of_meeting" type="select1" required="true()"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/generated_note_name_28" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_1" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'high_fever')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_2" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'vaginal_bleeding')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_3" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'body_spasm')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_4" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'blurred_vision')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_5" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'abdominal_pain')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_6" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'vagi_discharge')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_7" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'calf_redness')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_8" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'leak_urine')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_9" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'mood_swings')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_10" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_mother , 'bleeding_surgery')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/condition_mother" type="select1" required="true()"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1" readonly="true()" type="string" relevant=" /pnc_referral_followup_form/baby_status_1_ctx  = 'healthy' or  /pnc_referral_followup_form/baby_status_1_ctx  = 'unhealthy'"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_1" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'h_res_1')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_2" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'chest_1')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_3" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'umb_cord_1')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_4" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'y_hand_1')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_5" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'pustules_1')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_6" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'poor_mo_1')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_7" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'fever_1')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_8" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'suck_breast_1')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_9" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'vomits_1')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/condition_child1" type="select1" relevant=" /pnc_referral_followup_form/baby_status_1_ctx  = 'healthy' or  /pnc_referral_followup_form/baby_status_1_ctx  = 'unhealthy'" required="true()"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2" readonly="true()" type="string" relevant=" /pnc_referral_followup_form/baby_status_2_ctx  = 'healthy' or  /pnc_referral_followup_form/baby_status_2_ctx  = 'unhealthy'"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_1" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'h_res_2')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_2" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'chest_2')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_3" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'umb_cord_2')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_4" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'y_hand_2')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_5" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'pustules_2')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_6" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'poor_mo_2')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_7" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'fever_2')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_8" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'suck_breast_2')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_9" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'vomits_2')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/condition_child2" type="select1" relevant=" /pnc_referral_followup_form/baby_status_2_ctx  = 'healthy' or  /pnc_referral_followup_form/baby_status_2_ctx  = 'unhealthy'" required="true()"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3" readonly="true()" type="string" relevant=" /pnc_referral_followup_form/baby_status_3_ctx  = 'healthy' or  /pnc_referral_followup_form/baby_status_3_ctx  = 'unhealthy'"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_1" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'h_res_3')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_2" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'chest_3')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_3" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'umb_cord_3')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_4" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'y_hand_3')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_5" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'pustules_3')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_6" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'poor_mo_3')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_7" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'fever_3')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_8" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'suck_breast_3')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_9" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'vomits_3')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/condition_child3" type="select1" relevant=" /pnc_referral_followup_form/baby_status_3_ctx  = 'healthy' or  /pnc_referral_followup_form/baby_status_3_ctx  = 'unhealthy'" required="true()"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4" readonly="true()" type="string" relevant=" /pnc_referral_followup_form/baby_status_4_ctx  = 'healthy' or  /pnc_referral_followup_form/baby_status_4_ctx  = 'unhealthy'"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_1" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'h_res_4')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_2" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'chest_4')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_3" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'umb_cord_4')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_4" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'y_hand_4')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_5" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'pustules_4')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_6" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'poor_mo_4')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_7" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'fever_4')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_8" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'suck_breast_4')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_9" readonly="true()" type="string" relevant="contains( /pnc_referral_followup_form/danger_sign_child , 'vomits_4')"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/condition_child4" type="select1" relevant=" /pnc_referral_followup_form/baby_status_4_ctx  = 'healthy' or  /pnc_referral_followup_form/baby_status_4_ctx  = 'unhealthy'" required="true()"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility" type="select1" required="true()"/>
+      <bind nodeset="/pnc_referral_followup_form/pnc_referral_form/generated_note_name_86" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_referral_followup_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pnc_referral_followup_form/inputs">
+      <label ref="jr:itext('/pnc_referral_followup_form/inputs:label')"/>
+      <group ref="/pnc_referral_followup_form/inputs/contact">
+        <label ref="jr:itext('/pnc_referral_followup_form/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/pnc_referral_followup_form/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/pnc_referral_followup_form/pnc_referral_form">
+      <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form:label')"/>
+      <select1 ref="/pnc_referral_followup_form/pnc_referral_form/way_of_meeting">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/way_of_meeting:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/way_of_meeting/in_person:label')"/>
+          <value>in_person</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/way_of_meeting/via_phone:label')"/>
+          <value>via_phone</value>
+        </item>
+      </select1>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/generated_note_name_28">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/generated_note_name_28:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_1">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_1:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_2">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_2:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_3">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_3:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_4">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_4:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_5">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_5:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_6">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_6:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_7">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_7:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_8">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_8:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_9">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_9:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_10">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_mother_10:label')"/>
+      </input>
+      <select1 ref="/pnc_referral_followup_form/pnc_referral_form/condition_mother">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_mother:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_mother/getting_better:label')"/>
+          <value>getting_better</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_mother/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_mother/same:label')"/>
+          <value>same</value>
+        </item>
+      </select1>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_1">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_1:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_2">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_2:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_3">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_3:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_4">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_4:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_5">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_5:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_6">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_6:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_7">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_7:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_8">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_8:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_9">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child1_9:label')"/>
+      </input>
+      <select1 ref="/pnc_referral_followup_form/pnc_referral_form/condition_child1">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child1/getting_better:label')"/>
+          <value>getting_better</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child1/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child1/same:label')"/>
+          <value>same</value>
+        </item>
+      </select1>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_1">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_1:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_2">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_2:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_3">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_3:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_4">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_4:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_5">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_5:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_6">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_6:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_7">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_7:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_8">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_8:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_9">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child2_9:label')"/>
+      </input>
+      <select1 ref="/pnc_referral_followup_form/pnc_referral_form/condition_child2">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child2/getting_better:label')"/>
+          <value>getting_better</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child2/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child2/same:label')"/>
+          <value>same</value>
+        </item>
+      </select1>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_1">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_1:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_2">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_2:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_3">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_3:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_4">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_4:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_5">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_5:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_6">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_6:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_7">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_7:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_8">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_8:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_9">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child3_9:label')"/>
+      </input>
+      <select1 ref="/pnc_referral_followup_form/pnc_referral_form/condition_child3">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child3/getting_better:label')"/>
+          <value>getting_better</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child3/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child3/same:label')"/>
+          <value>same</value>
+        </item>
+      </select1>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_1">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_1:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_2">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_2:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_3">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_3:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_4">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_4:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_5">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_5:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_6">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_6:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_7">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_7:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_8">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_8:label')"/>
+      </input>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_9">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/danger_signs_child4_9:label')"/>
+      </input>
+      <select1 ref="/pnc_referral_followup_form/pnc_referral_form/condition_child4">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child4/getting_better:label')"/>
+          <value>getting_better</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child4/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/condition_child4/same:label')"/>
+          <value>same</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/checked_up_at_health_facility/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pnc_referral_followup_form/pnc_referral_form/generated_note_name_86">
+        <label ref="jr:itext('/pnc_referral_followup_form/pnc_referral_form/generated_note_name_86:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

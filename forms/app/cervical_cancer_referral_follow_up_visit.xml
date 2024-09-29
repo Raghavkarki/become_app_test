@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>पाठेघरको मुखको क्यान्सरको स्क्रीनिङ फलोअप</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer/no:label">
+            <value>No</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer:label">
+            <value>Are you diagnosed with cervical cancer?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/generated_note_name_27:label">
+            <value>Please explain how important is it to adhere with the treatment measures and wrap up the session</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/mention:label">
+            <value>Mention</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/chemo:label">
+            <value>Chemo</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/medicine:label">
+            <value>Medicine</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/other:label">
+            <value>Others</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/radiation_theraphy:label">
+            <value>Radiation Theraphy</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/surgery:label">
+            <value>Surgery</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure:label">
+            <value>What treatment measures are you currently on?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option/no:label">
+            <value>No</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option:label">
+            <value>Have you discussed with your doctor regarding the treatment options?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/validation_source:label">
+            <value>Mention the Validation source here</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam/no:label">
+            <value>No</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam:label">
+            <value>Did you visit the health facility for further examination?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/busy:label">
+            <value>Been busy with work</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/family_restriction:label">
+            <value>Family restrictions</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/forget:label">
+            <value>Forgot</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/no_transportation:label">
+            <value>No transportation</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/other:label">
+            <value>Other reasons</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/out_of_town:label">
+            <value>Out of town</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/unable_to_travel:label">
+            <value>Physically unable to travel</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/unnecessary:label">
+            <value>Thinks it is unnecessary</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit:label">
+            <value>Why have you not visited a health facility for further consultation and treatment?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer:label">
+            <value>के तपाईंलाई पाठेघरको मुखको क्यान्सरको निदान (diagnosis) गरिएको छ ?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/generated_note_name_27:label">
+            <value>कृपया व्याख्या गर्नुहोस् कि यो उपचारका उपायहरू पालना गर्न कत्तिको महत्त्वपूर्ण छ र आफ्नो हेरचाहको लागि सल्लाह दिनुहोस् ।</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/mention:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/chemo:label">
+            <value>केमो (Chemo)</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/medicine:label">
+            <value>औषधि (Medicine)</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/radiation_theraphy:label">
+            <value>सेकाई (Radiation Theraphy)</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/surgery:label">
+            <value>सर्जरी (Surgery)</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure:label">
+            <value>तपाईं अहिले कुन उपचार विधिमा हुनुहुन्छ?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option:label">
+            <value>के तपाईंले उपचार विकल्पहरूको बारेमा आफ्नो डाक्टरसँग छलफल गर्नुभएको छ?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/validation_source:label">
+            <value>प्रमाणीकरणको स्रोत उल्लेख गर्नुहोस् ।</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam:label">
+            <value>के तपाई स्वास्थ्य संस्था / क्यान्सर अस्पताल गएर थप जाँच गर्नु भएको छ ?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/busy:label">
+            <value>काममा व्यस्त भएर</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/family_restriction:label">
+            <value>परिवारको सहयोग नपाएर</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/forget:label">
+            <value>बिर्सेर</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/no_money:label">
+            <value>पैसा नभएर</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/no_transportation:label">
+            <value>यातायातको साधन नभएर</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/out_of_town:label">
+            <value>शहर बाट टाढा भएर</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/unable_to_travel:label">
+            <value>शारीरिक रूपमा यात्रा गर्न असमर्थ भएर</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/unnecessary:label">
+            <value>यो अनावश्यक छ भन्ने लागेर</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit:label">
+            <value>के कारण ले तपाईं स्वास्थ्य संस्था / क्यान्सर अस्पताल गएर थप जाँच गर्न जानु भएन ?</value>
+          </text>
+          <text id="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup:label">
+            <value>पाठेघरको मुखको क्यान्सरको स्क्रीनिङ फलोअप</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <cervical_cancer_referral_follow_up_visit id="cervical_cancer_referral_follow_up_visit" prefix="J1!cervical_cancer_referral_follow_up_visit!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source/>
+            <source_id/>
+            <contact>
+              <_id/>
+              <patient_id/>
+              <name/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_id/>
+          <patient_name/>
+          <cervical_cancer_followup>
+            <visit_exam/>
+            <why_no_visit/>
+            <diagnosed_cancer/>
+            <heath_facility_visit>
+              <validation_source/>
+              <treatment_option/>
+              <treatment_measure/>
+              <mention/>
+              <generated_note_name_27/>
+            </heath_facility_visit>
+          </cervical_cancer_followup>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </cervical_cancer_referral_follow_up_visit>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/inputs/source" type="string"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/inputs/source_id" type="string"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/inputs/contact/name" type="string"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam" type="select1" required="true()"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit" type="select" relevant=" /cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam  ='no'" required="true()"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer" type="select1" relevant=" /cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam  ='yes'" required="true()"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit" relevant=" /cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer  = 'yes'"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/validation_source" type="string" constraint="string-length(.) &lt;= 100"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option" type="select1" required="true()"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure" type="select" relevant=" /cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option  = 'yes'" required="true()"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/mention" type="string" relevant="selected( /cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure , 'other')" constraint="string-length(.) &lt;= 100"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/generated_note_name_27" readonly="true()" type="string" relevant=" /cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option  = 'yes' or  /cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option  = 'no'"/>
+      <bind nodeset="/cervical_cancer_referral_follow_up_visit/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/cervical_cancer_referral_follow_up_visit/inputs">
+      <group ref="/cervical_cancer_referral_follow_up_visit/inputs/contact">
+        <input appearance="db-object" ref="/cervical_cancer_referral_follow_up_visit/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup">
+      <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup:label')"/>
+      <select1 ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam">
+        <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam:label')"/>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/visit_exam/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit">
+        <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit:label')"/>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/forget:label')"/>
+          <value>forget</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/busy:label')"/>
+          <value>busy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/unnecessary:label')"/>
+          <value>unnecessary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/no_transportation:label')"/>
+          <value>no_transportation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/out_of_town:label')"/>
+          <value>out_of_town</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/family_restriction:label')"/>
+          <value>family_restriction</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/unable_to_travel:label')"/>
+          <value>unable_to_travel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/why_no_visit/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <select1 ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer">
+        <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer:label')"/>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/diagnosed_cancer/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <group ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit">
+        <input ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/validation_source">
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/validation_source:label')"/>
+        </input>
+        <select1 ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option">
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option:label')"/>
+          <item>
+            <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_option/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure">
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure:label')"/>
+          <item>
+            <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/medicine:label')"/>
+            <value>medicine</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/surgery:label')"/>
+            <value>surgery</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/chemo:label')"/>
+            <value>chemo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/radiation_theraphy:label')"/>
+            <value>radiation_theraphy</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/treatment_measure/other:label')"/>
+            <value>other</value>
+          </item>
+        </select>
+        <input ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/mention">
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/mention:label')"/>
+        </input>
+        <input ref="/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/generated_note_name_27">
+          <label ref="jr:itext('/cervical_cancer_referral_follow_up_visit/cervical_cancer_followup/heath_facility_visit/generated_note_name_27:label')"/>
+        </input>
+      </group>
+    </group>
+  </h:body>
+</h:html>

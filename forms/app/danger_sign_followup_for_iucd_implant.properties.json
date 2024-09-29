@@ -1,0 +1,17 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Complication sign follow up visit IUCD and Implant Reminder"
+    },
+    {
+      "locale": "ne",
+      "content": "आई.यु.सि.डी र इम्प्लान्ट सम्बन्धी जटिलता / प्रतिकूल घटना दर्ता फारम"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": false
+  },
+ "icon": "icon-people-woman"
+}

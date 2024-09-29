@@ -1,0 +1,535 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Breast Cancer Follow Up</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/breast_cancer_followup/form_questions/diagnosed_with_cancer/no:label">
+            <value>No</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/diagnosed_with_cancer/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/diagnosed_with_cancer:label">
+            <value>Are you diagnosed with breast cancer?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor/no:label">
+            <value>No</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor:label">
+            <value>Have you discussed with your doctor regarding the treatment options?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/chemo:label">
+            <value>Chemo</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/medicine:label">
+            <value>Medicine</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/radiation_theraphy:label">
+            <value>Radiation Theraphy</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/surgery:label">
+            <value>Surgery</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option:label">
+            <value>What treatment measures are you currently on?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option_other:jr:constraintMsg">
+            <value>max characters = 100</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option_other:label">
+            <value>Treatment measure</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment/no:label">
+            <value>No</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment:label">
+            <value>Have you been taking your treatement regularly?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_adherence:label">
+            <value>Please explain how important is it to adhere with the treatment measures and wrap up the session, counsell for self care</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_importance:label">
+            <value>If treatment has not been received regularly then it would be hard to cure the diseases in the future and diseases become more worst.</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_on_time:label">
+            <value>If treatment has started on time, then Breast cancer can treat and prevent the spread and become worst.</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/other_why_no_hf_visit:jr:constraintMsg">
+            <value>max characters = 100</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/other_why_no_hf_visit:label">
+            <value>Mention</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/validation_source:jr:constraintMsg">
+            <value>max characters = 100</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/validation_source:label">
+            <value>Mention the Validation source here</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/visited_hf/no:label">
+            <value>No</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/visited_hf/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/visited_hf:label">
+            <value>Did you visit the health facility for further examination?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/been_busy:label">
+            <value>been busy with work</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/cunable_to_travel:label">
+            <value>physically unable to travel</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/family_restrictions:label">
+            <value>family restrictions</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/forgot:label">
+            <value>Forgot</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/no_money:label">
+            <value>no money</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/no_transportation:label">
+            <value>no transportation</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/other:label">
+            <value>other reasons</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/out_of_town:label">
+            <value>out of town</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/unnecessary:label">
+            <value>thinks it is unnecessary</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit:label">
+            <value>Why have you not visited a health facility for further consultation and treatment?</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/parent/parent/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/parent/parent/name:label">
+            <value>CHN Area</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/parent/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs:label">
+            <value>Patient</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/breast_cancer_followup/form_questions/diagnosed_with_cancer/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/diagnosed_with_cancer/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/diagnosed_with_cancer:label">
+            <value>के तपाईलाई स्तन क्यान्सर निदान (diagnosis) गरिएको छ ?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor:label">
+            <value>के तपाईंले उपचार विकल्पहरूको बारेमा आफ्नो डाक्टरसँग छलफल गर्नुभएको छ?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/chemo:label">
+            <value>केमो</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/medicine:label">
+            <value>औषधि</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/others:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/radiation_theraphy:label">
+            <value>सेकाई</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/surgery:label">
+            <value>सर्जरी</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option:label">
+            <value>तपाई अहिले कुन उपचार विधिमा हुनुहुन्छ?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option_other:jr:constraintMsg">
+            <value>अधिकतम १०० अक्षर मात्र</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option_other:label">
+            <value>उपचार विधि</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment:label">
+            <value>के तपाईंले आफ्नो उपचार नियमित रूपमा लिइरहनुभएको छ?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_adherence:label">
+            <value>कृपया व्याख्या गर्नुहोस् कि यो उपचारका उपायहरू पालना गर्न कत्तिको महत्त्वपूर्ण छ र आफ्नो हेरचाहको लागि सल्लाह दिनुहोस् ।</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_importance:label">
+            <value>नियमित रूपमा उपचार नगरेमा रोग सन्चो हुदैन र रोग अझै बल्झिने हुन्छ र भविष्यमा उपचार गर्न गाह्रो हुन्छ भनी परामर्श दिनुहोस् ।</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_on_time:label">
+            <value>समयमै उपचार सुरु गरे स्तन क्यान्सर लाई निको पार्न सकिन्छ र यसलाई अरु फैलिन बाट रोक्न सकिन्छ भनि परामर्श गर्नुहोस् ।</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/other_why_no_hf_visit:jr:constraintMsg">
+            <value>अधिकतम १०० अक्षर मात्र</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/other_why_no_hf_visit:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/validation_source:jr:constraintMsg">
+            <value>अधिकतम १०० अक्षर मात्र</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/validation_source:label">
+            <value>प्रमाणीकरणको स्रोत उल्लेख गर्नुहोस् ।</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/visited_hf/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/visited_hf/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/visited_hf:label">
+            <value>के तपाई स्वास्थ्य सँस्था / क्यान्सर अस्पताल गएर थप जाँच गर्नु भएको छ ?</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/been_busy:label">
+            <value>काममा व्यस्त भएर</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/cunable_to_travel:label">
+            <value>शारीरिक रूपमा यात्रा गर्न असमर्थ भएर</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/family_restrictions:label">
+            <value>परिवारको सहयोग नपाएर</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/forgot:label">
+            <value>बिर्सेर</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/no_money:label">
+            <value>पैसा नभएर</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/no_transportation:label">
+            <value>यातायातको साधन नभएर</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/out_of_town:label">
+            <value>शहर बाट टाढा भएर</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit/unnecessary:label">
+            <value>यो अनावश्यक छ भन्ने लागेर</value>
+          </text>
+          <text id="/breast_cancer_followup/form_questions/why_no_hf_visit:label">
+            <value>किन तपाई थप निदान, परीक्षण वा उपचारको लागि स्वास्थ्य संस्था / क्यान्सर अस्पताल मा जानु भएन ?</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/breast_cancer_followup/inputs/contact/parent/parent/name:label">
+            <value>CHN Area</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <breast_cancer_followup id="breast_cancer_followup" prefix="J1!breast_cancer_followup!" delimiter="#" version="2023-04-13 15:56:16">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <parent>
+                  <name/>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_short_name tag="hidden"/>
+          <patient_short_name_start tag="hidden"/>
+          <chn_area_name tag="hidden"/>
+          <form_questions>
+            <visited_hf/>
+            <why_no_hf_visit/>
+            <other_why_no_hf_visit/>
+            <diagnosed_with_cancer/>
+            <validation_source/>
+            <doctor_consultation>
+              <discussed_treatment_with_doctor/>
+              <treatment_option/>
+              <treatment_option_other/>
+            </doctor_consultation>
+            <not_doing_treatment>
+              <note_treatment_on_time tag="hidden"/>
+              <is_doing_regular_treatment/>
+              <note_treatment_adherence tag="hidden"/>
+              <note_treatment_importance tag="hidden"/>
+            </not_doing_treatment>
+          </form_questions>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </breast_cancer_followup>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/breast_cancer_followup/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/breast_cancer_followup/inputs/source" type="string"/>
+      <bind nodeset="/breast_cancer_followup/inputs/source_id" type="string"/>
+      <bind nodeset="/breast_cancer_followup/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/breast_cancer_followup/inputs/contact/name" type="string"/>
+      <bind nodeset="/breast_cancer_followup/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/breast_cancer_followup/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/breast_cancer_followup/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/breast_cancer_followup/inputs/contact/sex" type="string"/>
+      <bind nodeset="/breast_cancer_followup/inputs/contact/parent/parent/name" type="string"/>
+      <bind nodeset="/breast_cancer_followup/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/breast_cancer_followup/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/breast_cancer_followup/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/breast_cancer_followup/patient_id" type="string" required="true()" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/breast_cancer_followup/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/breast_cancer_followup/patient_short_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/breast_cancer_followup/patient_short_name_start" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/breast_cancer_followup/chn_area_name" type="string" calculate="../inputs/contact/parent/parent/name"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/visited_hf" type="select1" required="true()"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/why_no_hf_visit" type="select" relevant=" /breast_cancer_followup/form_questions/visited_hf ='no'" required="true()"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/other_why_no_hf_visit" type="string" relevant=" /breast_cancer_followup/form_questions/why_no_hf_visit ='other'" jr:constraintMsg="jr:itext('/breast_cancer_followup/form_questions/other_why_no_hf_visit:jr:constraintMsg')" constraint="string-length(.) &lt;= 100"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/diagnosed_with_cancer" type="select1" relevant=" /breast_cancer_followup/form_questions/visited_hf ='yes'" required="true()"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/validation_source" type="string" relevant=" /breast_cancer_followup/form_questions/diagnosed_with_cancer ='yes'" jr:constraintMsg="jr:itext('/breast_cancer_followup/form_questions/validation_source:jr:constraintMsg')" constraint="string-length(.) &lt;= 100"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/doctor_consultation" relevant=" /breast_cancer_followup/form_questions/diagnosed_with_cancer ='yes'"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor" type="select1" required="true()"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option" type="select1" relevant=" /breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor ='yes'" required="true()"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option_other" type="string" relevant=" /breast_cancer_followup/form_questions/doctor_consultation/treatment_option ='others'" jr:constraintMsg="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/treatment_option_other:jr:constraintMsg')" constraint="string-length(.) &lt;= 100"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/not_doing_treatment" relevant=" /breast_cancer_followup/form_questions/visited_hf ='yes'"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_on_time" readonly="true()" type="string" relevant=" /breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor ='no'"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment" type="select1" relevant=" /breast_cancer_followup/form_questions/diagnosed_with_cancer ='yes'"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_adherence" readonly="true()" type="string" relevant=" /breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment ='yes'"/>
+      <bind nodeset="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_importance" readonly="true()" type="string" relevant=" /breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment ='no'"/>
+      <bind nodeset="/breast_cancer_followup/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/breast_cancer_followup/inputs">
+      <label ref="jr:itext('/breast_cancer_followup/inputs:label')"/>
+      <group ref="/breast_cancer_followup/inputs/contact">
+        <label ref="jr:itext('/breast_cancer_followup/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/breast_cancer_followup/inputs/contact/_id">
+          <label ref="jr:itext('/breast_cancer_followup/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/breast_cancer_followup/inputs/contact/parent">
+          <label ref="jr:itext('/breast_cancer_followup/inputs/contact/parent:label')"/>
+          <group ref="/breast_cancer_followup/inputs/contact/parent/parent">
+            <label ref="jr:itext('/breast_cancer_followup/inputs/contact/parent/parent:label')"/>
+            <group ref="/breast_cancer_followup/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/breast_cancer_followup/inputs/contact/parent/parent/contact:label')"/>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list
+field-list" ref="/breast_cancer_followup/form_questions">
+      <select1 appearance="field-list" ref="/breast_cancer_followup/form_questions/visited_hf">
+        <label ref="jr:itext('/breast_cancer_followup/form_questions/visited_hf:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/visited_hf/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/visited_hf/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select appearance="field-list" ref="/breast_cancer_followup/form_questions/why_no_hf_visit">
+        <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit/forgot:label')"/>
+          <value>forgot</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit/been_busy:label')"/>
+          <value>been_busy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit/unnecessary:label')"/>
+          <value>unnecessary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit/no_transportation:label')"/>
+          <value>no_transportation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit/out_of_town:label')"/>
+          <value>out_of_town</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit/family_restrictions:label')"/>
+          <value>family_restrictions</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit/cunable_to_travel:label')"/>
+          <value>cunable_to_travel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/why_no_hf_visit/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input appearance="field-list" ref="/breast_cancer_followup/form_questions/other_why_no_hf_visit">
+        <label ref="jr:itext('/breast_cancer_followup/form_questions/other_why_no_hf_visit:label')"/>
+      </input>
+      <select1 appearance="field-list" ref="/breast_cancer_followup/form_questions/diagnosed_with_cancer">
+        <label ref="jr:itext('/breast_cancer_followup/form_questions/diagnosed_with_cancer:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/diagnosed_with_cancer/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/diagnosed_with_cancer/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input appearance="field-list" ref="/breast_cancer_followup/form_questions/validation_source">
+        <label ref="jr:itext('/breast_cancer_followup/form_questions/validation_source:label')"/>
+      </input>
+      <group ref="/breast_cancer_followup/form_questions/doctor_consultation">
+        <select1 appearance="field-list" ref="/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor">
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor:label')"/>
+          <item>
+            <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/discussed_treatment_with_doctor/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="field-list" ref="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option">
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/treatment_option:label')"/>
+          <item>
+            <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/medicine:label')"/>
+            <value>medicine</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/surgery:label')"/>
+            <value>surgery</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/chemo:label')"/>
+            <value>chemo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/radiation_theraphy:label')"/>
+            <value>radiation_theraphy</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/treatment_option/others:label')"/>
+            <value>others</value>
+          </item>
+        </select1>
+        <input appearance="field-list" ref="/breast_cancer_followup/form_questions/doctor_consultation/treatment_option_other">
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/doctor_consultation/treatment_option_other:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/breast_cancer_followup/form_questions/not_doing_treatment">
+        <input appearance="field-list" ref="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_on_time">
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_on_time:label')"/>
+        </input>
+        <select1 appearance="field-list" ref="/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment">
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment:label')"/>
+          <item>
+            <label ref="jr:itext('/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer_followup/form_questions/not_doing_treatment/is_doing_regular_treatment/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input appearance="field-list" ref="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_adherence">
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_adherence:label')"/>
+        </input>
+        <input appearance="field-list" ref="/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_importance">
+          <label ref="jr:itext('/breast_cancer_followup/form_questions/not_doing_treatment/note_treatment_importance:label')"/>
+        </input>
+      </group>
+    </group>
+  </h:body>
+</h:html>

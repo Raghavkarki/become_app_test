@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Household survey"
+    },
+    {
+      "locale": "ne",
+      "content": "घर-धुरी सर्वेक्षण फारम"
+    }
+  ],
+  "context": {
+    "place": true,
+    "person": false,
+    "expression": "contact.contact_type === 'c80_household'"
+  },
+  "icon": "icon-community"
+}

@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Under 5 child health"
+    },
+    {
+      "locale": "ne",
+      "content": "५ वर्ष सम्म उमेर समुहका बालबालिका को स्वास्थ्य सर्बेक्षण"
+    }
+  ],
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.contact_type === 'c82_person'  && (!contact.date_of_birth || (ageInYears(contact) <= 5)) && user._id != contact._id"
+  },
+  "icon": "icon-people-children"
+}

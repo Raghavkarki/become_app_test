@@ -1,0 +1,2932 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Pregnancy home visit</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known/no:label">
+            <value>I Don't Know</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known/yes:label">
+            <value>I Know</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known:label">
+            <value>Do you know upcoming ANC visit date for patient?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/prenancy_age_note:label">
+            <value><output value=" /pregnancy_home_visit/patient_short_name_start "/> is *<output value=" /pregnancy_home_visit/weeks_since_lmp_rounded "/> weeks* pregnant.</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/refer_note:label">
+            <value>Please refer <output value=" /pregnancy_home_visit/patient_short_name "/> to the health facility at the appropriate time.</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/visit_time_range:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/who_recommends_note:label">
+            <value>The Ministry of Health has made a provision for pregnant women to go to health institutions for 8 pregnancy visits. First 12 weeks, second 16 weeks, third 20 - 24 weeks, fourth 28 weeks, fifth 32 weeks, sixth 34 weeks, seventh 36 weeks, and eighth 28 - 40 weeks.</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended/willgo:label">
+            <value>Will go</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended:label">
+            <value>Has the pregnant woman gone to the health institution for examination according to the date of pregnancy examination (protocol)? <output value=" /pregnancy_home_visit/current_period_en "/>?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_1:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_2:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_3:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_4:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_5:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_6:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_7:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_8:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_9:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits:label">
+            <value>Would you like to report any additional unreported health facility ANC visits?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1:label">
+            <value>Do you know the date for first visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2:label">
+            <value>Do you know the date for second visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3:label">
+            <value>Do you know the date for third visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4:label">
+            <value>Do you know the date for fourth visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5:label">
+            <value>Do you know the date for fifth visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6:label">
+            <value>Do you know the date for sixth visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7:label">
+            <value>Do you know the date for seventh visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8:label">
+            <value>Do you know the date for eighth visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9:label">
+            <value>Do you know the date for ninth visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_date_ask_single:label">
+            <value>Please enter the date if you know it.</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count:hint">
+            <value>Enter 0 if she has not been yet.</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count:jr:constraintMsg">
+            <value>Input should be between 0 and 9.</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count:label">
+            <value>How many times?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past:label">
+            <value>ANC Visits at Health Facility (Past)</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_check:hint">
+            <value>Select all that apply.</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_check:label">
+            <value>Does pregnant women hae other symptoms which were not reported previously?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q:jr:constraintMsg">
+            <value>Invalid selection</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q:label">
+            <value>Does <output value=" /pregnancy_home_visit/patient_short_name "/> have additional risk factors that you have not previously reported?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_yes:label">
+            <value>If yes, please describe.</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/asthma:label">
+            <value>Asthma</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/deliv_by_operation:label">
+            <value>The anterior delivery was by operation / vacuum</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/diabetes:label">
+            <value>Diabetes</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/heart_condition:label">
+            <value>Heart condition</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/high_blood_pressure:label">
+            <value>High blood pressure</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/last_baby_born_less_than_1_year_ago:label">
+            <value>Last baby born less than one year ago</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/more_than_4_children:label">
+            <value>Has delivered four or more children</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/none_risk:label">
+            <value>None</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_deliv_at_home:label">
+            <value>The previous delivery took place at home without the help of a health worker</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_risk_factors_note:label">
+            <value>You previously reported the following risk factors:</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/r_risk_factor_present:jr:constraintMsg">
+            <value>Invalid selection</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/anemia/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/anemia/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/anemia:label">
+            <value>Do you have anemia?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/blood_pressure/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/blood_pressure/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/blood_pressure:label">
+            <value>Do you have high blood pressure?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/breathlessness/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/breathlessness/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/breathlessness:label">
+            <value>Are you having breathing problem?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/congratulate_no_ds_note:hint">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/congratulate_no_ds_note:label">
+            <value>Great news! Please closely monitor her until her next scheduled pregnancy visit.</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/danger_signs_note:label">
+            <value>Ask following questions to patient and check if there are any danger signs.</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/face_hand_swelling/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/face_hand_swelling/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/face_hand_swelling:label">
+            <value>is your face or hand swelling?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fever/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fever/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fever:label">
+            <value>Do you have fever?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fits/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fits/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fits:label">
+            <value>Are your hands and feet trembling?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/heart_beat/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/heart_beat/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/heart_beat:label">
+            <value>Check baby's heart beat. Is there any problem?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/if_any:label">
+            <value>Do you have any other signs ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/refer_patient_note_1:label">
+            <value>&lt;span style="color:red"&gt;Please refer to the health facility immediately. Accompany her if possible.&lt;/span&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/severe_abdominal_pain/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/severe_abdominal_pain/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/severe_abdominal_pain:label">
+            <value>Do you have severe abdominal pain?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/vaginal_bleeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/vaginal_bleeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/vaginal_bleeding:label">
+            <value>Do you have vaginal bleeding?</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/parent/parent/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/parent/parent/name:label">
+            <value>CHN Area Name</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/parent/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/abortion_date:jr:constraintMsg">
+            <value>Date can not be in the future. Date can not be older than LMP.</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/abortion_date:label">
+            <value>Date of abortion</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/abortion_note:label">
+            <value>You have reported the woman has had an abortion. If she has not been seen by a care provider, please refer to the health facility.</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/clear_option/clear_all:label">
+            <value>Do not receive any more tasks about this pregnancy.</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/clear_option/clear_this:label">
+            <value>Clear task for this visit only. Continue to receive tasks for this pregnancy.</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/clear_option:label">
+            <value>What would you like to do?</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/end_pregnancy_edd_note:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/end_pregnancy_note:label">
+            <value>Submitting this form will end the pregnancy. You will not receive any additional tasks.</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/migrated_note:label">
+            <value>You have reported the woman has moved out of the area.</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/miscarriage_date:jr:constraintMsg">
+            <value>Date can not be in the future. Date can not be older than LMP.</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/miscarriage_date:label">
+            <value>Date of miscarriage</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/miscarriage_note:label">
+            <value>You have reported the woman has had a miscarriage. If she has not been seen by a care provider, please refer to the health facility.</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/refusing_note:label">
+            <value>You have reported the woman has refused care.</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/current_edd:label">
+            <value>Expected Date of Delivery(EDD):&lt;br&gt; <output value=" /pregnancy_home_visit/edd_8601 "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/current_weeks_pregnant:label">
+            <value>LMP date: <output value=" /pregnancy_home_visit/lmp_date_formatted "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_count_note:label">
+            <value>**ANC Visit No. <output value=" /pregnancy_home_visit/inputs/visit "/>**</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/abortion:label">
+            <value>No, Abortion</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/migrated:label">
+            <value>No, Migrated out of area</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/miscarriage:label">
+            <value>No, Miscarriage</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/refused:label">
+            <value>No, Refusing care</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option:label">
+            <value>Do you want to start this pregnancy visit?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/advice_note:label">
+            <value>1. Counseling the pregnant woman about the benefits of 8 ANC visits in a health facility according to the protocol. Give information when will her first, second, third, fourth, fifth, sixth, seventh, and eighth ANC visits be due
+2. Inform about the date of the next ANC visit
+3. Discuss about a birth plan.
+4. Discuss the danger signs in pregnancy
+5. Discuss about WASH.
+6. Advise on postnatal family planning and help women choose which methods to use after delivery
+7. Discuss what should do and what should avoid during pregnancy 
+8. Discuss additional food and frequency
+9. Give information about the physical and mental changes in this period
+10. Give information about personal hygiene.
+11. Advise them to stay away from smoking, alcohol, and caffeine.
+12. Give other necessary advice.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_note:label">
+            <value>The possibility of eclampsia can be detected in time by checking albumin in the urine.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test:label">
+            <value>Did you test Albumin in urine</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_test_note:label">
+            <value>A blood test can tell if you have anemia, diabetes, gonorrhea, hepatitis B, or HIV.
+A urine test looks at the amount of sugar and protein that gives information about future diseases.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test:label">
+            <value>Is blood and urine test done ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med:label">
+            <value>Has <output value=" /pregnancy_home_visit/patient_short_name "/> received deworming medication?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med_note:label">
+            <value>Worms can affect the nutritional status of <output value=" /pregnancy_home_visit/patient_short_name "/> and baby.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card:label">
+            <value>have you made maternal and newborn health card?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card_note:label">
+            <value>This card must be made during pregnancy test, if you make this card and check according to the protocol, you will get a certain amount as per the regulation of the Ministry of Health.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily:label">
+            <value>Is <output value=" /pregnancy_home_visit/patient_short_name "/> taking iron folate daily?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_note:label">
+            <value>Iron folate aids in the development of child's brain and spinal cord. It also prevents premature birth, sepsis, anemia and low birth weight.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe:label">
+            <value>Make sure you have a birth plan:
+(Necessary money, means of transportation, blood donors and others)</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/explain_safe_birth:label">
+            <value>Explain how a birth plan helps for a safe institutional delivery.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more:label">
+            <value>Is a pregnant woman eating four or more meals a day</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/nutrition_food_note:label">
+            <value>Eat more often than usual and a balanced diet to give you strength and help the baby grow.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received:label">
+            <value>Has <output value=" /pregnancy_home_visit/patient_short_name "/> received any Tetanus Toxoid (TT) immunizations during this pregnancy?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_1:label">
+            <value>TT protects the pregnant woman and the baby from getting tetanus and the baby from getting tetanus</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_2:label">
+            <value>Tetanus Toxoid (TT) protects pregnant women and babies from getting tetanus and prevents the baby from getting tetanus.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose:label">
+            <value>Tetanus Toxoid (TT) sure you take the second dose.</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray:label">
+            <value>Has video X-ray done?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray_note:label">
+            <value>Video X-rays provide information about the baby's condition (vertical, horizontal, inverted and normal), the condition of the year, the amount of water and more</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_anemia:label">
+            <value>Anemia</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_asthma:label">
+            <value>Asthma</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_blood_pressure:label">
+            <value>Severe headache</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_breathlessness:label">
+            <value>Breathlessness</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_danger_signs:label">
+            <value>New Danger Signs</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_deliv_by_operation:label">
+            <value>The anterior delivery was by operation / vacuum</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_diabetes:label">
+            <value>Diabetes</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_face_feet_swelling:label">
+            <value>Swelling of face and hands</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_fits:label">
+            <value>Fits</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_heart_beat:label">
+            <value>Heart Beat</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_heart_condition:label">
+            <value>Heart condition</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_high_blood_pressure:label">
+            <value>High blood pressure</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_last_baby_born_less_than_1_year_ago:label">
+            <value>Last baby born less than one year ago</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_lmp_weeks:label">
+            <value>LMP weeks: <output value=" /pregnancy_home_visit/weeks_since_lmp_rounded "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_more_than_4_children:label">
+            <value>Has delivered four or more children</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_none:label">
+            <value>None</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_patient_details:label">
+            <value>&lt;h2 style=&quot;text-align:center;margin-bottom:0px;&quot;&gt;<output value=" /pregnancy_home_visit/patient_name "/>&lt;/h2&gt; &lt;p style=&quot;text-align:center;&quot;&gt;<output value=" /pregnancy_home_visit/patient_age_in_years "/> years old&lt;/p&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_pregnancy_details:label">
+            <value>&lt;p&gt;<output value=" /pregnancy_home_visit/weeks_since_lmp_rounded "/> weeks pregnant.&lt;/p&gt; &lt;p&gt; EDD: <output value=" /pregnancy_home_visit/edd_formatted_ne "/> &lt;/p&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_pregnancy_protocol_visits:label">
+            <value>&lt;p&gt;ANC Visits as per protocol: <output value=" /pregnancy_home_visit/total_hf_visits "/>&lt;/p&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_previous_deliv_at_home:label">
+            <value>The previous delivery took place at home without the help of a health worker</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_risk_factor_note:label">
+            <value>New Risk Factors</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_severe_abdominal_pain:label">
+            <value>Severe abdominal pain</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_submit_note:label">
+            <value>&lt;h4 style="text-align:center;"&gt;Click the Submit button at the bottom of the form.&lt;/h4&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_summary:label">
+            <value>Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_summary_details:label">
+            <value>Patient&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_vaginal_bleeding:label">
+            <value>Vaginal bleeding</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/g_age_update_method/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/g_age_update_method/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/g_age_update_method:label">
+            <value>Is LMP date correct?</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/lmp_date_update:jr:constraintMsg">
+            <value>LMP date cannot be less than 1 month ago. Start date cannot be more than 9 months in the future.</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/lmp_date_update:label">
+            <value>Please enter new LMP.</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/edd_check_note:label">
+            <value>_If this seems incorrect, click "&lt; Prev" to update the pregnancy information._</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/new_edd:label">
+            <value>EDD: <output value=" /pregnancy_home_visit/update_g_age/edd_new "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/new_g_age:label">
+            <value><output value=" /pregnancy_home_visit/weeks_since_lmp_rounded "/> Weeks Pregnant</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/new_info:label">
+            <value>**New**</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/previous_edd:label">
+            <value>EDD: <output value=" /pregnancy_home_visit/context_vars/edd_ctx "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/previous_g_age:label">
+            <value><output value=" /pregnancy_home_visit/context_vars/weeks_since_lmp_rounded_ctx "/> Weeks Pregnant</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/previous_info:label">
+            <value>**Previous**</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/update_check_note:label">
+            <value>**Please confirm the new information and then click Next.**</value>
+          </text>
+          <text id="static_instance-additional_risk_check-0">
+            <value>Heart condition</value>
+          </text>
+          <text id="static_instance-additional_risk_check-1">
+            <value>Asthma</value>
+          </text>
+          <text id="static_instance-additional_risk_check-2">
+            <value>High blood pressure</value>
+          </text>
+          <text id="static_instance-additional_risk_check-3">
+            <value>Diabetes</value>
+          </text>
+          <text id="static_instance-additional_risk_check-4">
+            <value>None</value>
+          </text>
+          <text id="static_instance-age_correct_yes_no-0">
+            <value>Yes, it is correct.</value>
+          </text>
+          <text id="static_instance-age_correct_yes_no-1">
+            <value>No, I want to update.</value>
+          </text>
+          <text id="static_instance-clear_options-0">
+            <value>Clear task for this visit only. Continue to receive tasks for this pregnancy.</value>
+          </text>
+          <text id="static_instance-clear_options-1">
+            <value>Do not receive any more tasks about this pregnancy.</value>
+          </text>
+          <text id="static_instance-g_age_update_methods-0">
+            <value>Current weeks pregnant</value>
+          </text>
+          <text id="static_instance-g_age_update_methods-1">
+            <value>Expected date of delivery</value>
+          </text>
+          <text id="static_instance-is_isnot-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-is_isnot-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-is_isnot_willgo-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-is_isnot_willgo-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-is_isnot_willgo-2">
+            <value>Will go</value>
+          </text>
+          <text id="static_instance-know_dontknow-0">
+            <value>I Know</value>
+          </text>
+          <text id="static_instance-know_dontknow-1">
+            <value>I Don't Know</value>
+          </text>
+          <text id="static_instance-visit_options-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-visit_options-1">
+            <value>No, Miscarriage</value>
+          </text>
+          <text id="static_instance-visit_options-2">
+            <value>No, Abortion</value>
+          </text>
+          <text id="static_instance-visit_options-3">
+            <value>No, Refusing care</value>
+          </text>
+          <text id="static_instance-visit_options-4">
+            <value>No, Migrated out of area</value>
+          </text>
+          <text id="static_instance-was_wasnot-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-was_wasnot-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known/no:label">
+            <value>थाहा छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known/yes:label">
+            <value>थाहा छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known:label">
+            <value>प्रोटोकल अनुसार गर्भवती महिलाको स्वास्थ्य संस्थामा अब गर्भ जाँचको लागि जाने मितिको बारेमा सोध्नुहोस् । यो अवधिको बिचमा तपाईले कहिले पुन: भेट गर्ने सम्झना पाउनु हुन्छ र सोहि अनुसार भेट गर्नुहुन्छ। के तपाईंलाई आगामी भेटको दिन याद छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/prenancy_age_note:label">
+            <value>हाल गर्भवती महिलाको <output value=" /pregnancy_home_visit/month_since_lmp "/> महिना <output value=" /pregnancy_home_visit/month_days_lmp "/> दिन चलिरहेको छ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/refer_note:label">
+            <value>गर्भवती महिलालाई उपयुक्त समयमा गर्भ जाँचको लागि परामर्श दिनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/visit_time_range:label">
+            <value>गर्भवती महिलालाई स्वास्थ्य संस्थामा जाने मिति <output value=" /pregnancy_home_visit/next_visit_start_date_ne "/> देखि <output value=" /pregnancy_home_visit/next_visit_date_ne "/> रहेको छ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/who_recommends_note:label">
+            <value>स्वास्थ्य मन्त्रालयले गर्भवती महिलालाई स्वास्थ्य संस्थामा गएर ८ पटक गर्भ जाँच गर्ने प्रावधान बनाएको छ । पहिलो १२ हप्ता, दोस्रो १६ हप्ता, तेस्रो २० - २४ हप्ता, चौथो २८ हप्ता, पाचौ ३२ हप्ता, छैटौ ३४ हप्ता, सातौ ३६ हप्ता र आठौ ३८ - ४० हप्तामा ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended/willgo:label">
+            <value>अब जानु हुन्छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended:label">
+            <value>गर्भवती महिलाले गर्भवती जाँचको मिति (प्रोटोकल) अनुसार स्वास्थ्य संस्थामा गएर जाँच गर्नुपर्ने मिति <output value=" /pregnancy_home_visit/current_period_ne "/> छ। के उहाँ ले स्वास्थ्य संस्थामा गएर जाँच गर्नु भएको छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_1:jr:constraintMsg">
+            <value>मिति अन्तिम महिनावारी को मिति भन्दा पुरानो र भविष्य हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_1:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_2:jr:constraintMsg">
+            <value>मिति अन्तिम महिनावारी को मिति भन्दा पुरानो र भविष्य हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_2:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_3:jr:constraintMsg">
+            <value>मिति अन्तिम महिनावारी को मिति भन्दा पुरानो र भविष्य हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_3:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_4:jr:constraintMsg">
+            <value>मिति अन्तिम महिनावारी को मिति भन्दा पुरानो र भविष्य हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_4:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_5:jr:constraintMsg">
+            <value>मिति अन्तिम महिनावारी को मिति भन्दा पुरानो र भविष्य हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_5:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_6:jr:constraintMsg">
+            <value>मिति अन्तिम महिनावारी को मिति भन्दा पुरानो र भविष्य हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_6:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_7:jr:constraintMsg">
+            <value>मिति अन्तिम महिनावारी को मिति भन्दा पुरानो र भविष्य हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_7:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_8:jr:constraintMsg">
+            <value>मिति अन्तिम महिनावारी को मिति भन्दा पुरानो र भविष्य हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_8:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_9:jr:constraintMsg">
+            <value>मिति अन्तिम महिनावारी को मिति भन्दा पुरानो र भविष्य हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_9:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits:label">
+            <value>के गर्भवती महिलाले प्रोटोकल बाहेक पनि स्वास्थ्य संस्थामा गएर गर्भवती जाँच गर्नु भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1:label">
+            <value>पहिलो जाँच गरेको मिति सम्झना छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2:label">
+            <value>दोस्रो जाँच गरेको मिति सम्झना छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3:label">
+            <value>तेस्रो जाँच गरेको मिति सम्झना छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4:label">
+            <value>चौथो जाँच गरेको मिति सम्झना छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5:label">
+            <value>पाचौँ जाँच गरेको मिति सम्झना छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6:label">
+            <value>छैठौँ जाँच गरेको मिति सम्झना छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7:label">
+            <value>सातौँ जाँच गरेको मिति सम्झना छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8:label">
+            <value>आठौँ जाँच गरेको मिति सम्झना छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9:label">
+            <value>नवौँ जाँच गरेको मिति सम्झना छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_date_ask_single:label">
+            <value>यदि मिति थाहा छ भने लेख्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count:hint">
+            <value>यदि वहाँ जानु भएको छैन भने ० राख्नुहोस्।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count:jr:constraintMsg">
+            <value>० र ९ को बीच एक पूर्णांक हुनु पर्छ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count:label">
+            <value>कति पटक जानु भएको छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_check:hint">
+            <value>लागु हुने सबै छान्नु होस्।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_check:label">
+            <value>के गर्भवती महिलामा थप जोखिमका तत्त्व छन् जुन तपाईंले पहिले रिपोर्ट गर्नुभएको छैन? भएका सबै चयन गर्नु होस्।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q:jr:constraintMsg">
+            <value>अमान्य चयन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q:label">
+            <value>यी बाहेक अरु कुनै जोखिमका तत्त्वहरु छन् ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_yes:label">
+            <value>यदि छन् भने</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/asthma:label">
+            <value>दम लागेको छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/deliv_by_operation:label">
+            <value>अगाडी को प्रसुती अप्रेसन / भ्याकुमबाट भएको थियो ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/diabetes:label">
+            <value>चिनी (सुगर) रोग छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/heart_condition:label">
+            <value>मुटु सम्बन्धी रोग छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/high_blood_pressure:label">
+            <value>उच्च रक्तचाप छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/last_baby_born_less_than_1_year_ago:label">
+            <value>अन्तिम बच्चाको उमेर १ वर्ष भन्दा कम छ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/more_than_4_children:label">
+            <value>हालसम्म चार वा सो भन्दा बढी पटक गर्भवती हुनु भएको छ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/none_risk:label">
+            <value>कुनै पनि छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_deliv_at_home:label">
+            <value>अगाडिको प्रसुती घरमै स्वास्थ्यकर्मीको सहयोग बिना भएको थियो ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_risk_factors_note:label">
+            <value>तपाईमा पहिला निम्न जोखिमका तत्त्वहरुको पहिचान भएको थियो :</value>
+          </text>
+          <text id="/pregnancy_home_visit/anc_visits_hf/risk_factors/r_risk_factor_present:jr:constraintMsg">
+            <value>अमान्य चयन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/anemia/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/anemia/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/anemia:label">
+            <value>रक्तअल्पता भएको छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/blood_pressure/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/blood_pressure/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/blood_pressure:label">
+            <value>रक्तचाप नाप्नुहोस् । उच्च रक्तचाप छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/breathlessness/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/breathlessness/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/breathlessness:label">
+            <value>श्वास फेर्न गाह्रो भएको छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/congratulate_no_ds_note:hint">
+            <value>उहाँलाई खतराका चिन्हहरु के - कस्ता हुन सक्छन् भनि जानकारी दिनुका साथै त्यस्ता लक्षण देखिना साथ स्वास्थ्य संस्था गएर जाँच गर्नु पर्छ भनि सल्लाह दिनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/congratulate_no_ds_note:label">
+            <value>तपाईंलाई बधाई छ !! हालसम्म तपाईंमा कुनै खतराका चिन्हहरु देखिएन।</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/danger_signs_note:label">
+            <value>**शारीरिक जाँच गर्नुहोस् अनि सोध्नुहोस् :**</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/face_hand_swelling/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/face_hand_swelling/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/face_hand_swelling:label">
+            <value>खुट्टा, मुख सुन्निएको छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fever/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fever/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fever:label">
+            <value>१००.४ डिग्रीभन्दा माथि ज्वरो आएको छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fits/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fits/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/fits:label">
+            <value>हात, खुट्टा अररो भई काँप छुटेको वा मुर्छा परेको छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/heart_beat/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/heart_beat/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/heart_beat:label">
+            <value>बच्चाको मुटुको धडकन नाप्नुहोस् । कुनै समस्या छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/if_any:label">
+            <value>अन्य भए उल्लेख गर्नुहोस्:</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/refer_patient_note_1:label">
+            <value>&lt;span style="color:red"&gt;गर्भवती महिलालाई तुरुन्त आवश्यक सल्लाह दिई प्रेषण रिपोर्टमा सबै कुरा उल्लेख गरी प्रेषण गर्नुहोस् र उँहाको स्वास्थ्य अवस्था बुझ्नका लागि आउने मिति भन्नुहोस् । &lt;/span&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/severe_abdominal_pain/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/severe_abdominal_pain/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/severe_abdominal_pain:label">
+            <value>कडा किसिमले पेट दुख्छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/vaginal_bleeding/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/vaginal_bleeding/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/danger_signs/vaginal_bleeding:label">
+            <value>तल्लो पेट दुख्ने र रगत बग्ने छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/abortion_date:jr:constraintMsg">
+            <value>मिति भविष्यमा हुन सक्दैन। मिति LMP भन्दा पुरानो हुन सक्दैन।</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/abortion_date:label">
+            <value>गर्भपतन भएको मिति लेख्नुहोस् :</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/abortion_note:label">
+            <value>यदि उहाँको गर्भपतन भएको छ तर स्वास्थ्य संस्थामा गएर जाँच गर्नु भएको छैन भने आवश्यक सल्लाह दिई जाँचका लागि प्रेषण गर्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/clear_option/clear_all:label">
+            <value>अब आउने अरु कुनै पनि सेवा सुचारू गर्न चाहन्न ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/clear_option/clear_this:label">
+            <value>यो भेट को सेवा बन्द गरी अरु आउने सेवा सुचारू गर्छु ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/clear_option:label">
+            <value>अब तपाईं के गर्न चाहनु हुन्छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/end_pregnancy_edd_note:label">
+            <value>अनुमानित सुत्केरी हुने मितिसम्म तपाईं प्रोफाइलबाट गर्भवती घर भेटको फाराम पठाउन सक्नुहुनेछ।
+यदि गलत भए "पछिल्लो" भन्ने बटन थिच्नुहोस् र सच्याउनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/end_pregnancy_note:label">
+            <value>तपाईले तलको "बुझाउनुहोस्" भन्ने बटन थिच्नु भयो भने अब उप्रान्त देखि तपाईले घरभेट गर्नुपर्दैन ।
+
+यदि गलत भए "पछिल्लो" भन्ने बटन थिच्नुहोस् र सच्याउनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/migrated_note:label">
+            <value>तपाईले गर्भवती महिलाले बसाई सराई गर्नु भएको बुँदा छान्नु भएको छ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/miscarriage_date:jr:constraintMsg">
+            <value>मिति भविष्यमा हुन सक्दैन। मिति LMP भन्दा पुरानो हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/miscarriage_date:label">
+            <value>बच्चा खेर गएको मिति लेख्नुहोस् :</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/miscarriage_note:label">
+            <value>यदि उहाँले बच्चा खेर गए पछि स्वास्थ्य संस्थामा गएर जाँच गर्नु भएको छैन भने आवश्यक सल्लाह दिई जाँचका लागि प्रेषण गर्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_ended/refusing_note:label">
+            <value>तपाईले गर्भवती महिलाले सेवा लिन मान्नु भएन भन्ने बुँदा छान्नु भएको छ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/current_edd:label">
+            <value>अनुमानित सुत्केरी हुने मिति : <output value=" /pregnancy_home_visit/edd_formatted_ne "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/current_weeks_pregnant:label">
+            <value>महिनावारी भएको अन्तिम मिति: <output value=" /pregnancy_home_visit/lmp_date_formatted_ne "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_count_note:label">
+            <value>**प्रसवपूर्व हेरचाह भेट न. <output value=" /pregnancy_home_visit/visit_ne "/>**</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/abortion:label">
+            <value>गर्भपतन भएको छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/migrated:label">
+            <value>बसाइ सराई गर्नु भएको छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/miscarriage:label">
+            <value>बच्चा खेर गएको छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/refused:label">
+            <value>सेवा लिन मान्नु भएन</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option/yes:label">
+            <value>सेवा लिन चाहनु हुन्छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/pregnancy_summary/visit_option:label">
+            <value>सेवा सुरु गर्नुभन्दा अगाडि तलको कुरा सुनिश्चित गर्नुहोस् :</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/advice_note:label">
+            <value>1. गर्भवती महिलालाई प्रोटोकल अनुसार ८ पटक स्वास्थ्य संस्थामा जाँच गराउँदाका फाइदाका बारेमा जानकारी दिनुका साथै उहाँको पहिलो, दोस्रो, तेस्रो, चौथो, पाँचौँ, छैटौँ, सातौँ र आठौँ जाँच कहिले - कहिले पर्छ? जानकारी दिनुहोस्।
+2. अब आउने गर्भ जाँचको मिति बारे जानकारी दिनुहोस्।
+3. जन्म योजनाका बारेमा छलफल गर्नुहोस्।
+4. गर्भावस्थामा हुने खतराका चिन्हहरुका बारेमा छलफल गर्नुहोस्।
+5. वास (WASH) को बारेमा परामर्श गर्नुहोस्।
+6. सुत्केरी पछि को परिवार योजनाबाारे परामर्श गर्नुहोस् र कुन साधन प्रयोग गर्ने बारे महिलालाई गर्भवतीको अवस्थामा नै छनोट गर्न सहयोग गर्नुहोस्।
+7. यो अवस्थामा गर्न हुने र नहुने कामको बारेमा छलफल गर्नुहोस्।
+8. थप खाना र पटकको बारेमा छलफल गर्नुहोस्।
+9. यो अवस्थामा हुने परिवर्तनको बारेमा जानकारी दिनुहोस्।
+10. व्यक्तिगत सरसफाईको बारेमा जानकारी दिनुहोस्।
+11. धुम्रपान, मध्यपान र क्याफिनको प्रयोग बाट टाढा रहनु पर्छ भनि परामर्श गर्नुहोस्।
+12. अन्य आवश्यक परामर्श दिनुहोस्।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_note:label">
+            <value>पिसाबमा एल्बमिनको जाँचले एक्लम्पसिया हुने सम्भावना लाई समयमै पत्ता लगाउन सकिन्छ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test:label">
+            <value>पिसाबमा एल्बमिन जाँच गर्नु भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_test_note:label">
+            <value>रगत जाँच बाट तपाईंलाई रक्तअल्पता, चिनी (सुगर) रोग, गोनरिया, हेपाटाईटिस बि, एच.आइ.भी. भए नभएको यकिन गरिन्छ। पिसाब जाँच बाट चिनी (सुगर) र प्रोटिनको मात्रा हेरिन्छ जस्ले भबिष्यमा हुन सक्ने रोग बारे जानकारी गराउँछ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test:label">
+            <value>रगत र पिसाब जाँच गर्नु भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med:label">
+            <value>के गर्भवती महिलाले जुकाको औषधी खानु भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med_note:label">
+            <value>एक चक्की जुकाको औषधी सेवनले पेटमा भएको जुका र उसको अण्डालाई मारी आवश्यक पोषण कमी हुन र रक्तअल्पता हुन बाट बचाउँछ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card:label">
+            <value>मातृ तथा नवशिशु स्वास्थ्य कार्ड बनाउनु भएको छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card_note:label">
+            <value>गर्भवती जाँच गर्दा यो कार्ड अनिवार्य रुपमा बनाउनु पर्दछ, यो कार्ड बनाउनु भयो र प्रोटोकल अनुसार जाँच गर्नु भयो भने स्वास्थ्य मन्त्रालयको नियम अनुसार निश्चित रकम पाउनु हुन्छ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily:label">
+            <value>के गर्भवती महिलाले आइरन चक्की खाईरहनु भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_note:label">
+            <value>नियमित आइरन चक्कीको सेवनले निम्न फाइदा गर्दछ :
+– बच्चाको मस्तिष्क र मेरुदण्डको विकास गर्दछ |
+– उमेर नपुगी बच्चा जन्मिन र कम तौलको बच्चा हुन बाट बचाउँछ ।
+– गर्भवती महिलालाई संक्रमण र रक्तअल्पता बाट बचाउँछ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe:label">
+            <value>जन्म योजना बनाएको सुनिश्चित गर्नुहोस् :
+(आवश्यक पैसा, यातायातको साधन, रगत दिने मान्छे र अन्य)</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/explain_safe_birth:label">
+            <value>सुरक्षित संस्थागत सुत्केरीका लागि जन्म योजना ले कसरि सहयोग गर्दछ भन्ने बारेमा प्रस्ट पार्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more:label">
+            <value>के गर्भवती महिलाले दिनमा चार वा बढी पटक खाना खाइरहनु भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/nutrition_food_note:label">
+            <value>आफ्नो र बच्चाको स्वास्थ्यको लागि गर्भवती महिलाले यो अवस्थामा अन्य समय भन्दा धेरै पटक पोषिलो खाने कुरा खाने गर्नुपर्दछ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received:label">
+            <value>टि. डि. पहिलो डोज लगाएको सुनिश्चित गर्नुहोस् :</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_1:label">
+            <value>टि. डि. खोपले गर्भवती महिला र बच्चालाई टिटानस रोग हुन बाट बचाउँछ र बच्चालाई धनुष्टन्कार रोग हुन बाट बचाउँछ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_2:label">
+            <value>टि. डि. खोपले गर्भवती महिला र बच्चालाई टिटानस रोग हुन बाट बचाउँछ र बच्चालाई धनुष्टन्कार रोग हुन बाट बचाउँछ ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose:label">
+            <value>टि. डि. दोस्रो डोज लगाएको सुनिश्चित गर्नुहोस् :</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray:label">
+            <value>भिडियो एक्सरे गर्नु भएको छ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray_note:label">
+            <value>भिडियो एक्सरेले बच्चाको अवस्था (ठाडो, तेर्सो, उल्टो र सामान्य), सालको अवस्था, पानीको मात्रा र अन्य बारेमा जानकारी गराउँछ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_anemia:label">
+            <value>रक्तअल्पता भएको छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_asthma:label">
+            <value>दम लागेको छ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_blood_pressure:label">
+            <value>रक्तचाप उच्च छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_breathlessness:label">
+            <value>श्वास फेर्न गारो भएको छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_danger_signs:label">
+            <value>नयाँ खतराका चिन्हहरुको पहिचान</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_deliv_by_operation:label">
+            <value>अगाडिको प्रसुती अप्रेसन / भ्याकुमबाट भएको थियो।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_diabetes:label">
+            <value>चिनी (सुगर) रोग छ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_face_feet_swelling:label">
+            <value>खुट्टा, मुख सुन्निएको छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_fever:label">
+            <value>१००.४ डिग्रीभन्दा माथि ज्वरो आएको छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_fits:label">
+            <value>हात, खुट्टा अररो भई काँप छुटेको वा मुर्छा परेको छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_heart_beat:label">
+            <value>बच्चाको मुटुको धड्कन ठिक छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_heart_condition:label">
+            <value>मुटु सम्बन्धी रोग छ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_high_blood_pressure:label">
+            <value>उच्च रक्तचाप छ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_last_baby_born_less_than_1_year_ago:label">
+            <value>अन्तिम बच्चाको उमेर १ वर्ष भन्दा कम छ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_lmp_weeks:label">
+            <value>गर्भको उमेर हप्तामा : <output value=" /pregnancy_home_visit/weeks_since_lmp_rounded "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_more_than_4_children:label">
+            <value>हालसम्म चार वा सो भन्दा बढी पटक गर्भवती हुनु भएको छ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_none:label">
+            <value>कुनै पनि छैन।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_patient_details:label">
+            <value>&lt;h2 style=&quot;text-align:center;margin-bottom:0px;&quot;&gt;<output value=" /pregnancy_home_visit/patient_name "/>&lt;/h2&gt; &lt;p style=&quot;text-align:center;&quot;&gt;<output value=" /pregnancy_home_visit/patient_age_in_years "/> वर्ष&lt;/p&gt;&lt;p style=&quot;text-align:center;&quot;&gt;<output value=" /pregnancy_home_visit/chn_area_name "/>&lt;/p&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_pregnancy_details:label">
+            <value>&lt;p&gt;महिनावारी भएको अन्तिम मिति: &lt;b&gt;<output value=" /pregnancy_home_visit/lmp_date_formatted_ne "/>&lt;/b&gt; &lt;/p&gt; &lt;p&gt;अनुमानित सुत्केरी हुने मिति: &lt;b&gt;<output value=" /pregnancy_home_visit/edd_formatted_ne "/>&lt;/b&gt;&lt;/p&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_pregnancy_protocol_visits:label">
+            <value>&lt;p&gt;प्रोटोकल अनुसार गर्भवती जाँच: <output value=" /pregnancy_home_visit/total_hf_visits "/> पटक&lt;/p&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_previous_deliv_at_home:label">
+            <value>अगाडिको प्रसुती घरमै स्वास्थ्यकर्मीको सहयोग बिना भएको थियो।</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_risk_factor_note:label">
+            <value>**नयाँ जोखिमका तत्त्वहरुको पहिचान**</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_severe_abdominal_pain:label">
+            <value>कडा किसिमले पेट दुख्छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_submit_note:label">
+            <value>&lt;h4 style="text-align:center;"&gt;अन्तिममा "फाराम पठाउनुहोस्" भन्ने बटन थिच्नुहोस्।&lt;/h4&gt;</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_summary:label">
+            <value>&lt;I class="fa fa-user"&gt;&lt;/i&gt; सारांश</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_summary_details:label">
+            <value>&lt;i class="fa fa-user"&gt;&lt;/i&gt;गर्भवती</value>
+          </text>
+          <text id="/pregnancy_home_visit/summary/r_vaginal_bleeding:label">
+            <value>तल्लो पेट दुख्ने र रगत बग्ने छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/g_age_update_method/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/g_age_update_method/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/g_age_update_method:label">
+            <value>के महिनावारी भएको अन्तिम मिति ठिक छ ?</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/lmp_date_update:jr:constraintMsg">
+            <value>अन्तिम महिनावारी भएको मिति एक महिना भन्दा कम र ९ महिना २४ दिन भन्दा बढी हुन सक्दैन</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_method/lmp_date_update:label">
+            <value>अन्तिम महिनावारी भएको मिति तल दिएको ढाँचा अनुसार लेख्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/edd_check_note:label">
+            <value>यदि गलत भए "पछाडि" भन्ने बटन थिचिनुहोस् र सच्याउनु होस् ।</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/new_edd:label">
+            <value>अनुमानित सुत्केरी हुने मिति : <output value=" /pregnancy_home_visit/update_g_age/edd_new "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/new_g_age:label">
+            <value>महिनावारी भएको अन्तिम मिति: <output value=" /pregnancy_home_visit/update_g_age/lmp_date_new "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/new_info:label">
+            <value>**परिमार्जित**</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/previous_edd:label">
+            <value>अनुमानित सुत्केरी हुने मिति <output value=" /pregnancy_home_visit/context_vars/edd_8601_ctx_ne "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/previous_g_age:label">
+            <value>महिनावारी भएको अन्तिम मिति: <output value=" /pregnancy_home_visit/context_vars/lmp_date_8601_ctx_ne "/></value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/previous_info:label">
+            <value>**पुरानो**</value>
+          </text>
+          <text id="/pregnancy_home_visit/update_g_age/update_summary/update_check_note:label">
+            <value>परिमार्जित महिनावारी भएको अन्तिम मिति</value>
+          </text>
+          <text id="static_instance-additional_risk_check-0">
+            <value>मुटु सम्बन्धी रोग छ</value>
+          </text>
+          <text id="static_instance-additional_risk_check-1">
+            <value>दम लागेको छ</value>
+          </text>
+          <text id="static_instance-additional_risk_check-2">
+            <value>उच्च रक्तचाप छ</value>
+          </text>
+          <text id="static_instance-additional_risk_check-3">
+            <value>चिनी  (सुगर) रोग छ</value>
+          </text>
+          <text id="static_instance-additional_risk_check-4">
+            <value>कुनै पनि दीर्घ रोग छैन</value>
+          </text>
+          <text id="static_instance-age_correct_yes_no-0">
+            <value>ठिक छ</value>
+          </text>
+          <text id="static_instance-age_correct_yes_no-1">
+            <value>ठिक छैन</value>
+          </text>
+          <text id="static_instance-clear_options-0">
+            <value>यो भेट को सेवा बन्द गरी अरु आउने सेवा सुचारू गर्छु ।</value>
+          </text>
+          <text id="static_instance-clear_options-1">
+            <value>अब आउने अरु कुनै पनि सेवा सुचारू गर्न चाहन्न ।</value>
+          </text>
+          <text id="static_instance-g_age_update_methods-0">
+            <value>हालको गर्भावस्था हप्तामा</value>
+          </text>
+          <text id="static_instance-g_age_update_methods-1">
+            <value>अनुमानित सुत्केरी हुने मिति</value>
+          </text>
+          <text id="static_instance-is_isnot-0">
+            <value>छ</value>
+          </text>
+          <text id="static_instance-is_isnot-1">
+            <value>छैन</value>
+          </text>
+          <text id="static_instance-is_isnot_willgo-0">
+            <value>छ</value>
+          </text>
+          <text id="static_instance-is_isnot_willgo-1">
+            <value>छैन</value>
+          </text>
+          <text id="static_instance-is_isnot_willgo-2">
+            <value>अब जानु हुन्छ</value>
+          </text>
+          <text id="static_instance-know_dontknow-0">
+            <value>थाहा छ</value>
+          </text>
+          <text id="static_instance-know_dontknow-1">
+            <value>थाहा छैन</value>
+          </text>
+          <text id="static_instance-visit_options-0">
+            <value>सेवा लिन चाहनु हुन्छ</value>
+          </text>
+          <text id="static_instance-visit_options-1">
+            <value>बच्चा खेर गएको छ</value>
+          </text>
+          <text id="static_instance-visit_options-2">
+            <value>गर्भपतन भएको छ</value>
+          </text>
+          <text id="static_instance-visit_options-3">
+            <value>सेवा लिन मान्नु भएन</value>
+          </text>
+          <text id="static_instance-visit_options-4">
+            <value>बसाइ सराई गर्नु भएको छ</value>
+          </text>
+          <text id="static_instance-was_wasnot-0">
+            <value>थियो</value>
+          </text>
+          <text id="static_instance-was_wasnot-1">
+            <value>थिएन</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>हो</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>होईन</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pregnancy_home_visit id="pregnancy_home_visit" prefix="J1!pregnancy_home_visit!" delimiter="#" version="2024-08-08 11:50:20">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <visit/>
+            <current_period_start/>
+            <current_period_end/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <parent>
+                  <name/>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_short_name tag="hidden"/>
+          <patient_short_name_start tag="hidden"/>
+          <chn_area_name tag="hidden"/>
+          <lmp_date_8601 tag="hidden"/>
+          <edd_8601 tag="hidden"/>
+          <lmp_date_formatted tag="hidden"/>
+          <lmp_date_formatted_ne tag="hidden"/>
+          <edd_formatted tag="hidden"/>
+          <edd_formatted_ne tag="hidden"/>
+          <days_since_lmp tag="hidden"/>
+          <weeks_since_lmp tag="hidden"/>
+          <month_since_lmp tag="hidden"/>
+          <month_days_lmp tag="hidden"/>
+          <weeks_since_lmp_rounded tag="hidden"/>
+          <lmp_method_approx tag="hidden"/>
+          <lmp_updated tag="hidden"/>
+          <t_danger_signs_referral_follow_up_date tag="hidden"/>
+          <t_danger_signs_referral_follow_up tag="hidden"/>
+          <tt_received tag="hidden"/>
+          <deworming_med_received tag="hidden"/>
+          <using_iron_folic tag="hidden"/>
+          <tt_received_second_dose tag="hidden"/>
+          <blood_urine_test tag="hidden"/>
+          <xray tag="hidden"/>
+          <newborn_card tag="hidden"/>
+          <birth_plan_safe tag="hidden"/>
+          <eat_more tag="hidden"/>
+          <total_hf_visits tag="hidden"/>
+          <current_period_en/>
+          <current_period_ne/>
+          <visit_ne/>
+          <context_vars tag="hidden">
+            <lmp_date_8601_ctx/>
+            <edd_8601_ctx/>
+            <weeks_since_lmp_rounded_ctx/>
+            <edd_ctx/>
+            <pregnancy_follow_up_date_recent_ctx/>
+            <risk_factors_ctx/>
+            <hiv_tested_ctx/>
+            <tt_received_ctx/>
+            <deworming_med_received_ctx/>
+            <lmp_date_8601_ctx_ne/>
+            <edd_8601_ctx_ne/>
+            <using_iron_folic_ctx/>
+            <tt_received_second_dose_ctx/>
+            <is_first_pregnancy_ctx/>
+            <blood_urine_test_ctx/>
+            <xray_ctx/>
+            <newborn_card_ctx/>
+            <birth_plan_safe_ctx/>
+            <eat_more_ctx/>
+            <anc_hf_visits_ctx/>
+          </context_vars>
+          <pregnancy_summary tag="hidden">
+            <visit_count_note/>
+            <current_weeks_pregnant/>
+            <current_edd/>
+            <visit_option/>
+          </pregnancy_summary>
+          <pregnancy_ended tag="hidden">
+            <miscarriage_note/>
+            <miscarriage_date/>
+            <abortion_note/>
+            <abortion_date/>
+            <refusing_note/>
+            <migrated_note/>
+            <end_pregnancy_note/>
+            <clear_option/>
+            <end_pregnancy_edd_note/>
+            <close_if_needed tag="hidden"/>
+          </pregnancy_ended>
+          <update_g_age tag="hidden">
+            <update_method>
+              <g_age_update_method/>
+              <lmp_date_update/>
+            </update_method>
+            <update_summary>
+              <update_check_note/>
+              <previous_info/>
+              <previous_g_age/>
+              <previous_edd/>
+              <new_info/>
+              <new_g_age/>
+              <new_edd/>
+              <edd_check_note/>
+            </update_summary>
+            <lmp_date_8601_new tag="hidden"/>
+            <lmp_date_new tag="hidden"/>
+            <edd_8601_new tag="hidden"/>
+            <edd_new tag="hidden"/>
+          </update_g_age>
+          <anc_visits_hf tag="hidden">
+            <anc_visits_hf_past>
+              <pregnancy_follow_up_date_recent/>
+              <last_visit_attended/>
+              <report_other_visits/>
+              <visited_hf_count/>
+              <visited_date_ask_single tag="hidden"/>
+              <visit_outside_1/>
+              <other_visit_date_1/>
+              <visit_outside_2/>
+              <other_visit_date_2/>
+              <visit_outside_3/>
+              <other_visit_date_3/>
+              <visit_outside_4/>
+              <other_visit_date_4/>
+              <visit_outside_5/>
+              <other_visit_date_5/>
+              <visit_outside_6/>
+              <other_visit_date_6/>
+              <visit_outside_7/>
+              <other_visit_date_7/>
+              <visit_outside_8/>
+              <other_visit_date_8/>
+              <visit_outside_9/>
+              <other_visit_date_9/>
+            </anc_visits_hf_past>
+            <risk_factors>
+              <previous_risk_factors_note tag="hidden"/>
+              <more_than_4_children tag="hidden"/>
+              <last_baby_born_less_than_1_year_ago tag="hidden"/>
+              <deliv_by_operation tag="hidden"/>
+              <previous_deliv_at_home tag="hidden"/>
+              <heart_condition tag="hidden"/>
+              <asthma tag="hidden"/>
+              <high_blood_pressure tag="hidden"/>
+              <diabetes tag="hidden"/>
+              <none_risk tag="hidden"/>
+              <additional_risk_check/>
+              <additional_risk_q/>
+              <additional_risk_yes/>
+              <r_risk_factor_present tag="hidden"/>
+            </risk_factors>
+            <anc_visits_hf_next tag="hidden">
+              <appointment_date_known/>
+              <who_recommends_note/>
+              <prenancy_age_note/>
+              <visit_time_range/>
+              <refer_note/>
+            </anc_visits_hf_next>
+          </anc_visits_hf>
+          <next_visit_days tag="hidden"/>
+          <next_visit_days_start tag="hidden"/>
+          <next_visit_date tag="hidden"/>
+          <next_visit_start_date tag="hidden"/>
+          <next_visit_date_ne tag="hidden"/>
+          <next_visit_start_date_ne tag="hidden"/>
+          <danger_signs>
+            <danger_signs_note/>
+            <vaginal_bleeding/>
+            <fits/>
+            <severe_abdominal_pain/>
+            <blood_pressure/>
+            <anemia/>
+            <fever/>
+            <face_hand_swelling/>
+            <breathlessness/>
+            <heart_beat/>
+            <if_any/>
+            <is_danger_sign_present tag="hidden"/>
+            <congratulate_no_ds_note tag="hidden"/>
+            <refer_patient_note_1 tag="hidden"/>
+          </danger_signs>
+          <safe_pregnancy_practices tag="hidden">
+            <iron_folate>
+              <iron_folate_daily/>
+              <iron_folate_note tag="hidden"/>
+            </iron_folate>
+            <deworming>
+              <deworming_med/>
+              <deworming_med_note tag="hidden"/>
+            </deworming>
+            <tetanus>
+              <tt_imm_received/>
+              <tt_note_1 tag="hidden"/>
+              <tt_second_dose/>
+              <tt_note_2/>
+            </tetanus>
+            <health_card>
+              <newborn_card/>
+              <newborn_card_note/>
+            </health_card>
+            <safe_practices_tips>
+              <eat_more tag="hidden"/>
+              <nutrition_food_note tag="hidden"/>
+            </safe_practices_tips>
+            <blood_test>
+              <blood_urine_test/>
+              <blood_test_note tag="hidden"/>
+            </blood_test>
+            <xray>
+              <x_ray/>
+              <x_ray_note tag="hidden"/>
+            </xray>
+            <safe_plan>
+              <birth_plan_safe/>
+              <explain_safe_birth tag="hidden"/>
+            </safe_plan>
+            <albumin_urine>
+              <albumin_urine_test/>
+              <albumin_urine_note/>
+            </albumin_urine>
+            <advice_note/>
+          </safe_pregnancy_practices>
+          <summary tag="hidden">
+            <r_submit_note/>
+            <r_summary_details/>
+            <r_patient_details/>
+            <r_summary/>
+            <r_pregnancy_details/>
+            <r_pregnancy_protocol_visits/>
+            <r_lmp_weeks/>
+            <r_risk_factor_note/>
+            <r_more_than_4_children/>
+            <r_last_baby_born_less_than_1_year_ago/>
+            <r_deliv_by_operation/>
+            <r_previous_deliv_at_home/>
+            <r_heart_condition/>
+            <r_asthma/>
+            <r_high_blood_pressure/>
+            <r_diabetes/>
+            <r_none/>
+            <r_danger_signs/>
+            <r_vaginal_bleeding/>
+            <r_fits/>
+            <r_severe_abdominal_pain/>
+            <r_blood_pressure/>
+            <r_anemia/>
+            <r_fever/>
+            <r_face_feet_swelling/>
+            <r_breathlessness/>
+            <r_heart_beat/>
+          </summary>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy_home_visit>
+      </instance>
+      <instance id="contact-summary"/>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="visit_options">
+        <root>
+          <item>
+            <itextId>static_instance-visit_options-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-visit_options-1</itextId>
+            <name>miscarriage</name>
+          </item>
+          <item>
+            <itextId>static_instance-visit_options-2</itextId>
+            <name>abortion</name>
+          </item>
+          <item>
+            <itextId>static_instance-visit_options-3</itextId>
+            <name>refused</name>
+          </item>
+          <item>
+            <itextId>static_instance-visit_options-4</itextId>
+            <name>migrated</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="age_correct_yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-age_correct_yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-age_correct_yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="clear_options">
+        <root>
+          <item>
+            <itextId>static_instance-clear_options-0</itextId>
+            <name>clear_this</name>
+          </item>
+          <item>
+            <itextId>static_instance-clear_options-1</itextId>
+            <name>clear_all</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="g_age_update_methods">
+        <root>
+          <item>
+            <itextId>static_instance-g_age_update_methods-0</itextId>
+            <name>method_weeks</name>
+          </item>
+          <item>
+            <itextId>static_instance-g_age_update_methods-1</itextId>
+            <name>method_edd</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="is_isnot">
+        <root>
+          <item>
+            <itextId>static_instance-is_isnot-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-is_isnot-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="is_isnot_willgo">
+        <root>
+          <item>
+            <itextId>static_instance-is_isnot_willgo-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-is_isnot_willgo-1</itextId>
+            <name>no</name>
+          </item>
+          <item>
+            <itextId>static_instance-is_isnot_willgo-2</itextId>
+            <name>willgo</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="was_wasnot">
+        <root>
+          <item>
+            <itextId>static_instance-was_wasnot-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-was_wasnot-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="additional_risk_check">
+        <root>
+          <item>
+            <itextId>static_instance-additional_risk_check-0</itextId>
+            <name>heart_condition</name>
+          </item>
+          <item>
+            <itextId>static_instance-additional_risk_check-1</itextId>
+            <name>asthma</name>
+          </item>
+          <item>
+            <itextId>static_instance-additional_risk_check-2</itextId>
+            <name>high_blood_pressure</name>
+          </item>
+          <item>
+            <itextId>static_instance-additional_risk_check-3</itextId>
+            <name>diabetes</name>
+          </item>
+          <item>
+            <itextId>static_instance-additional_risk_check-4</itextId>
+            <name>none</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="know_dontknow">
+        <root>
+          <item>
+            <itextId>static_instance-know_dontknow-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-know_dontknow-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/pregnancy_home_visit/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/source" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/source_id" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/visit" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/current_period_start" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/current_period_end" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/contact/name" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/contact/parent/parent/name" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/patient_age_in_years" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/pregnancy_home_visit/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pregnancy_home_visit/patient_id" type="string" required="true()" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pregnancy_home_visit/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pregnancy_home_visit/patient_short_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pregnancy_home_visit/patient_short_name_start" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pregnancy_home_visit/chn_area_name" type="string" calculate="../inputs/contact/parent/parent/name"/>
+      <bind nodeset="/pregnancy_home_visit/lmp_date_8601" type="string" calculate="if(selected(../update_g_age/update_method/g_age_update_method, 'no'), ../update_g_age/lmp_date_8601_new, ../context_vars/lmp_date_8601_ctx)"/>
+      <bind nodeset="/pregnancy_home_visit/edd_8601" type="string" calculate="if(selected(../update_g_age/update_method/g_age_update_method, 'no'), ../update_g_age/edd_8601_new, format-date-time(date-time(decimal-date-time(../context_vars/lmp_date_8601_ctx) + 280), &quot;%Y-%m-%d&quot;))"/>
+      <bind nodeset="/pregnancy_home_visit/lmp_date_formatted" type="string" calculate="format-date-time(../lmp_date_8601,&quot;%e %b, %Y&quot;)"/>
+      <bind nodeset="/pregnancy_home_visit/lmp_date_formatted_ne" type="string" calculate="to-bikram-sambat(../lmp_date_8601)"/>
+      <bind nodeset="/pregnancy_home_visit/edd_formatted" type="string" calculate="format-date-time(../edd_8601,&quot;%e %b, %Y&quot;)"/>
+      <bind nodeset="/pregnancy_home_visit/edd_formatted_ne" type="string" calculate="to-bikram-sambat(../edd_8601)"/>
+      <bind nodeset="/pregnancy_home_visit/days_since_lmp" type="string" calculate="floor(decimal-date-time(today()) - decimal-date-time(../lmp_date_8601))"/>
+      <bind nodeset="/pregnancy_home_visit/weeks_since_lmp" type="string" calculate="round(../days_since_lmp div 7, 2)"/>
+      <bind nodeset="/pregnancy_home_visit/month_since_lmp" type="string" calculate="int(../days_since_lmp div 30, 0)"/>
+      <bind nodeset="/pregnancy_home_visit/month_days_lmp" type="string" calculate="round(../days_since_lmp mod 30, 0)"/>
+      <bind nodeset="/pregnancy_home_visit/weeks_since_lmp_rounded" type="string" calculate="floor(../days_since_lmp div 7)"/>
+      <bind nodeset="/pregnancy_home_visit/lmp_method_approx" type="string" calculate="if(selected(../update_g_age/update_method/g_age_update_method, 'method_weeks'), 'yes', 'no')"/>
+      <bind nodeset="/pregnancy_home_visit/lmp_updated" type="string" calculate="if(selected(../update_g_age/update_method/g_age_update_method, 'no') and (decimal-date-time(../lmp_date_8601) - decimal-date-time(../context_vars/lmp_date_8601_ctx) != 0), 'yes', 'no')"/>
+      <bind nodeset="/pregnancy_home_visit/t_danger_signs_referral_follow_up_date" type="string" calculate="date-time(floor(decimal-date-time(today())) + 3)"/>
+      <bind nodeset="/pregnancy_home_visit/t_danger_signs_referral_follow_up" type="string" calculate="../danger_signs/is_danger_sign_present"/>
+      <bind nodeset="/pregnancy_home_visit/tt_received" type="string" calculate="if(../context_vars/tt_received_ctx = 'yes', 'yes', ../safe_pregnancy_practices/tetanus/tt_imm_received)"/>
+      <bind nodeset="/pregnancy_home_visit/deworming_med_received" type="string" calculate="if(../context_vars/deworming_med_received_ctx = 'yes', 'yes', ../safe_pregnancy_practices/deworming/deworming_med)"/>
+      <bind nodeset="/pregnancy_home_visit/using_iron_folic" type="string" calculate="if(../context_vars/using_iron_folic_ctx = 'yes', 'yes', ../safe_pregnancy_practices/iron_folate/iron_folate_daily)"/>
+      <bind nodeset="/pregnancy_home_visit/tt_received_second_dose" type="string" calculate="if(../context_vars/tt_received_second_dose_ctx = 'yes', 'yes', ../safe_pregnancy_practices/tetanus/tt_second_dose)"/>
+      <bind nodeset="/pregnancy_home_visit/blood_urine_test" type="string" calculate="if(../context_vars/blood_urine_test_ctx = 'yes', 'yes', ../safe_pregnancy_practices/blood_test/blood_urine_test)"/>
+      <bind nodeset="/pregnancy_home_visit/xray" type="string" calculate="if(../context_vars/xray_ctx = 'yes', 'yes', ../safe_pregnancy_practices/xray/x_ray)"/>
+      <bind nodeset="/pregnancy_home_visit/newborn_card" type="string" calculate="if(../context_vars/newborn_card_ctx = 'yes', 'yes', ../safe_pregnancy_practices/health_card/newborn_card)"/>
+      <bind nodeset="/pregnancy_home_visit/birth_plan_safe" type="string" calculate="if(../context_vars/birth_plan_safe_ctx = 'yes', 'yes', ../safe_pregnancy_practices/safe_plan/birth_plan_safe)"/>
+      <bind nodeset="/pregnancy_home_visit/eat_more" type="string" calculate="if(../context_vars/eat_more_ctx = 'yes', 'yes', ../safe_pregnancy_practices/safe_practices_tips/eat_more)"/>
+      <bind nodeset="/pregnancy_home_visit/total_hf_visits" type="string" calculate="int(../context_vars/anc_hf_visits_ctx) + if(../anc_visits_hf/anc_visits_hf_past/last_visit_attended='yes',1,0)"/>
+      <bind nodeset="/pregnancy_home_visit/current_period_en" type="string" calculate="concat(format-date-time(decimal-date-time(../inputs/current_period_start),&quot;%e %b, %Y&quot;), &quot; to &quot;, format-date-time(decimal-date-time(../inputs/current_period_end),&quot;%e %b, %Y&quot;))"/>
+      <bind nodeset="/pregnancy_home_visit/current_period_ne" type="string" calculate="concat(to-bikram-sambat(../inputs/current_period_start), &quot; देखि &quot;, to-bikram-sambat(../inputs/current_period_end))"/>
+      <bind nodeset="/pregnancy_home_visit/visit_ne" type="string" calculate="if( /pregnancy_home_visit/inputs/visit  = '1', '१', if( /pregnancy_home_visit/inputs/visit  = '2', '२', if( /pregnancy_home_visit/inputs/visit  = '3', '३', if( /pregnancy_home_visit/inputs/visit  = '4', '४', if( /pregnancy_home_visit/inputs/visit  = '5', '५', if( /pregnancy_home_visit/inputs/visit  = '6', '६', if( /pregnancy_home_visit/inputs/visit  = '7', '७', if( /pregnancy_home_visit/inputs/visit  = '8', '८', 'NA'))))))))"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/lmp_date_8601_ctx" type="string" calculate="if(instance('contact-summary')/context/lmp_date_8601 != '', instance('contact-summary')/context/lmp_date_8601, .)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/edd_8601_ctx" type="string" calculate="if(instance('contact-summary')/context/edd_8601 != 0, instance('contact-summary')/context/edd_8601, .)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/weeks_since_lmp_rounded_ctx" type="string" calculate="if(../lmp_date_8601_ctx = '', 'unknown', round((floor(decimal-date-time(today())) - decimal-date-time(../lmp_date_8601_ctx)) div 7, 0))"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/edd_ctx" type="string" calculate="if(../edd_8601_ctx = '', 'unknown', format-date-time(../edd_8601_ctx,&quot;%e %b, %Y&quot;))"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/pregnancy_follow_up_date_recent_ctx" type="string" calculate="if(instance('contact-summary')/context/pregnancy_follow_up_date_recent != 0, instance('contact-summary')/context/pregnancy_follow_up_date_recent, .)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/risk_factors_ctx" type="string" calculate="if(instance('contact-summary')/context/risk_factor_codes != '', instance('contact-summary')/context/risk_factor_codes, .)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/hiv_tested_ctx" type="string" calculate="if(instance('contact-summary')/context/hiv_tested_past != '', instance('contact-summary')/context/hiv_tested_past, .)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/tt_received_ctx" type="string" calculate="if(instance('contact-summary')/context/tt_received_past != '', instance('contact-summary')/context/tt_received_past , .)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/deworming_med_received_ctx" type="string" calculate="if(instance('contact-summary')/context/deworming_med_received != '', instance('contact-summary')/context/deworming_med_received , .)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/lmp_date_8601_ctx_ne" type="string" calculate="to-bikram-sambat(../lmp_date_8601_ctx)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/edd_8601_ctx_ne" type="string" calculate="to-bikram-sambat(format-date-time(date-time(decimal-date-time(../lmp_date_8601_ctx)+280),&quot;%Y-%m-%d&quot;))"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/using_iron_folic_ctx" type="string" calculate="if(instance('contact-summary')/context/using_iron_folic != '', instance('contact-summary')/context/using_iron_folic, .)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/tt_received_second_dose_ctx" type="string" calculate="if(instance('contact-summary')/context/tt_received_second_dose != '', instance('contact-summary')/context/tt_received_second_dose, .)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/is_first_pregnancy_ctx" type="string" calculate="if(instance('contact-summary')/context/is_first_pregnancy != '', instance('contact-summary')/context/is_first_pregnancy,'no')"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/blood_urine_test_ctx" type="string" calculate="if(instance('contact-summary')/context/blood_urine_test != '', instance('contact-summary')/context/blood_urine_test,.)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/xray_ctx" type="string" calculate="if(instance('contact-summary')/context/xray != '', instance('contact-summary')/context/xray,.)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/newborn_card_ctx" type="string" calculate="if(instance('contact-summary')/context/new_born_card != '', instance('contact-summary')/context/new_born_card,.)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/birth_plan_safe_ctx" type="string" calculate="if(instance('contact-summary')/context/birth_plan_safe != '', instance('contact-summary')/context/birth_plan_safe,.)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/eat_more_ctx" type="string" calculate="if(instance('contact-summary')/context/eat_more != '', instance('contact-summary')/context/eat_more,.)"/>
+      <bind nodeset="/pregnancy_home_visit/context_vars/anc_hf_visits_ctx" type="string" calculate="if(instance('contact-summary')/context/anc_hf_visits &gt;0 , instance('contact-summary')/context/anc_hf_visits,0)"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_summary/visit_count_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_summary/current_weeks_pregnant" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_summary/current_edd" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_summary/visit_option" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended" relevant="not(selected(../pregnancy_summary/visit_option, 'yes'))"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/miscarriage_note" readonly="true()" type="string" relevant="selected(../../pregnancy_summary/visit_option, 'miscarriage')"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/miscarriage_date" type="date" required="true()" relevant="selected(../../pregnancy_summary/visit_option, 'miscarriage')" jr:constraintMsg="jr:itext('/pregnancy_home_visit/pregnancy_ended/miscarriage_date:jr:constraintMsg')" constraint="decimal-date-time(.) &lt;= floor(decimal-date-time(today())) and decimal-date-time(.) &gt;= (decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ))"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/abortion_note" readonly="true()" type="string" relevant="selected(../../pregnancy_summary/visit_option, 'abortion')"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/abortion_date" type="date" required="true()" relevant="selected(../../pregnancy_summary/visit_option, 'abortion')" jr:constraintMsg="jr:itext('/pregnancy_home_visit/pregnancy_ended/abortion_date:jr:constraintMsg')" constraint="decimal-date-time(.) &lt;= floor(decimal-date-time(today())) and decimal-date-time(.) &gt;= (decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ))"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/refusing_note" readonly="true()" type="string" relevant="selected(../../pregnancy_summary/visit_option, 'refused')"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/migrated_note" readonly="true()" type="string" relevant="selected(../../pregnancy_summary/visit_option, 'migrated')"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/end_pregnancy_note" readonly="true()" type="string" relevant="selected(../../pregnancy_summary/visit_option, 'miscarriage') or
+selected(../../pregnancy_summary/visit_option, 'abortion')"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/clear_option" type="select1" required="true()" relevant="selected(../../pregnancy_summary/visit_option, 'refused') or
+selected(../../pregnancy_summary/visit_option, 'migrated')"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/end_pregnancy_edd_note" readonly="true()" type="string" relevant="selected(../../pregnancy_summary/visit_option, 'refused') or selected(../../pregnancy_summary/visit_option, 'migrated')"/>
+      <bind nodeset="/pregnancy_home_visit/pregnancy_ended/close_if_needed" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age" relevant="selected(../pregnancy_summary/visit_option, 'yes')"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_method/g_age_update_method" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_method/lmp_date_update" type="date" required="true()" relevant=" /pregnancy_home_visit/update_g_age/update_method/g_age_update_method ='no'" jr:constraintMsg="jr:itext('/pregnancy_home_visit/update_g_age/update_method/lmp_date_update:jr:constraintMsg')" constraint=". &lt;= add-date(today(), 0, 0, -30) and
+. &gt;= add-date(today(), 0, 0, -294)"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_summary" relevant=" /pregnancy_home_visit/update_g_age/update_method/g_age_update_method ='no'"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_summary/update_check_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_summary/previous_info" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_summary/previous_g_age" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_summary/previous_edd" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_summary/new_info" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_summary/new_g_age" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_summary/new_edd" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/update_summary/edd_check_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/lmp_date_8601_new" type="string" calculate="format-date-time( /pregnancy_home_visit/update_g_age/update_method/lmp_date_update , &quot;%Y-%m-%d&quot;)"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/lmp_date_new" type="string" calculate="to-bikram-sambat( /pregnancy_home_visit/update_g_age/lmp_date_8601_new )"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/edd_8601_new" type="string" calculate="format-date-time(date-time(decimal-date-time(../lmp_date_8601_new)+280),&quot;%Y-%m-%d&quot;)"/>
+      <bind nodeset="/pregnancy_home_visit/update_g_age/edd_new" type="string" calculate="to-bikram-sambat( /pregnancy_home_visit/update_g_age/edd_8601_new )"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf" relevant="selected(../pregnancy_summary/visit_option, 'yes') and
+../lmp_date_8601 != ''"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/pregnancy_follow_up_date_recent" type="string" calculate="format-date-time(../../../context_vars/pregnancy_follow_up_date_recent_ctx, &quot;%e %b, %Y&quot;)"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count" type="int" required="true()" relevant="selected(../report_other_visits, 'yes')" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count:jr:constraintMsg')" constraint=".&gt;= 0 and . &lt;= 9"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_date_ask_single" readonly="true()" type="string" relevant="selected(../report_other_visits, 'yes')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1" type="select1" required="true()" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count  &gt;=1"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_1" type="date" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1 ='yes'" constraint=".&gt;  /pregnancy_home_visit/lmp_date_8601  and .&lt;= today()" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_1:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2" type="select1" required="true()" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count  &gt;=2"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_2" type="date" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2 ='yes'" constraint=".&gt;  /pregnancy_home_visit/lmp_date_8601  and .&lt;= today()" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_2:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3" type="select1" required="true()" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count  &gt;=3"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_3" type="date" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3 ='yes'" constraint=".&gt;  /pregnancy_home_visit/lmp_date_8601  and .&lt;= today()" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_3:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4" type="select1" required="true()" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count &gt;=4"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_4" type="date" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4 ='yes'" constraint=".&gt;  /pregnancy_home_visit/lmp_date_8601  and .&lt;= today()" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_4:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5" type="select1" required="true()" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count &gt;=5"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_5" type="date" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5 ='yes'" constraint=".&gt;  /pregnancy_home_visit/lmp_date_8601  and .&lt;= today()" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_5:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6" type="select1" required="true()" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count &gt;=6"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_6" type="date" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6 ='yes'" constraint=".&gt;  /pregnancy_home_visit/lmp_date_8601  and .&lt;= today()" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_6:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7" type="select1" required="true()" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count &gt;=7"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_7" type="date" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7 ='yes'" constraint=".&gt;  /pregnancy_home_visit/lmp_date_8601  and .&lt;= today()" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_7:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8" type="select1" required="true()" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count &gt;=8"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_8" type="date" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8 ='yes'" constraint=".&gt;  /pregnancy_home_visit/lmp_date_8601  and .&lt;= today()" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_8:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9" type="select1" required="true()" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count &gt;=9"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_9" type="date" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9 ='yes'" constraint=".&gt;  /pregnancy_home_visit/lmp_date_8601  and .&lt;= today()" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_9:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_risk_factors_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/more_than_4_children" readonly="true()" type="string" relevant="contains(../../../context_vars/risk_factors_ctx, 'more_than_4_children')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/last_baby_born_less_than_1_year_ago" readonly="true()" type="string" relevant="contains(../../../context_vars/risk_factors_ctx, 'more_than_4_children')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/deliv_by_operation" readonly="true()" type="string" relevant="contains(../../../context_vars/risk_factors_ctx, 'deliv_by_operation')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_deliv_at_home" readonly="true()" type="string" relevant="contains(../../../context_vars/risk_factors_ctx, 'previous_deliv_at_home')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/heart_condition" readonly="true()" type="string" relevant="contains(../../../context_vars/risk_factors_ctx, 'heart_condition')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/asthma" readonly="true()" type="string" relevant="contains(../../../context_vars/risk_factors_ctx, 'asthma')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/high_blood_pressure" readonly="true()" type="string" relevant="contains(../../../context_vars/risk_factors_ctx, 'high_blood_pressure')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/diabetes" readonly="true()" type="string" relevant="contains(../../../context_vars/risk_factors_ctx, 'diabetes')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/none_risk" readonly="true()" type="string" relevant="contains(../../../context_vars/risk_factors_ctx, 'none')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_check" type="select"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q" type="select1" required="true()" relevant="not(contains(../../../context_vars/risk_factors_ctx, 'heart_condition') and
+contains(../../../context_vars/risk_factors_ctx, 'asthma') and
+contains(../../../context_vars/risk_factors_ctx, 'high_blood_pressure') and
+contains(../../../context_vars/risk_factors_ctx, 'diabetes'))" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q:jr:constraintMsg')" constraint="not(selected(.,'none')) or count-selected(.) &lt; 2"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_yes" type="string" relevant=" /pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/risk_factors/r_risk_factor_present" type="string" calculate="if(selected(../additional_risk_check , 'heart_condition') or
+selected(../additional_risk_check, 'asthma') or
+selected(../additional_risk_check , 'high_blood_pressure') or
+selected(../additional_risk_check , 'diabetes')
+, 'yes', 'no')" jr:constraintMsg="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/r_risk_factor_present:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes' and today() &lt;  /pregnancy_home_visit/lmp_date_8601  + 280"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/who_recommends_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known  = 'yes' or  /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known  = 'no'"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/prenancy_age_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known  = 'yes' or  /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known  = 'no'"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/visit_time_range" readonly="true()" type="string" relevant="( /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known  = 'yes' or  /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known  = 'no') and  /pregnancy_home_visit/next_visit_days  &gt; 0"/>
+      <bind nodeset="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/refer_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known  = 'yes' or  /pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known  = 'no'"/>
+      <bind nodeset="/pregnancy_home_visit/next_visit_days" type="string" calculate="round((if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 84) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 84, if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 112) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 112, if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 168) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 168, if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 196) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 196, if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 224) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 224, if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 238) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 238, if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 252) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 252, if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 280) &gt;= decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 280, 0 )))))))) - decimal-date-time(today())), 0)"/>
+      <bind nodeset="/pregnancy_home_visit/next_visit_days_start" type="string" calculate="round((if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 84) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 49, 
+if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 112) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 85,
+if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 168) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 133,
+if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 196) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 189,
+if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 224) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 217,
+if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 238) &gt; decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 231,
+if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 252) &gt;= decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 245,
+if((decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 280) &gt;= decimal-date-time(today()), decimal-date-time( /pregnancy_home_visit/lmp_date_8601 ) + 259, 0 
+)))))))) - decimal-date-time(today())), 0)"/>
+      <bind nodeset="/pregnancy_home_visit/next_visit_date" type="string" calculate="format-date(today() +  /pregnancy_home_visit/next_visit_days  ,'%Y-%m-%d')"/>
+      <bind nodeset="/pregnancy_home_visit/next_visit_start_date" type="string" calculate="format-date(today() +  /pregnancy_home_visit/next_visit_days_start  ,'%Y-%m-%d')"/>
+      <bind nodeset="/pregnancy_home_visit/next_visit_date_ne" type="string" calculate="to-bikram-sambat( /pregnancy_home_visit/next_visit_date )"/>
+      <bind nodeset="/pregnancy_home_visit/next_visit_start_date_ne" type="string" calculate="to-bikram-sambat( /pregnancy_home_visit/next_visit_start_date )"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/danger_signs_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/vaginal_bleeding" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/fits" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/severe_abdominal_pain" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/blood_pressure" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/anemia" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/fever" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/face_hand_swelling" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/breathlessness" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/heart_beat" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/if_any" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/is_danger_sign_present" type="string" calculate="if(selected(../vaginal_bleeding, 'yes') 
+or selected(../fits, 'yes') 
+or selected(../severe_abdominal_pain, 'yes') 
+or selected(../blood_pressure, 'yes') 
+or selected(../anemia, 'yes') 
+or selected(../fever, 'yes') 
+or selected(../face_hand_swelling, 'yes') 
+or selected(../heart_beat, 'yes') 
+or selected(../breathlessness, 'yes'), 
+'yes', 'no')"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/congratulate_no_ds_note" readonly="true()" type="string" relevant="../is_danger_sign_present = 'no'"/>
+      <bind nodeset="/pregnancy_home_visit/danger_signs/refer_patient_note_1" readonly="true()" type="string" relevant="../is_danger_sign_present = 'yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes' and  /pregnancy_home_visit/context_vars/using_iron_folic_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily" type="select1" required="true()" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/deworming" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes' and  /pregnancy_home_visit/context_vars/deworming_med_received_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med" type="select1" required="true()" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36 and  /pregnancy_home_visit/context_vars/deworming_med_received_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received" type="select1" required="true()" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 12 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 16 and  /pregnancy_home_visit/context_vars/tt_received_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_1" readonly="true()" type="string" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 12 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 16 and  /pregnancy_home_visit/context_vars/tt_received_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose" type="select1" required="true()" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/context_vars/tt_received_second_dose_ctx !='yes' and  /pregnancy_home_visit/context_vars/is_first_pregnancy_ctx ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_2" readonly="true()" type="string" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/context_vars/tt_received_second_dose_ctx !='yes' and  /pregnancy_home_visit/context_vars/is_first_pregnancy_ctx ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/health_card" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes' and  /pregnancy_home_visit/context_vars/newborn_card_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card" type="select1" required="true()" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 12 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 12 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes' and  /pregnancy_home_visit/context_vars/eat_more_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more" type="select1" required="true()" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36 and  /pregnancy_home_visit/context_vars/eat_more_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/nutrition_food_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36 and  /pregnancy_home_visit/context_vars/eat_more_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/blood_test" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes' and  /pregnancy_home_visit/context_vars/blood_urine_test_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test" type="select1" required="true()" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_test_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/xray" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes' and  /pregnancy_home_visit/context_vars/xray_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray" type="select1" required="true()" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 16 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes' and  /pregnancy_home_visit/context_vars/birth_plan_safe_ctx !='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe" type="select1" required="true()" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 31 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/explain_safe_birth" readonly="true()" type="string" relevant=" /pregnancy_home_visit/weeks_since_lmp  &gt;= 31 and  /pregnancy_home_visit/weeks_since_lmp  &lt;= 36"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/safe_pregnancy_practices/advice_note" readonly="true()" type="string" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary" relevant=" /pregnancy_home_visit/pregnancy_summary/visit_option ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_submit_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_summary_details" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_patient_details" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_summary" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_pregnancy_details" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_pregnancy_protocol_visits" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_lmp_weeks" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_risk_factor_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_more_than_4_children" readonly="true()" type="string" relevant="contains(../../context_vars/risk_factors_ctx, 'more_than_4_children')"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_last_baby_born_less_than_1_year_ago" readonly="true()" type="string" relevant="contains(../../context_vars/risk_factors_ctx, 'last_baby_born_less_than_1_year_ago')"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_deliv_by_operation" readonly="true()" type="string" relevant="contains(../../context_vars/risk_factors_ctx, 'deliv_by_operation')"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_previous_deliv_at_home" readonly="true()" type="string" relevant="contains(../../context_vars/risk_factors_ctx, 'previous_deliv_at_home')"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_heart_condition" readonly="true()" type="string" relevant="contains(../../context_vars/risk_factors_ctx, 'heart_condition')"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_asthma" readonly="true()" type="string" relevant="contains(../../context_vars/risk_factors_ctx, 'asthma')"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_high_blood_pressure" readonly="true()" type="string" relevant="contains(../../context_vars/risk_factors_ctx, 'high_blood_pressure')"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_diabetes" readonly="true()" type="string" relevant="contains(../../context_vars/risk_factors_ctx, 'diabetes')"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_none" readonly="true()" type="string" relevant="contains(../../context_vars/risk_factors_ctx, 'none')"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_danger_signs" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/is_danger_sign_present  ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_vaginal_bleeding" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/vaginal_bleeding ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_fits" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/fits ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_severe_abdominal_pain" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/severe_abdominal_pain ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_blood_pressure" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/blood_pressure ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_anemia" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/anemia ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_fever" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/fever ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_face_feet_swelling" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/face_hand_swelling ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_breathlessness" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/breathlessness ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/summary/r_heart_beat" readonly="true()" type="string" relevant=" /pregnancy_home_visit/danger_signs/heart_beat ='yes'"/>
+      <bind nodeset="/pregnancy_home_visit/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pregnancy_home_visit/inputs">
+      <label ref="jr:itext('/pregnancy_home_visit/inputs:label')"/>
+      <group ref="/pregnancy_home_visit/inputs/contact">
+        <label ref="jr:itext('/pregnancy_home_visit/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/pregnancy_home_visit/inputs/contact/_id">
+          <label ref="jr:itext('/pregnancy_home_visit/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/pregnancy_home_visit/inputs/contact/parent">
+          <label ref="jr:itext('/pregnancy_home_visit/inputs/contact/parent:label')"/>
+          <group ref="/pregnancy_home_visit/inputs/contact/parent/parent">
+            <label ref="jr:itext('/pregnancy_home_visit/inputs/contact/parent/parent:label')"/>
+            <group ref="/pregnancy_home_visit/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/pregnancy_home_visit/inputs/contact/parent/parent/contact:label')"/>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group ref="/pregnancy_home_visit/context_vars"/>
+    <group appearance="field-list" ref="/pregnancy_home_visit/pregnancy_summary">
+      <input ref="/pregnancy_home_visit/pregnancy_summary/visit_count_note">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_summary/visit_count_note:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/pregnancy_summary/current_weeks_pregnant">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_summary/current_weeks_pregnant:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/pregnancy_summary/current_edd">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_summary/current_edd:label')"/>
+      </input>
+      <select1 ref="/pregnancy_home_visit/pregnancy_summary/visit_option">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_summary/visit_option:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/pregnancy_summary/visit_option/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/pregnancy_summary/visit_option/miscarriage:label')"/>
+          <value>miscarriage</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/pregnancy_summary/visit_option/abortion:label')"/>
+          <value>abortion</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/pregnancy_summary/visit_option/refused:label')"/>
+          <value>refused</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/pregnancy_summary/visit_option/migrated:label')"/>
+          <value>migrated</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/pregnancy_home_visit/pregnancy_ended">
+      <input ref="/pregnancy_home_visit/pregnancy_ended/miscarriage_note">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/miscarriage_note:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/pregnancy_ended/miscarriage_date">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/miscarriage_date:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/pregnancy_ended/abortion_note">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/abortion_note:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/pregnancy_ended/abortion_date">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/abortion_date:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/pregnancy_ended/refusing_note">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/refusing_note:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/pregnancy_ended/migrated_note">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/migrated_note:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/pregnancy_ended/end_pregnancy_note">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/end_pregnancy_note:label')"/>
+      </input>
+      <select1 ref="/pregnancy_home_visit/pregnancy_ended/clear_option">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/clear_option:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/clear_option/clear_this:label')"/>
+          <value>clear_this</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/clear_option/clear_all:label')"/>
+          <value>clear_all</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_home_visit/pregnancy_ended/end_pregnancy_edd_note">
+        <label ref="jr:itext('/pregnancy_home_visit/pregnancy_ended/end_pregnancy_edd_note:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/pregnancy_ended/close_if_needed"/>
+    </group>
+    <group ref="/pregnancy_home_visit/update_g_age">
+      <group appearance="field-list" ref="/pregnancy_home_visit/update_g_age/update_method">
+        <select1 ref="/pregnancy_home_visit/update_g_age/update_method/g_age_update_method">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_method/g_age_update_method:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_method/g_age_update_method/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_method/g_age_update_method/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/update_g_age/update_method/lmp_date_update">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_method/lmp_date_update:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/pregnancy_home_visit/update_g_age/update_summary">
+        <input ref="/pregnancy_home_visit/update_g_age/update_summary/update_check_note">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_summary/update_check_note:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/update_g_age/update_summary/previous_info">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_summary/previous_info:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/update_g_age/update_summary/previous_g_age">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_summary/previous_g_age:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/update_g_age/update_summary/previous_edd">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_summary/previous_edd:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/update_g_age/update_summary/new_info">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_summary/new_info:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/update_g_age/update_summary/new_g_age">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_summary/new_g_age:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/update_g_age/update_summary/new_edd">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_summary/new_edd:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/update_g_age/update_summary/edd_check_note">
+          <label ref="jr:itext('/pregnancy_home_visit/update_g_age/update_summary/edd_check_note:label')"/>
+        </input>
+      </group>
+    </group>
+    <group ref="/pregnancy_home_visit/anc_visits_hf">
+      <group appearance="field-list" ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past">
+        <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past:label')"/>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended/no:label')"/>
+            <value>no</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/last_visit_attended/willgo:label')"/>
+            <value>willgo</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/report_other_visits/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count:label')"/>
+          <hint ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_hf_count:hint')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_date_ask_single">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visited_date_ask_single:label')"/>
+        </input>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_1/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_1"/>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_2/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_2"/>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_3/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_3"/>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_4/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_4"/>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_5/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_5"/>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_6/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_6"/>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_7/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_7"/>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_8/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_8"/>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/visit_outside_9/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_past/other_visit_date_9"/>
+      </group>
+      <group appearance="field-list summary" ref="/pregnancy_home_visit/anc_visits_hf/risk_factors">
+        <input ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_risk_factors_note">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_risk_factors_note:label')"/>
+        </input>
+        <input appearance="li" ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/more_than_4_children">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/more_than_4_children:label')"/>
+        </input>
+        <input appearance="li" ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/last_baby_born_less_than_1_year_ago">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/last_baby_born_less_than_1_year_ago:label')"/>
+        </input>
+        <input appearance="li" ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/deliv_by_operation">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/deliv_by_operation:label')"/>
+        </input>
+        <input appearance="li" ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_deliv_at_home">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/previous_deliv_at_home:label')"/>
+        </input>
+        <input appearance="li" ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/heart_condition">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/heart_condition:label')"/>
+        </input>
+        <input appearance="li" ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/asthma">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/asthma:label')"/>
+        </input>
+        <input appearance="li" ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/high_blood_pressure">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/high_blood_pressure:label')"/>
+        </input>
+        <input appearance="li" ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/diabetes">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/diabetes:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/none_risk">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/none_risk:label')"/>
+        </input>
+        <select ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_check">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_check:label')"/>
+          <hint ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_check:hint')"/>
+          <itemset nodeset="instance('additional_risk_check')/root/item[not(contains( /pregnancy_home_visit/context_vars/risk_factors_ctx , name)) or name = 'none']">
+            <value ref="name"/>
+            <label ref="jr:itext(itextId)"/>
+          </itemset>
+        </select>
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_q/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_yes">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/risk_factors/additional_risk_yes:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next">
+        <select1 ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/appointment_date_known/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/who_recommends_note">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/who_recommends_note:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/prenancy_age_note">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/prenancy_age_note:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/visit_time_range">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/visit_time_range:label')"/>
+        </input>
+        <input ref="/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/refer_note">
+          <label ref="jr:itext('/pregnancy_home_visit/anc_visits_hf/anc_visits_hf_next/refer_note:label')"/>
+        </input>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/pregnancy_home_visit/danger_signs">
+      <input ref="/pregnancy_home_visit/danger_signs/danger_signs_note">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/danger_signs_note:label')"/>
+      </input>
+      <select1 ref="/pregnancy_home_visit/danger_signs/vaginal_bleeding">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/vaginal_bleeding:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/vaginal_bleeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/vaginal_bleeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_home_visit/danger_signs/fits">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/fits:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/fits/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/fits/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_home_visit/danger_signs/severe_abdominal_pain">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/severe_abdominal_pain:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/severe_abdominal_pain/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/severe_abdominal_pain/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_home_visit/danger_signs/blood_pressure">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/blood_pressure:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/blood_pressure/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/blood_pressure/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_home_visit/danger_signs/anemia">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/anemia:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/anemia/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/anemia/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_home_visit/danger_signs/fever">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/fever:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/fever/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/fever/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_home_visit/danger_signs/face_hand_swelling">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/face_hand_swelling:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/face_hand_swelling/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/face_hand_swelling/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_home_visit/danger_signs/breathlessness">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/breathlessness:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/breathlessness/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/breathlessness/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_home_visit/danger_signs/heart_beat">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/heart_beat:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/heart_beat/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_home_visit/danger_signs/heart_beat/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_home_visit/danger_signs/if_any">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/if_any:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/danger_signs/congratulate_no_ds_note">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/congratulate_no_ds_note:label')"/>
+        <hint ref="jr:itext('/pregnancy_home_visit/danger_signs/congratulate_no_ds_note:hint')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/danger_signs/refer_patient_note_1">
+        <label ref="jr:itext('/pregnancy_home_visit/danger_signs/refer_patient_note_1:label')"/>
+      </input>
+    </group>
+    <group ref="/pregnancy_home_visit/safe_pregnancy_practices">
+      <group appearance="field-list" ref="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate">
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_daily/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_note">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/iron_folate/iron_folate_note:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/pregnancy_home_visit/safe_pregnancy_practices/deworming">
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med_note">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/deworming/deworming_med_note:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/pregnancy_home_visit/safe_pregnancy_practices/tetanus">
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_imm_received/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_1">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_1:label')"/>
+        </input>
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_second_dose/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_2">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/tetanus/tt_note_2:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/pregnancy_home_visit/safe_pregnancy_practices/health_card">
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card_note">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/health_card/newborn_card_note:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips">
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/eat_more/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/nutrition_food_note">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/safe_practices_tips/nutrition_food_note:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/pregnancy_home_visit/safe_pregnancy_practices/blood_test">
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_urine_test/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_test_note">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/blood_test/blood_test_note:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/pregnancy_home_visit/safe_pregnancy_practices/xray">
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray_note">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/xray/x_ray_note:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan">
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/birth_plan_safe/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/explain_safe_birth">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/safe_plan/explain_safe_birth:label')"/>
+        </input>
+      </group>
+      <group ref="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine">
+        <select1 ref="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_test/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_note">
+          <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/albumin_urine/albumin_urine_note:label')"/>
+        </input>
+      </group>
+      <input appearance="field-list" ref="/pregnancy_home_visit/safe_pregnancy_practices/advice_note">
+        <label ref="jr:itext('/pregnancy_home_visit/safe_pregnancy_practices/advice_note:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/pregnancy_home_visit/summary">
+      <input ref="/pregnancy_home_visit/summary/r_submit_note">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_submit_note:label')"/>
+      </input>
+      <input appearance="h1 yellow" ref="/pregnancy_home_visit/summary/r_summary_details">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_summary_details:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/summary/r_patient_details">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_patient_details:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/pregnancy_home_visit/summary/r_summary">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/pregnancy_home_visit/summary/r_pregnancy_details">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_pregnancy_details:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/summary/r_pregnancy_protocol_visits">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_pregnancy_protocol_visits:label')"/>
+      </input>
+      <input ref="/pregnancy_home_visit/summary/r_lmp_weeks">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_lmp_weeks:label')"/>
+      </input>
+      <input appearance="h3 black underline" ref="/pregnancy_home_visit/summary/r_risk_factor_note">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_risk_factor_note:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_more_than_4_children">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_more_than_4_children:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_last_baby_born_less_than_1_year_ago">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_last_baby_born_less_than_1_year_ago:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_deliv_by_operation">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_deliv_by_operation:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_previous_deliv_at_home">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_previous_deliv_at_home:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_heart_condition">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_heart_condition:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_asthma">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_asthma:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_high_blood_pressure">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_high_blood_pressure:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_diabetes">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_diabetes:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_none">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_none:label')"/>
+      </input>
+      <input appearance="h3 black underline" ref="/pregnancy_home_visit/summary/r_danger_signs">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_danger_signs:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_vaginal_bleeding">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_vaginal_bleeding:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_fits">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_fits:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_severe_abdominal_pain">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_severe_abdominal_pain:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_blood_pressure">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_blood_pressure:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_anemia">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_anemia:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_fever">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_fever:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_face_feet_swelling">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_face_feet_swelling:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_breathlessness">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_breathlessness:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_home_visit/summary/r_heart_beat">
+        <label ref="jr:itext('/pregnancy_home_visit/summary/r_heart_beat:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

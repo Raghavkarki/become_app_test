@@ -1,0 +1,1036 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>House registration</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/data/c80_household/change_name/no:label">
+            <value>No</value>
+          </text>
+          <text id="/data/c80_household/change_name/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/data/c80_household/change_name:label">
+            <value>Do you want to change the name of the household?</value>
+          </text>
+          <text id="/data/c80_household/custom_name:label">
+            <value>Household name</value>
+          </text>
+          <text id="/data/c80_household/external_id:label">
+            <value>External ID</value>
+          </text>
+          <text id="/data/c80_household/generated_name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/c80_household/generated_name_label:label">
+            <value>Generated Name: *<output value=" /data/c80_household/generated_name "/>*</value>
+          </text>
+          <text id="/data/c80_household/house_number:label">
+            <value>House number</value>
+          </text>
+          <text id="/data/c80_household/notes:label">
+            <value>Notes</value>
+          </text>
+          <text id="/data/contact/add_phone/no:label">
+            <value>No</value>
+          </text>
+          <text id="/data/contact/add_phone/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/data/contact/add_phone:label">
+            <value>Does s/he have a phone number?</value>
+          </text>
+          <text id="/data/contact/caste_code/brahmin:label">
+            <value>Brahmin</value>
+          </text>
+          <text id="/data/contact/caste_code/chhettri:label">
+            <value>Chhetri</value>
+          </text>
+          <text id="/data/contact/caste_code/dalit:label">
+            <value>Dalit</value>
+          </text>
+          <text id="/data/contact/caste_code/janajati:label">
+            <value>Janajati</value>
+          </text>
+          <text id="/data/contact/caste_code/madhesi:label">
+            <value>Madhesi</value>
+          </text>
+          <text id="/data/contact/caste_code/muslim:label">
+            <value>Muslim</value>
+          </text>
+          <text id="/data/contact/caste_code/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/contact/caste_code:label">
+            <value>Caste Code</value>
+          </text>
+          <text id="/data/contact/date_of_birth:hint">
+            <value>Put ०१ if you don't know birthday.</value>
+          </text>
+          <text id="/data/contact/date_of_birth:label">
+            <value>Date of Birth in Bikram Sambat</value>
+          </text>
+          <text id="/data/contact/disability/autism:label">
+            <value>Autism</value>
+          </text>
+          <text id="/data/contact/disability/deaf_blind:label">
+            <value>Deaf blind</value>
+          </text>
+          <text id="/data/contact/disability/hearing_impairment:label">
+            <value>Hearing Impairment</value>
+          </text>
+          <text id="/data/contact/disability/intellectual_disability:label">
+            <value>Intellectual disability</value>
+          </text>
+          <text id="/data/contact/disability/mental_psychosocial_disability:label">
+            <value>Mental and psychosocial disability</value>
+          </text>
+          <text id="/data/contact/disability/physical_disability:label">
+            <value>Physical disability</value>
+          </text>
+          <text id="/data/contact/disability/visual_impairment:label">
+            <value>Visual impairment</value>
+          </text>
+          <text id="/data/contact/disability/voice_disabilities:label">
+            <value>Speech and voice disabilities</value>
+          </text>
+          <text id="/data/contact/disability:label">
+            <value>Type of disability</value>
+          </text>
+          <text id="/data/contact/disability_card/no:label">
+            <value>No</value>
+          </text>
+          <text id="/data/contact/disability_card/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/data/contact/disability_card:label">
+            <value>Does s/he have disability card ?</value>
+          </text>
+          <text id="/data/contact/disability_severity/complete_disability:label">
+            <value>Complete disability</value>
+          </text>
+          <text id="/data/contact/disability_severity/extremely_disability:label">
+            <value>Extremely disability</value>
+          </text>
+          <text id="/data/contact/disability_severity/general_disability:label">
+            <value>General disability</value>
+          </text>
+          <text id="/data/contact/disability_severity/moderate_disability:label">
+            <value>Moderate disability</value>
+          </text>
+          <text id="/data/contact/disability_severity:label">
+            <value>Severity</value>
+          </text>
+          <text id="/data/contact/disability_start/after_birth:label">
+            <value>After Birth</value>
+          </text>
+          <text id="/data/contact/disability_start/from_birth:label">
+            <value>From Birth</value>
+          </text>
+          <text id="/data/contact/disability_start:label">
+            <value>When did the problem occur ?</value>
+          </text>
+          <text id="/data/contact/disability_start_date:hint">
+            <value>Put "१" if day is unknown and "बैशाख" if month is unknown.</value>
+          </text>
+          <text id="/data/contact/disability_start_date:label">
+            <value>Date of disability start:</value>
+          </text>
+          <text id="/data/contact/first_name:hint">
+            <value>(Contact Person)</value>
+          </text>
+          <text id="/data/contact/first_name:label">
+            <value>Name of household head</value>
+          </text>
+          <text id="/data/contact/gender/female:label">
+            <value>Female</value>
+          </text>
+          <text id="/data/contact/gender/male:label">
+            <value>Male</value>
+          </text>
+          <text id="/data/contact/gender/other:label">
+            <value>Others</value>
+          </text>
+          <text id="/data/contact/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/data/contact/is_disabled/no:label">
+            <value>No</value>
+          </text>
+          <text id="/data/contact/is_disabled/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/data/contact/is_disabled:label">
+            <value>Is s/he disabled?</value>
+          </text>
+          <text id="/data/contact/last_name:label">
+            <value>Last Name</value>
+          </text>
+          <text id="/data/contact/level_of_education/basic_education:label">
+            <value>Basic education</value>
+          </text>
+          <text id="/data/contact/level_of_education/graduation_level:label">
+            <value>Graduation level</value>
+          </text>
+          <text id="/data/contact/level_of_education/higher_secondary level:label">
+            <value>Higher secondary level</value>
+          </text>
+          <text id="/data/contact/level_of_education/literate:label">
+            <value>Literate</value>
+          </text>
+          <text id="/data/contact/level_of_education/lliterate:label">
+            <value>lliterate</value>
+          </text>
+          <text id="/data/contact/level_of_education/phd:label">
+            <value>PHD</value>
+          </text>
+          <text id="/data/contact/level_of_education/post_graduate:label">
+            <value>Post graduate</value>
+          </text>
+          <text id="/data/contact/level_of_education/secondary_level:label">
+            <value>Secondary level</value>
+          </text>
+          <text id="/data/contact/level_of_education:hint">
+            <value>Select one below</value>
+          </text>
+          <text id="/data/contact/level_of_education:label">
+            <value>Level of Education Completed</value>
+          </text>
+          <text id="/data/contact/marital_status/didnt_say:label">
+            <value>I do not want to say</value>
+          </text>
+          <text id="/data/contact/marital_status/divorced:label">
+            <value>Divorced</value>
+          </text>
+          <text id="/data/contact/marital_status/living_in:label">
+            <value>Living in</value>
+          </text>
+          <text id="/data/contact/marital_status/married:label">
+            <value>Married</value>
+          </text>
+          <text id="/data/contact/marital_status/unmarried:label">
+            <value>Unmarried</value>
+          </text>
+          <text id="/data/contact/marital_status/widowed:label">
+            <value>Widowed</value>
+          </text>
+          <text id="/data/contact/marital_status:label">
+            <value>Marital status</value>
+          </text>
+          <text id="/data/contact/occupation/agriculture:label">
+            <value>Agriculture</value>
+          </text>
+          <text id="/data/contact/occupation/business:label">
+            <value>Business</value>
+          </text>
+          <text id="/data/contact/occupation/carpenter:label">
+            <value>Carpenter</value>
+          </text>
+          <text id="/data/contact/occupation/heavy_load:label">
+            <value>Heavy load</value>
+          </text>
+          <text id="/data/contact/occupation/homemaker:label">
+            <value>Homemaker</value>
+          </text>
+          <text id="/data/contact/occupation/job:label">
+            <value>Job</value>
+          </text>
+          <text id="/data/contact/occupation/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/data/contact/occupation/painter:label">
+            <value>Painter</value>
+          </text>
+          <text id="/data/contact/occupation/sewing_knitting:label">
+            <value>Sewing/knitting</value>
+          </text>
+          <text id="/data/contact/occupation/student:label">
+            <value>Student</value>
+          </text>
+          <text id="/data/contact/occupation/unemployed:label">
+            <value>Unemployed</value>
+          </text>
+          <text id="/data/contact/occupation/wage:label">
+            <value>Wage</value>
+          </text>
+          <text id="/data/contact/occupation:label">
+            <value>Occupation</value>
+          </text>
+          <text id="/data/contact/phone:hint">
+            <value>Include Nepali country code (+977) before phone number.</value>
+          </text>
+          <text id="/data/contact/phone:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/data/contact/religion/buddhist:label">
+            <value>Buddhist</value>
+          </text>
+          <text id="/data/contact/religion/christian:label">
+            <value>Christian</value>
+          </text>
+          <text id="/data/contact/religion/didnt_say:label">
+            <value>Didn't say</value>
+          </text>
+          <text id="/data/contact/religion/hindu:label">
+            <value>Hindu</value>
+          </text>
+          <text id="/data/contact/religion/kirat:label">
+            <value>Kirat</value>
+          </text>
+          <text id="/data/contact/religion/muslim:label">
+            <value>Muslim</value>
+          </text>
+          <text id="/data/contact/religion/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/data/contact/religion:label">
+            <value>Religion</value>
+          </text>
+          <text id="/data/contact:label">
+            <value>Household head details</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/data/c80_household/change_name/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/data/c80_household/change_name/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/data/c80_household/change_name:label">
+            <value>के तपाईँ यो नाम फेर्न चाहनुहुन्छ?</value>
+          </text>
+          <text id="/data/c80_household/custom_name:label">
+            <value>घर-धुरीको नाम</value>
+          </text>
+          <text id="/data/c80_household/external_id:label">
+            <value>बाहिरी आईडी</value>
+          </text>
+          <text id="/data/c80_household/generated_name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/c80_household/generated_name_label:label">
+            <value>घर-धुरीको नाम: <output value=" /data/c80_household/generated_name "/></value>
+          </text>
+          <text id="/data/c80_household/house_number:label">
+            <value>घर नम्बर</value>
+          </text>
+          <text id="/data/c80_household/notes:label">
+            <value>नोट</value>
+          </text>
+          <text id="/data/contact/add_phone/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/data/contact/add_phone/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/data/contact/add_phone:label">
+            <value>के वहाँसँग फोन वा मोबाईल नम्बर छ ?</value>
+          </text>
+          <text id="/data/contact/caste_code/brahmin:label">
+            <value>ब्राह्मण</value>
+          </text>
+          <text id="/data/contact/caste_code/chhettri:label">
+            <value>क्षेत्री</value>
+          </text>
+          <text id="/data/contact/caste_code/dalit:label">
+            <value>दलित</value>
+          </text>
+          <text id="/data/contact/caste_code/janajati:label">
+            <value>जनजाति</value>
+          </text>
+          <text id="/data/contact/caste_code/madhesi:label">
+            <value>मधेसी</value>
+          </text>
+          <text id="/data/contact/caste_code/muslim:label">
+            <value>मुस्लिम</value>
+          </text>
+          <text id="/data/contact/caste_code/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/data/contact/caste_code:label">
+            <value>जाति कोड</value>
+          </text>
+          <text id="/data/contact/date_of_birth:hint">
+            <value>जन्म मिति थाहा नभएमा '०१' लेख्नुहोस्</value>
+          </text>
+          <text id="/data/contact/date_of_birth:label">
+            <value>जन्म मिति (वि. स.)</value>
+          </text>
+          <text id="/data/contact/disability/autism:label">
+            <value>अटिज्म</value>
+          </text>
+          <text id="/data/contact/disability/deaf_blind:label">
+            <value>श्रवण दृष्टिविहीन अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability/hearing_impairment:label">
+            <value>सुनाइ सम्बन्धी अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability/intellectual_disability:label">
+            <value>बौद्धिक अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability/mental_psychosocial_disability:label">
+            <value>मानसिक र मनोसामाजिक अशक्तता</value>
+          </text>
+          <text id="/data/contact/disability/physical_disability:label">
+            <value>शारीरिक अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability/visual_impairment:label">
+            <value>दृष्टि सम्बन्धी अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability/voice_disabilities:label">
+            <value>बोली र स्वर संग सम्बन्धी अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability:label">
+            <value>कस्तो प्रकारको अपाङ्गता छ ?</value>
+          </text>
+          <text id="/data/contact/disability_card/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/data/contact/disability_card/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/data/contact/disability_card:label">
+            <value>अपाङ्गता अशक्तता कार्ड बनाउनु भएको छ ?</value>
+          </text>
+          <text id="/data/contact/disability_severity/complete_disability:label">
+            <value>पूर्णअशक्त अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability_severity/extremely_disability:label">
+            <value>अतिअशक्त अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability_severity/general_disability:label">
+            <value>सामान्य अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability_severity/moderate_disability:label">
+            <value>मध्यम अपाङ्गता</value>
+          </text>
+          <text id="/data/contact/disability_severity:label">
+            <value>जटिलता</value>
+          </text>
+          <text id="/data/contact/disability_start/after_birth:label">
+            <value>जन्म पछि</value>
+          </text>
+          <text id="/data/contact/disability_start/from_birth:label">
+            <value>जन्मजात</value>
+          </text>
+          <text id="/data/contact/disability_start:label">
+            <value>कहिले देखि समस्या सुरु भएको?</value>
+          </text>
+          <text id="/data/contact/disability_start_date:hint">
+            <value>गते थाहा नभए "१", महिना थाहा नभए "बैशाख" राख्नुहोस्।</value>
+          </text>
+          <text id="/data/contact/disability_start_date:label">
+            <value>समस्या सुरु भएको मिति:</value>
+          </text>
+          <text id="/data/contact/first_name:hint">
+            <value>(सम्पर्क व्यक्ति)</value>
+          </text>
+          <text id="/data/contact/first_name:label">
+            <value>घरमुली को नाम</value>
+          </text>
+          <text id="/data/contact/gender/female:label">
+            <value>महिला</value>
+          </text>
+          <text id="/data/contact/gender/male:label">
+            <value>पुरुष</value>
+          </text>
+          <text id="/data/contact/gender/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/data/contact/gender:label">
+            <value>लिंग</value>
+          </text>
+          <text id="/data/contact/is_disabled/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/data/contact/is_disabled/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/data/contact/is_disabled:label">
+            <value>के उहाँमा अपाङ्गता छ ?</value>
+          </text>
+          <text id="/data/contact/last_name:label">
+            <value>थर</value>
+          </text>
+          <text id="/data/contact/level_of_education/basic_education:label">
+            <value>आधारभूत शिक्षा</value>
+          </text>
+          <text id="/data/contact/level_of_education/graduation_level:label">
+            <value>स्नातक तह</value>
+          </text>
+          <text id="/data/contact/level_of_education/higher_secondary level:label">
+            <value>उच्च माध्यमिक तह</value>
+          </text>
+          <text id="/data/contact/level_of_education/literate:label">
+            <value>साक्षर</value>
+          </text>
+          <text id="/data/contact/level_of_education/lliterate:label">
+            <value>निरक्षर</value>
+          </text>
+          <text id="/data/contact/level_of_education/phd:label">
+            <value>विद्यावारिधी</value>
+          </text>
+          <text id="/data/contact/level_of_education/post_graduate:label">
+            <value>स्नातकोत्तर तह</value>
+          </text>
+          <text id="/data/contact/level_of_education/secondary_level:label">
+            <value>माध्यमिक तह</value>
+          </text>
+          <text id="/data/contact/level_of_education:hint">
+            <value>एउटा छान्नुहोस् ।</value>
+          </text>
+          <text id="/data/contact/level_of_education:label">
+            <value>पूरा गरेको शैक्षिक तह</value>
+          </text>
+          <text id="/data/contact/marital_status/didnt_say:label">
+            <value>भन्न नचाहेको</value>
+          </text>
+          <text id="/data/contact/marital_status/divorced:label">
+            <value>सम्बन्धविच्छेद</value>
+          </text>
+          <text id="/data/contact/marital_status/living_in:label">
+            <value>विवाह नगरी सँगै बसेको</value>
+          </text>
+          <text id="/data/contact/marital_status/married:label">
+            <value>विवाहित</value>
+          </text>
+          <text id="/data/contact/marital_status/unmarried:label">
+            <value>अविवाहित</value>
+          </text>
+          <text id="/data/contact/marital_status/widowed:label">
+            <value>विधुर/विधवा</value>
+          </text>
+          <text id="/data/contact/marital_status:label">
+            <value>वैवाहिक स्थिति</value>
+          </text>
+          <text id="/data/contact/occupation/agriculture:label">
+            <value>कृषी</value>
+          </text>
+          <text id="/data/contact/occupation/business:label">
+            <value>व्यापार</value>
+          </text>
+          <text id="/data/contact/occupation/carpenter:label">
+            <value>सिकर्मी</value>
+          </text>
+          <text id="/data/contact/occupation/heavy_load:label">
+            <value>भारी बोक्ने</value>
+          </text>
+          <text id="/data/contact/occupation/homemaker:label">
+            <value>गृहिणी/गृहस्थी</value>
+          </text>
+          <text id="/data/contact/occupation/job:label">
+            <value>नोकरी</value>
+          </text>
+          <text id="/data/contact/occupation/others:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/data/contact/occupation/painter:label">
+            <value>पेन्टर</value>
+          </text>
+          <text id="/data/contact/occupation/sewing_knitting:label">
+            <value>सिलाइ/बुनाइ</value>
+          </text>
+          <text id="/data/contact/occupation/student:label">
+            <value>विद्यार्थी</value>
+          </text>
+          <text id="/data/contact/occupation/unemployed:label">
+            <value>बेरोजगार</value>
+          </text>
+          <text id="/data/contact/occupation/wage:label">
+            <value>डकर्मी</value>
+          </text>
+          <text id="/data/contact/occupation:label">
+            <value>पेसा</value>
+          </text>
+          <text id="/data/contact/phone:hint">
+            <value>फोन नम्बरको अगाडि नेपालको राष्ट्रिय कोड (+977) राख्नुहोस् ।</value>
+          </text>
+          <text id="/data/contact/phone:label">
+            <value>फोन नम्बर</value>
+          </text>
+          <text id="/data/contact/religion/buddhist:label">
+            <value>बौद्ध</value>
+          </text>
+          <text id="/data/contact/religion/christian:label">
+            <value>ईसाई</value>
+          </text>
+          <text id="/data/contact/religion/didnt_say:label">
+            <value>भन्न नचाहेको</value>
+          </text>
+          <text id="/data/contact/religion/hindu:label">
+            <value>हिन्दु</value>
+          </text>
+          <text id="/data/contact/religion/kirat:label">
+            <value>किराँत</value>
+          </text>
+          <text id="/data/contact/religion/muslim:label">
+            <value>मुस्लिम</value>
+          </text>
+          <text id="/data/contact/religion/others:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/data/contact/religion:label">
+            <value>धर्म</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <data delimiter="#" id="contact:c80_household:create" prefix="J1!contact:c80_household:create!" version="2023-09-19  16-36">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <user>
+              <contact_id/>
+              <facility_id/>
+              <name/>
+            </user>
+          </inputs>
+          <c80_household>
+            <parent>PARENT</parent>
+            <house_number/>
+            <generated_name/>
+            <generated_name_label/>
+            <change_name/>
+            <custom_name/>
+            <name/>
+            <external_id/>
+            <notes/>
+            <contact/>
+          </c80_household>
+          <init>
+            <name/>
+            <contact_name/>
+          </init>
+          <contact>
+            <parent>PARENT</parent>
+            <type>contact</type>
+            <contact_type>c82_person</contact_type>
+            <first_name/>
+            <last_name/>
+            <name/>
+            <add_phone/>
+            <phone>+977</phone>
+            <date_of_birth/>
+            <gender/>
+            <religion/>
+            <marital_status/>
+            <is_disabled/>
+            <disability/>
+            <disability_severity/>
+            <disability_card/>
+            <disability_start/>
+            <disability_start_date/>
+            <level_of_education/>
+            <occupation/>
+            <caste_code/>
+            <relation/>
+          </contact>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </data>
+      </instance>
+      <bind nodeset="/data/inputs" relevant="false()"/>
+      <bind nodeset="/data/inputs/user/contact_id" type="string"/>
+      <bind nodeset="/data/inputs/user/facility_id" type="string"/>
+      <bind nodeset="/data/inputs/user/name" type="string"/>
+      <bind nodeset="/data/init/name" type="string"/>
+      <bind calculate="coalesce(../../contact/name, ../name)" nodeset="/data/init/contact_name" type="string"/>
+      <bind nodeset="/data/contact/parent" type="string"/>
+      <bind nodeset="/data/contact/type" type="string"/>
+      <bind nodeset="/data/contact/contact_type" type="string"/>
+      <bind constraint="string-length(.)&lt;=30" nodeset="/data/contact/first_name" required="true()" type="string"/>
+      <bind constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')" nodeset="/data/contact/last_name" required="true()" type="string"/>
+      <bind calculate="concat( /data/contact/first_name , ' ',  /data/contact/last_name )" nodeset="/data/contact/name" type="string"/>
+      <bind nodeset="/data/contact/add_phone" required="true()" type="select1"/>
+      <bind nodeset="/data/contact/phone" relevant=" /data/contact/add_phone ='yes'" required="true()" type="tel"/>
+      <bind nodeset="/data/contact/date_of_birth" required="true()" type="date"/>
+      <bind nodeset="/data/contact/gender" required="true()" type="select1"/>
+      <bind nodeset="/data/contact/religion" required="true()" type="select1"/>
+      <bind nodeset="/data/contact/marital_status" required="true()" type="select1"/>
+      <bind nodeset="/data/contact/is_disabled" required="true()" type="select1"/>
+      <bind nodeset="/data/contact/disability" relevant=" /data/contact/is_disabled  = 'yes'" required="true()" type="select"/>
+      <bind nodeset="/data/contact/disability_severity" relevant=" /data/contact/is_disabled  = 'yes'" required="true()" type="select1"/>
+      <bind nodeset="/data/contact/disability_card" relevant=" /data/contact/is_disabled  = 'yes'" required="true()" type="select1"/>
+      <bind nodeset="/data/contact/disability_start" relevant=" /data/contact/is_disabled  = 'yes'" required="true()" type="select1"/>
+      <bind nodeset="/data/contact/disability_start_date" relevant=" /data/contact/disability_start  = 'after_birth'" type="date"/>
+      <bind nodeset="/data/contact/level_of_education" required="true()" type="select1"/>
+      <bind nodeset="/data/contact/occupation" required="true()" type="select1"/>
+      <bind constraint="not(selected(., 'unknown') and (selected(., 'dalit') or selected(., 'janajati') or selected(., 'madhesi')or selected(., 'muslim')or selected(., 'brahmin_chettri') or selected(., 'other') ))" nodeset="/data/contact/caste_code" required="true()" type="select1"/>
+      <bind calculate="&quot;house_head&quot;" nodeset="/data/contact/relation" type="string"/>
+      <bind nodeset="/data/c80_household/parent" type="string"/>
+      <bind nodeset="/data/c80_household/house_number" type="string"/>
+      <bind calculate="if( /data/c80_household/house_number  = '',
+ concat( /data/init/contact_name , &quot; को घर धुरी&quot;),
+concat( /data/init/contact_name , &quot; को घर धुरी (&quot;,  /data/c80_household/house_number , &quot;)&quot;)
+)" nodeset="/data/c80_household/generated_name" type="string"/>
+      <bind nodeset="/data/c80_household/generated_name_label" readonly="true()" type="string"/>
+      <bind nodeset="/data/c80_household/change_name" type="select1"/>
+      <bind nodeset="/data/c80_household/custom_name" relevant=" /data/c80_household/change_name  = 'yes'" required="true()" type="string"/>
+      <bind calculate="coalesce( /data/c80_household/custom_name ,  /data/c80_household/generated_name )" nodeset="/data/c80_household/name" type="string"/>
+      <bind nodeset="/data/c80_household/external_id" type="string"/>
+      <bind nodeset="/data/c80_household/notes" type="string"/>
+      <bind calculate="&quot;NEW&quot;" nodeset="/data/c80_household/contact" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/data/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group ref="/data/inputs">
+      <group ref="/data/inputs/user">
+        <input ref="/data/inputs/user/contact_id"/>
+        <input ref="/data/inputs/user/facility_id"/>
+        <input ref="/data/inputs/user/name"/>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/data/init">
+      <input appearance="hidden" ref="/data/init/name"/>
+      <group appearance="field-list" ref="/data/contact">
+        <label ref="jr:itext('/data/contact:label')"/>
+        <input ref="/data/contact/first_name">
+          <label ref="jr:itext('/data/contact/first_name:label')"/>
+          <hint ref="jr:itext('/data/contact/first_name:hint')"/>
+        </input>
+        <input ref="/data/contact/last_name">
+          <label ref="jr:itext('/data/contact/last_name:label')"/>
+        </input>
+        <select1 ref="/data/contact/add_phone">
+          <label ref="jr:itext('/data/contact/add_phone:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/add_phone/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/add_phone/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/data/contact/phone">
+          <label ref="jr:itext('/data/contact/phone:label')"/>
+          <hint ref="jr:itext('/data/contact/phone:hint')"/>
+        </input>
+        <input appearance="bikram-sambat" ref="/data/contact/date_of_birth">
+          <label ref="jr:itext('/data/contact/date_of_birth:label')"/>
+          <hint ref="jr:itext('/data/contact/date_of_birth:hint')"/>
+        </input>
+        <select1 appearance="horizontal" ref="/data/contact/gender">
+          <label ref="jr:itext('/data/contact/gender:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/gender/female:label')"/>
+            <value>female</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/gender/male:label')"/>
+            <value>male</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/gender/other:label')"/>
+            <value>other</value>
+          </item>
+        </select1>
+        <select1 ref="/data/contact/religion">
+          <label ref="jr:itext('/data/contact/religion:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/religion/hindu:label')"/>
+            <value>hindu</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/religion/buddhist:label')"/>
+            <value>buddhist</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/religion/muslim:label')"/>
+            <value>muslim</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/religion/kirat:label')"/>
+            <value>kirat</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/religion/christian:label')"/>
+            <value>christian</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/religion/others:label')"/>
+            <value>others</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/religion/didnt_say:label')"/>
+            <value>didnt_say</value>
+          </item>
+        </select1>
+        <select1 ref="/data/contact/marital_status">
+          <label ref="jr:itext('/data/contact/marital_status:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/marital_status/married:label')"/>
+            <value>married</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/marital_status/divorced:label')"/>
+            <value>divorced</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/marital_status/widowed:label')"/>
+            <value>widowed</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/marital_status/unmarried:label')"/>
+            <value>unmarried</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/marital_status/living_in:label')"/>
+            <value>living_in</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/marital_status/didnt_say:label')"/>
+            <value>didnt_say</value>
+          </item>
+        </select1>
+        <select1 ref="/data/contact/is_disabled">
+          <label ref="jr:itext('/data/contact/is_disabled:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/is_disabled/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/is_disabled/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select ref="/data/contact/disability">
+          <label ref="jr:itext('/data/contact/disability:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/disability/physical_disability:label')"/>
+            <value>physical_disability</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability/hearing_impairment:label')"/>
+            <value>hearing_impairment</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability/visual_impairment:label')"/>
+            <value>visual_impairment</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability/voice_disabilities:label')"/>
+            <value>voice_disabilities</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability/deaf_blind:label')"/>
+            <value>deaf_blind</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability/intellectual_disability:label')"/>
+            <value>intellectual_disability</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability/mental_psychosocial_disability:label')"/>
+            <value>mental_psychosocial_disability</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability/autism:label')"/>
+            <value>autism</value>
+          </item>
+        </select>
+        <select1 ref="/data/contact/disability_severity">
+          <label ref="jr:itext('/data/contact/disability_severity:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/disability_severity/complete_disability:label')"/>
+            <value>complete_disability</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability_severity/extremely_disability:label')"/>
+            <value>extremely_disability</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability_severity/moderate_disability:label')"/>
+            <value>moderate_disability</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability_severity/general_disability:label')"/>
+            <value>general_disability</value>
+          </item>
+        </select1>
+        <select1 ref="/data/contact/disability_card">
+          <label ref="jr:itext('/data/contact/disability_card:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/disability_card/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability_card/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/data/contact/disability_start">
+          <label ref="jr:itext('/data/contact/disability_start:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/disability_start/from_birth:label')"/>
+            <value>from_birth</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/disability_start/after_birth:label')"/>
+            <value>after_birth</value>
+          </item>
+        </select1>
+        <input ref="/data/contact/disability_start_date">
+          <label ref="jr:itext('/data/contact/disability_start_date:label')"/>
+          <hint ref="jr:itext('/data/contact/disability_start_date:hint')"/>
+        </input>
+        <select1 appearance="horizontal" ref="/data/contact/level_of_education">
+          <label ref="jr:itext('/data/contact/level_of_education:label')"/>
+          <hint ref="jr:itext('/data/contact/level_of_education:hint')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/level_of_education/lliterate:label')"/>
+            <value>lliterate</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/level_of_education/literate:label')"/>
+            <value>literate</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/level_of_education/basic_education:label')"/>
+            <value>basic_education</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/level_of_education/secondary_level:label')"/>
+            <value>secondary_level</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/level_of_education/higher_secondary level:label')"/>
+            <value>higher_secondary level</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/level_of_education/graduation_level:label')"/>
+            <value>graduation_level</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/level_of_education/post_graduate:label')"/>
+            <value>post_graduate</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/level_of_education/phd:label')"/>
+            <value>phd</value>
+          </item>
+        </select1>
+        <select1 appearance="horizontal" ref="/data/contact/occupation">
+          <label ref="jr:itext('/data/contact/occupation:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/homemaker:label')"/>
+            <value>homemaker</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/agriculture:label')"/>
+            <value>agriculture</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/business:label')"/>
+            <value>business</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/job:label')"/>
+            <value>job</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/wage:label')"/>
+            <value>wage</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/carpenter:label')"/>
+            <value>carpenter</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/painter:label')"/>
+            <value>painter</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/heavy_load:label')"/>
+            <value>heavy_load</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/sewing_knitting:label')"/>
+            <value>sewing_knitting</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/unemployed:label')"/>
+            <value>unemployed</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/student:label')"/>
+            <value>student</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/occupation/others:label')"/>
+            <value>others</value>
+          </item>
+        </select1>
+        <select1 appearance="horizontal" ref="/data/contact/caste_code">
+          <label ref="jr:itext('/data/contact/caste_code:label')"/>
+          <item>
+            <label ref="jr:itext('/data/contact/caste_code/dalit:label')"/>
+            <value>dalit</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/caste_code/janajati:label')"/>
+            <value>janajati</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/caste_code/madhesi:label')"/>
+            <value>madhesi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/caste_code/muslim:label')"/>
+            <value>muslim</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/caste_code/brahmin:label')"/>
+            <value>brahmin</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/caste_code/chhettri:label')"/>
+            <value>chhettri</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/contact/caste_code/other:label')"/>
+            <value>other</value>
+          </item>
+        </select1>
+        </group>
+      </group>
+    <group appearance="field-list" ref="/data/c80_household">
+      <input ref="/data/c80_household/house_number">
+        <label ref="jr:itext('/data/c80_household/house_number:label')"/>
+      </input>
+      <input ref="/data/c80_household/generated_name_label">
+        <label ref="jr:itext('/data/c80_household/generated_name_label:label')"/>
+      </input>
+      <select1 ref="/data/c80_household/change_name">
+        <label ref="jr:itext('/data/c80_household/change_name:label')"/>
+        <item>
+          <label ref="jr:itext('/data/c80_household/change_name/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/c80_household/change_name/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/c80_household/custom_name">
+        <label ref="jr:itext('/data/c80_household/custom_name:label')"/>
+      </input>
+      <input ref="/data/c80_household/external_id">
+        <label ref="jr:itext('/data/c80_household/external_id:label')"/>
+      </input>
+      <input ref="/data/c80_household/notes">
+        <label ref="jr:itext('/data/c80_household/notes:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "PNC Referral follow up Form"
+    },
+    {
+      "locale": "ne",
+      "content": "पि एन सी प्रेसण फलोअप फाराम"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": false
+  },
+  "icon": "icon-pnc_referral",
+  "hidden_fields": []
+}

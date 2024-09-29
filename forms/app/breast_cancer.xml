@@ -1,0 +1,827 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Breast Cancer</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/breast_cancer/awareness_check/is_aware/no:label">
+            <value>No</value>
+          </text>
+          <text id="/breast_cancer/awareness_check/is_aware/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/breast_cancer/awareness_check/is_aware:label">
+            <value>Had you ever heard about breast cancer ?</value>
+          </text>
+          <text id="/breast_cancer/awareness_note:label">
+            <value>Explain briefly about breast cancer, 
+1. Its causes, 
+2. Screening measures (BE) and their significance
+3. It importance 
+4. Regular self breast examination to identify earlt stage of Breast cancer</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_discussion:label">
+            <value>Discuss with the women about how we can prevent breast cancer</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_note:label">
+            <value>Since BSE is simple and can be conducted by an individual herself, Government of Nepal has recommended for every girls and woman to use this technique. Now I would like to take your permission to explain/show you the method of conducting BSE following which you can do the testing yourself and share with me the results</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_check_refer:label">
+            <value>She needs further examination, so please refer her to the health facility and tell her when she will visit her for conformation of her facility visit.</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/abdominal_discharge:label">
+            <value>Abnormal discharge of watery or bloody milk from the breast.</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/abnormal_breast_size_change:label">
+            <value>There is an abnormal change in the size of the breast</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/breast_discoloring:label">
+            <value>Discolouring of the breast skin or the color has changed.</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/breast_joint_pain:label">
+            <value>There is a pain in the breast, and joints, and weight is decreasing.</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/none:label">
+            <value>Normal</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/swollen_lump:label">
+            <value>The lump in the breast is swollen, and the shape has changed.</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result:label">
+            <value form="image">jr://images/breast_cancer_symptoms.png</value>
+            <value>What was the result of the examination?</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_training_yes_no/no:label">
+            <value>No</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_training_yes_no/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_training_yes_no:label">
+            <value>Are you willing to learn the Breast Self Examination technique?</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/different_testing_methods:label">
+            <value>Discuss with a woman about different testing methods and the need to repeat the test every month using the Breast Self Examination (BSE) technique, every year for BE by health personnel and every three years for mammography.</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/examination_date:hint">
+            <value>Day/Month/Year. Put 1 in day if you don't know the exact day.</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/examination_date:jr:constraintMsg">
+            <value>Day/Month/Year. Put 1 in day if you don't know the exact day.</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/examination_date:label">
+            <value>When did you have your last breast examination?</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/last_technique_description:hint">
+            <value>Specify the method used</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/last_technique_description:jr:constraintMsg">
+            <value>max characters = 100</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/last_technique_description:label">
+            <value>Can you describe what kind of technique applied on breast examination</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/wants_bse_info/note:label">
+            <value>Give the demo on Breast self Examination</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test/no:label">
+            <value>No</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test:label">
+            <value>Do you want to do Breast Self Examination?</value>
+          </text>
+          <text id="/breast_cancer/checked_before/no:label">
+            <value>no</value>
+          </text>
+          <text id="/breast_cancer/checked_before/no_idea_if_screening_done:label">
+            <value>Yes, but no idea for screening</value>
+          </text>
+          <text id="/breast_cancer/checked_before/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/breast_cancer/checked_before:label">
+            <value>Had you ever screened for breast cancer before?</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/parent/parent/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/parent/parent/name:label">
+            <value>CHN Area</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/parent/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/breast_cancer/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/breast_cancer/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/breast_cancer/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/breast_cancer/intro/breast_cancer_discussion:label">
+            <value>I would like to discuss with you about breast cancer. Breast cancer is one of the second leading cause of cancer related related death in women although it is highly effective in treatement if identified early.</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer/no:label">
+            <value>No</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer:label">
+            <value>Was the woman diagnosed with breast cancer?</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/further_health_visit/no:label">
+            <value>No</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/further_health_visit/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/further_health_visit:label">
+            <value>Have you visited a health facility for further consultation and treatment?</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/other_why_no_hf_visit:jr:constraintMsg">
+            <value>max characters = 100</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/other_why_no_hf_visit:label">
+            <value>Mention</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/been_busy:label">
+            <value>been busy with work</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/family_restrictions:label">
+            <value>family restrictions</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/forgot:label">
+            <value>Forgot</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/no_money:label">
+            <value>no money</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/no_transportation:label">
+            <value>no transportation</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/other:label">
+            <value>other reasons</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/out_of_town:label">
+            <value>out of town</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/unable_to_travel:label">
+            <value>physically unable to travel</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/unnecessary:label">
+            <value>thinks it is unnecessary</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit:label">
+            <value>Why have you not visited a health facility for further consultation and treatment?</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/last_screening_date:hint">
+            <value>Day/Month/Year. Put 1 in day if you don't know the exact day.</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/last_screening_date:jr:constraintMsg">
+            <value>Day/Month/Year. Put 1 in day if you don't know the exact day.</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/last_screening_date:label">
+            <value>When did you have your last breast cancer screening?</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_diagnosis/negative:label">
+            <value>Negative</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_diagnosis/positive:label">
+            <value>Positive</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_diagnosis/suspicious:label">
+            <value>Suscipious</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_diagnosis:label">
+            <value>What was the result of Breast Cancer Screening?</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method/clinical_examination:label">
+            <value>Clinical breast examination</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method/mammogram:label">
+            <value>Mammogram</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method/self_examination:label">
+            <value>Self Breast Examination</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method/usg:label">
+            <value>USG</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method:label">
+            <value>Which method of screening was used?</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/breast_cancer/awareness_check/is_aware/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/breast_cancer/awareness_check/is_aware/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/breast_cancer/awareness_check/is_aware:label">
+            <value>के तपाईंले कहिल्यै स्तन क्यान्सरको बारेमा सुन्नुभएको छ?</value>
+          </text>
+          <text id="/breast_cancer/awareness_note:label">
+            <value>स्तन क्यान्सरको बारेमा संक्षिप्त रूपमा व्याख्या गर्नुहोस्।
+१.स्तन क्यान्सरका कारणहरू ।
+२.स्तन क्यान्सर स्क्रिनिङ उपायहरू ; स्तन जाँच ।
+३. स्तन जाँचको महत्त्व ।
+४. नियमित स्वयं स्तन जाँच र स्तन क्यान्सरको प्रारम्भिक चरण कसरी पहिचान गर्न ।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_discussion:label">
+            <value>हामी कसरी स्तन क्यान्सरबाट बच्न सक्छौं भन्ने बारे छलफल गर्नुहोस्।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_note:label">
+            <value>Breast Self Examination (BSE) सरल छ र महिला आफैले आफ्नो स्तनको जाँच आफै गर्न सक्ने भएकाले, नेपाल सरकारले प्रत्येक किशोरी र महिलालाई यो विधि प्रयोग गर्न सिफारिस गरेको छ। अब म तपाईलाई BSE विधि कसरी गर्ने भनी भन्न र देखाउनको लागि तपाईको अनुमति लिन चाहन्छु जसले गर्दा तपाई आफैले आफ्नो स्तनको परीक्षण गर्न सक्नुहुन्छ र नतिजा मलाई भन्न सक्नुहुन्छ।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_check_refer:label">
+            <value>उहाँलाई थप निदान वा परीक्षण गर्न आवश्यक रहेको जानकारी गराउनुहोस् । त्यसैले स्वास्थ्य सँस्थामा गएर पुन: जाँच गर्न परामर्श गर्नुहोस् र उहाँको बारेमा फेरि बुझ्न कहिले आउने हो सो मितिको बारेमा जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/abdominal_discharge:label">
+            <value>स्तनबाट असामान्य रुपले दुध, पानी अथवा रगत आएको छ</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/abnormal_breast_size_change:label">
+            <value>स्तनको मुन्टोमा असाधारण परिवर्तन छ ।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/breast_discoloring:label">
+            <value>स्तनको छाला खुइलिन लागेको छ वा रङ्ग परिवर्तन भएको छ ।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/breast_joint_pain:label">
+            <value>स्तन, हाडजोर्नीमा दुखाई छ र तौल घट्दै गईरहेको छ ।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/none:label">
+            <value>सबै नरमल छ</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/swollen_lump:label">
+            <value>स्तनमा गाँठो गिर्खा आयको छ र आकार परिवर्तन भएको छ ।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result:label">
+            <value form="image">jr://images/breast_cancer_symptoms.png</value>
+            <value>जाँच गर्दा को परिणाम के आएको थियो ?</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_training_yes_no/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_training_yes_no/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/bse_training_yes_no:label">
+            <value>के तपाइँ Breast Self Examination (BSE) विधि द्वारा आफ्नो स्तन जाँच गर्न सिक्न इच्छुक हुनुहुन्छ?</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/different_testing_methods:label">
+            <value>उहाँ सँग स्तन क्यान्सरका विभिन्न परीक्षण विधिहरू बारे छलफल गर्नुहोस् ;
+१. प्रत्येक महिना Breast Self Examination (BSE) विधि प्रयोग गरेर परीक्षण गर्ने बारे जानकारी दिनुहोस्, 
+२.प्रत्येक वर्ष स्वास्थ्यकर्मीहरूद्वारा स्तन जाँच (BE) र प्रत्येक तीन वर्षमा म्यामोग्राफी (Mammography) गर्नु पर्छ भनी जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/examination_date:hint">
+            <value>(गते/महिना/साल)
+गते थाहा नभए एक राख्नुहोस।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/examination_date:jr:constraintMsg">
+            <value>अनिवार्य छ। (गते/महिना/साल)
+गते थाहा नभए एक राख्नुहोस।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/examination_date:label">
+            <value>कहिले स्तन जाँच गर्नु भएको थियो ?</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/last_technique_description:hint">
+            <value>कुन विधि प्रयोग गर्नु भएको थियो, उल्लेख गर्नुहोस्।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/last_technique_description:jr:constraintMsg">
+            <value>अधिकतम १०० अक्षर मात्र</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/last_technique_description:label">
+            <value>तपाईंले आफ्नो अन्तिम स्तन जाँचमा के गर्नुभयो वर्णन गर्न सक्नुहुन्छ ?</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/wants_bse_info/note:label">
+            <value>Breast Self Examination (BSE) सञ्चालन गर्ने विधिको व्याख्या गर्नुहोस्।</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test/no:label">
+            <value>गर्दिन</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test/yes:label">
+            <value>गर्छु</value>
+          </text>
+          <text id="/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test:label">
+            <value>के तपाई आफै स्तन जाँच गर्नु हुन्छ ?</value>
+          </text>
+          <text id="/breast_cancer/checked_before/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/breast_cancer/checked_before/no_idea_if_screening_done:label">
+            <value>स्तन जाँच गरेको हो तर के - को लागि हो थाहा छैन ।</value>
+          </text>
+          <text id="/breast_cancer/checked_before/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/breast_cancer/checked_before:label">
+            <value>के तपाईंले पहिले कहिल्यै स्तन क्यान्सर छ/छैन भनी जाँच गर्नुभएको छ ?</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/breast_cancer/inputs/contact/parent/parent/name:label">
+            <value>CHN Area</value>
+          </text>
+          <text id="/breast_cancer/intro/breast_cancer_discussion:label">
+            <value>म तपाईसँग स्तन क्यान्सरको बारेमा छलफल गर्न चाहन्छु। स्तन क्यान्सर महिलाहरूमा क्यान्सर बाट हुने मृत्युको दोस्रो प्रमुख कारण हो, यद्यपि यो प्रारम्भिक चरणमा पहिचान भएमा उपचारमा धेरै प्रभावकारी हुन्छ।</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer/no:label">
+            <value>थिएन</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer/yes:label">
+            <value>थियो</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer:label">
+            <value>के उहाँलाई स्तन क्यान्सर भएको पत्ता लागेको थियो ?</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/further_health_visit/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/further_health_visit/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/further_health_visit:label">
+            <value>के उहाँ थप निदान, परीक्षण वा उपचारको लागि स्वास्थ्य संस्थामा जानुभएको छ ?</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/other_why_no_hf_visit:jr:constraintMsg">
+            <value>अधिकतम १०० अक्षर मात्र</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/other_why_no_hf_visit:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/been_busy:label">
+            <value>काममा व्यस्त भएर</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/family_restrictions:label">
+            <value>परिवारको सहयोग नपाएर</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/forgot:label">
+            <value>बिर्सेर</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/no_money:label">
+            <value>पैसा नभएर</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/no_transportation:label">
+            <value>यातायातको साधन नभएर</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/out_of_town:label">
+            <value>शहर बाट टाढा भएर</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/unable_to_travel:label">
+            <value>शारीरिक रूपमा यात्रा गर्न असमर्थ भएर</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/unnecessary:label">
+            <value>यो अनावश्यक छ भन्ने लागेर</value>
+          </text>
+          <text id="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit:label">
+            <value>किन तपाई थप निदान, परीक्षण वा उपचारको लागि स्वास्थ्य संस्थामा जानु भएन ?</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/last_screening_date:hint">
+            <value>(गते/महिना/साल)
+गते थाहा नभए एक राख्नुहोस।</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/last_screening_date:jr:constraintMsg">
+            <value>अनिवार्य छ। (गते/महिना/साल)
+गते थाहा नभए एक राख्नुहोस।</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/last_screening_date:label">
+            <value>कहिले स्तन क्यान्सर जाँच गर्नु भएको थियो ?</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_diagnosis/negative:label">
+            <value>नेगेटिव</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_diagnosis/positive:label">
+            <value>पोजेटिव</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_diagnosis/suspicious:label">
+            <value>शंकास्पद</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_diagnosis:label">
+            <value>स्तन क्यान्सरको जाँच गर्दा को परिणाम के आएको थियो ?</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method/clinical_examination:label">
+            <value>Clinical breast examination</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method/mammogram:label">
+            <value>Mammogram</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method/self_examination:label">
+            <value>Self Breast Examination</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method/usg:label">
+            <value>USG</value>
+          </text>
+          <text id="/breast_cancer/previous_check_results/screening_method:label">
+            <value>कुन विधि द्वारा जाँच गर्नु भएको थियो ?</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <breast_cancer delimiter="#" id="breast_cancer" prefix="J1!breast_cancer!" version="2024-07-08 13:13:19">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <parent>
+                  <name/>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_short_name tag="hidden"/>
+          <patient_short_name_start tag="hidden"/>
+          <chn_area_name tag="hidden"/>
+          <intro tag="hidden">
+            <breast_cancer_discussion tag="hidden"/>
+          </intro>
+          <awareness_check>
+            <is_aware/>
+          </awareness_check>
+          <awareness_note tag="hidden"/>
+          <checked_before/>
+          <previous_check_results>
+            <last_screening_date/>
+            <screening_method/>
+            <screening_diagnosis/>
+          </previous_check_results>
+          <no_usg_or_mammogram>
+            <further_health_visit/>
+            <why_no_hf_visit/>
+            <other_why_no_hf_visit/>
+            <diagnosed_with_cancer/>
+          </no_usg_or_mammogram>
+          <bse_info_and_training>
+            <different_testing_methods tag="hidden"/>
+            <last_technique_description/>
+            <examination_date/>
+            <bse_note tag="hidden"/>
+            <bse_training_yes_no/>
+            <wants_bse_info>
+              <note tag="hidden"/>
+              <self_bse_test/>
+            </wants_bse_info>
+            <bse_self_check>
+              <bse_self_check_result/>
+              <bse_check_refer tag="hidden"/>
+            </bse_self_check>
+            <bse_discussion tag="hidden"/>
+          </bse_info_and_training>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </breast_cancer>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/breast_cancer/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/breast_cancer/inputs/source" type="string"/>
+      <bind nodeset="/breast_cancer/inputs/source_id" type="string"/>
+      <bind nodeset="/breast_cancer/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/breast_cancer/inputs/contact/name" type="string"/>
+      <bind nodeset="/breast_cancer/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/breast_cancer/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/breast_cancer/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/breast_cancer/inputs/contact/sex" type="string"/>
+      <bind nodeset="/breast_cancer/inputs/contact/parent/parent/name" type="string"/>
+      <bind nodeset="/breast_cancer/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/breast_cancer/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/breast_cancer/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/breast_cancer/patient_id" required="true()" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/breast_cancer/patient_name" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/breast_cancer/patient_short_name" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/breast_cancer/patient_short_name_start" type="string"/>
+      <bind calculate="../inputs/contact/parent/parent/name" nodeset="/breast_cancer/chn_area_name" type="string"/>
+      <bind nodeset="/breast_cancer/intro/breast_cancer_discussion" readonly="true()" type="string"/>
+      <bind nodeset="/breast_cancer/awareness_check/is_aware" required="true()" type="select1"/>
+      <bind nodeset="/breast_cancer/awareness_note" readonly="true()" type="string"/>
+      <bind nodeset="/breast_cancer/checked_before" required="true()" type="select1"/>
+      <bind nodeset="/breast_cancer/previous_check_results" relevant=" /breast_cancer/checked_before  = 'yes'"/>
+      <bind constraint=". &lt;= date-time(floor(decimal-date-time(today()))) and
+. &gt;=  /breast_cancer/inputs/contact/date_of_birth " jr:constraintMsg="jr:itext('/breast_cancer/previous_check_results/last_screening_date:jr:constraintMsg')" nodeset="/breast_cancer/previous_check_results/last_screening_date" required="true()" type="date"/>
+      <bind nodeset="/breast_cancer/previous_check_results/screening_method" required="true()" type="select1"/>
+      <bind nodeset="/breast_cancer/previous_check_results/screening_diagnosis" required="true()" type="select1"/>
+      <bind nodeset="/breast_cancer/no_usg_or_mammogram" relevant="( /breast_cancer/previous_check_results/screening_method ='self_examination' or  /breast_cancer/previous_check_results/screening_method ='clinical_examination') and ( /breast_cancer/previous_check_results/screening_diagnosis ='positive' or  /breast_cancer/previous_check_results/screening_diagnosis ='suspicious')"/>
+      <bind nodeset="/breast_cancer/no_usg_or_mammogram/further_health_visit" required="true()" type="select1"/>
+      <bind nodeset="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit" relevant=" /breast_cancer/no_usg_or_mammogram/further_health_visit ='no'" required="true()" type="select"/>
+      <bind constraint="string-length(.) &lt;= 100" jr:constraintMsg="jr:itext('/breast_cancer/no_usg_or_mammogram/other_why_no_hf_visit:jr:constraintMsg')" nodeset="/breast_cancer/no_usg_or_mammogram/other_why_no_hf_visit" relevant=" /breast_cancer/no_usg_or_mammogram/why_no_hf_visit ='other'" type="string"/>
+      <bind nodeset="/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer" relevant=" /breast_cancer/no_usg_or_mammogram/further_health_visit ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training" relevant=" /breast_cancer/checked_before  = 'no' or  /breast_cancer/checked_before ='no_idea_if_screening_done' or (( /breast_cancer/previous_check_results/screening_method ='self_examination' or  /breast_cancer/previous_check_results/screening_method ='clinical_examination' ) and ( /breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer  = 'no' or  /breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer  = ''))"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/different_testing_methods" readonly="true()" type="string"/>
+      <bind constraint="string-length(.)&lt;=100" jr:constraintMsg="jr:itext('/breast_cancer/bse_info_and_training/last_technique_description:jr:constraintMsg')" nodeset="/breast_cancer/bse_info_and_training/last_technique_description" relevant=" /breast_cancer/checked_before ='no_idea_if_screening_done'" type="string"/>
+      <bind constraint=". &lt;= date-time(floor(decimal-date-time(today()))) and
+. &gt;=  /breast_cancer/inputs/contact/date_of_birth " jr:constraintMsg="jr:itext('/breast_cancer/bse_info_and_training/examination_date:jr:constraintMsg')" nodeset="/breast_cancer/bse_info_and_training/examination_date" relevant=" /breast_cancer/checked_before ='no_idea_if_screening_done'" type="date"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/bse_note" readonly="true()" type="string"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/bse_training_yes_no" required="true()" type="select1"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/wants_bse_info" relevant=" /breast_cancer/bse_info_and_training/bse_training_yes_no ='yes'"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/wants_bse_info/note" readonly="true()" type="string"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test" required="true()" type="select1"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/bse_self_check" relevant=" /breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test ='yes'"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result" required="true()" type="select"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/bse_self_check/bse_check_refer" readonly="true()" relevant="count-selected( /breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result )&gt;0 and not(selected( /breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result , 'none'))" type="string"/>
+      <bind nodeset="/breast_cancer/bse_info_and_training/bse_discussion" readonly="true()" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/breast_cancer/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/breast_cancer/inputs">
+      <label ref="jr:itext('/breast_cancer/inputs:label')"/>
+      <group ref="/breast_cancer/inputs/contact">
+        <label ref="jr:itext('/breast_cancer/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/breast_cancer/inputs/contact/_id">
+          <label ref="jr:itext('/breast_cancer/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/breast_cancer/inputs/contact/parent">
+          <label ref="jr:itext('/breast_cancer/inputs/contact/parent:label')"/>
+          <group ref="/breast_cancer/inputs/contact/parent/parent">
+            <label ref="jr:itext('/breast_cancer/inputs/contact/parent/parent:label')"/>
+            <group ref="/breast_cancer/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/breast_cancer/inputs/contact/parent/parent/contact:label')"/>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group ref="/breast_cancer/intro">
+      <input ref="/breast_cancer/intro/breast_cancer_discussion">
+        <label ref="jr:itext('/breast_cancer/intro/breast_cancer_discussion:label')"/>
+      </input>
+    </group>
+    <group ref="/breast_cancer/awareness_check">
+      <select1 ref="/breast_cancer/awareness_check/is_aware">
+        <label ref="jr:itext('/breast_cancer/awareness_check/is_aware:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer/awareness_check/is_aware/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/awareness_check/is_aware/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/breast_cancer/awareness_note">
+      <label ref="jr:itext('/breast_cancer/awareness_note:label')"/>
+    </input>
+    <select1 ref="/breast_cancer/checked_before">
+      <label ref="jr:itext('/breast_cancer/checked_before:label')"/>
+      <item>
+        <label ref="jr:itext('/breast_cancer/checked_before/yes:label')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/breast_cancer/checked_before/no:label')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/breast_cancer/checked_before/no_idea_if_screening_done:label')"/>
+        <value>no_idea_if_screening_done</value>
+      </item>
+    </select1>
+    <group appearance="field-list" ref="/breast_cancer/previous_check_results">
+      <input ref="/breast_cancer/previous_check_results/last_screening_date">
+        <label ref="jr:itext('/breast_cancer/previous_check_results/last_screening_date:label')"/>
+        <hint ref="jr:itext('/breast_cancer/previous_check_results/last_screening_date:hint')"/>
+      </input>
+      <select1 ref="/breast_cancer/previous_check_results/screening_method">
+        <label ref="jr:itext('/breast_cancer/previous_check_results/screening_method:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer/previous_check_results/screening_method/self_examination:label')"/>
+          <value>self_examination</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/previous_check_results/screening_method/clinical_examination:label')"/>
+          <value>clinical_examination</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/previous_check_results/screening_method/usg:label')"/>
+          <value>usg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/previous_check_results/screening_method/mammogram:label')"/>
+          <value>mammogram</value>
+        </item>
+      </select1>
+      <select1 ref="/breast_cancer/previous_check_results/screening_diagnosis">
+        <label ref="jr:itext('/breast_cancer/previous_check_results/screening_diagnosis:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer/previous_check_results/screening_diagnosis/positive:label')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/previous_check_results/screening_diagnosis/suspicious:label')"/>
+          <value>suspicious</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/previous_check_results/screening_diagnosis/negative:label')"/>
+          <value>negative</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/breast_cancer/no_usg_or_mammogram">
+      <select1 appearance="field-list" ref="/breast_cancer/no_usg_or_mammogram/further_health_visit">
+        <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/further_health_visit:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/further_health_visit/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/further_health_visit/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select appearance="field-list" ref="/breast_cancer/no_usg_or_mammogram/why_no_hf_visit">
+        <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/forgot:label')"/>
+          <value>forgot</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/been_busy:label')"/>
+          <value>been_busy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/unnecessary:label')"/>
+          <value>unnecessary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/no_transportation:label')"/>
+          <value>no_transportation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/out_of_town:label')"/>
+          <value>out_of_town</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/family_restrictions:label')"/>
+          <value>family_restrictions</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/unable_to_travel:label')"/>
+          <value>unable_to_travel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/why_no_hf_visit/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input appearance="field-list" ref="/breast_cancer/no_usg_or_mammogram/other_why_no_hf_visit">
+        <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/other_why_no_hf_visit:label')"/>
+      </input>
+      <select1 appearance="field-list" ref="/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer">
+        <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/no_usg_or_mammogram/diagnosed_with_cancer/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/breast_cancer/bse_info_and_training">
+      <input ref="/breast_cancer/bse_info_and_training/different_testing_methods">
+        <label ref="jr:itext('/breast_cancer/bse_info_and_training/different_testing_methods:label')"/>
+      </input>
+      <input ref="/breast_cancer/bse_info_and_training/last_technique_description">
+        <label ref="jr:itext('/breast_cancer/bse_info_and_training/last_technique_description:label')"/>
+        <hint ref="jr:itext('/breast_cancer/bse_info_and_training/last_technique_description:hint')"/>
+      </input>
+      <input ref="/breast_cancer/bse_info_and_training/examination_date">
+        <label ref="jr:itext('/breast_cancer/bse_info_and_training/examination_date:label')"/>
+        <hint ref="jr:itext('/breast_cancer/bse_info_and_training/examination_date:hint')"/>
+      </input>
+      <input ref="/breast_cancer/bse_info_and_training/bse_note">
+        <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_note:label')"/>
+      </input>
+      <select1 ref="/breast_cancer/bse_info_and_training/bse_training_yes_no">
+        <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_training_yes_no:label')"/>
+        <item>
+          <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_training_yes_no/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_training_yes_no/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <group appearance="field-list" ref="/breast_cancer/bse_info_and_training/wants_bse_info">
+        <input ref="/breast_cancer/bse_info_and_training/wants_bse_info/note">
+          <label ref="jr:itext('/breast_cancer/bse_info_and_training/wants_bse_info/note:label')"/>
+        </input>
+        <select1 ref="/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test">
+          <label ref="jr:itext('/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test:label')"/>
+          <item>
+            <label ref="jr:itext('/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer/bse_info_and_training/wants_bse_info/self_bse_test/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="field-list" ref="/breast_cancer/bse_info_and_training/bse_self_check">
+        <select ref="/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result">
+          <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result:label')"/>
+          <item>
+            <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/abdominal_discharge:label')"/>
+            <value>abdominal_discharge</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/abnormal_breast_size_change:label')"/>
+            <value>abnormal_breast_size_change</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/swollen_lump:label')"/>
+            <value>swollen_lump</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/breast_joint_pain:label')"/>
+            <value>breast_joint_pain</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/breast_discoloring:label')"/>
+            <value>breast_discoloring</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_self_check/bse_self_check_result/none:label')"/>
+            <value>none</value>
+          </item>
+        </select>
+        <input appearance="field-list" ref="/breast_cancer/bse_info_and_training/bse_self_check/bse_check_refer">
+          <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_self_check/bse_check_refer:label')"/>
+        </input>
+      </group>
+      <input ref="/breast_cancer/bse_info_and_training/bse_discussion">
+        <label ref="jr:itext('/breast_cancer/bse_info_and_training/bse_discussion:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

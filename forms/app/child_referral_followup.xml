@@ -1,0 +1,1498 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Child Referral Follow up Form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/child_referral_followup/child_referral_followup_form/Signs_56:label">
+            <value><output value=" /child_referral_followup/inputs/signs_en_ctx "/></value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/advice_to_parents:label">
+            <value>**Advice to parents on why the child needs treatment.** 
+
+**Please make sure that is there any following signs and symptoms present or not.**</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/any_other_danger/no:label">
+            <value>No</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/any_other_danger/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/any_other_danger:label">
+            <value>Are there any other danger signs present?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_condition/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_condition/recovering:label">
+            <value>Recovering</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_condition/same:label">
+            <value>Is the same</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_condition:label">
+            <value>How is baby's condition now?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_health_for_examination/no:label">
+            <value>No</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_health_for_examination/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_health_for_examination:label">
+            <value>Have you taken the child to a health facility for examination?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/busy_in_work:label">
+            <value>Been busy with work</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/family_restrictions:label">
+            <value>Family restrictions</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/forgot:label">
+            <value>Forgot</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/no_transportation:label">
+            <value>No transportation</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/other_reasons:label">
+            <value>Other reasons</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/out_of_town:label">
+            <value>Out of town</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/unable_to_travel:label">
+            <value>Physically unable to travel</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/unnecessary:label">
+            <value>Thinks it is unnecessary</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment:label">
+            <value>Why was the child not taken to a health facility for further diagnosis or treatment?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/specify_other_reasons:label">
+            <value>Specify if others</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions/no:label">
+            <value>No</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions:label">
+            <value>Does the baby have convulsions?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions_now/no:label">
+            <value>No</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions_now/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions_now:label">
+            <value>Does the child now have convulsions?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/counseling_mother:label">
+            <value>Counsel the mother about the following items.
+1. Give information about newborn care.
+2. Give information about exclusive breastfeeding.
+3. Give information about how to keep the baby warm (including Kangaroo Care Methods).
+4. Give information about vaccination.
+5. Sign and symptoms of infection and advise visiting the health facility immediately or contacting yourself if any signs appear.</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/generated_note_name_149:label">
+            <value>**&lt;span style="color:red"&gt;Tell the mother to keep child warm and immediately refer to the health facility.&lt;/span&gt;**
+
+**&lt;span style="color:red"&gt;Inform that you will meet again after three days.&lt;/span&gt;**</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/how_did_you_follow_up/by_phone:label">
+            <value>By Phone</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/how_did_you_follow_up/visiting_myself:label">
+            <value>By visit myself</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/how_did_you_follow_up:label">
+            <value>How did you follow up visit <output value=" /child_referral_followup/child_name "/> again?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/if_others_mention:label">
+            <value>If others, mention</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious/no:label">
+            <value>No</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious:label">
+            <value>Is the child lethargic or unconscious?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_10:label">
+            <value>Pus Discharge from the eye</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_11:label">
+            <value>Have yellowness?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_12:label">
+            <value>Yellowness have spread to the baby's palms or soles</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_13:label">
+            <value>Baby has fever</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_14:label">
+            <value>Baby has hypothermia</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_15:label">
+            <value>Baby has severe hypothermia</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_16:label">
+            <value>High respiration rate</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_17:label">
+            <value>Passing stools more often than usual and the amount of water in the stool is more than solids</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_18:label">
+            <value>Lethargic or unconscious or movement is less than normal (moves only when shaking)</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_19:label">
+            <value>Eyes sunken</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_1:label">
+            <value>Unable to suck breast</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_20:label">
+            <value>Irritable or restless</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_21:label">
+            <value>Abdominal skin pull back very slowly or slowly</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_22:label">
+            <value>Unable to suck or drink milk</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_23:label">
+            <value>Vomits everything s/he eats</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_24:label">
+            <value>Have convulsions</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_26:label">
+            <value>Lethargic or unconscious</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_27:label">
+            <value>Still have convulsions</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_28:label">
+            <value>Have a cough or difficulty breathing</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_2:label">
+            <value>Have compulsion</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_30:label">
+            <value>Chest Indrawing</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_31:label">
+            <value>Child has High Respiration Rate</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_32:label">
+            <value>Child has High Respiration Rate</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_33:label">
+            <value>Stridor been heard</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_34:label">
+            <value>Child have wheeze</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_35:label">
+            <value>Child has Fever</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_37:label">
+            <value>Stiff neck</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_39:label">
+            <value>Red rashes on the body</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_3:label">
+            <value>Have severe chest indrawing</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_40:label">
+            <value>Signs of coughing, runny nose or red eyes</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_41:label">
+            <value>The wound inside the mouth is deeper and more spread.</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_42:label">
+            <value>The cornea is blurred.</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_43:label">
+            <value>Pus discharge from eye.</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_44:label">
+            <value>Passing watery stool compare than before</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_47:label">
+            <value>Have painful swelling behind the ear</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_48:label">
+            <value>Have ear pain</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_49:label">
+            <value>Pus discharge from the child's ear</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_4:label">
+            <value>Have Nasal flaring</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_51:label">
+            <value>Child has Severe Acute Malnutrition</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_52:label">
+            <value>Child has Mild Acute Malnutrtion</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_53:label">
+            <value>The palm has a whiteness along with the lines</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_54:label">
+            <value>There is some whiteness in the palm but no lines</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_55:label">
+            <value>No whiteness in the palm</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_5:label">
+            <value>Have Bulging fontanelle</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_6:label">
+            <value>Redness of the umbilical spread to the skin</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_7:label">
+            <value>Umbilical is red or pus is coming out of it</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_8:label">
+            <value>Lethargic or unconscious</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_9:label">
+            <value>Blisters on the skin</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_and_symptoms:label">
+            <value>Following signs and symptoms were appear in the child:</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/unable_to_drink_milk/no:label">
+            <value>No</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/unable_to_drink_milk/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/unable_to_drink_milk:label">
+            <value>Is the child unable to suck or drink milk?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/vomit_everything/no:label">
+            <value>No</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/vomit_everything/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/vomit_everything:label">
+            <value>Does the child vomit everything what he eats?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form:label">
+            <value>Child Referral Follow up Form</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/child_referral_followup/summary/child_condition_current:label">
+            <value>Child's Condition&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/child_condition_outcome:label">
+            <value>&lt;p style=&quot;text-align:center;&quot;&gt;<output value=" /child_referral_followup/summary/child_condition_label "/>&lt;/p&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/child_information:label">
+            <value>Child's Information&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_1:label">
+            <value>Give information about newborn care.</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_2:label">
+            <value>Give information about exclusive breastfeeding.</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_3:label">
+            <value>Give information about how to keep the baby warm (including Kangaroo Care Methods).</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_4:label">
+            <value>Give information about vaccination.</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_5:label">
+            <value>Sign and symptoms of infection and advise visiting the health facility immediately or contacting yourself if any signs appear.</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_list:label">
+            <value>Counsel the mother about the following items.</value>
+          </text>
+          <text id="/child_referral_followup/summary/counseling:label">
+            <value>Counsel&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/patient_detail:label">
+            <value>&lt;h2 style=&quot;text-align:center;margin-bottom:0px;&quot;&gt;<output value=" /child_referral_followup/child_name "/>&lt;/h2&gt; &lt;p style=&quot;text-align:center;&quot;&gt;<output value=" /child_referral_followup/child_age "/>&lt;/p&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/referral_outcome:label">
+            <value>Referral&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/referral_outcome_1:label">
+            <value>Tell the mother to keep child warm and immediately refer to the health facility.</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome:label">
+            <value>Signs and Symptoms&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_1:label">
+            <value>Is the child unable to suck or drink milk?</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_2:label">
+            <value>Does the child vomit everything what he eats?</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_3:label">
+            <value>Does the baby have convulsions?</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_4:label">
+            <value>Is the child lethargic or unconscious?</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_5:label">
+            <value>Does the child now have convulsions?</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_6:label">
+            <value><output value=" /child_referral_followup/child_referral_followup_form/if_others_mention "/></value>
+          </text>
+          <text id="/child_referral_followup/summary/submit_note:label">
+            <value>&lt;p style="text-align:center;"&gt;अन्तिममा **"फाराम बुझाउनुहोस्"** भन्ने बटन थिच्नुहोस् ।&lt;/p&gt;</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/child_referral_followup/child_referral_followup_form/Signs_56:label">
+            <value><output value=" /child_referral_followup/inputs/signs_ne_ctx "/></value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/advice_to_parents:label">
+            <value>**बच्चालाई उपचार किन आवश्यक छ सो कुरा को जानकारी दिनुहोस् ।** 
+
+**तल दिइएका कुनै खतराका चिन्हहरु छ / छैन भनि एकिन गर्नुहोस् ।**</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/any_other_danger/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/any_other_danger/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/any_other_danger:label">
+            <value>के बच्चामा अन्य कुनै खतराका चिन्ह छन् ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_condition/cured:label">
+            <value>निको भइसकेको छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_condition/recovering:label">
+            <value>सुधारन्मुख</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_condition/same:label">
+            <value>उस्तै छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_condition:label">
+            <value>हाल बच्चाको अवस्था कस्तो छ ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_health_for_examination/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_health_for_examination/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_health_for_examination:label">
+            <value>के बच्चालाई स्वास्थ्य संस्थामा लगेर जाँच गराउनु भएको छ ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/busy_in_work:label">
+            <value>काममा व्यस्त भएर</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/family_restrictions:label">
+            <value>परिवारको सहयोग नपाएर</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/forgot:label">
+            <value>बिर्सेर</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/no_money:label">
+            <value>पैसा नभएर</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/no_transportation:label">
+            <value>यातायातको साधन नभएर</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/other_reasons:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/out_of_town:label">
+            <value>शहर बाट टाढा भएर</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/unable_to_travel:label">
+            <value>शारीरिक रूपमा यात्रा गर्न असमर्थ भएर</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/unnecessary:label">
+            <value>यो अनावश्यक छ भन्ने लागेर</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment:label">
+            <value>किन बच्चालाई थप निदान वा उपचारको लागि स्वास्थ्य संस्थामा लैजानु भएन ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/specify_other_reasons:label">
+            <value>अन्य भए उलेल्ख गर्नुहोस्:</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions:label">
+            <value>के बच्चामा कम्पन आउन्छ ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions_now/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions_now/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/convulsions_now:label">
+            <value>के बच्चालाई अहिले नी कम्पन आएको छ ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/counseling_mother:label">
+            <value>आमालाई तल दिइएका बुदाका बारेमा परामर्श दिनुहोस् । 
+1. नवजात शिशु स्याहार को बारे जानकारी दिनुहोस् । 
+2. पूर्ण स्तनपानको बारे जानकारी दिनुहोस् । 
+3. न्यानो पारि राख्ने (मायाको अंगालो समेत) जानकारी दिनुहोस् । 
+4. खोप लगाउने बारे जानकारी दिनुहोस् । 
+5. संक्रमणका चिन्हहरु बारे परामर्श दिनुहोस् र कुनै चिन्ह देखिएमा तुरुन्तै स्वास्थ्य संस्था जान वा आफुलाई सम्पर्क राख्न सल्लाह दिनुहोस् ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/generated_note_name_149:label">
+            <value>**&lt;span style="color:red"&gt;बच्चालाई न्यानो राख्न भन्नुहोस र तुरुन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस ।&lt;/span&gt;** 
+
+&lt;span style="color:red"&gt;**तिन दिन पछी पुन: भेटगर्न आउने कुराको जानकारी गराउनुहोस् ।**&lt;/span&gt;</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/how_did_you_follow_up/by_phone:label">
+            <value>फोन बाट</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/how_did_you_follow_up/visiting_myself:label">
+            <value>आफै भेटेर</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/how_did_you_follow_up:label">
+            <value><output value=" /child_referral_followup/child_name "/> लाई पुन: भेट कसरी गर्नुभयो ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/if_others_mention:label">
+            <value>अन्य भए उलेल्ख गर्नुहोस्:</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious:label">
+            <value>के बच्चा सुस्त वा बेहोस छ ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_10:label">
+            <value>आँखाबाट पीप बगेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_11:label">
+            <value>शिशुमा पहेलोपन देखिएको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_12:label">
+            <value>शिशुको हत्केला वा पैतालासम्म पहेलोपन फैलिएको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_13:label">
+            <value>शिशुलाई ज्वरो छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_14:label">
+            <value>शिशुलाई सिताङ्ग छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_15:label">
+            <value>कडा सिताङ्ग छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_16:label">
+            <value>उच्च श्वास दर ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_17:label">
+            <value>शिशुले साविक भन्दा धेरै पटक दिसा गर्न थालेको छ र दिसामा पानीको मात्रा ठोस पदार्थ भन्दा बढी छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_18:label">
+            <value>शिशु सुस्त वा बेहोस छ वा चलाई सामान्य भन्दा कम छ (चलाउँदा मात्र चल्ने) ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_19:label">
+            <value>शिशुको आँखा गडेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_1:label">
+            <value>शिशुले राम्रो सँग दुध चुस्न नसक्ने ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_20:label">
+            <value>शिशु छटपटिने वा झिनंजिने गर्छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_21:label">
+            <value>पेटको छाला तान्दा धेरै विस्तारै वा विस्तारै फर्किन्छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_22:label">
+            <value>बच्चाले दुध चुस्न वा पिउन नसक्ने छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_23:label">
+            <value>बच्चाले खाएको जती सबै बान्ता गर्ने गर्छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_24:label">
+            <value>बच्चामा कम्पन आउन्छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_26:label">
+            <value>सुस्त वा बेहोस छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_27:label">
+            <value>अहिले नी कम्पन आएको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_28:label">
+            <value>खोकी लागेको वा श्वास फेर्न कठिनाई छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_2:label">
+            <value>शिशुमा कम्पन छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_30:label">
+            <value>कोखा हानेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_31:label">
+            <value>बच्चाको उच्च श्वास दर ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_32:label">
+            <value>बच्चाको उच्च श्वास दर ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_33:label">
+            <value>बच्चामा स्ट्राएडर सुनिएको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_34:label">
+            <value>बच्चामा हुईजिङ् छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_35:label">
+            <value>बच्चा लाई ज्वोरो छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_37:label">
+            <value>गर्धन अररो भएको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_39:label">
+            <value>जीउभरि डाबर आएको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_3:label">
+            <value>कडा किसिमको कोखा हानेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_40:label">
+            <value>खोकी, सिंगान बग्ने वा आँखा रातो हुने ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_41:label">
+            <value>मुख भित्रको घाउ गहिरो र बढी फैलिएको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_42:label">
+            <value>कर्निया धमिलो छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_43:label">
+            <value>आँखाबाट पीप बगेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_44:label">
+            <value>साविक भन्दा फरक धेरै पातलो दिशा गरिरहेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_47:label">
+            <value>कानको पछाडिपट्टि दुख्नेगरी सुन्निएको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_48:label">
+            <value>बच्चाको कान दुखेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_49:label">
+            <value>बच्चाको कानबाट पिप बगिरहेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_4:label">
+            <value>नाकको पोरा फुल्ने गरेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_51:label">
+            <value>बच्चालाई कडा शिघ्र कुपोषण ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_52:label">
+            <value>बच्चालाई मध्यम शिघ्र कुपोषण ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_53:label">
+            <value>हस्तरेखा सहित हत्केलाको सेतोपन छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_54:label">
+            <value>हत्केलामा केही सेतोपन तर हस्तरेखा सेतो नभएको ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_55:label">
+            <value>हत्केलामा सेतोपन नभएको ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_5:label">
+            <value>शिशुको तालु उक्सेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_6:label">
+            <value>नाईटोको रातोपना छाला सम्म फैलिएको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_7:label">
+            <value>नाइटो रातो वा यसबाट पीप बगेको छ ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_8:label">
+            <value>शिशु सुस्त वा बेहोस छ वा चलाई सामान्य भन्दा कम छ (चलाउँदा मात्र चल्ने) ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_9:label">
+            <value>छालामा फोकाहरु छन् ।</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/signs_and_symptoms:label">
+            <value>बच्चामा निम्न चिन्ह, लक्ष्णहरु देखियका थिए:</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/unable_to_drink_milk/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/unable_to_drink_milk/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/unable_to_drink_milk:label">
+            <value>के बच्चाले पिउन वा दुध चुस्न नसक्ने छ ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/vomit_everything/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/vomit_everything/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form/vomit_everything:label">
+            <value>के बच्चाले खाएको जती सबै बान्ता गर्ने गर्छ ?</value>
+          </text>
+          <text id="/child_referral_followup/child_referral_followup_form:label">
+            <value>बाल रेफरल फलोअप फारम</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/child_referral_followup/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/child_referral_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/child_referral_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/child_referral_followup/summary/child_condition_current:label">
+            <value>बच्चाको अवस्था&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/child_condition_outcome:label">
+            <value>&lt;p style=&quot;text-align:center;&quot;&gt;<output value=" /child_referral_followup/summary/child_condition_label "/>&lt;/p&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/child_information:label">
+            <value>बच्चाको विवरण&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_1:label">
+            <value>नवजात शिशु स्याहारको बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_2:label">
+            <value>पूर्ण स्तनपानको बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_3:label">
+            <value>न्यानो पारि राख्ने (मायाको अंगालो समेत) जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_4:label">
+            <value>खोप लगाउने बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_5:label">
+            <value>संक्रमणका चिन्हहरु बारे परामर्श दिनुहोस् र कुनै चिन्ह देखिएमा तुरुन्तै स्वास्थ्य संस्था जान वा आफुलाई सम्पर्क राख्न सल्लाह दिनुहोस् ।</value>
+          </text>
+          <text id="/child_referral_followup/summary/counsel_note_list:label">
+            <value>आमालाई तल दिइएका बुदाका बारेमा परामर्श दिनुहोस् ।</value>
+          </text>
+          <text id="/child_referral_followup/summary/counseling:label">
+            <value>परामर्श&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/patient_detail:label">
+            <value>&lt;h2 style=&quot;text-align:center;margin-bottom:0px;&quot;&gt;<output value=" /child_referral_followup/child_name "/>&lt;/h2&gt; &lt;p style=&quot;text-align:center;&quot;&gt;<output value=" /child_referral_followup/child_age "/>&lt;/p&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/referral_outcome:label">
+            <value>प्रेषण&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/referral_outcome_1:label">
+            <value>बच्चालाई न्यानो राख्न भन्नुहोस र तुरुन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस ।</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome:label">
+            <value>चिन्ह / लक्ष्णहरु &lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_1:label">
+            <value>बच्चाले पिउन वा दुध चुस्न नसक्ने छ</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_2:label">
+            <value>बच्चाले खाएको जती सबै बान्ता गर्ने गर्छ</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_3:label">
+            <value>बच्चामा कम्पन आउन्छ</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_4:label">
+            <value>बच्चा सुस्त वा बेहोस छ</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_5:label">
+            <value>बच्चालाई अहिले नी कम्पन आएको छ</value>
+          </text>
+          <text id="/child_referral_followup/summary/signs_symptoms_outcome_6:label">
+            <value><output value=" /child_referral_followup/child_referral_followup_form/if_others_mention "/></value>
+          </text>
+          <text id="/child_referral_followup/summary/submit_note:label">
+            <value>&lt;p style="text-align:center;"&gt;अन्तिममा **"फाराम बुझाउनुहोस्"** भन्ने बटन थिच्नुहोस् ।&lt;/p&gt;</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <child_referral_followup id="child_referral_followup" prefix="J1!child_referral_followup!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <suck_breast_ctx/>
+            <convulsions_59_days_ctx/>
+            <severe_chest_indrawing_ctx/>
+            <nasal_flaring_ctx/>
+            <bulging_fontanelle_ctx/>
+            <redness_spread_ctx/>
+            <umbilical_red_pus_ctx/>
+            <lethargic_unconscious_ctx/>
+            <skin_blisters_ctx/>
+            <pus_discharge_from_eye_ctx/>
+            <jaundice_ctx/>
+            <jaundice_spread_ctx/>
+            <watery_stool_59days_ctx/>
+            <lethargic_unconscious_59_days_ctx/>
+            <sunken_eyes_ctx/>
+            <irritable_restless_ctx/>
+            <abdominal_skin_pull_slow_ctx/>
+            <child_temperature_59days_ctx/>
+            <respiration_rate_59_days_ctx/>
+            <unable_to_suck_drink_ctx/>
+            <convulsions_2months_5years_ctx/>
+            <lethargic_unconscious_2months_5years_ctx/>
+            <convulsions_now_ctx/>
+            <chest_indrawing_ctx/>
+            <stridor_ctx/>
+            <stiff_neck_ctx/>
+            <red_rashes_ctx/>
+            <cough_runnynose_redeyes_ctx/>
+            <wound_in_mouth_ctx/>
+            <blurred_cornea_ctx/>
+            <pus_discharge_eye_ctx/>
+            <swelling_behind_ear_ctx/>
+            <pus_discharge_ctx/>
+            <muac_ctx/>
+            <whiteness_on_palms_ctx/>
+            <unable_to_drink_milk_ctx/>
+            <vomit_everything_ctx/>
+            <convulsions_ctx/>
+            <lethargic_or_unconscious_ctx/>
+            <any_other_danger_ctx/>
+            <child_temperature_2months_5years_ctx/>
+            <respiration_rate_2months_5years_ctx/>
+            <cough_difficulty_breathing_ctx/>
+            <wheeze_ctx/>
+            <watery_stool_2months_5years_ctx/>
+            <ear_pain_ctx/>
+            <signs_ne_ctx/>
+            <signs_en_ctx/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_name/>
+          <child_name/>
+          <child_age_months/>
+          <child_age_weeks/>
+          <child_age_days/>
+          <child_days_months/>
+          <child_age/>
+          <child_referral_followup_form>
+            <how_did_you_follow_up/>
+            <signs_and_symptoms/>
+            <signs_1/>
+            <signs_2/>
+            <signs_3/>
+            <signs_4/>
+            <signs_5/>
+            <signs_6/>
+            <signs_7/>
+            <signs_8/>
+            <signs_9/>
+            <signs_10/>
+            <signs_11/>
+            <signs_12/>
+            <signs_13/>
+            <signs_14/>
+            <signs_15/>
+            <signs_16/>
+            <signs_17/>
+            <signs_18/>
+            <signs_19/>
+            <signs_20/>
+            <signs_21/>
+            <signs_22/>
+            <signs_23/>
+            <signs_24/>
+            <signs_26/>
+            <signs_27/>
+            <signs_28/>
+            <signs_30/>
+            <signs_31/>
+            <signs_32/>
+            <signs_33/>
+            <signs_34/>
+            <signs_35/>
+            <signs_37/>
+            <signs_39/>
+            <signs_40/>
+            <signs_41/>
+            <signs_42/>
+            <signs_43/>
+            <signs_44/>
+            <signs_47/>
+            <signs_48/>
+            <signs_49/>
+            <signs_51/>
+            <signs_52/>
+            <signs_53/>
+            <signs_54/>
+            <signs_55/>
+            <Signs_56/>
+            <child_health_for_examination/>
+            <child_not_taken_to_health_facility>
+              <not_taken_for_treatment/>
+              <specify_other_reasons/>
+            </child_not_taken_to_health_facility>
+            <child_condition/>
+            <counseling_mother/>
+            <advice_to_parents/>
+            <unable_to_drink_milk/>
+            <vomit_everything/>
+            <convulsions/>
+            <lethargic_or_unconscious/>
+            <convulsions_now/>
+            <any_other_danger/>
+            <if_others_mention/>
+            <generated_note_name_149/>
+          </child_referral_followup_form>
+          <danger_trigger/>
+          <summary>
+            <submit_note/>
+            <child_information/>
+            <patient_detail/>
+            <signs_symptoms_outcome/>
+            <signs_symptoms_outcome_1/>
+            <signs_symptoms_outcome_2/>
+            <signs_symptoms_outcome_3/>
+            <signs_symptoms_outcome_4/>
+            <signs_symptoms_outcome_5/>
+            <signs_symptoms_outcome_6/>
+            <child_condition_current/>
+            <child_condition_label/>
+            <child_condition_outcome/>
+            <referral_outcome/>
+            <referral_outcome_1/>
+            <counseling/>
+            <counsel_note_list/>
+            <counsel_note_1/>
+            <counsel_note_2/>
+            <counsel_note_3/>
+            <counsel_note_4/>
+            <counsel_note_5/>
+          </summary>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </child_referral_followup>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/child_referral_followup/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/child_referral_followup/inputs/source" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/source_id" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/suck_breast_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/convulsions_59_days_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/severe_chest_indrawing_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/nasal_flaring_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/bulging_fontanelle_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/redness_spread_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/umbilical_red_pus_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/lethargic_unconscious_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/skin_blisters_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/pus_discharge_from_eye_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/jaundice_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/jaundice_spread_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/watery_stool_59days_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/lethargic_unconscious_59_days_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/sunken_eyes_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/irritable_restless_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/abdominal_skin_pull_slow_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/child_temperature_59days_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/respiration_rate_59_days_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/unable_to_suck_drink_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/convulsions_2months_5years_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/lethargic_unconscious_2months_5years_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/convulsions_now_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/chest_indrawing_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/stridor_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/stiff_neck_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/red_rashes_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/cough_runnynose_redeyes_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/wound_in_mouth_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/blurred_cornea_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/pus_discharge_eye_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/swelling_behind_ear_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/pus_discharge_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/muac_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/whiteness_on_palms_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/unable_to_drink_milk_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/vomit_everything_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/convulsions_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/lethargic_or_unconscious_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/any_other_danger_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/child_temperature_2months_5years_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/respiration_rate_2months_5years_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/cough_difficulty_breathing_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/wheeze_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/watery_stool_2months_5years_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/ear_pain_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/signs_ne_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/signs_en_ctx" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/child_referral_followup/inputs/contact/name" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/contact/sex" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/child_referral_followup/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/child_referral_followup/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/child_referral_followup/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/child_referral_followup/child_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/child_referral_followup/child_age_months" type="string" calculate="int((decimal-date-time(today()) - decimal-date-time(../inputs/contact/date_of_birth)) div 30.4)"/>
+      <bind nodeset="/child_referral_followup/child_age_weeks" type="string" calculate="int((decimal-date-time(today()) - decimal-date-time(../inputs/contact/date_of_birth)) div 7)"/>
+      <bind nodeset="/child_referral_followup/child_age_days" type="string" calculate="int(decimal-date-time(today()) - decimal-date-time(../inputs/contact/date_of_birth))"/>
+      <bind nodeset="/child_referral_followup/child_days_months" type="string" calculate="floor( /child_referral_followup/child_age_days  -  /child_referral_followup/child_age_months  * 30.4)"/>
+      <bind nodeset="/child_referral_followup/child_age" type="string" calculate="if( /child_referral_followup/child_age_months  &gt; 0, concat( /child_referral_followup/child_age_months , ' महिना ',  /child_referral_followup/child_days_months , ' दिन'), concat( /child_referral_followup/child_age_days , ' दिन'))"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/how_did_you_follow_up" type="select1" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_and_symptoms" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_1" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/suck_breast_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_2" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/convulsions_59_days_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_3" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/severe_chest_indrawing_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_4" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/nasal_flaring_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_5" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/bulging_fontanelle_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_6" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/redness_spread_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_7" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/umbilical_red_pus_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_8" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/lethargic_unconscious_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_9" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/skin_blisters_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_10" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/pus_discharge_from_eye_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_11" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/jaundice_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_12" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/jaundice_spread_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_13" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/child_temperature_59days_ctx  &gt;= 37.5"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_14" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/child_temperature_59days_ctx  &gt;= 35.5 and  /child_referral_followup/inputs/child_temperature_59days_ctx  &lt;= 36.4"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_15" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/child_temperature_59days_ctx  &lt;= 35.4 and  /child_referral_followup/inputs/child_temperature_59days_ctx  &gt; 0"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_16" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/respiration_rate_59_days_ctx  &gt;= 60"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_17" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/watery_stool_59days_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_18" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/lethargic_unconscious_59_days_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_19" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/sunken_eyes_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_20" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/irritable_restless_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_21" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/abdominal_skin_pull_slow_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_22" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/unable_to_suck_drink_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_23" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/vomit_everything_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_24" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/convulsions_2months_5years_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_26" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/lethargic_unconscious_2months_5years_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_27" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/convulsions_now_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_28" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/cough_difficulty_breathing_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_30" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/chest_indrawing_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_31" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/respiration_rate_2months_5years_ctx  &gt;=50 and ( /child_referral_followup/child_age_months  &gt;= 2 and  /child_referral_followup/child_age_months  &lt; 12)"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_32" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/respiration_rate_2months_5years_ctx  &gt;=40 and ( /child_referral_followup/child_age_months  &gt;= 12 and  /child_referral_followup/child_age_months  &lt;= 59)"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_33" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/stridor_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_34" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/wheeze_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_35" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/child_temperature_2months_5years_ctx  &gt;= 37.5"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_37" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/stiff_neck_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_39" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/red_rashes_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_40" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/cough_runnynose_redeyes_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_41" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/wound_in_mouth_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_42" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/blurred_cornea_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_43" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/pus_discharge_eye_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_44" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/watery_stool_2months_5years_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_47" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/swelling_behind_ear_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_48" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/ear_pain_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_49" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/pus_discharge_ctx  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_51" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/muac_ctx  &gt; 0 and  /child_referral_followup/inputs/muac_ctx  &lt; 11.5"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_52" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/muac_ctx  &gt;= 11.6 and  /child_referral_followup/inputs/muac_ctx  &lt;=12.5"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_53" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/whiteness_on_palms_ctx  = 'whiteness_with_lines'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_54" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/whiteness_on_palms_ctx  = 'whiteness_but_no_lines'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/signs_55" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/whiteness_on_palms_ctx  = 'no_whiteness'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/Signs_56" readonly="true()" type="string" relevant=" /child_referral_followup/inputs/signs_ne_ctx  != '' and  /child_referral_followup/inputs/signs_en_ctx  != ''"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/child_health_for_examination" type="select1" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility" relevant=" /child_referral_followup/child_referral_followup_form/child_health_for_examination ='no'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment" type="select" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/specify_other_reasons" type="string" relevant="selected( /child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment , 'other_reasons')" constraint="string-length(.)&lt;=100" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/child_condition" type="select1" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/counseling_mother" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/advice_to_parents" readonly="true()" type="string" relevant=" /child_referral_followup/child_referral_followup_form/child_health_for_examination ='no' or  /child_referral_followup/child_referral_followup_form/child_condition  = 'same'"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/unable_to_drink_milk" type="select1" relevant=" /child_referral_followup/child_referral_followup_form/child_health_for_examination ='no' or  /child_referral_followup/child_referral_followup_form/child_condition  = 'same'" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/vomit_everything" type="select1" relevant=" /child_referral_followup/child_referral_followup_form/child_health_for_examination ='no' or  /child_referral_followup/child_referral_followup_form/child_condition  = 'same'" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/convulsions" type="select1" relevant=" /child_referral_followup/child_referral_followup_form/child_health_for_examination ='no' or  /child_referral_followup/child_referral_followup_form/child_condition  = 'same'" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious" type="select1" relevant=" /child_referral_followup/child_referral_followup_form/child_health_for_examination ='no' or  /child_referral_followup/child_referral_followup_form/child_condition  = 'same'" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/convulsions_now" type="select1" relevant=" /child_referral_followup/child_referral_followup_form/child_health_for_examination ='no' or  /child_referral_followup/child_referral_followup_form/child_condition  = 'same'" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/any_other_danger" type="select1" relevant=" /child_referral_followup/child_referral_followup_form/child_health_for_examination ='no' or  /child_referral_followup/child_referral_followup_form/child_condition  = 'same'" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/if_others_mention" type="string" relevant=" /child_referral_followup/child_referral_followup_form/any_other_danger ='yes'" constraint="string-length(.)&lt;=100" required="true()"/>
+      <bind nodeset="/child_referral_followup/child_referral_followup_form/generated_note_name_149" readonly="true()" type="string" relevant=" /child_referral_followup/child_referral_followup_form/unable_to_drink_milk  = 'yes' or  /child_referral_followup/child_referral_followup_form/vomit_everything  = 'yes' or  /child_referral_followup/child_referral_followup_form/convulsions  = 'yes' or  /child_referral_followup/child_referral_followup_form/lethargic_or_unconscious  = 'yes' or  /child_referral_followup/child_referral_followup_form/convulsions_now  = 'yes' or  /child_referral_followup/child_referral_followup_form/any_other_danger  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/danger_trigger" type="string" calculate="if(( /child_referral_followup/child_referral_followup_form/unable_to_drink_milk  = 'yes' or  /child_referral_followup/child_referral_followup_form/vomit_everything  = 'yes' or  /child_referral_followup/child_referral_followup_form/convulsions  = 'yes' or  /child_referral_followup/child_referral_followup_form/lethargic_or_unconscious  = 'yes' or  /child_referral_followup/child_referral_followup_form/convulsions_now  = 'yes' or  /child_referral_followup/child_referral_followup_form/any_other_danger  = 'yes'), 1, 0)"/>
+      <bind nodeset="/child_referral_followup/summary/submit_note" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/child_information" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/patient_detail" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/signs_symptoms_outcome" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/signs_symptoms_outcome_1" readonly="true()" type="string" relevant=" /child_referral_followup/child_referral_followup_form/unable_to_drink_milk  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/summary/signs_symptoms_outcome_2" readonly="true()" type="string" relevant=" /child_referral_followup/child_referral_followup_form/vomit_everything  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/summary/signs_symptoms_outcome_3" readonly="true()" type="string" relevant=" /child_referral_followup/child_referral_followup_form/convulsions  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/summary/signs_symptoms_outcome_4" readonly="true()" type="string" relevant=" /child_referral_followup/child_referral_followup_form/lethargic_or_unconscious  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/summary/signs_symptoms_outcome_5" readonly="true()" type="string" relevant=" /child_referral_followup/child_referral_followup_form/convulsions_now  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/summary/signs_symptoms_outcome_6" readonly="true()" type="string" relevant=" /child_referral_followup/child_referral_followup_form/any_other_danger ='yes'"/>
+      <bind nodeset="/child_referral_followup/summary/child_condition_current" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/child_condition_label" type="string" calculate="jr:choice-name( /child_referral_followup/child_referral_followup_form/child_condition , ' /child_referral_followup/child_referral_followup_form/child_condition ')"/>
+      <bind nodeset="/child_referral_followup/summary/child_condition_outcome" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/referral_outcome" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/referral_outcome_1" readonly="true()" type="string" relevant=" /child_referral_followup/child_referral_followup_form/unable_to_drink_milk  = 'yes' or  /child_referral_followup/child_referral_followup_form/vomit_everything  = 'yes' or  /child_referral_followup/child_referral_followup_form/convulsions  = 'yes' or  /child_referral_followup/child_referral_followup_form/lethargic_or_unconscious  = 'yes' or  /child_referral_followup/child_referral_followup_form/convulsions_now  = 'yes' or  /child_referral_followup/child_referral_followup_form/any_other_danger  = 'yes'"/>
+      <bind nodeset="/child_referral_followup/summary/counseling" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/counsel_note_list" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/counsel_note_1" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/counsel_note_2" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/counsel_note_3" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/counsel_note_4" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/summary/counsel_note_5" readonly="true()" type="string"/>
+      <bind nodeset="/child_referral_followup/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/child_referral_followup/inputs">
+      <group ref="/child_referral_followup/inputs/contact">
+        <label ref="jr:itext('/child_referral_followup/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/child_referral_followup/inputs/contact/_id">
+          <label ref="jr:itext('/child_referral_followup/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/child_referral_followup/inputs/contact/parent">
+          <group ref="/child_referral_followup/inputs/contact/parent/parent">
+            <group ref="/child_referral_followup/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/child_referral_followup/child_referral_followup_form">
+      <label ref="jr:itext('/child_referral_followup/child_referral_followup_form:label')"/>
+      <select1 ref="/child_referral_followup/child_referral_followup_form/how_did_you_follow_up">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/how_did_you_follow_up:label')"/>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/how_did_you_follow_up/visiting_myself:label')"/>
+          <value>visiting_myself</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/how_did_you_follow_up/by_phone:label')"/>
+          <value>by_phone</value>
+        </item>
+      </select1>
+      <input ref="/child_referral_followup/child_referral_followup_form/signs_and_symptoms">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_and_symptoms:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_1">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_1:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_2">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_2:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_3">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_3:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_4">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_4:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_5">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_5:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_6">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_6:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_7">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_7:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_8">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_8:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_9">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_9:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_10">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_10:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_11">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_11:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_12">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_12:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_13">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_13:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_14">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_14:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_15">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_15:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_16">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_16:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_17">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_17:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_18">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_18:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_19">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_19:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_20">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_20:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_21">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_21:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_22">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_22:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_23">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_23:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_24">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_24:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_26">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_26:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_27">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_27:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_28">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_28:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_30">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_30:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_31">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_31:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_32">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_32:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_33">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_33:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_34">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_34:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_35">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_35:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_37">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_37:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_39">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_39:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_40">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_40:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_41">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_41:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_42">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_42:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_43">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_43:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_44">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_44:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_47">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_47:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_48">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_48:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_49">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_49:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_51">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_51:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_52">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_52:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_53">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_53:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_54">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_54:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/signs_55">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/signs_55:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/child_referral_followup_form/Signs_56">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/Signs_56:label')"/>
+      </input>
+      <select1 ref="/child_referral_followup/child_referral_followup_form/child_health_for_examination">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_health_for_examination:label')"/>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_health_for_examination/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_health_for_examination/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <group ref="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility">
+        <select ref="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment">
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment:label')"/>
+          <item>
+            <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/forgot:label')"/>
+            <value>forgot</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/busy_in_work:label')"/>
+            <value>busy_in_work</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/unnecessary:label')"/>
+            <value>unnecessary</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/no_money:label')"/>
+            <value>no_money</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/no_transportation:label')"/>
+            <value>no_transportation</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/out_of_town:label')"/>
+            <value>out_of_town</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/family_restrictions:label')"/>
+            <value>family_restrictions</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/unable_to_travel:label')"/>
+            <value>unable_to_travel</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/not_taken_for_treatment/other_reasons:label')"/>
+            <value>other_reasons</value>
+          </item>
+        </select>
+        <input ref="/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/specify_other_reasons">
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_not_taken_to_health_facility/specify_other_reasons:label')"/>
+        </input>
+      </group>
+      <select1 ref="/child_referral_followup/child_referral_followup_form/child_condition">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_condition:label')"/>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_condition/recovering:label')"/>
+          <value>recovering</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_condition/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/child_condition/same:label')"/>
+          <value>same</value>
+        </item>
+      </select1>
+      <input ref="/child_referral_followup/child_referral_followup_form/counseling_mother">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/counseling_mother:label')"/>
+      </input>
+      <input ref="/child_referral_followup/child_referral_followup_form/advice_to_parents">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/advice_to_parents:label')"/>
+      </input>
+      <select1 ref="/child_referral_followup/child_referral_followup_form/unable_to_drink_milk">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/unable_to_drink_milk:label')"/>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/unable_to_drink_milk/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/unable_to_drink_milk/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/child_referral_followup/child_referral_followup_form/vomit_everything">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/vomit_everything:label')"/>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/vomit_everything/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/vomit_everything/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/child_referral_followup/child_referral_followup_form/convulsions">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/convulsions:label')"/>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/convulsions/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/convulsions/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious:label')"/>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/lethargic_or_unconscious/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/child_referral_followup/child_referral_followup_form/convulsions_now">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/convulsions_now:label')"/>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/convulsions_now/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/convulsions_now/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/child_referral_followup/child_referral_followup_form/any_other_danger">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/any_other_danger:label')"/>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/any_other_danger/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/any_other_danger/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/child_referral_followup/child_referral_followup_form/if_others_mention">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/if_others_mention:label')"/>
+      </input>
+      <input ref="/child_referral_followup/child_referral_followup_form/generated_note_name_149">
+        <label ref="jr:itext('/child_referral_followup/child_referral_followup_form/generated_note_name_149:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/child_referral_followup/summary">
+      <input ref="/child_referral_followup/summary/submit_note">
+        <label ref="jr:itext('/child_referral_followup/summary/submit_note:label')"/>
+      </input>
+      <input appearance="h1 yellow" ref="/child_referral_followup/summary/child_information">
+        <label ref="jr:itext('/child_referral_followup/summary/child_information:label')"/>
+      </input>
+      <input ref="/child_referral_followup/summary/patient_detail">
+        <label ref="jr:itext('/child_referral_followup/summary/patient_detail:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/child_referral_followup/summary/signs_symptoms_outcome">
+        <label ref="jr:itext('/child_referral_followup/summary/signs_symptoms_outcome:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/signs_symptoms_outcome_1">
+        <label ref="jr:itext('/child_referral_followup/summary/signs_symptoms_outcome_1:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/signs_symptoms_outcome_2">
+        <label ref="jr:itext('/child_referral_followup/summary/signs_symptoms_outcome_2:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/signs_symptoms_outcome_3">
+        <label ref="jr:itext('/child_referral_followup/summary/signs_symptoms_outcome_3:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/signs_symptoms_outcome_4">
+        <label ref="jr:itext('/child_referral_followup/summary/signs_symptoms_outcome_4:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/signs_symptoms_outcome_5">
+        <label ref="jr:itext('/child_referral_followup/summary/signs_symptoms_outcome_5:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/signs_symptoms_outcome_6">
+        <label ref="jr:itext('/child_referral_followup/summary/signs_symptoms_outcome_6:label')"/>
+      </input>
+      <input appearance="h1 yellow" ref="/child_referral_followup/summary/child_condition_current">
+        <label ref="jr:itext('/child_referral_followup/summary/child_condition_current:label')"/>
+      </input>
+      <input ref="/child_referral_followup/summary/child_condition_outcome">
+        <label ref="jr:itext('/child_referral_followup/summary/child_condition_outcome:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/child_referral_followup/summary/referral_outcome">
+        <label ref="jr:itext('/child_referral_followup/summary/referral_outcome:label')"/>
+      </input>
+      <input ref="/child_referral_followup/summary/referral_outcome_1">
+        <label ref="jr:itext('/child_referral_followup/summary/referral_outcome_1:label')"/>
+      </input>
+      <input appearance="h1 yellow" ref="/child_referral_followup/summary/counseling">
+        <label ref="jr:itext('/child_referral_followup/summary/counseling:label')"/>
+      </input>
+      <input ref="/child_referral_followup/summary/counsel_note_list">
+        <label ref="jr:itext('/child_referral_followup/summary/counsel_note_list:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/counsel_note_1">
+        <label ref="jr:itext('/child_referral_followup/summary/counsel_note_1:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/counsel_note_2">
+        <label ref="jr:itext('/child_referral_followup/summary/counsel_note_2:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/counsel_note_3">
+        <label ref="jr:itext('/child_referral_followup/summary/counsel_note_3:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/counsel_note_4">
+        <label ref="jr:itext('/child_referral_followup/summary/counsel_note_4:label')"/>
+      </input>
+      <input appearance="li" ref="/child_referral_followup/summary/counsel_note_5">
+        <label ref="jr:itext('/child_referral_followup/summary/counsel_note_5:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,19 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Hypertension Screening Followup Form"
+    },
+    {
+      "locale": "ne",
+      "content": "उच्च रक्तचाप स्क्रिनिङ"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person' && (ageInYears(contact) >= 30)"
+  },
+  "icon": "icon-hypertension",
+  "hidden_fields": []
+}

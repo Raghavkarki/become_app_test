@@ -1,0 +1,28 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Pregnancy home visit"
+    },
+    {
+      "locale": "ne",
+      "content": "गर्भवती जाँचका लागि घर भेट"
+    }
+  ],
+  "context": {
+    "person": false,
+    "place": false,
+    "expression": "contact.contact_type === 'c82_person' && contact.gender =='female' && summary.is_active_pregnancy && (!contact.date_of_birth || (ageInYears(contact) >= 15 && ageInYears(contact) <= 49)) && user._id != contact._id"
+  },
+  "icon": "icon-pregnancy",
+
+"hidden_fields": [
+  "safe_pregnancy_practices",
+  "anc_visits_hf",
+  "summary",
+  "pregnancy_summary",
+  "pregnancy_ended",
+  "update_g_age",
+  "anc_visits_hf_next"
+ ]
+}

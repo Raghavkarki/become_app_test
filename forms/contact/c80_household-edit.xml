@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Edit undefined</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/data/c80_household/change_name/no:label">
+            <value>No</value>
+          </text>
+          <text id="/data/c80_household/change_name/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/data/c80_household/change_name:label">
+            <value>Do you want to change the name of the household?</value>
+          </text>
+          <text id="/data/c80_household/contact/_id:hint">
+            <value>Select the Primary Contact</value>
+          </text>
+          <text id="/data/c80_household/contact/_id:label">
+            <value>Primary Contact</value>
+          </text>
+          <text id="/data/c80_household/custom_name:label">
+            <value>Household name</value>
+          </text>
+          <text id="/data/c80_household/external_id:label">
+            <value>External ID</value>
+          </text>
+          <text id="/data/c80_household/generated_name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/c80_household/house_number:label">
+            <value>House number</value>
+          </text>
+          <text id="/data/c80_household/name:label">
+            <value>Name of household</value>
+          </text>
+          <text id="/data/c80_household/notes:label">
+            <value>Notes</value>
+          </text>
+          <text id="/data/c80_household:hint">
+            <value>mandatory</value>
+          </text>
+          <text id="/data/inputs/user/contact_id:label">
+            <value>Contact ID of the logged in user</value>
+          </text>
+          <text id="/data/inputs/user/facility_id:label">
+            <value>Place ID of the logged in user</value>
+          </text>
+          <text id="/data/inputs/user/name:label">
+            <value>Name of the logged in user</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/data/c80_household/change_name/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/data/c80_household/change_name/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/data/c80_household/change_name:label">
+            <value>के तपाईँ यो नाम फेर्न चाहनुहुन्छ?</value>
+          </text>
+          <text id="/data/c80_household/contact/_id:hint">
+            <value>प्राथमिक सम्पर्क व्यक्ति छान्नुहोस्</value>
+          </text>
+          <text id="/data/c80_household/contact/_id:label">
+            <value>सम्पर्क व्यक्ति:</value>
+          </text>
+          <text id="/data/c80_household/contact_type:label">
+            <value>-</value>
+          </text>
+          <text id="/data/c80_household/custom_name:label">
+            <value>घर-धुरीको नाम</value>
+          </text>
+          <text id="/data/c80_household/external_id:label">
+            <value>बाहिरी आईडी</value>
+          </text>
+          <text id="/data/c80_household/generated_name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/c80_household/house_number:label">
+            <value>घर नम्बर</value>
+          </text>
+          <text id="/data/c80_household/name:label">
+            <value>घरधुरी को नाम</value>
+          </text>
+          <text id="/data/c80_household/notes:label">
+            <value>नोट</value>
+          </text>
+          <text id="/data/c80_household/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/data/c80_household/type:label">
+            <value>-</value>
+          </text>
+          <text id="/data/c80_household:hint">
+            <value>जरुरी</value>
+          </text>
+          <text id="/data/inputs/user/contact_id:label">
+            <value>लग इन गरेको प्रयोगकर्ताको सम्पर्क ID</value>
+          </text>
+          <text id="/data/inputs/user/facility_id:label">
+            <value>लग इन गरेको प्रयोगकर्ताको स्थानको ID</value>
+          </text>
+          <text id="/data/inputs/user/name:label">
+            <value>लग इन गरेको प्रयोगकर्ताको नाम</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <data delimiter="#" id="contact:c80_household:edit" prefix="J1!contact:c80_household:edit!" version="2022-07-19 14-40">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <user>
+              <contact_id/>
+              <facility_id/>
+              <name/>
+            </user>
+          </inputs>
+          <c80_household>
+            <parent/>
+            <type/>
+            <contact_type/>
+            <house_number/>
+            <name/>
+            <change_name/>
+            <custom_name/>
+            <generated_name/>
+            <external_id/>
+            <notes/>
+            <contact>
+              <name/>
+              <contact_name/>
+              <_id/>
+            </contact>
+          </c80_household>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </data>
+      </instance>
+      <bind nodeset="/data/inputs/user" relevant="false()"/>
+      <bind nodeset="/data/inputs/user/contact_id" type="string"/>
+      <bind nodeset="/data/inputs/user/facility_id" type="string"/>
+      <bind nodeset="/data/inputs/user/name" type="string"/>
+      <bind nodeset="/data/c80_household/parent" readonly="true()" type="string"/>
+      <bind nodeset="/data/c80_household/type" readonly="true()" type="string"/>
+      <bind nodeset="/data/c80_household/contact_type" readonly="true()" type="string"/>
+      <bind nodeset="/data/c80_household/house_number" type="string"/>
+      <bind calculate="if( /data/c80_household/change_name ='yes', /data/c80_household/custom_name ,  /data/c80_household/generated_name )" nodeset="/data/c80_household/name" readonly="true()" type="string"/>
+      <bind nodeset="/data/c80_household/change_name" type="select1"/>
+      <bind nodeset="/data/c80_household/custom_name" relevant=" /data/c80_household/change_name  = 'yes'" required="true()" type="string"/>
+      <bind calculate="if( /data/c80_household/house_number  = '',
+ concat( /data/c80_household/contact/contact_name , &quot; को घर धुरी&quot;),
+concat( /data/c80_household/contact/contact_name , &quot; को घर धुरी (&quot;,  /data/c80_household/house_number , &quot;)&quot;)
+)" nodeset="/data/c80_household/generated_name" type="string"/>
+      <bind nodeset="/data/c80_household/external_id" type="string"/>
+      <bind nodeset="/data/c80_household/notes" type="string"/>
+      <bind nodeset="/data/c80_household/contact/name" readonly="true()" type="string"/>
+      <bind calculate="../name" nodeset="/data/c80_household/contact/contact_name" type="string"/>
+      <bind nodeset="/data/c80_household/contact/_id" required="true()" type="db:person"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/data/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/inputs">
+      <group ref="/data/inputs/user">
+        <input ref="/data/inputs/user/contact_id">
+          <label ref="jr:itext('/data/inputs/user/contact_id:label')"/>
+        </input>
+        <input ref="/data/inputs/user/facility_id">
+          <label ref="jr:itext('/data/inputs/user/facility_id:label')"/>
+        </input>
+        <input ref="/data/inputs/user/name">
+          <label ref="jr:itext('/data/inputs/user/name:label')"/>
+        </input>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/data/c80_household">
+      <input ref="/data/c80_household/house_number">
+        <label ref="jr:itext('/data/c80_household/house_number:label')"/>
+      </input>
+      <input ref="/data/c80_household/name">
+        <label ref="jr:itext('/data/c80_household/name:label')"/>
+      </input>
+      <select1 ref="/data/c80_household/change_name">
+        <label ref="jr:itext('/data/c80_household/change_name:label')"/>
+        <item>
+          <label ref="jr:itext('/data/c80_household/change_name/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/c80_household/change_name/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/c80_household/custom_name">
+        <label ref="jr:itext('/data/c80_household/custom_name:label')"/>
+      </input>
+      <input ref="/data/c80_household/external_id">
+        <label ref="jr:itext('/data/c80_household/external_id:label')"/>
+      </input>
+      <input ref="/data/c80_household/notes">
+        <label ref="jr:itext('/data/c80_household/notes:label')"/>
+      </input>
+      <group ref="/data/c80_household/contact">
+        <input appearance="db-object" ref="/data/c80_household/contact/_id">
+          <label ref="jr:itext('/data/c80_household/contact/_id:label')"/>
+          <hint ref="jr:itext('/data/c80_household/contact/_id:hint')"/>
+        </input>
+      </group>
+    </group>
+  </h:body>
+</h:html>

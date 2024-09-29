@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "org.medicmobile.webapp.mobile.chis_ne",
+      "sha256_cert_fingerprints": [
+        "2B:41:3D:B7:AE:BB:F1:D0:C3:CF:C3:FC:1B:D8:48:D3:E9:09:FB:0F:BF:90:4F:BC:AA:0F:3D:BB:14:DF:7F:AE"
+      ]
+    }
+  }
+]

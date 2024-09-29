@@ -1,0 +1,1599 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Under 5 Child</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/under_5_child/childs_history/baby_weight_kg:hint">
+            <value>-</value>
+          </text>
+          <text id="/under_5_child/childs_history/baby_weight_kg:jr:constraintMsg">
+            <value>Should be between 0.4 and 6.5 kg</value>
+          </text>
+          <text id="/under_5_child/childs_history/baby_weight_kg:label">
+            <value>What was weight at birth?</value>
+          </text>
+          <text id="/under_5_child/childs_history/born_type/normal:label">
+            <value>Normal Delivery</value>
+          </text>
+          <text id="/under_5_child/childs_history/born_type/surgery:label">
+            <value>Surgery</value>
+          </text>
+          <text id="/under_5_child/childs_history/born_type/vacuum_force:label">
+            <value>Use of force / vacuum</value>
+          </text>
+          <text id="/under_5_child/childs_history/born_type:label">
+            <value>How was born?</value>
+          </text>
+          <text id="/under_5_child/childs_history/complications/no:label">
+            <value>No</value>
+          </text>
+          <text id="/under_5_child/childs_history/complications/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/under_5_child/childs_history/complications:label">
+            <value>Did you have any problems/complications during pregnancy?</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week/less_than_32:label">
+            <value>Less than 32 weeks</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week/more_than_40:label">
+            <value>More than 40 weeks</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week/week_32_36:label">
+            <value>32 - 36 weeks</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week/week_37_40:label">
+            <value>37 - 40 weeks</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week:label">
+            <value>At what weeks of gestation was born?</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_other:label">
+            <value>Specify</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/blue_skin:label">
+            <value>Having blue skin</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/difficulty_breathing:label">
+            <value>Having difficulty in breathing</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/hypothermia:label">
+            <value>The baby was in hypothermia</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/injured_at_birth:label">
+            <value>Injured at birth</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/jaundice:label">
+            <value>Having jaundice</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/not_able_suck_milk:label">
+            <value>The baby was not able to suck milk</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/others:label">
+            <value>Other</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type:label">
+            <value>what were the problems?</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type_other:jr:constraintMsg">
+            <value>max characters = 300</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type_other:label">
+            <value>Specify</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_week/no:label">
+            <value>No</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_week/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_week:label">
+            <value>Was there any health problem to children withn 1 week of birth?</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/blood_pressure:label">
+            <value>High blood pressure</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/gestational_diabetes:label">
+            <value>Gestational diabetes</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/lower_limb_swelling:label">
+            <value>Lower limb swelling</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/severe_abdominal_pain:label">
+            <value>Severe abdominal pain</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/severe_headache:label">
+            <value>Severe headache</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/severe_nausea_vomiting:label">
+            <value>Severe nausea and vomiting</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/vaginal_bleeding:label">
+            <value>Vaginal bleeding</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems:label">
+            <value>What were the problems?</value>
+          </text>
+          <text id="/under_5_child/current_condition/height_cm:hint">
+            <value>cm</value>
+          </text>
+          <text id="/under_5_child/current_condition/height_cm:jr:constraintMsg">
+            <value>Height must be between 40.5 to 150.1 cm</value>
+          </text>
+          <text id="/under_5_child/current_condition/height_cm:label">
+            <value>Height</value>
+          </text>
+          <text id="/under_5_child/current_condition/muac_cm:hint">
+            <value>cm</value>
+          </text>
+          <text id="/under_5_child/current_condition/muac_cm:jr:constraintMsg">
+            <value>MUAC must be between 0 to 26.5</value>
+          </text>
+          <text id="/under_5_child/current_condition/muac_cm:label">
+            <value>MUAC</value>
+          </text>
+          <text id="/under_5_child/current_condition/record_muac_weight:label">
+            <value>Record weight, height and Mid Upper Arm Circumference.</value>
+          </text>
+          <text id="/under_5_child/current_condition/record_weight_height:label">
+            <value>Record weight and height.</value>
+          </text>
+          <text id="/under_5_child/current_condition/weight_kg:hint">
+            <value>kg</value>
+          </text>
+          <text id="/under_5_child/current_condition/weight_kg:jr:constraintMsg">
+            <value>Weight must be between 0.5 and 60.5</value>
+          </text>
+          <text id="/under_5_child/current_condition/weight_kg:label">
+            <value>Weight</value>
+          </text>
+          <text id="/under_5_child/health_history/child_six_month/dont_know:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/under_5_child/health_history/child_six_month/no:label">
+            <value>No</value>
+          </text>
+          <text id="/under_5_child/health_history/child_six_month/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/under_5_child/health_history/child_six_month:label">
+            <value>In the last six months was your child had a vitamin A dose?</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital/disability:label">
+            <value>Disability</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital/heart:label">
+            <value>Heart Diseases</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital/kidney:label">
+            <value>Kidney Diseases</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital/upper_lower_limb:label">
+            <value>Problem in lower and upper limb</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital:label">
+            <value>Conginatal Issues</value>
+          </text>
+          <text id="/under_5_child/health_history/development_issue/autism:label">
+            <value>Autism</value>
+          </text>
+          <text id="/under_5_child/health_history/development_issue/cerebral_palsy:label">
+            <value>Cerebral Palsy</value>
+          </text>
+          <text id="/under_5_child/health_history/development_issue/mental_retardation:label">
+            <value>Mental Retardation</value>
+          </text>
+          <text id="/under_5_child/health_history/development_issue:label">
+            <value>Developmental Issues</value>
+          </text>
+          <text id="/under_5_child/health_history/growth_type_problem/congenital:label">
+            <value>Congenital</value>
+          </text>
+          <text id="/under_5_child/health_history/growth_type_problem/developmental:label">
+            <value>Development</value>
+          </text>
+          <text id="/under_5_child/health_history/growth_type_problem:label">
+            <value>Which health problems?</value>
+          </text>
+          <text id="/under_5_child/health_history/has_health_problem/no:label">
+            <value>No</value>
+          </text>
+          <text id="/under_5_child/health_history/has_health_problem/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/under_5_child/health_history/has_health_problem:label">
+            <value>Does your child have any health problems?</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/under_5_child/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/under_5_child/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/under_5_child/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/additional_vaccines/dont_know:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/additional_vaccines/no:label">
+            <value>No</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/additional_vaccines/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/additional_vaccines:label">
+            <value>Did s/he receive additional vaccines other than we talked about above?</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/bcg/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/bcg/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/bcg/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/bcg:label">
+            <value>BCG</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_1/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_1/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_1/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_1:label">
+            <value>First dose of DPT-HEP.B-HIB (Pentavalent)</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_2/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_2/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_2/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_2:label">
+            <value>Second dose of DPT-HEP.B-HIB (Pentavalent)</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_3/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_3/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_3/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_3:label">
+            <value>Third dose of DPT-HEP.B-HIB (Pentavalent)</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/ipv/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/ipv/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/ipv/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/ipv:label">
+            <value>Inactivated Polio Vaccine (IPV)</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/japanese_encephalititis/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/japanese_encephalititis/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/japanese_encephalititis/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/japanese_encephalititis:label">
+            <value>Vaccine of Japanese encephalititis</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_1/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_1/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_1/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_1:label">
+            <value>First dose of Measles and Rubella</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_2/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_2/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_2/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_2:label">
+            <value>Second dose of Measles and Rubella</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_1/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_1/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_1/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_1:label">
+            <value>First dose of Pneumococcal (PCV)</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_2/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_2/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_2/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_2:label">
+            <value>Second dose of Pneumococcal (PCV)</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_1/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_1/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_1/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_1:label">
+            <value>First dose of oral polio</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_2/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_2/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_2/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_2:label">
+            <value>Second dose of oral polio</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_3/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_3/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_3/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_3:label">
+            <value>Third dose of oral polio</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pvc_3/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pvc_3/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pvc_3/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pvc_3:label">
+            <value>Third dose of Pneumococcal (PCV)</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_1/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_1/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_1/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_1:label">
+            <value>First dose of Rota virus</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_2/coming_day:label">
+            <value>Will in the coming days</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_2/not_vaccinated:label">
+            <value>Not vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_2/vaccinated:label">
+            <value>Vaccinated</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_2:label">
+            <value>Second dose of Rota virus</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccination_card/no:label">
+            <value>No</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccination_card/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccination_card:label">
+            <value>Do you have a card or other document where vaccination records are written down?*</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccine_other/mmr:label">
+            <value>MMR</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccine_other/pneumonia:label">
+            <value>Pneumonia</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccine_other/typhoid:label">
+            <value>Typhoid</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccine_other:label">
+            <value>Which vaccine?</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/under_5_child/childs_history/baby_weight_kg:hint">
+            <value>के .जी. मा</value>
+          </text>
+          <text id="/under_5_child/childs_history/baby_weight_kg:jr:constraintMsg">
+            <value>०.५ - ६.५ केजी बीच हुनु पर्छ</value>
+          </text>
+          <text id="/under_5_child/childs_history/baby_weight_kg:label">
+            <value>जन्मदा बच्चाको तौल कति थियो ?</value>
+          </text>
+          <text id="/under_5_child/childs_history/born_type/normal:label">
+            <value>सामान्य प्रसूति</value>
+          </text>
+          <text id="/under_5_child/childs_history/born_type/surgery:label">
+            <value>शल्यक्रिया</value>
+          </text>
+          <text id="/under_5_child/childs_history/born_type/vacuum_force:label">
+            <value>फोर्सेप/भ्याकुम को प्रयोग</value>
+          </text>
+          <text id="/under_5_child/childs_history/born_type:label">
+            <value>जन्म कसरी भएको थियो ?</value>
+          </text>
+          <text id="/under_5_child/childs_history/complications/no:label">
+            <value>थिएन</value>
+          </text>
+          <text id="/under_5_child/childs_history/complications/yes:label">
+            <value>थियो</value>
+          </text>
+          <text id="/under_5_child/childs_history/complications:label">
+            <value>के तपाईँलाई गर्भावस्थाको समयमा कुनै समस्या/जटिलता थियो ?</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week/less_than_32:label">
+            <value>३२ हप्ता भन्दा कम</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week/more_than_40:label">
+            <value>४० हप्ता भन्दा बढी</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week/week_32_36:label">
+            <value>३२ - ३६ हप्ता</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week/week_37_40:label">
+            <value>३७ - ४० हप्ता</value>
+          </text>
+          <text id="/under_5_child/childs_history/gestation_week:label">
+            <value>गर्भावस्थाको कति हप्तामा जन्मिएको थियो?</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_other:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/blue_skin:label">
+            <value>निलो छाला भएको</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/difficulty_breathing:label">
+            <value>श्वास फेर्न गाह्रो भएको</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/hypothermia:label">
+            <value>बच्चा चिसो भएको</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/injured_at_birth:label">
+            <value>जन्मदा चोट लागेको</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/jaundice:label">
+            <value>जण्डिस भएको</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/not_able_suck_milk:label">
+            <value>बच्चाले दुध खान नसकेको</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type/others:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type:label">
+            <value>कस्तो किसिमको समस्या/जटिलता थियो ?</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type_other:jr:constraintMsg">
+            <value>अधिकतम ३०० अक्षर</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_type_other:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_week/no:label">
+            <value>थिएन</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_week/yes:label">
+            <value>थियो</value>
+          </text>
+          <text id="/under_5_child/childs_history/problem_week:label">
+            <value>बच्चा जन्मिएको एक हप्ता भित्रमा बच्चालाई केही समस्या देखा परेको थियो ?</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/blood_pressure:label">
+            <value>उच्च रक्तचाप</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/gestational_diabetes:label">
+            <value>गर्भावस्था मधुमेह</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/lower_limb_swelling:label">
+            <value>धेरै खुट्टा सुनिने</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/severe_abdominal_pain:label">
+            <value>धेरै पेट दुख्ने</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/severe_headache:label">
+            <value>धेरै टाउको दुख्ने</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/severe_nausea_vomiting:label">
+            <value>धेरै वाकवाक र बान्ता हुने</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems/vaginal_bleeding:label">
+            <value>योनिबाट रगत बगेको</value>
+          </text>
+          <text id="/under_5_child/childs_history/problems:label">
+            <value>कस्तो किसिमको समस्या/जटिलता थियो ?</value>
+          </text>
+          <text id="/under_5_child/current_condition/height_cm:hint">
+            <value>सेन्टिमिटर</value>
+          </text>
+          <text id="/under_5_child/current_condition/height_cm:jr:constraintMsg">
+            <value>४०.५ देखि १५०.१ से.मी. सम्म मात्र स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/under_5_child/current_condition/height_cm:label">
+            <value>बच्चाको उचाइ</value>
+          </text>
+          <text id="/under_5_child/current_condition/muac_cm:hint">
+            <value>सेन्टिमिटर</value>
+          </text>
+          <text id="/under_5_child/current_condition/muac_cm:jr:constraintMsg">
+            <value>० देखि २६.५ से.मी. सम्म मात्र स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/under_5_child/current_condition/muac_cm:label">
+            <value>MUAC</value>
+          </text>
+          <text id="/under_5_child/current_condition/record_muac_weight:label">
+            <value>बच्चाको उचाइ तौल र MUAC को रेकर्ड गर्नुहोस् ।</value>
+          </text>
+          <text id="/under_5_child/current_condition/record_weight_height:label">
+            <value>बच्चाको उचाइ र तौल रेकर्ड गर्नुहोस् ।</value>
+          </text>
+          <text id="/under_5_child/current_condition/weight_kg:hint">
+            <value>के. जी.</value>
+          </text>
+          <text id="/under_5_child/current_condition/weight_kg:jr:constraintMsg">
+            <value>०.५ देखि ६०.५ के. जी. सम्म मात्र स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/under_5_child/current_condition/weight_kg:label">
+            <value>बच्चाको तौल</value>
+          </text>
+          <text id="/under_5_child/health_history/child_six_month/dont_know:label">
+            <value>थाहा छैन</value>
+          </text>
+          <text id="/under_5_child/health_history/child_six_month/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/under_5_child/health_history/child_six_month/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/under_5_child/health_history/child_six_month:label">
+            <value>के तपाईँको बच्चाले विगत ६ महिनामा भिटामिन ए को औसधि खाएको छ?</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital/disability:label">
+            <value>अपांग</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital/heart:label">
+            <value>मुटु रोग</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital/kidney:label">
+            <value>मृगौला रोग</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital/upper_lower_limb:label">
+            <value>हातखुट्टाको समस्या</value>
+          </text>
+          <text id="/under_5_child/health_history/congenital:label">
+            <value>जन्मजात समस्या</value>
+          </text>
+          <text id="/under_5_child/health_history/development_issue/autism:label">
+            <value>अटिजम</value>
+          </text>
+          <text id="/under_5_child/health_history/development_issue/cerebral_palsy:label">
+            <value>मस्तिष्क पक्षघात</value>
+          </text>
+          <text id="/under_5_child/health_history/development_issue/mental_retardation:label">
+            <value>सुस्त मनस्थिति</value>
+          </text>
+          <text id="/under_5_child/health_history/development_issue:label">
+            <value>विकासक्रमको समस्या</value>
+          </text>
+          <text id="/under_5_child/health_history/growth_type_problem/congenital:label">
+            <value>जन्मजात</value>
+          </text>
+          <text id="/under_5_child/health_history/growth_type_problem/developmental:label">
+            <value>विकासक्रमको समस्या</value>
+          </text>
+          <text id="/under_5_child/health_history/growth_type_problem:label">
+            <value>कुन समस्या छ ?</value>
+          </text>
+          <text id="/under_5_child/health_history/has_health_problem/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/under_5_child/health_history/has_health_problem/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/under_5_child/health_history/has_health_problem:label">
+            <value>तपाईँको बच्चालाई कुनै स्वास्थ्य समस्या (विकासक्रमको समस्या देखि मानसिक वृद्धि विकास सम्बन्धी समस्या) छ ?</value>
+          </text>
+          <text id="/under_5_child/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/additional_vaccines/dont_know:label">
+            <value>थाहा छैन</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/additional_vaccines/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/additional_vaccines/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/additional_vaccines:label">
+            <value>के तपाईँको बच्चाले माथि कुरा गरे बाहेक अन्य अतिरिक्त खोपहरु लगाएको छ ?</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/bcg/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/bcg/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/bcg/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/bcg:label">
+            <value>बि. सि. जी.</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_1/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_1/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_1/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_1:label">
+            <value>डि. पि. टी., हेप बि, हिब पहिलो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_2/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_2/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_2/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_2:label">
+            <value>डि. पि. टी., हेप बि, हिब दोस्रो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_3/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_3/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_3/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/dpt_hepb_hib_3:label">
+            <value>डि. पि. टी., हेप बि, हिब तेस्रो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/ipv/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/ipv/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/ipv/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/ipv:label">
+            <value>एफ. आइ. पि. भी.</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/japanese_encephalititis/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/japanese_encephalititis/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/japanese_encephalititis/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/japanese_encephalititis:label">
+            <value>जापानी इन्सेफलाइटिस को खोप</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_1/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_1/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_1/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_1:label">
+            <value>दादुरा - रुबेला पहिलो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_2/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_2/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_2/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/measles_rubella_2:label">
+            <value>दादुरा - रुबेला दोस्रो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_1/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_1/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_1/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_1:label">
+            <value>पि. सि. भी. पहिलो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_2/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_2/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_2/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pcv_2:label">
+            <value>पि. सि. भी. दोस्रो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_1/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_1/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_1/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_1:label">
+            <value>पोलियो पहिलो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_2/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_2/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_2/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_2:label">
+            <value>पोलियो दोस्रो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_3/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_3/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_3/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/polio_3:label">
+            <value>पोलियो तेस्रो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pvc_3/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pvc_3/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pvc_3/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/pvc_3:label">
+            <value>पि. सि. भी. तेस्रो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_1/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_1/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_1/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_1:label">
+            <value>रोटा भाइरस विरुद्धको पहिलो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_2/coming_day:label">
+            <value>आउने दिनमा लगाउने</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_2/not_vaccinated:label">
+            <value>खोप नलगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_2/vaccinated:label">
+            <value>खोप लगाएको</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/rota_2:label">
+            <value>रोटा भाइरस विरुद्धको दोस्रो मात्रा</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccination_card/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccination_card/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccination_card:label">
+            <value>के तपाईँ सँग खोपको रेकर्ड राखिएको खोप कार्ड वा अन्य कागजात छ ?</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccine_other/mmr:label">
+            <value>एम. एम. आर. (MMR)</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccine_other/pneumonia:label">
+            <value>निमोनिया</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccine_other/typhoid:label">
+            <value>टाइफाइड</value>
+          </text>
+          <text id="/under_5_child/vaccine_details/vaccine_other:label">
+            <value>कुन खोप लगाएको छ ?</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <under_5_child delimiter="#" id="under_5_child" prefix="J1!under_5_child!" version="16-08-2021 12-01-17">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_age_in_months tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <childs_history>
+            <born_type/>
+            <gestation_week/>
+            <baby_weight_kg/>
+            <complications/>
+            <problems/>
+            <problem_other/>
+            <problem_week/>
+            <problem_type/>
+            <problem_type_other/>
+          </childs_history>
+          <vaccine_details>
+            <vaccination_card/>
+            <bcg/>
+            <polio_1/>
+            <polio_2/>
+            <polio_3/>
+            <dpt_hepb_hib_1/>
+            <dpt_hepb_hib_2/>
+            <dpt_hepb_hib_3/>
+            <rota_1/>
+            <rota_2/>
+            <pcv_1/>
+            <pcv_2/>
+            <pvc_3/>
+            <ipv/>
+            <measles_rubella_1/>
+            <measles_rubella_2/>
+            <japanese_encephalititis/>
+            <additional_vaccines/>
+            <vaccine_other/>
+          </vaccine_details>
+          <health_history>
+            <child_six_month/>
+            <has_health_problem/>
+            <growth_type_problem/>
+            <congenital/>
+            <development_issue/>
+            <health_problem/>
+          </health_history>
+          <current_condition>
+            <record_muac_weight/>
+            <record_weight_height/>
+            <height_cm/>
+            <weight_kg/>
+            <muac_cm/>
+          </current_condition>
+          <data tag="hidden">
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </under_5_child>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/under_5_child/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/under_5_child/inputs/source" type="string"/>
+      <bind nodeset="/under_5_child/inputs/source_id" type="string"/>
+      <bind nodeset="/under_5_child/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/under_5_child/inputs/contact/name" type="string"/>
+      <bind nodeset="/under_5_child/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/under_5_child/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/under_5_child/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/under_5_child/inputs/contact/sex" type="string"/>
+      <bind nodeset="/under_5_child/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/under_5_child/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/under_5_child/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )" nodeset="/under_5_child/patient_age_in_years" type="string"/>
+      <bind calculate="difference-in-months( ../inputs/contact/date_of_birth, today() )" nodeset="/under_5_child/patient_age_in_months" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/under_5_child/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/patient_id" nodeset="/under_5_child/patient_id" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/under_5_child/patient_name" type="string"/>
+      <bind nodeset="/under_5_child/childs_history/born_type" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/childs_history/gestation_week" required="true()" type="select1"/>
+      <bind constraint=". &gt; 0.4 and .&lt;= 6.5" jr:constraintMsg="jr:itext('/under_5_child/childs_history/baby_weight_kg:jr:constraintMsg')" nodeset="/under_5_child/childs_history/baby_weight_kg" required="true()" type="decimal"/>
+      <bind nodeset="/under_5_child/childs_history/complications" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/childs_history/problems" relevant=" /under_5_child/childs_history/complications  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/childs_history/problem_other" relevant=" /under_5_child/childs_history/problems  ='other'" type="string"/>
+      <bind nodeset="/under_5_child/childs_history/problem_week" type="select1"/>
+      <bind nodeset="/under_5_child/childs_history/problem_type" relevant=" /under_5_child/childs_history/problem_week  ='yes'" type="select"/>
+      <bind constraint="string-length(.) &lt;= 300" jr:constraintMsg="jr:itext('/under_5_child/childs_history/problem_type_other:jr:constraintMsg')" nodeset="/under_5_child/childs_history/problem_type_other" relevant="contains( /under_5_child/childs_history/problem_type  ,'others')" type="string"/>
+      <bind nodeset="/under_5_child/vaccine_details/vaccination_card" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/bcg" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/polio_1" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/polio_2" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/polio_3" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/dpt_hepb_hib_1" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/dpt_hepb_hib_2" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/dpt_hepb_hib_3" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/rota_1" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/rota_2" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/pcv_1" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/pcv_2" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/pvc_3" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/ipv" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/measles_rubella_1" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/measles_rubella_2" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/japanese_encephalititis" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/additional_vaccines" relevant=" /under_5_child/vaccine_details/vaccination_card  ='yes'" type="select1"/>
+      <bind nodeset="/under_5_child/vaccine_details/vaccine_other" relevant=" /under_5_child/vaccine_details/additional_vaccines  ='yes'" type="select"/>
+      <bind nodeset="/under_5_child/health_history/child_six_month" relevant=" /under_5_child/patient_age_in_months  &gt;= 6" type="select1"/>
+      <bind nodeset="/under_5_child/health_history/has_health_problem" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/health_history/growth_type_problem" relevant=" /under_5_child/health_history/has_health_problem  ='yes'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/health_history/congenital" relevant=" /under_5_child/health_history/growth_type_problem ='congenital'" required="true()" type="select1"/>
+      <bind nodeset="/under_5_child/health_history/development_issue" relevant=" /under_5_child/health_history/growth_type_problem ='developmental'" required="true()" type="select1"/>
+      <bind calculate="coalesce( /under_5_child/health_history/congenital , /under_5_child/health_history/development_issue )" nodeset="/under_5_child/health_history/health_problem" type="string"/>
+      <bind nodeset="/under_5_child/current_condition/record_muac_weight" readonly="true()" relevant=" /under_5_child/patient_age_in_months  &gt;= 6" type="string"/>
+      <bind nodeset="/under_5_child/current_condition/record_weight_height" readonly="true()" relevant=" /under_5_child/patient_age_in_months  &lt; 6" type="string"/>
+      <bind constraint=". &gt;= 40.5 and .&lt;= 150.1" jr:constraintMsg="jr:itext('/under_5_child/current_condition/height_cm:jr:constraintMsg')" nodeset="/under_5_child/current_condition/height_cm" required="true()" type="decimal"/>
+      <bind constraint=". &gt;= 0.5 and .&lt;= 60.5" jr:constraintMsg="jr:itext('/under_5_child/current_condition/weight_kg:jr:constraintMsg')" nodeset="/under_5_child/current_condition/weight_kg" required="true()" type="decimal"/>
+      <bind constraint=". &gt;= 0.00 and .&lt;= 26.5" jr:constraintMsg="jr:itext('/under_5_child/current_condition/muac_cm:jr:constraintMsg')" nodeset="/under_5_child/current_condition/muac_cm" relevant=" /under_5_child/patient_age_in_months  &gt;= 6" required="true()" type="decimal"/>
+      <bind calculate="../../../inputs/contact/_id" nodeset="/under_5_child/data/meta/__patient_uuid" type="string"/>
+      <bind calculate="../../../inputs/contact/patient_id" nodeset="/under_5_child/data/meta/__patient_id" type="string"/>
+      <bind calculate="../../../inputs/contact/parent/_id" nodeset="/under_5_child/data/meta/__household_uuid" type="string"/>
+      <bind calculate="../../../inputs/source" nodeset="/under_5_child/data/meta/__source" type="string"/>
+      <bind calculate="../../../inputs/source_id" nodeset="/under_5_child/data/meta/__source_id" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/under_5_child/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/under_5_child/inputs">
+      <group ref="/under_5_child/inputs/contact">
+        <label ref="jr:itext('/under_5_child/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/under_5_child/inputs/contact/_id">
+          <label ref="jr:itext('/under_5_child/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/under_5_child/inputs/contact/parent">
+          <group ref="/under_5_child/inputs/contact/parent/parent">
+            <group ref="/under_5_child/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/under_5_child/childs_history">
+      <select1 ref="/under_5_child/childs_history/born_type">
+        <label ref="jr:itext('/under_5_child/childs_history/born_type:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/born_type/normal:label')"/>
+          <value>normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/born_type/surgery:label')"/>
+          <value>surgery</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/born_type/vacuum_force:label')"/>
+          <value>vacuum_force</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/childs_history/gestation_week">
+        <label ref="jr:itext('/under_5_child/childs_history/gestation_week:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/gestation_week/less_than_32:label')"/>
+          <value>less_than_32</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/gestation_week/week_32_36:label')"/>
+          <value>week_32_36</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/gestation_week/week_37_40:label')"/>
+          <value>week_37_40</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/gestation_week/more_than_40:label')"/>
+          <value>more_than_40</value>
+        </item>
+      </select1>
+      <input ref="/under_5_child/childs_history/baby_weight_kg">
+        <label ref="jr:itext('/under_5_child/childs_history/baby_weight_kg:label')"/>
+        <hint ref="jr:itext('/under_5_child/childs_history/baby_weight_kg:hint')"/>
+      </input>
+      <select1 ref="/under_5_child/childs_history/complications">
+        <label ref="jr:itext('/under_5_child/childs_history/complications:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/complications/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/complications/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/childs_history/problems">
+        <label ref="jr:itext('/under_5_child/childs_history/problems:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problems/gestational_diabetes:label')"/>
+          <value>gestational_diabetes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problems/blood_pressure:label')"/>
+          <value>blood_pressure</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problems/severe_nausea_vomiting:label')"/>
+          <value>severe_nausea_vomiting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problems/severe_headache:label')"/>
+          <value>severe_headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problems/lower_limb_swelling:label')"/>
+          <value>lower_limb_swelling</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problems/vaginal_bleeding:label')"/>
+          <value>vaginal_bleeding</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problems/severe_abdominal_pain:label')"/>
+          <value>severe_abdominal_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problems/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/under_5_child/childs_history/problem_other">
+        <label ref="jr:itext('/under_5_child/childs_history/problem_other:label')"/>
+      </input>
+      <select1 ref="/under_5_child/childs_history/problem_week">
+        <label ref="jr:itext('/under_5_child/childs_history/problem_week:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problem_week/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problem_week/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/under_5_child/childs_history/problem_type">
+        <label ref="jr:itext('/under_5_child/childs_history/problem_type:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problem_type/not_able_suck_milk:label')"/>
+          <value>not_able_suck_milk</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problem_type/jaundice:label')"/>
+          <value>jaundice</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problem_type/blue_skin:label')"/>
+          <value>blue_skin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problem_type/hypothermia:label')"/>
+          <value>hypothermia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problem_type/injured_at_birth:label')"/>
+          <value>injured_at_birth</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problem_type/difficulty_breathing:label')"/>
+          <value>difficulty_breathing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/childs_history/problem_type/others:label')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/under_5_child/childs_history/problem_type_other">
+        <label ref="jr:itext('/under_5_child/childs_history/problem_type_other:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/under_5_child/vaccine_details">
+      <select1 ref="/under_5_child/vaccine_details/vaccination_card">
+        <label ref="jr:itext('/under_5_child/vaccine_details/vaccination_card:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/vaccination_card/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/vaccination_card/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/bcg">
+        <label ref="jr:itext('/under_5_child/vaccine_details/bcg:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/bcg/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/bcg/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/bcg/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/polio_1">
+        <label ref="jr:itext('/under_5_child/vaccine_details/polio_1:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/polio_1/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/polio_1/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/polio_1/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/polio_2">
+        <label ref="jr:itext('/under_5_child/vaccine_details/polio_2:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/polio_2/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/polio_2/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/polio_2/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/polio_3">
+        <label ref="jr:itext('/under_5_child/vaccine_details/polio_3:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/polio_3/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/polio_3/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/polio_3/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/dpt_hepb_hib_1">
+        <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_1:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_1/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_1/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_1/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/dpt_hepb_hib_2">
+        <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_2:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_2/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_2/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_2/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/dpt_hepb_hib_3">
+        <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_3:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_3/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_3/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/dpt_hepb_hib_3/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/rota_1">
+        <label ref="jr:itext('/under_5_child/vaccine_details/rota_1:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/rota_1/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/rota_1/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/rota_1/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/rota_2">
+        <label ref="jr:itext('/under_5_child/vaccine_details/rota_2:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/rota_2/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/rota_2/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/rota_2/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/pcv_1">
+        <label ref="jr:itext('/under_5_child/vaccine_details/pcv_1:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/pcv_1/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/pcv_1/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/pcv_1/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/pcv_2">
+        <label ref="jr:itext('/under_5_child/vaccine_details/pcv_2:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/pcv_2/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/pcv_2/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/pcv_2/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/pvc_3">
+        <label ref="jr:itext('/under_5_child/vaccine_details/pvc_3:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/pvc_3/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/pvc_3/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/pvc_3/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/ipv">
+        <label ref="jr:itext('/under_5_child/vaccine_details/ipv:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/ipv/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/ipv/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/ipv/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/measles_rubella_1">
+        <label ref="jr:itext('/under_5_child/vaccine_details/measles_rubella_1:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/measles_rubella_1/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/measles_rubella_1/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/measles_rubella_1/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/measles_rubella_2">
+        <label ref="jr:itext('/under_5_child/vaccine_details/measles_rubella_2:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/measles_rubella_2/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/measles_rubella_2/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/measles_rubella_2/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/japanese_encephalititis">
+        <label ref="jr:itext('/under_5_child/vaccine_details/japanese_encephalititis:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/japanese_encephalititis/vaccinated:label')"/>
+          <value>vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/japanese_encephalititis/not_vaccinated:label')"/>
+          <value>not_vaccinated</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/japanese_encephalititis/coming_day:label')"/>
+          <value>coming_day</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/vaccine_details/additional_vaccines">
+        <label ref="jr:itext('/under_5_child/vaccine_details/additional_vaccines:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/additional_vaccines/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/additional_vaccines/no:label')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/additional_vaccines/dont_know:label')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <select ref="/under_5_child/vaccine_details/vaccine_other">
+        <label ref="jr:itext('/under_5_child/vaccine_details/vaccine_other:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/vaccine_other/mmr:label')"/>
+          <value>mmr</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/vaccine_other/pneumonia:label')"/>
+          <value>pneumonia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/vaccine_details/vaccine_other/typhoid:label')"/>
+          <value>typhoid</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list" ref="/under_5_child/health_history">
+      <select1 ref="/under_5_child/health_history/child_six_month">
+        <label ref="jr:itext('/under_5_child/health_history/child_six_month:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/child_six_month/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/child_six_month/no:label')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/child_six_month/dont_know:label')"/>
+          <value>dont_know</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/health_history/has_health_problem">
+        <label ref="jr:itext('/under_5_child/health_history/has_health_problem:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/has_health_problem/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/has_health_problem/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/health_history/growth_type_problem">
+        <label ref="jr:itext('/under_5_child/health_history/growth_type_problem:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/growth_type_problem/congenital:label')"/>
+          <value>congenital</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/growth_type_problem/developmental:label')"/>
+          <value>developmental</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/health_history/congenital">
+        <label ref="jr:itext('/under_5_child/health_history/congenital:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/congenital/heart:label')"/>
+          <value>heart</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/congenital/kidney:label')"/>
+          <value>kidney</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/congenital/upper_lower_limb:label')"/>
+          <value>upper_lower_limb</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/congenital/disability:label')"/>
+          <value>disability</value>
+        </item>
+      </select1>
+      <select1 ref="/under_5_child/health_history/development_issue">
+        <label ref="jr:itext('/under_5_child/health_history/development_issue:label')"/>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/development_issue/autism:label')"/>
+          <value>autism</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/development_issue/mental_retardation:label')"/>
+          <value>mental_retardation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/under_5_child/health_history/development_issue/cerebral_palsy:label')"/>
+          <value>cerebral_palsy</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/under_5_child/current_condition">
+      <input ref="/under_5_child/current_condition/record_muac_weight">
+        <label ref="jr:itext('/under_5_child/current_condition/record_muac_weight:label')"/>
+      </input>
+      <input ref="/under_5_child/current_condition/record_weight_height">
+        <label ref="jr:itext('/under_5_child/current_condition/record_weight_height:label')"/>
+      </input>
+      <input ref="/under_5_child/current_condition/height_cm">
+        <label ref="jr:itext('/under_5_child/current_condition/height_cm:label')"/>
+        <hint ref="jr:itext('/under_5_child/current_condition/height_cm:hint')"/>
+      </input>
+      <input ref="/under_5_child/current_condition/weight_kg">
+        <label ref="jr:itext('/under_5_child/current_condition/weight_kg:label')"/>
+        <hint ref="jr:itext('/under_5_child/current_condition/weight_kg:hint')"/>
+      </input>
+      <input ref="/under_5_child/current_condition/muac_cm">
+        <label ref="jr:itext('/under_5_child/current_condition/muac_cm:label')"/>
+        <hint ref="jr:itext('/under_5_child/current_condition/muac_cm:hint')"/>
+      </input>
+    </group>
+    <group appearance="hidden" ref="/under_5_child/data">
+      <group ref="/under_5_child/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

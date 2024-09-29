@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Mental Health Screening Form"
+    },
+    {
+      "locale": "ne",
+      "content": "मानसिक रोगको स्क्रीनिंग"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person' && (!contact.date_of_birth || ageInYears(contact) > 14)"
+  },
+  "icon": "icon-mental-health"
+}

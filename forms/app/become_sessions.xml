@@ -1,0 +1,1760 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>BECOME Session</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step1:label">
+            <value>Step 1. Introduce yourself and about study briefly.</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.1:label">
+            <value>Step . 2.1. Establish ground rules</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.2:label">
+            <value>Step 2.2. Review of homework briefly [Note: If this is the first session with participants, this step is not needed]</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2:label">
+            <value>Step 2. Review confidentiality and take consent about audio tapes</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step3:label">
+            <value>Step 3: Introduction of Behavioral Activation (Note: See handsout of Manual Inactivity Cycle Case story of Ram Babu and Refer to list of questions)</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step4:label">
+            <value>Step 4: Review the story according to Behavioral Activation (Note: Telling story ask question referring to the list of questions according to the Manual</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step5:label">
+            <value>Step 5: Identify activities to improve mood [Note: Keeping worksheet 1 (Table of list of activities )work togetherly with the participant, while doing this use basic helping skills</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step6:label">
+            <value>Step 6: Introduce Homework assignment: Complete the Activity Schedule Note 1: After talking about the importance of homework, plan with the participant worksheet 1. such as what time in a day,how many days in a week, probable challenges and easy way of practising Note 2: Give audio tapes of Body Scan to the participants</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step7:label">
+            <value>Step 7: Ask if any questions and end the session</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record:label">
+            <value>Did the participant agree to record the
+Behavioral Activation session I? If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_completed:label">
+            <value>Behaviour Activation I has been completed,
+stop the recording</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAvisiting_sessionI:label">
+            <value>You are visiting
+[…Person's name…] because
+he/she has Depression</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/start_ebsr_BA:label">
+            <value>[Person's name] has depression and DM/HTN, please start the session with BA session I</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i:label">
+            <value>Behavioural Activation Session I</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record:label">
+            <value>Does the participant agree to record the
+Behavioral Activation session II? If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_completed:label">
+            <value>Behaviour Actgivation session II has been completed,
+stop the recording</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step1:label">
+            <value>Step 1: Welcome participant. review ground rules , confidentiality and take re-consent about audio recording</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step2:label">
+            <value>Step 2: Review the first session of BA I.</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step3:label">
+            <value>Step 3: Identify challenges and solutions to complete planned activities. Note: Identify challenges and think proper way of solutions using basic helping skills</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step4:label">
+            <value>Step 4: Remind about Worksheets I, II, give homework (new worksheet II) and close the session. Note: Use basic helping skills while giving feedback to the participants.</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/contd_BAsessII/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/contd_BAsessII:label">
+            <value>Completed Session I of Behavioral Activation. Continue with Session II.</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii:label">
+            <value>Behavioral Activation Session II</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation:label">
+            <value>Behavioural Activation</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/AB_sessI_step1:label">
+            <value>Step 1. Introduce yourself and about the study briefly</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/AB_sessI_step2:label">
+            <value>Step 2. Review confidentiality, and take consent about audio tapes</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/AB_sessI_step3:label">
+            <value>Step 3: Establish ground rules</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ABsessI_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ABsessI_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ABsessI_agree_record:label">
+            <value>Does the participant agree to record the
+EBSR session I? If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ABvisiting_sessionI:label">
+            <value>You are visiting
+[…Person's name…] because
+he/she has anxiety.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step4:label">
+            <value>Step 4: Introduction of Abdominal breathing</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step5:label">
+            <value>Step 6: Practise EBSR - Introduce abdominal breathing
+- Demonstrate the skill
+- Observe participant practice skill
+- Provide feedback Note 2: Spend time to talk about the experience of the participant. While talking use basic helping skills ( active listening,etc.)</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step6:label">
+            <value>Step 7. Introduce homework assignment</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step7:label">
+            <value>Step 8: End the session</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/ABsessI_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/ABsessI_completed:label">
+            <value>Abdominal Breathing session I has been completed,
+please stop the recording.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i:label">
+            <value>EBSR - Abdominal Breathing Session I</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record:label">
+            <value>Does the participant agree to record the EBSR (Abdominal Breathing) session II? If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_completed:label">
+            <value>Abdominal Breathing session II has been completed,
+please stop the recording</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step1:label">
+            <value>Step 1. Review confidentiality, and take consent about audio recording and establish ground rules CHW welcomes the participants/reviews ground rules and confidentiality.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step2:label">
+            <value>Step 2. Recap of EBSR I Session and talk about the homework assignment Note: Even the participant has not completed the homework, talk about the importance of the practice skills, while talking use basic helping skills.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step3:label">
+            <value>Step 3. Recap of Abdominal Breathing practice</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step4:label">
+            <value>Step 4: Give homework assignment</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step5:label">
+            <value>Step 5: Recap the session end the session</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/contd_ABsessII:label">
+            <value>You completed Session I of EBSR
+(Abdominal breathing). Continue with Session II.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii:label">
+            <value>EBSR - Abdominal Breathing Session II</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record:label">
+            <value>Does participant ready for recording Body Scan session 1?
+If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_completed:label">
+            <value>Body Scan session I has been completed,
+top the recording</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step5:label">
+            <value>Step 5: Introduction of Body Scan</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step6:label">
+            <value>Step 6: Practice Body Scan. Note 1: First practise according to Manual, demonstrate and practise togetherly [You can practise while listening to the audio tapes that you have got in the Training Note 2: Spend time to talk about the experience of the participant. While talking use basic helping skills ( active listening,etc.)</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step7:label">
+            <value>Step 7. Introduces homework assignment Note 1: After talking about the importance of homework plan with participant such as what time in a day,how many days in a week, probable challenges and easy way of practising. Note 2: Give audio tapes of Body Scan to the participants</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step8:label">
+            <value>Step 8: End the session.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i:label">
+            <value>EBSR- Body Scan Session I</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record:label">
+            <value>Did the participant agree to record the
+Body Scan session II? If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_completed:label">
+            <value>Body Scan session II has been completed,
+stop the recording</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step1:label">
+            <value>Step 1: Welcome the participant, review ground rules and confidentiality</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step2:label">
+            <value>Step 2: Review session 1, talk about homework assignment Note: Even the participant has not completed the homework, talk about the importance of the practice skills, while talking use basic helping skills.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step3:label">
+            <value>Step 3: Recap of body scan practice.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step4:label">
+            <value>Step 4: Give homework assignment.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step5:label">
+            <value>Step 5: Recap and end the session.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/contd_BSsessII/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/contd_BSsessII:label">
+            <value>You completed Session I of Body Scan. Continue with Session II.</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii:label">
+            <value>EBSR- Body Scan Session II</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ensure_condition/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ensure_condition/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ensure_condition:label">
+            <value>Ensure if any respiratory problems, COPD or asthma condition, if yes then do Body Scan, rest of the participant will practice EBSR</value>
+          </text>
+          <text id="/become_sessions/ebsr_session:label">
+            <value>EBSR</value>
+          </text>
+          <text id="/become_sessions/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/become_sessions/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/become_sessions/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/become_sessions/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MI_sessionI:label">
+            <value>Greet the participant. 
+You are visiting […Person's name…] because he/she has Anxiety/Depression and Diabetes/Hypertension. You have completed Session II of EBSR/BA.
+Please start the MI session I</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_agree_record:label">
+            <value>Did the participant agree to record the MI sessionI?
+ If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_completed:label">
+            <value>MI session I has been completed. Stop the recording</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step1:label">
+            <value>Step 1: Check-in, review confidentiality and re-consent about audio tapes</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step2:label">
+            <value>Step 2: Review homework assignment</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step3.1:label">
+            <value>Step 3.1: Provide information about behavior change.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step3.2:label">
+            <value>3.2: Identify the target behavior Note.Use MI skills for this</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step4:label">
+            <value>"Step 4: Use readiness of change ruler(0-10)/ MI techniques to talk about helping the participants set goals. 
+Note: Make sure to elicit the change talk in the conversation."</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step5:label">
+            <value>Step 5: Introduce Homework Assignment [Use MI skills] [Note: Such as what activity, what time, how many days a week, probable challenges and ways to make easy the activities]</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step6:label">
+            <value>Step 6: Summarize and the end the session</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/clinical_followup:label">
+            <value>Clinic follow-up</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/diet_quality:label">
+            <value>Diet Quality</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/improve_physical_activity:label">
+            <value>Improving physical activity</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/medical_adherence:label">
+            <value>Medical adherence</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/reduce_tobacco:label">
+            <value>Reducing tobacco use</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1:label">
+            <value>Select the target behavior:
+You can choose only 1 target behavior at a time.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i:label">
+            <value>MI Session I</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MI_sessionII:label">
+            <value>Greet the participant. 
+Note: You are visiting […Person's name…] because he/she has Anxiety/Depression and Diabetes/Hypertension. You completed MI session 1. Please start MI session 2</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record:label">
+            <value>Did the participant agree to record the MI session II?
+If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_completed:label">
+            <value>MI session II has been completed, stop the recording</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step1:label">
+            <value>Step 1: Check-in and review confidentiality and take re-consent about audio tapes.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step2:label">
+            <value>Step 2: Review homework assignment (Note: Review the participant's goal of target behaviour (Use MI-adherent ways to respond)</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step3:label">
+            <value>Step 3: Work on the Target Behavior</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step4:label">
+            <value>Step 4: Continue working on the agenda/ collaboratively develop specific homework.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step5:label">
+            <value>Step 5: Summarize, discuss the homework, and close the session.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii:label">
+            <value>MI Session II</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MI_sessionIII:label">
+            <value>Greet the participant. 
+Note: You are visiting […Person's name…] because he/she has Anxiety/Depression and Diabetes/Hypertension. You completed session II of MI. Please start session III of MI.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record:label">
+            <value>Did the participant agreed to record the MI session III?
+If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_completed:label">
+            <value>MI session III has been completed, stop the recording</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step1:label">
+            <value>Step 1: Check-in and review confidentiality, take re-consent about audio tapes.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step2:label">
+            <value>"Step 2: Review homework assignment
+- Review progress about their goals or motivations to change (Make sure to use MI-adherent ways to respond) 
+-Identifying the goals, benefits of target behavior and challenges in completing homework.
+
+"</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step3:label">
+            <value>Step 3: Work on the Target Behavior</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step4:label">
+            <value>Step 4: Continue working on the agenda and collaboratively develop specific homework.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step5:label">
+            <value>"Step 5: Summarize and review homework and end the session.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3/clinical_followup:label">
+            <value>Clinic follow-up</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3/improve_physical_activity:label">
+            <value>Improving physical activity</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3/medical_adherence:label">
+            <value>Medical adherence</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3/reduce_tobacco:label">
+            <value>Reducing tobacco use</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3:label">
+            <value>Select the target behavior:
+You can choose only 1 target behavior at a time.
+ Decide and write the goal according to the target behavior:</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii:label">
+            <value>MI Session III</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MI_sessionIV:label">
+            <value>Greet the participant. 
+Note: You are visiting […Person's name…] because he/she has Anxiety/Depression and Diabetes/Hypertension. You completed Session III of MI. Please start session IV of MI.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record:label">
+            <value>Did the participant agree to record the MI session IV?
+If yes, please start the recording.</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_completed:label">
+            <value>MI session IV has been completed, stop the recording</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_step1:label">
+            <value>Step 1: Check-in and review confidentiality and take reconsent of audio recording</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_step2:label">
+            <value>Step 2: MI homework review and discussion of continuing work on target behaviors</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_step3:label">
+            <value>Step 3: Review EBSR, BA and Target Behavior Change (using MI Skills)</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_step4:label">
+            <value>"Step 4: Ending the session, psycho-educate and provide the 'Tips-card for support' if the participant needs as per the behavior target they wish to change.
+"</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv:label">
+            <value>MI Session IV</value>
+          </text>
+          <text id="/become_sessions/mi_session:label">
+            <value>MI Session</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण १: आफ्नो परिचय र अध्ययनको बारेमा संक्षिप्त जानकारी दिने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.1:label">
+            <value>के सहभागी सक्रिय व्यवहार विधि भेट १ रेकर्ड गर्न सहमत हुनुहुन्छ? यदि हो भने, रेकर्डिङ शुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २.२. घरमा गरिने अभ्यासको छोटो समीक्षा गर्नुहोस् I**&lt;/span&gt;
+**[नोट: सहभागी संगको यो पहिलो भेट हो भने, यो चरणमा जानु पर्दैन]**</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २ : गोपनियता र अडियो रेकर्डिङको बारेमा सम्झाउने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step3:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ३: सक्रिय व्यवहार विधिको परिचय दिने**&lt;/span&gt;
+ 
+*- निष्क्रिय चक्र देखाएर सक्रिय व्यवहार विधिको परिचय दिने*</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step4:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४: सक्रिय व्यवहार विधि वा व्यवहारमा सक्रियता ल्याउने कार्य (BA) को कथा अनुसार छलफल गर्ने**&lt;/span&gt;
+*- राम बाबुको कथा सुनाउने र प्रश्नहरूको सूची अनुसार सोध्नुहोस । [कथाका लागि दिएको म्यानुअल हेर्नुहोला]*
+*- सहभागीहलाई प्रतिक्रिया दिँदा सहयोगी सिपहरुको प्रयोग गर्नुहोला।]*</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step5:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ५: व्यवहार व मूडमा सुधार ल्याउने क्रियाकलापको पहिचान गर्ने**&lt;/span&gt; 
+
+**[नोट: कार्यपत्र १ (कार्यहरुको सुची) संगै राखेर सहभागीसंग मिलेर काम गर्नुहोला, यसो गर्दा सहयोगी सिपहरुको प्रयोग गर्नुहोला**</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step6:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ६: घरमा गरिने अभ्यासको परिचय दिने र क्रियाकलापको कार्यतालिका बनाउने**&lt;/span&gt;
+ 
+*- घरमा गरिने अभ्यासको महत्व भन्नुहोस ।* 
+*- सहभागीसंग मिलेर घरमा गरिने अभ्यास बनाउनुहोस । ( जस्तै: दिनमा कुन समय, हप्तामा कति दिन, आउन सक्ने चुनौती र अभ्यास सजिलो बनाउने तरिका)*
+*- घरमा गरिने अभ्यासको लागि कार्यपत्र II दिनुहोला ।*</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step7:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण 7 : केही प्रस्न छ कि भनेर सोध्ने र समापन गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २.१ : आधारभूत नियमहरू बनाउनुहोस् ।**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAsessI_completed:label">
+            <value>सक्रिय व्यवहार विधि भेट १ सकियो,रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/BAvisiting_sessionI:label">
+            <value>तपाईं सहभागीलाई भेट गर्दै हुनुहुन्छ किनभने उहाँमा दिक्दारिपन देखिएको छ I BA भेट १ सुरु गर्नुहोस् I</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i/start_ebsr_BA:label">
+            <value>चरण १: गोपनियता, आधारभूत नियमहरू र अडियो रेकर्डिङको बारेमा समीक्षा गर्ने</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_i:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**Behavioural Activation Session I**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record:label">
+            <value>के सहभागी सक्रिय व्यवहार विधि भेट २ रेकर्ड गर्न सहमत हुनुहुन्छ? यदि हो भने, रेकर्डिङ शुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_completed:label">
+            <value>सक्रिय व्यवहार विधि भेट २ सकियो, रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण १: गोपनियता, आधारभूत नियमहरू र अडियो रेकर्डिङको बारेमा समीक्षा गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २: सक्रिय व्यवहार विधि (BA) को पहिलो भेटको समिक्षा गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step3:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ३ : योजना गरेका क्रियाकलापहरु पुरा गर्न सामना गर्नु पर्ने चुनौती र समाधानका उपायहरुको पहिचान गर्न सहयोग दिने ।**&lt;/span&gt;
+
+**[नोट: सहयोगी सिपहरु प्रयोग गर्दै अवरोधहरु पहिचान गर्न र समाधानका उपायहरुबारे राम्रो संग सोच्न सहयोग गर्नुपर्छ । सहभागीले अभ्यास पुरा नगरेको भए, गर्न नदिने समस्या र ति समस्या कसरी घटाउने कुरा गर्नुहोस् [यसो गर्दा सहयोगी सिपहरुको प्रयोग गर्नुहोला ]**</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step4:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४: कार्यपत्र १ र कार्यपत्र २ को बारेमा याद दिलाउने, घरमा गरिने अभ्यास दिने [नया कार्यपत्र २ बनाउने] र भेटलाई समापन गर्ने**&lt;/span&gt;
+
+**नोट : सहभागीहलाई प्रतिक्रिया दिँदा सहयोगका सिपहरुको प्रयोग गर्नुपर्छ।**</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/contd_BAsessII/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii/contd_BAsessII:label">
+            <value>तपाइले सक्रिय व्यवहार विधि (BA) को भेट १ पूरा गर्नुभयो। भेट २ सुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation/ba_session_ii:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**Behavioral Activation Session II**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/behavorial_activation:label">
+            <value>Behavioural Activation</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/AB_sessI_step1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण १ : आफ्नो परिचय र अध्ययनको बारेमा संक्षिप्त जानकारी दिने I**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/AB_sessI_step2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २ : गोपनियता र अडियो रेकर्डिङको बारेमा सम्झाउने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/AB_sessI_step3:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ३ : आधारभूत नियमहरू बनाउने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ABsessI_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ABsessI_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ABsessI_agree_record:label">
+            <value>के सहभागी EBSR भेट १ रेकर्ड गर्न सहमत हुनुहुन्छ ? यदि हो भने, रेकर्डिङ शुरु गर्नुहोस् I</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ABvisiting_sessionI:label">
+            <value>तपाईं सहभागीलाई भेट गर्दै हुनुहुन्छ
+किनभने उहाँमा अत्यधिक चिन्ता देखिएको छ I EBSR भेट सुरु गर्नुहोस् I</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step4:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४: पेटदेखि सास फेर्ने अभ्यासको परिचय दिने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step5:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ५ : पेटदेखि सास फेर्ने विधिको अभ्यास गर्ने**&lt;/span&gt;
+
+*- आफैले अभ्यास गरेर देखाउनुहोस।* 
+*- सहभागी संगै अभ्यास गर्नुहोस । [ यसो गर्नलाई तपाइले तालिममा पाउनुभएको अडियो पनि संगै सुनेर अभ्यास गर्न सकिन्छ I]* 
+ 
+**नोट: सहभागीले कस्तो महसुस गरे भनेर कुरा गर्न केही समय बिताउनुहोस्। छलफल गर्दा सहयोगका आधारभुत सीपहरु (हुबहु सुन्ने, आदि) प्रयोग गर्नुहोला ।**</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step6:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ६ : घरमा गरिने अभ्यासको परिचय दिने**&lt;/span&gt;
+
+- *घरमा गरिने अभ्यासको महत्व भन्नुहोस।* 
+- *सहभागी संग मिलेर घरमा गरिने अभ्यास बनाउनुहोस (जस्तै: दिनमा कुन समय, हप्तामा कति दिन, आउन सक्ने चुनौती र अभ्यास सजिलो बनाउने तरिका)*
+- *सास फेर्ने तरिकाको अडियो टेप वा युटुब लिंक दिनुहोस ।*</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step7:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ७ : भेट समापन गर्ने।**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/ABsessI_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i/ABsessI_completed:label">
+            <value>पेटदेखि सास फेर्ने विधि भेट १ सकियो, रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_i:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**Abdominal Breathing Session I**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record:label">
+            <value>के सहभागी EBSR (पेटदेखि सास फेर्ने विधि) भेट २ रेकर्ड गर्न सहमत हुनुहुन्छ
+? यदि हो भने, रेकर्डिङ शुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_completed:label">
+            <value>पेटबाट सास फेर्ने विधि भेट २ सकियो, कृपया रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण १: गोपनियता, आधारभूत नियमहरू र अडियो रेकर्डिङको बारेमा समीक्षा गर्ने
+**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २ : EBSR भेट १ लाइ सारांश गर्दै घरमा गर्ने अभ्यासको बारेमा चर्चा गर्नेI**&lt;/span&gt;
+*- सहभागीले अभ्यास पुरा नगरेको भए, गर्न नदिने समस्या र ति समस्या कसरी घटाउने कुरा गर्नुहोस [यसो गर्दा सम्पूर्ण सहयोगी सीपहरु प्रयोग गर्नुहोला ।]*</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step3:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ३ : पेटदेखि सास फेर्ने विधिको पुन: अभ्यास गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step4:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४ : घरमा गरिने अभ्यास दिने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step5:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ५ : भेट सारांश र समापन गर्ने ।**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii/contd_ABsessII:label">
+            <value>तपाईंले EBSR( पेटदेखि सास फेर्ने विधि) भेट १ पूरा गर्नुभयो। भेट २ शूरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_ab_session_ii:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**EBSR - Abdominal Breathing Session II**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४: शरीर स्क्यान अभ्यासको परिचय दिने I 
+**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_completed:label">
+            <value>-</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step5:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ५: शरिर स्क्यान अभ्यास गराउने**&lt;/span&gt;
+*- आफैले अभ्यास गरेर देखाउनुहोस ।*
+*- सहभागी संगै अभ्यास गर्नुहोस । [ यसो गर्नलाई तपाइले तालिममा पाउनुभएको अडियो पनि संगै सुनेर अभ्यास गर्न सकिन्छ]* 
+ 
+**नोट: सहभागीले कस्तो महसुस गरे भनेर कुरा गर्न केही समय बिताउनुहोस्। छलफल गर्दा सहयोगका आधारभुत सिपहरु (हुबहु सुन्ने, आदि) प्रयोग गर्नुहोला ।**</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step6:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ६: घरमा गरिने अभ्यासको परिचय दिने**&lt;/span&gt;
+*- घरमा गरिने अभ्यासको महत्व भन्नुहोस ।* 
+*- सहभागीसंग मिलेर घरमा गरिने अभ्यास बनाउनुहोस ( जस्तै: दिनमा कुन समय, हप्तामा कति दिन, आउन सक्ने चुनौती र अभ्यास सजिलो बनाउने तरिका)*
+*- शरिर स्क्यानको अडियो टेप पनि दिनुहोस्।*</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step7:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ७: भेट समापन गर्नुहोस् ।**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step8:label">
+            <value>शरीर स्क्यान भेट १ सकियो, रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_i:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**EBSR- Body Scan (शरीर स्क्यान) Session I**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record:label">
+            <value>के सहभागी शरीर स्क्यान भेट २ रेकर्ड गर्न सहमत हुनुहुन्छ ?यदि हो भने, रेकर्डिङ शुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_completed:label">
+            <value>शरीर स्क्यान भेट २ सकियो, रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण १: गोपनियता, आधारभूत नियमहरू र अडियो रेकर्डिङको बारेमा समीक्षा गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २:EBSR (शरीर स्क्यान) भेट १ लाइ सारांश गर्दै घरमा गर्ने अभ्यासको बारेमा चर्चा गर्ने I**&lt;/span&gt; 
+*- सहभागीले अभ्यास पुरा नगरेको भए पनि अभ्यास गर्न किन महत्वपुर्ण छ, र अभ्यास गर्न नसक्ने समस्या र ति समस्या कसरी घटाउने कुरा गर्नुहोस [यसो गर्दा सहयोगी सिपहरुको प्रयोग गर्नुहोला।*</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step3:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ३ : शरीरको स्क्यान पुन: अभ्यास गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step4:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४ : घरमा गरिने अभ्यास दिने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step5:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ५ : भेट सारांश र समापन गर्ने ।**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/contd_BSsessII/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii/contd_BSsessII:label">
+            <value>तपाईंले EBSR (शरीर स्क्यान) भेट १ पूरा गर्नुभयो। भेट २ सुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ebsr_bs_session_ii:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**EBSR- Body Scan ( शरीर स्क्यान) Session II**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ensure_condition/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ensure_condition/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/ebsr_session/ensure_condition:label">
+            <value>सहभागीमा COPD, गम्भीर दम वा अन्य श्वासप्रश्वासको समस्या छ? यदि छ भने शरीर स्क्यान अभ्यास गर्ने</value>
+          </text>
+          <text id="/become_sessions/ebsr_session:label">
+            <value>EBSR</value>
+          </text>
+          <text id="/become_sessions/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/become_sessions/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/become_sessions/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/become_sessions/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MI_sessionI:label">
+            <value>तपाई सहभागीलाई भेट गर्दै हुनुहुन्छ किनभने उहाँमा मधुमेह/उच्च रक्तचाप देखिएको छ । MI भेट १ शुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_agree_record:label">
+            <value>के सहभागी MI भेट १ रेकर्ड गर्न सहमत हुनुहुन्छ? यदि हो भने, रेकर्डिङ शुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_completed:label">
+            <value>MI भेट १ सकियो, रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण १: गोपनियता, आधारभूत नियमहरू र अडियो रेकर्डिङको बारेमा समीक्षा गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २: घरमा गरिने अभ्यासको समीक्षा गर्नेI**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step3.1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ३.१ : व्यवहार परिवर्तन गर्न जानकारी दिने ।**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step3.2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ३.२ : परिवर्तन गर्नुपर्ने व्यवहार पहिचान गर्ने**&lt;/span&gt;
+
+**[नोट: कुराकानी गर्दा MI का सीपहरु (जस्तै PACE, OARS) प्रयोग गर्नुपर्छ।]**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step4:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४ : लक्ष्य (goal) तय गर्न सहयोग गर्नको लागि परिवर्तनको तयारी विधि (०-१० स्केल) /इच्छा बढाउने परामर्शको विधि (MI) प्रयोग गर्ने**&lt;/span&gt;
+
+**[नोट:​ ​कुराकानीको दौरान परिवर्तन सम्बन्धि कुराकानी निकाल्ने प्रयास गर्नुहोस्। भेट अगाडि PACE तथा OARS को बारेमा अझै बुझ्नको लागि म्यानुअलमा भएको सामग्री राम्रोसँग पढ्नुहोस्।]**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step5:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ५ :घरमा गरिने अभ्यास दिने [MI बिधिहरु प्रयोग गर्ने]**&lt;/span&gt;
+
+*- जस्तै क्रियाकलाप के हो, दिनमा कुन समय, हप्तामा कति दिन, आउन सक्ने चुनौती र अभ्यास सजिलो बनाउने तरिकाहरु)*</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/MIsessI_step6:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ६ : भेटको सारांश गरेर भेट समापन गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/clinical_followup:label">
+            <value>स्वास्थ्य केन्द्रमा नियमित रुपमा भेटघाटमा</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/diet_quality:label">
+            <value>खानपानको गुणस्तर</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/improve_physical_activity:label">
+            <value>शारीरिक गतिबिधि बढाउन</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/medical_adherence:label">
+            <value>चिकित्सकीय सेवालाई निरन्तरता</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1/reduce_tobacco:label">
+            <value>सुर्तीजन्य पदार्थको सेवनमा कमि लिएर आउनु</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i/target_behavior1:label">
+            <value>परिवर्तन गर्ने व्यवहार [target behavior] छान्नुहोस: तपाईले एक चोटीमा एउटा परिवर्तन गर्ने व्यवहार छान्न सक्नुहुन्छ ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_i:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**MI Session I**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MI_sessionII:label">
+            <value>तपाईंले MI भेट १ पूरा गर्नुभयो। कृपया MI भेट २ शुरु गर्नुहोस् I</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record:label">
+            <value>के सहभागी MI भेट २ रेकर्ड गर्न सहमत हुनुहुन्छ? यदि हो भने, रेकर्डिङ शुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_completed:label">
+            <value>MI भेट २ सकियो, रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण १: गोपनियता, आधारभूत नियमहरू र अडियो रेकर्डिङको बारेमा समीक्षा गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २: घरमा गरिने अभ्यासको समिक्षा गर्ने I**&lt;/span&gt;
+
+*- सहभागीको लक्ष्यहरु र प्रेरणाहरुको बारेमा समिक्षा गर्ने (इच्छा बढाउने परामर्श (MI) अनुसारको प्रतिक्रिया दिने तरिका प्रयोग गर्नुहोस)*
+**[नोट: कुराकानी गर्दा परिबर्तन गर्ने ब्यबहार फरक बनाउनुपर्छ कि पर्दैन भन्ने पनि थाहा हुन्छ I]**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step3:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण 3:परिवर्तन गर्नुपर्ने व्यवहारमा [target behavior] काम गर्ने**&lt;/span&gt;
+
+**[नोट: MI सिपको प्रयोग गरि, सहभागी कुन चरणमा हुनुहुन्छ पत्ता लगाउनुहोस र चरण अनुसार सिप प्रयोग गर्नुपर्छ I]; यदि सहभागीले लक्ष्य परिवर्तन गर्न चाहनुभयो भने, आफ्नो सुपरभाइजरसंग कुरा गर्नुहोला I]**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step4:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४: योजनामा काम गर्दै/ मिलेर घरमा गरिने अभ्यास बनाउने**&lt;/span&gt;
+
+*- सहभागी कुन चरणमा हुनुहुन्छ MI को सिप प्रयोग गरि पत्ता लगाउने*
+
+*- सहभागीसंग मिलेर घरमा गरिने अभ्यास दिने*
+
+*- ​​इच्छा बढाउने परामर्श (MI) का सीपहरु प्रयोग गर्दा प्रोत्साहन गर्न र परिवर्तन बारे कुरा दोहोर्याउन नबिर्सिने*
+**[नोट:सहभागीले के लक्ष्य [goal) बनाउनु भएको छ, आफुले सम्झिनको लागि टिप्नुहोस् I]**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii/MIsessII_step5:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ५ : घरमा गरिने अभ्यासको समीक्षा, छलफल गर्ने अनि भेट समापन गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_ii:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**MI Session II**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MI_sessionIII:label">
+            <value>तपाईंले MI भेट २ पूरा गर्नुभयो। कृपया MI भेट ३ शुरु गर्नुहोस् I</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record:label">
+            <value>के सहभागी MI भेट ३ रेकर्ड गर्न सहमत हुनुहुन्छ? यदि हो भने, रेकर्डिङ शुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_completed:label">
+            <value>MI भेट ३ सकियो, रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण १: गोपनियता, आधारभूत नियमहरू र अडियो रेकर्डिङको बारेमा समीक्षा गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २ : घरमा गरिने अभ्यासको समिक्षा गर्ने I**&lt;/span&gt;
+
+*- सहभागीको लक्ष्यहरु र प्रेरणाहरुको बारेमा समिक्षा गर्नुहोस I (इच्छा बढाउने परामर्श (MI) अनुसारको प्रतिक्रिया दिने तरिका प्रयोग गर्नुहोस)*
+
+**[नोट: कुराकानी गर्दा परिबर्तन गर्ने ब्यबहार फरक बनाउनुपर्छ कि पर्दैन भन्ने पनि थाह हुन्छ I]**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step3:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण 3 : परिवर्तन गर्नुपर्ने व्यवहारमा [target behavior] काम गर्ने**&lt;/span&gt;
+
+**[MI सिपको प्रयोग गरि, सहभागी कुन चरणमा हुनुहुन्छ पत्ता लगाउनुहोस र चरण अनुसार सिप प्रयोग गर्नुपर्छ I]; यदि सहभागीले लक्ष्य परिवर्तन गर्न चाहनुभयो भने, आफ्नो सुपरभाइजरसंग कुरा गर्नुहोला I]**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step4:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४: योजनामा काम गर्दै/ मिलेर घरमा गरिने अभ्यास बनाउने**&lt;/span&gt;
+*- सहभागी कुन चरणमा हुनुहुन्छ MI को सिप प्रयोग गरि पत्ता लगाउनुहोला।*
+*- सहभागीसंग मिलेर घरमा गरिने अभ्यास दिनुहोला।*
+*- ​इच्छा बढाउने परामर्श (MI) का सीपहरु प्रयोग गर्दा प्रोत्साहन गर्न र परिवर्तन बारे कुरा दोहोर्याउन नबिर्सिनु होला।*
+
+**[नोट:सहभागीले के लक्ष्य (goal) बनाउनु भएको छ, आफुले सम्झिनको लागि टिप्नुहोस् I]**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/MIsessIII_step5:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ५ : घरमा गरिने अभ्यासको समीक्षा, छलफल गर्ने अनि भेट समापन गर्ने I**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3/clinical_followup:label">
+            <value>स्वास्थ्य केन्द्रमा नियमित रुपमा भेटघाटमा</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3/improve_physical_activity:label">
+            <value>शारीरिक गतिबिधि बढाउन</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3/medical_adherence:label">
+            <value>चिकित्सकीय सेवालाई निरन्तरता</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3/reduce_tobacco:label">
+            <value>सुर्तीजन्य पदार्थको सेवनमा कमि लिएर आउनु</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii/target_behavior3:label">
+            <value>परिवर्तन गर्ने व्यवहार छान्नुहोस: तपाईले एक चोटीमा एउटा परिवर्तन गर्ने बानि छान्नु सक्नु हुन्छ । परिवर्तन गर्ने बानि अनुसार लक्ष्य [Goal] निर्धारण गर्नुहोस र लेख्नुहोस । 
+
+**Note: सहभागीले के लक्ष्य [goal) बनाउनु भएको छ, आफुले सम्झिन को लागि टिप्नुहोस् ।**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iii:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**MI Session III**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MI_sessionIV:label">
+            <value>तपाईंले MI भेट ३ पूरा गर्नुभयो। कृपया MI भेट ४ शुरु गर्नुहोस् I</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record:label">
+            <value>के सहभागी MI भेट ४ रेकर्ड गर्न सहमत हुनुहुन्छ? यदि हो भने, रेकर्डिङ शुरु गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_completed/ok:label">
+            <value>OK</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_completed:label">
+            <value>MI भेट ४ सकियो, रेकर्डिङ बन्द गर्नुहोस् ।</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_step1:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण १: गोपनियता, आधारभूत नियमहरू र अडियो रेकर्डिङको बारेमा समीक्षा गर्ने**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_step2:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण २ : MI का घरमा गर्ने अभ्यासहरूको समिक्षा र परिवर्तनमा काम गरिरहने बारे छलफल गर्ने I**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_step3:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ३ : पेट देखि स्वास फेर्ने विधि (EBSR), सक्रिय व्यवहार विधि (BA) र व्पवहार परिवर्तन गर्ने ब्यहबार को समीक्षा गर्ने**&lt;/span&gt;
+
+**[नोट: इच्छा बढाउने परामर्श(MI) का सीपहरुको प्रयोग गरेर समिक्षा गर्नुहोला I**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv/MIsessIV_step4:label">
+            <value>&lt;span style="color:#bb0000"&gt;**चरण ४ : भेट समापन गर्ने**&lt;/span&gt;
+**[नोट: सहभागीलाई आवश्यकता परेमा उनीहरुलाई परिवर्तन गर्न चाहेको तोकिएको व्यवहारलाई उपयुक्त हुने 'सहायताको लागि टिप्स-कार्ड' प्रदान गर्ने।]**</value>
+          </text>
+          <text id="/become_sessions/mi_session/mi_session_iv:label">
+            <value>&lt;span style="color:#00aa4e"&gt;**MI Session IV**&lt;/span&gt;</value>
+          </text>
+          <text id="/become_sessions/mi_session:label">
+            <value>MI Session</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <become_sessions id="become_sessions" prefix="J1!become_sessions!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <patient_id/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_id/>
+          <anxiety_session tag="hidden"/>
+          <depression_session tag="hidden"/>
+          <ma_session tag="hidden"/>
+          <ebsr tag="hidden"/>
+          <previous_ctx tag="hidden"/>
+          <visit tag="hidden"/>
+          <ebsr_session>
+            <ABvisiting_sessionI/>
+            <AB_sessI_step1/>
+            <AB_sessI_step2/>
+            <ABsessI_agree_record/>
+            <AB_sessI_step3/>
+            <ensure_condition/>
+            <ebsr_ab_session_i>
+              <AB_sessI_step4/>
+              <AB_sessI_step5/>
+              <AB_sessI_step6/>
+              <AB_sessI_step7/>
+              <ABsessI_completed/>
+            </ebsr_ab_session_i>
+            <ebsr_ab_session_ii>
+              <contd_ABsessII/>
+              <ABsessII_step1/>
+              <ABsessII_agree_record/>
+              <ABsessII_step2/>
+              <ABsessII_step3/>
+              <ABsessII_step4/>
+              <ABsessII_step5/>
+              <ABsessII_completed/>
+            </ebsr_ab_session_ii>
+            <ebsr_bs_session_i>
+              <BSsessI_agree_record/>
+              <BSsessI_step5/>
+              <BSsessI_step6/>
+              <BSsessI_step7/>
+              <BSsessI_step8/>
+              <BSsessI_completed/>
+            </ebsr_bs_session_i>
+            <ebsr_bs_session_ii>
+              <contd_BSsessII/>
+              <BSsessII_step1/>
+              <BSsessII_agree_record/>
+              <BSsessII_step2/>
+              <BSsessII_step3/>
+              <BSsessII_step4/>
+              <BSsessII_step5/>
+              <BSsessII_completed/>
+            </ebsr_bs_session_ii>
+          </ebsr_session>
+          <behavorial_activation>
+            <ba_session_i>
+              <BAvisiting_sessionI/>
+              <BA_sessI_step1/>
+              <BA_sessI_step2/>
+              <start_ebsr_BA/>
+              <BA_sessI_step2.1/>
+              <BAsessI_agree_record/>
+              <BA_sessI_step2.2/>
+              <BA_sessI_step3/>
+              <BA_sessI_step4/>
+              <BA_sessI_step5/>
+              <BA_sessI_step6/>
+              <BA_sessI_step7/>
+              <BAsessI_completed/>
+            </ba_session_i>
+            <ba_session_ii>
+              <contd_BAsessII/>
+              <BAsessII_step1/>
+              <BAsessII_agree_record/>
+              <BAsessII_step2/>
+              <BAsessII_step3/>
+              <BAsessII_step4/>
+              <BAsessII_completed/>
+            </ba_session_ii>
+          </behavorial_activation>
+          <mi_session>
+            <mi_session_i>
+              <MI_sessionI/>
+              <MIsessI_step1/>
+              <MIsessI_agree_record/>
+              <MIsessI_step2/>
+              <MIsessI_step3.1/>
+              <MIsessI_step3.2/>
+              <target_behavior1/>
+              <MIsessI_step4/>
+              <MIsessI_step5/>
+              <MIsessI_step6/>
+              <MIsessI_completed/>
+            </mi_session_i>
+            <mi_session_ii>
+              <MI_sessionII/>
+              <MIsessII_step1/>
+              <MIsessII_agree_record/>
+              <MIsessII_step2/>
+              <MIsessII_step3/>
+              <MIsessII_step4/>
+              <MIsessII_step5/>
+              <MIsessII_completed/>
+            </mi_session_ii>
+            <mi_session_iii>
+              <MI_sessionIII/>
+              <MIsessIII_step1/>
+              <MIsessIII_agree_record/>
+              <MIsessIII_step2/>
+              <target_behavior3/>
+              <MIsessIII_step3/>
+              <MIsessIII_step4/>
+              <MIsessIII_step5/>
+              <MIsessIII_completed/>
+            </mi_session_iii>
+            <mi_session_iv>
+              <MI_sessionIV/>
+              <MIsessIV_step1/>
+              <MIsessIV_agree_record/>
+              <MIsessIV_step2/>
+              <MIsessIV_step3/>
+              <MIsessIV_step4/>
+              <MIsessIV_completed/>
+            </mi_session_iv>
+          </mi_session>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </become_sessions>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/become_sessions/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/become_sessions/inputs/source" type="string"/>
+      <bind nodeset="/become_sessions/inputs/source_id" type="string"/>
+      <bind nodeset="/become_sessions/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/become_sessions/inputs/contact/name" type="string"/>
+      <bind nodeset="/become_sessions/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/become_sessions/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/become_sessions/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/become_sessions/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/become_sessions/anxiety_session" type="string"/>
+      <bind nodeset="/become_sessions/depression_session" type="string"/>
+      <bind nodeset="/become_sessions/ma_session" type="string"/>
+      <bind nodeset="/become_sessions/ebsr" type="string" calculate="if(instance('contact-summary')/context/ebsr, instance('contact-summary')/context/ebsr, .)"/>
+      <bind nodeset="/become_sessions/previous_ctx" type="string" calculate="if(instance('contact-summary')/context/previous_ctx, instance('contact-summary')/context/previous_ctx, .)"/>
+      <bind nodeset="/become_sessions/visit" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session" relevant=" /become_sessions/anxiety_session  = 'first' or  /become_sessions/anxiety_session  = 'second'"/>
+      <bind nodeset="/become_sessions/ebsr_session/ABvisiting_sessionI" readonly="true()" type="string" relevant=" /become_sessions/anxiety_session  = 'first'"/>
+      <bind nodeset="/become_sessions/ebsr_session/AB_sessI_step1" readonly="true()" type="string" relevant=" /become_sessions/anxiety_session  = 'first'"/>
+      <bind nodeset="/become_sessions/ebsr_session/AB_sessI_step2" readonly="true()" type="string" relevant=" /become_sessions/anxiety_session  = 'first'"/>
+      <bind nodeset="/become_sessions/ebsr_session/ABsessI_agree_record" type="select1" relevant=" /become_sessions/anxiety_session  = 'first'"/>
+      <bind nodeset="/become_sessions/ebsr_session/AB_sessI_step3" readonly="true()" type="string" relevant=" /become_sessions/anxiety_session  = 'first'"/>
+      <bind nodeset="/become_sessions/ebsr_session/ensure_condition" type="select1" relevant=" /become_sessions/anxiety_session  = 'first'"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_i" relevant=" /become_sessions/ebsr_session/ensure_condition  = 'no'"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step4" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step5" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step6" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step7" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_i/ABsessI_completed" type="select1"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_ii" relevant=" /become_sessions/ebsr  = 'no' and  /become_sessions/anxiety_session  = 'second'"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_ii/contd_ABsessII" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step1" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record" type="select1"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step2" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step3" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step4" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step5" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_completed" type="select1"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_i" relevant=" /become_sessions/ebsr_session/ensure_condition  = &quot;yes&quot;"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record" type="select1"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step5" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step6" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step7" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step8" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_completed" type="select1"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_ii" relevant=" /become_sessions/ebsr  = 'yes' and  /become_sessions/anxiety_session  = 'second'"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_ii/contd_BSsessII" type="select1"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step1" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record" type="select1"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step2" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step3" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step4" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step5" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_completed" type="select1"/>
+      <bind nodeset="/become_sessions/behavorial_activation" relevant=" /become_sessions/depression_session  = 'first' or  /become_sessions/depression_session  = 'second'"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i" relevant=" /become_sessions/depression_session  = 'first'"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BAvisiting_sessionI" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step1" readonly="true()" type="string" relevant="not(contains( /become_sessions/previous_ctx , 'anxiety'))"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2" readonly="true()" type="string" relevant="not(contains( /become_sessions/previous_ctx , 'anxiety'))"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/start_ebsr_BA" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.1" readonly="true()" type="string" relevant="not(contains( /become_sessions/previous_ctx , 'anxiety'))"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record" type="select1"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.2" readonly="true()" type="string" relevant=" /become_sessions/ebsr_session/ensure_condition  = 'yes' or  /become_sessions/ebsr_session/ensure_condition  = 'no'"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step3" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step4" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step5" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step6" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step7" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_i/BAsessI_completed" type="select1"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_ii" relevant=" /become_sessions/depression_session  = 'second'"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_ii/contd_BAsessII" type="select1"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step1" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record" type="select1"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step2" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step3" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step4" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_completed" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session" relevant=" /become_sessions/ma_session  = 'first' or  /become_sessions/ma_session  = 'second' or  /become_sessions/ma_session  = 'third' or  /become_sessions/ma_session  = 'fourth'"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i" relevant=" /become_sessions/ma_session  = 'first'"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MI_sessionI" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MIsessI_step1" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MIsessI_agree_record" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MIsessI_step2" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MIsessI_step3.1" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MIsessI_step3.2" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/target_behavior1" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MIsessI_step4" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MIsessI_step5" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MIsessI_step6" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_i/MIsessI_completed" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_ii" relevant=" /become_sessions/ma_session  = 'second'"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_ii/MI_sessionII" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_ii/MIsessII_step1" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_ii/MIsessII_step2" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_ii/MIsessII_step3" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_ii/MIsessII_step4" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_ii/MIsessII_step5" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_ii/MIsessII_completed" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii" relevant=" /become_sessions/ma_session  = 'third'"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii/MI_sessionIII" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii/MIsessIII_step1" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii/MIsessIII_step2" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii/target_behavior3" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii/MIsessIII_step3" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii/MIsessIII_step4" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii/MIsessIII_step5" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iii/MIsessIII_completed" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iv" relevant=" /become_sessions/ma_session  = 'fourth'"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iv/MI_sessionIV" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iv/MIsessIV_step1" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record" type="select1"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iv/MIsessIV_step2" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iv/MIsessIV_step3" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iv/MIsessIV_step4" readonly="true()" type="string"/>
+      <bind nodeset="/become_sessions/mi_session/mi_session_iv/MIsessIV_completed" type="select1"/>
+      <bind nodeset="/become_sessions/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/become_sessions/inputs">
+      <label ref="jr:itext('/become_sessions/inputs:label')"/>
+      <group ref="/become_sessions/inputs/contact">
+        <label ref="jr:itext('/become_sessions/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/become_sessions/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group appearance="Field-list" ref="/become_sessions/ebsr_session">
+      <label ref="jr:itext('/become_sessions/ebsr_session:label')"/>
+      <input ref="/become_sessions/ebsr_session/ABvisiting_sessionI">
+        <label ref="jr:itext('/become_sessions/ebsr_session/ABvisiting_sessionI:label')"/>
+      </input>
+      <input ref="/become_sessions/ebsr_session/AB_sessI_step1">
+        <label ref="jr:itext('/become_sessions/ebsr_session/AB_sessI_step1:label')"/>
+      </input>
+      <input ref="/become_sessions/ebsr_session/AB_sessI_step2">
+        <label ref="jr:itext('/become_sessions/ebsr_session/AB_sessI_step2:label')"/>
+      </input>
+      <select1 ref="/become_sessions/ebsr_session/ABsessI_agree_record">
+        <label ref="jr:itext('/become_sessions/ebsr_session/ABsessI_agree_record:label')"/>
+        <item>
+          <label ref="jr:itext('/become_sessions/ebsr_session/ABsessI_agree_record/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/become_sessions/ebsr_session/ABsessI_agree_record/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/become_sessions/ebsr_session/AB_sessI_step3">
+        <label ref="jr:itext('/become_sessions/ebsr_session/AB_sessI_step3:label')"/>
+      </input>
+      <select1 ref="/become_sessions/ebsr_session/ensure_condition">
+        <label ref="jr:itext('/become_sessions/ebsr_session/ensure_condition:label')"/>
+        <item>
+          <label ref="jr:itext('/become_sessions/ebsr_session/ensure_condition/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/become_sessions/ebsr_session/ensure_condition/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <group appearance="Field-list" ref="/become_sessions/ebsr_session/ebsr_ab_session_i">
+        <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_i:label')"/>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step4">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step4:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step5">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step5:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step6">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step6:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step7">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_i/AB_sessI_step7:label')"/>
+        </input>
+        <select1 ref="/become_sessions/ebsr_session/ebsr_ab_session_i/ABsessI_completed">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_i/ABsessI_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_i/ABsessI_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="Field-list" ref="/become_sessions/ebsr_session/ebsr_ab_session_ii">
+        <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii:label')"/>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_ii/contd_ABsessII">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/contd_ABsessII:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step1">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step1:label')"/>
+        </input>
+        <select1 ref="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_agree_record/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step2">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step2:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step3">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step3:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step4">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step4:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step5">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_step5:label')"/>
+        </input>
+        <select1 ref="/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_completed">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_ab_session_ii/ABsessII_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="Field-list" ref="/become_sessions/ebsr_session/ebsr_bs_session_i">
+        <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i:label')"/>
+        <select1 ref="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_agree_record/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step5">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step5:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step6">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step6:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step7">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step7:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step8">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_step8:label')"/>
+        </input>
+        <select1 ref="/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_completed">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_i/BSsessI_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="Field-list" ref="/become_sessions/ebsr_session/ebsr_bs_session_ii">
+        <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii:label')"/>
+        <select1 ref="/become_sessions/ebsr_session/ebsr_bs_session_ii/contd_BSsessII">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/contd_BSsessII:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/contd_BSsessII/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step1">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step1:label')"/>
+        </input>
+        <select1 ref="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_agree_record/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step2">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step2:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step3">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step3:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step4">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step4:label')"/>
+        </input>
+        <input ref="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step5">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_step5:label')"/>
+        </input>
+        <select1 ref="/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_completed">
+          <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/ebsr_session/ebsr_bs_session_ii/BSsessII_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group ref="/become_sessions/behavorial_activation">
+      <label ref="jr:itext('/become_sessions/behavorial_activation:label')"/>
+      <group appearance="Field-list" ref="/become_sessions/behavorial_activation/ba_session_i">
+        <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i:label')"/>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BAvisiting_sessionI">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BAvisiting_sessionI:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step1">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step1:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/start_ebsr_BA">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/start_ebsr_BA:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.1">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.1:label')"/>
+        </input>
+        <select1 ref="/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BAsessI_agree_record/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.2">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step2.2:label')"/>
+          <hint>&lt;span style="color:#00aa4e"&gt;नोट: यदि सहभागी संग EBSR पछिको भेट हो भने I (Note: This if the participant is taking this session after EBSR)&lt;/span&gt;</hint>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step3">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step3:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step4">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step4:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step5">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step5:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step6">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step6:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step7">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BA_sessI_step7:label')"/>
+        </input>
+        <select1 ref="/become_sessions/behavorial_activation/ba_session_i/BAsessI_completed">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BAsessI_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_i/BAsessI_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="Field-list" ref="/become_sessions/behavorial_activation/ba_session_ii">
+        <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii:label')"/>
+        <select1 ref="/become_sessions/behavorial_activation/ba_session_ii/contd_BAsessII">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/contd_BAsessII:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/contd_BAsessII/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step1">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step1:label')"/>
+        </input>
+        <select1 ref="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/BAsessII_agree_record/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step2">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step2:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step3">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step3:label')"/>
+        </input>
+        <input ref="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step4">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/BAsessII_step4:label')"/>
+        </input>
+        <select1 ref="/become_sessions/behavorial_activation/ba_session_ii/BAsessII_completed">
+          <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/BAsessII_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/behavorial_activation/ba_session_ii/BAsessII_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group ref="/become_sessions/mi_session">
+      <label ref="jr:itext('/become_sessions/mi_session:label')"/>
+      <group appearance="Field-list" ref="/become_sessions/mi_session/mi_session_i">
+        <label ref="jr:itext('/become_sessions/mi_session/mi_session_i:label')"/>
+        <input ref="/become_sessions/mi_session/mi_session_i/MI_sessionI">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MI_sessionI:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_i/MIsessI_step1">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_step1:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_i/MIsessI_agree_record">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_agree_record:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_agree_record/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_agree_record/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/mi_session/mi_session_i/MIsessI_step2">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_step2:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_i/MIsessI_step3.1">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_step3.1:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_i/MIsessI_step3.2">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_step3.2:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_i/target_behavior1">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/target_behavior1:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/target_behavior1/improve_physical_activity:label')"/>
+            <value>improve_physical_activity</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/target_behavior1/reduce_tobacco:label')"/>
+            <value>reduce_tobacco</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/target_behavior1/medical_adherence:label')"/>
+            <value>medical_adherence</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/target_behavior1/clinical_followup:label')"/>
+            <value>clinical_followup</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/target_behavior1/diet_quality:label')"/>
+            <value>diet_quality</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/mi_session/mi_session_i/MIsessI_step4">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_step4:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_i/MIsessI_step5">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_step5:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_i/MIsessI_step6">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_step6:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_i/MIsessI_completed">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_i/MIsessI_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="Field-list" ref="/become_sessions/mi_session/mi_session_ii">
+        <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii:label')"/>
+        <input ref="/become_sessions/mi_session/mi_session_ii/MI_sessionII">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MI_sessionII:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_ii/MIsessII_step1">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_step1:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_agree_record/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/mi_session/mi_session_ii/MIsessII_step2">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_step2:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_ii/MIsessII_step3">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_step3:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_ii/MIsessII_step4">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_step4:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_ii/MIsessII_step5">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_step5:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_ii/MIsessII_completed">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_ii/MIsessII_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="Field-list" ref="/become_sessions/mi_session/mi_session_iii">
+        <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii:label')"/>
+        <input ref="/become_sessions/mi_session/mi_session_iii/MI_sessionIII">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MI_sessionIII:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_iii/MIsessIII_step1">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_step1:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_agree_record/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/mi_session/mi_session_iii/MIsessIII_step2">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_step2:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_iii/target_behavior3">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/target_behavior3:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/target_behavior3/improve_physical_activity:label')"/>
+            <value>improve_physical_activity</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/target_behavior3/reduce_tobacco:label')"/>
+            <value>reduce_tobacco</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/target_behavior3/medical_adherence:label')"/>
+            <value>medical_adherence</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/target_behavior3/clinical_followup:label')"/>
+            <value>clinical_followup</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/mi_session/mi_session_iii/MIsessIII_step3">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_step3:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_iii/MIsessIII_step4">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_step4:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_iii/MIsessIII_step5">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_step5:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_iii/MIsessIII_completed">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iii/MIsessIII_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="Field-list" ref="/become_sessions/mi_session/mi_session_iv">
+        <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv:label')"/>
+        <input ref="/become_sessions/mi_session/mi_session_iv/MI_sessionIV">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MI_sessionIV:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_iv/MIsessIV_step1">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MIsessIV_step1:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MIsessIV_agree_record/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/become_sessions/mi_session/mi_session_iv/MIsessIV_step2">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MIsessIV_step2:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_iv/MIsessIV_step3">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MIsessIV_step3:label')"/>
+        </input>
+        <input ref="/become_sessions/mi_session/mi_session_iv/MIsessIV_step4">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MIsessIV_step4:label')"/>
+        </input>
+        <select1 ref="/become_sessions/mi_session/mi_session_iv/MIsessIV_completed">
+          <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MIsessIV_completed:label')"/>
+          <item>
+            <label ref="jr:itext('/become_sessions/mi_session/mi_session_iv/MIsessIV_completed/ok:label')"/>
+            <value>ok</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+  </h:body>
+</h:html>

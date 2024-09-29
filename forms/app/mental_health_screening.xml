@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Mental Health Screening</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/mental_health_screening/mental_health_screening/Epilepsy_disease:label">
+            <value>He may have Epilepsy. Kindly consult him and his family and refer him immediately to a health facility/psychiatrist and inform him about the date when you will come to see him again.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/alert_to_prevent_commit_suicide:label">
+            <value>Please talk to him and his family member about the seriousness of his mental condition So family members need to be alert to prevent commit suicide. So patient should not be left alone otherwise any time can happen unexpected things. So refer him immediately to a health facility/psychiatrist and inform him about the date when you will come to see him again.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/anxiety_related_problem:label">
+            <value>He may have Anxiety. Kindly consult him and his family and refer him immediately to a health facility/psychiatrist and inform him about the date when you will come to see him again.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/anxiety_heart_palpitations:label">
+            <value>Anxiety, heart palpitations, shortness of breath, and forgetfulness.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/audio_hallucination:label">
+            <value>Audio hallucination</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/body_ache:label">
+            <value>Body ache</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/convulsion_and_froathing:label">
+            <value>Fall on ground after convulsion and froathing.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/disappointed_with_life:label">
+            <value>Disappointed with life and thought that I can't do anything in life now.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/getting_angry_quickly:label">
+            <value>Get angry quickly on small things even with family and friends.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/insomnia:label">
+            <value>Insomnia at night or difficulty to sleep.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/loss_of_interest_in_work:label">
+            <value>Loss of interest in work and losing interest in work day by day.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/no_health_issue:label">
+            <value>There is no health issue even after the check up as per the advice of doctor.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/none:label">
+            <value>None of the above conditions.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/other_signs_and_symptoms:label">
+            <value>In addition to the above sign and symptoms, there are other unusual behaviors.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/powerful_person:label">
+            <value>Feeling a very big and powerful person</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/rude:label">
+            <value>Rude to family and colleagues without reason.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/stress_feeling:label">
+            <value>Stress felling even try to avoid it.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/suicidal_thoughts:label">
+            <value>Suicidal thoughts come on mind and try to commit suicide; start looking for places, rivers and other things like ropes, and poisons.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/talk_unnecessary:label">
+            <value>Continuously talk about unnecessary things</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/thinking_future_is_dark:label">
+            <value>Thought that future is dark, do not want to live or think that life is worthless.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/walk_around_dirty:label">
+            <value>Walk around and become a dirty</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/weak_and_helpless:label">
+            <value>Considers himself weak and helpless and love to stay live alone.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior:label">
+            <value>Over the past few months, has anyone in your family noticed the following changes in behavior :</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/counseling_mental_health:label">
+            <value>Kindly counsel him and his family about mental health and tell them this could be a mental health problem. So refer him to a health facility/psychiatrist and inform him about the date when you will come to see him again.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/depression:label">
+            <value>He may have depression. Kindly consult him and his family and refer him immediately to a health facility/psychiatrist and inform him about the date when you will come to see him again.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/serious_mental_problems:label">
+            <value>He may have serious mental problems Kindly counsel him and his family and refer him immediately to a health facility/psychiatrist and inform him of the date when you will come to see him again.</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening:label">
+            <value>Mental Health Screening</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/mental_health_screening/mental_health_screening/Epilepsy_disease:label">
+            <value>उहाँलाई **छारे रोग** हुन सक्छ
+कृपया उहाँ र घर परिवारलाई राखी यस सम्बन्धी परामर्श दिनुहोस् र उहाँलाई स्वास्थ्य संस्था / मानसिक डाक्टर भएको स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई पुन : कहिले भेटन आउनु हुन्छ सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/alert_to_prevent_commit_suicide:label">
+            <value>कृपया घर परिवारलाई राखी उहाँको मानसिक स्वास्थ्य अत्यन्त्यै कमजोर छ र जतिखेर पनि **अप्रिय घटना हुनसक्छ /बिरामीले आत्महत्या गर्न सक्छ** त्यसैले बिरामी लाई एकलै नछोडने भनि सल्लाह दिनुहो तुरुन्त स्वास्थ्य संस्था / मानसिक डाक्टर भएको स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई पुन : कहिले भेटन आउनु हुन्छ सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/anxiety_related_problem:label">
+            <value>उहाँलाई **चिन्ता सम्बन्धि समस्या** हुन सक्छ
+कृपया उहाँ र घर परिवारलाई राखी यस सम्बन्धी परामर्श दिनुहोस् र उहाँलाई तुरुन्त स्वास्थ्य संस्था/ मानसिक डाक्टर भएको स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई पुन : कहिले भेटन आउनु हुन्छ सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/anxiety_heart_palpitations:label">
+            <value>कुनै कुराको डर र चिन्ता लाग्दा औडाहा हुने, मुटु ढुकढुक हुने, सास फर्ने गाह्रो हुने र कुराहरु छिटै बिर्सने</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/audio_hallucination:label">
+            <value>एक्लै भएको बेलामा कसैले बोलेको वा बोलाएको आवाजहरु सुन्न छ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/body_ache:label">
+            <value>शरिर करकरि दुख्ने गर्दछ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/convulsion_and_froathing:label">
+            <value>केहिले छोपेको जस्तो हुने बितिकै भुइँमा लडने र शरिर कम्पन हुने वा काम्ने र मुखबाट फिँज आउने ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/disappointed_with_life:label">
+            <value>जीवन देखि निराश र अब जीवनमा केहि पनि गर्न गर्न सक्दिन भन्ने सोच आउँछ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/getting_angry_quickly:label">
+            <value>घर परिवार तथा साथी- भाईसँग पनि स-साना कुराहरुमा छिटो रिसाउने, झर्को मान्ने ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/insomnia:label">
+            <value>रातमा निन्द्रा नलाग्ने, निदाउन गाह्रो भएको छ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/loss_of_interest_in_work:label">
+            <value>काम गर्न मन नलाग्नुका साथै काम प्रति रुचि घट्दै गएको छ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/no_health_issue:label">
+            <value>डाक्टरको सल्लाह अनुसार चेक जाँच गर्दा पनि केहि समस्या देखिदैन ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/none:label">
+            <value>माथिको कुनै अवस्था पनि छैन ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/other_signs_and_symptoms:label">
+            <value>माथिका लक्ष्यण बाहेक पनि अरु असामान्य व्यवहार छ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/powerful_person:label">
+            <value>आफुले आफैलाई एकदमै ठुलो वा शक्तिशाली भएको महशुस गरिरहेको छ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/rude:label">
+            <value>आफ्नो परिवार र सहकर्मीहरु सँग पनि बिना कारण झर्को मान्ने ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/stress_feeling:label">
+            <value>चिन्ता नलिउ भने नि चिन्ताले सताई रहन्छ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/suicidal_thoughts:label">
+            <value>आत्महत्या गर्ने सोच आउने र आत्महत्या  गर्नको लागि ठाउँहरु भिर, खोला खोज्ने र अन्य सामानहरु जस्तै डोरी, विषादी जुटाउन थालेको छ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/talk_unnecessary:label">
+            <value>एकहोरो अनावस्यक कुराहरु बोलेको बोलै गर्छ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/thinking_future_is_dark:label">
+            <value>आफनो भविष्य नै अन्धकार भएको महशुस भैरहने बाँच्न मन नलाग्ने वा जीवन नै बेकार भएको सोच आउँछ</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/walk_around_dirty:label">
+            <value>ननुहाई फोहोरी भएऱ डुल्दै हिडने गरेको छ ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior/weak_and_helpless:label">
+            <value>आफुले आफैलाई कमजोर र निरिह ठान्ने, एक्लै बस्न मन लाग्ने ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/changes_in_behavior:label">
+            <value>के तपाईको परिवारमा कुनै व्यक्तिको बानी व्यहोरामा केही महिनादेखि निम्न परिवर्तन देखिन थालेको छ :</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/counseling_mental_health:label">
+            <value>कृपया उहाँ र घर परिवारलाई राखी मानसिक स्वास्थ्य सम्बन्धी परामर्श दिनुहोस् र उहाँलाई स्वास्थ्य संस्था / मानसिक डाक्टर भएको स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई पुन : कहिले भेटन आउनु हुन्छ सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/depression:label">
+            <value>उहाँलाई **उदासिनता** भन्ने मानसिक रोग हुन सक्छ । कृपया उहाँ र घर परिवारलाई राखी यस सम्बन्धी परामर्श दिनुहोस् र उहाँलाई तुरुन्त स्वास्थ्य संस्था / मानसिक डाक्टर भएको स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई पुन : कहिले भेटन आउनु हुन्छ सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening/serious_mental_problems:label">
+            <value>उहाँलाई **गम्भिर मानसिक समस्या** हुन सक्छ
+कृपया उहाँ र घर परिवारलाई राखी यस सम्बन्धी परामर्श दिनुहोस् र उहाँलाई तुरुन्त स्वास्थ्य संस्था / मानसिक डाक्टर भएको स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई पुन : कहिले भेटन आउनुहुन्छ सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/mental_health_screening/mental_health_screening:label">
+            <value>मानसिक रोगको स्क्रीनिंग</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <mental_health_screening id="mental_health_screening" prefix="J1!mental_health_screening!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source/>
+            <source_id/>
+            <contact>
+              <_id/>
+              <patient_id/>
+              <name/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_id/>
+          <patient_name/>
+          <mental_health_screening>
+            <changes_in_behavior/>
+            <serious_mental_problems/>
+            <depression/>
+            <alert_to_prevent_commit_suicide/>
+            <anxiety_related_problem/>
+            <Epilepsy_disease/>
+            <serious_mental_problems_calc/>
+            <depression_calc/>
+            <alert_to_prevent_commit_suicide_calc/>
+            <anxiety_related_problem_calc/>
+            <epilepsy_disease_calc/>
+            <counseling_mental_health/>
+          </mental_health_screening>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </mental_health_screening>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/mental_health_screening/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/mental_health_screening/inputs/source" type="string"/>
+      <bind nodeset="/mental_health_screening/inputs/source_id" type="string"/>
+      <bind nodeset="/mental_health_screening/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/mental_health_screening/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/mental_health_screening/inputs/contact/name" type="string"/>
+      <bind nodeset="/mental_health_screening/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/mental_health_screening/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/mental_health_screening/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/changes_in_behavior" type="select" required="true()"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/serious_mental_problems" readonly="true()" type="string" relevant="(selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'powerful_person') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'talk_unnecessary')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'powerful_person') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'audio_hallucination')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'powerful_person') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'walk_around_dirty')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'talk_unnecessary') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'audio_hallucination')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'talk_unnecessary') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'walk_around_dirty')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'audio_hallucination') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'walk_around_dirty'))"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/depression" readonly="true()" type="string" relevant="(selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'loss_of_interest_in_work') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'insomnia')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'loss_of_interest_in_work') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'disappointed_with_life')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'loss_of_interest_in_work') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'thinking_future_is_dark')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'loss_of_interest_in_work') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'getting_angry_quickly')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'insomnia') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'disappointed_with_life')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'insomnia') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'thinking_future_is_dark')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'insomnia') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'getting_angry_quickly')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'disappointed_with_life') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'thinking_future_is_dark')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'disappointed_with_life') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'getting_angry_quickly')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'thinking_future_is_dark') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'getting_angry_quickly'))"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/alert_to_prevent_commit_suicide" readonly="true()" type="string" relevant="selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'weak_and_helpless') or selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'suicidal_thoughts')"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/anxiety_related_problem" readonly="true()" type="string" relevant="(selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'anxiety_heart_palpitations') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'rude')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'anxiety_heart_palpitations') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'body_ache')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'anxiety_heart_palpitations') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'no_health_issue')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'anxiety_heart_palpitations') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'stress_feeling')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'rude') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'body_ache')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'rude') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'no_health_issue')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'rude') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'stress_feeling')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'body_ache') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'no_health_issue')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'body_ache') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'stress_feeling')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'no_health_issue') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'stress_feeling'))"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/Epilepsy_disease" readonly="true()" type="string" relevant="selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'convulsion_and_froathing')"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/serious_mental_problems_calc" type="string" calculate="if((selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'powerful_person') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'talk_unnecessary')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'powerful_person') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'audio_hallucination')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'powerful_person') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'walk_around_dirty')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'talk_unnecessary') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'audio_hallucination')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'talk_unnecessary') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'walk_around_dirty')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'audio_hallucination') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'walk_around_dirty')), 1, 0)"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/depression_calc" type="string" calculate="if((selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'loss_of_interest_in_work') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'insomnia')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'loss_of_interest_in_work') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'disappointed_with_life')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'loss_of_interest_in_work') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'thinking_future_is_dark')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'loss_of_interest_in_work') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'getting_angry_quickly')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'insomnia') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'disappointed_with_life')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'insomnia') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'thinking_future_is_dark')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'insomnia') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'getting_angry_quickly')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'disappointed_with_life') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'thinking_future_is_dark')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'disappointed_with_life') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'getting_angry_quickly')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'thinking_future_is_dark') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'getting_angry_quickly')), 1, 0)"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/alert_to_prevent_commit_suicide_calc" type="string" calculate="if(selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'weak_and_helpless') or selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'suicidal_thoughts'), 1, 0)"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/anxiety_related_problem_calc" type="string" calculate="if((selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'anxiety_heart_palpitations') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'rude')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'anxiety_heart_palpitations') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'body_ache')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'anxiety_heart_palpitations') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'no_health_issue')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'anxiety_heart_palpitations') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'stress_feeling')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'rude') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'body_ache')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'rude') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'no_health_issue')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'rude') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'stress_feeling')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'body_ache') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'no_health_issue')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'body_ache') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'stress_feeling')) or (selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'no_health_issue') and selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'stress_feeling')), 1, 0)"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/epilepsy_disease_calc" type="string" calculate="if(selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'convulsion_and_froathing'), 1, 0)"/>
+      <bind nodeset="/mental_health_screening/mental_health_screening/counseling_mental_health" readonly="true()" type="string" relevant="selected( /mental_health_screening/mental_health_screening/changes_in_behavior , 'other_signs_and_symptoms') or ( /mental_health_screening/mental_health_screening/serious_mental_problems_calc  != 1 and  /mental_health_screening/mental_health_screening/depression_calc  != 1 and  /mental_health_screening/mental_health_screening/alert_to_prevent_commit_suicide_calc  != 1 and  /mental_health_screening/mental_health_screening/anxiety_related_problem_calc  != 1 and  /mental_health_screening/mental_health_screening/epilepsy_disease_calc  != 1 and (count-selected( /mental_health_screening/mental_health_screening/changes_in_behavior ) &gt;=2))"/>
+      <bind nodeset="/mental_health_screening/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/mental_health_screening/inputs">
+      <group ref="/mental_health_screening/inputs/contact">
+        <input appearance="db-object" ref="/mental_health_screening/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/mental_health_screening/mental_health_screening">
+      <label ref="jr:itext('/mental_health_screening/mental_health_screening:label')"/>
+      <select ref="/mental_health_screening/mental_health_screening/changes_in_behavior">
+        <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior:label')"/>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/powerful_person:label')"/>
+          <value>powerful_person</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/talk_unnecessary:label')"/>
+          <value>talk_unnecessary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/audio_hallucination:label')"/>
+          <value>audio_hallucination</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/walk_around_dirty:label')"/>
+          <value>walk_around_dirty</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/loss_of_interest_in_work:label')"/>
+          <value>loss_of_interest_in_work</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/insomnia:label')"/>
+          <value>insomnia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/disappointed_with_life:label')"/>
+          <value>disappointed_with_life</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/thinking_future_is_dark:label')"/>
+          <value>thinking_future_is_dark</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/getting_angry_quickly:label')"/>
+          <value>getting_angry_quickly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/weak_and_helpless:label')"/>
+          <value>weak_and_helpless</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/suicidal_thoughts:label')"/>
+          <value>suicidal_thoughts</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/anxiety_heart_palpitations:label')"/>
+          <value>anxiety_heart_palpitations</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/rude:label')"/>
+          <value>rude</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/body_ache:label')"/>
+          <value>body_ache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/no_health_issue:label')"/>
+          <value>no_health_issue</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/stress_feeling:label')"/>
+          <value>stress_feeling</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/convulsion_and_froathing:label')"/>
+          <value>convulsion_and_froathing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/other_signs_and_symptoms:label')"/>
+          <value>other_signs_and_symptoms</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_screening/mental_health_screening/changes_in_behavior/none:label')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <input ref="/mental_health_screening/mental_health_screening/serious_mental_problems">
+        <label ref="jr:itext('/mental_health_screening/mental_health_screening/serious_mental_problems:label')"/>
+      </input>
+      <input ref="/mental_health_screening/mental_health_screening/depression">
+        <label ref="jr:itext('/mental_health_screening/mental_health_screening/depression:label')"/>
+      </input>
+      <input ref="/mental_health_screening/mental_health_screening/alert_to_prevent_commit_suicide">
+        <label ref="jr:itext('/mental_health_screening/mental_health_screening/alert_to_prevent_commit_suicide:label')"/>
+      </input>
+      <input ref="/mental_health_screening/mental_health_screening/anxiety_related_problem">
+        <label ref="jr:itext('/mental_health_screening/mental_health_screening/anxiety_related_problem:label')"/>
+      </input>
+      <input ref="/mental_health_screening/mental_health_screening/Epilepsy_disease">
+        <label ref="jr:itext('/mental_health_screening/mental_health_screening/Epilepsy_disease:label')"/>
+      </input>
+      <input ref="/mental_health_screening/mental_health_screening/counseling_mental_health">
+        <label ref="jr:itext('/mental_health_screening/mental_health_screening/counseling_mental_health:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

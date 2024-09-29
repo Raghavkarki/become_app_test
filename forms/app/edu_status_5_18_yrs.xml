@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Education Status of 5 to 18 years person</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/edu_status_5_18_yrs/education_status/going_school/no:label">
+            <value>No</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/going_school/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/going_school:label">
+            <value>Is he / she currently going to school?</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/other_reason:jr:constraintMsg">
+            <value>max characters = 300</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/other_reason:label">
+            <value>Other reason</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/dropped_out:label">
+            <value>Already dropped out of school</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/no_interest:label">
+            <value>3. showed no interest in reading</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/no_money:label">
+            <value>4. No money</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/other:label">
+            <value>6. Other</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/started_working:label">
+            <value>5. Since starting work</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/to_support_family:label">
+            <value>2. You have to support the family by working</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason:label">
+            <value>Why doesn't he / she go to school?</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/edu_status_5_18_yrs/data/meta/__household_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/data/meta/__patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/data/meta/__patient_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/data/meta/__source:label">
+            <value>-</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/data/meta/__source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/data/meta:label">
+            <value>-</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/data:label">
+            <value>-</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/going_school/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/going_school/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/going_school:label">
+            <value>के उहाँ हाल विद्यालय पढन गइरहनु भएको छ ?</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/other_reason:jr:constraintMsg">
+            <value>अधिकतम अक्षर = ३००</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/other_reason:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/dropped_out:label">
+            <value>पहिले नै विद्यालय जान छोडेको</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/no_interest:label">
+            <value>पढाईमा कुनै चासो देखाएनन्</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/no_money:label">
+            <value>पैसा छैन</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/started_working:label">
+            <value>काम गर्न थालेकोले</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason/to_support_family:label">
+            <value>काम गरेर परिवारलाई सहयोग गर्नु पर्छ</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/education_status/reason:label">
+            <value>किन उहाँ विद्यालय जानुहुन्न ?</value>
+          </text>
+          <text id="/edu_status_5_18_yrs/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <edu_status_5_18_yrs id="edu_status_5_18_yrs" prefix="J1!edu_status_5_18_yrs!" delimiter="#" version="16-08-2021 12-01-17">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <education_status>
+            <going_school/>
+            <reason/>
+            <other_reason/>
+          </education_status>
+          <data tag="hidden">
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </edu_status_5_18_yrs>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/source" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/source_id" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/contact/name" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/contact/sex" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/edu_status_5_18_yrs/patient_age_in_years" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/edu_status_5_18_yrs/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/edu_status_5_18_yrs/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/edu_status_5_18_yrs/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/edu_status_5_18_yrs/education_status/going_school" type="select1"/>
+      <bind nodeset="/edu_status_5_18_yrs/education_status/reason" type="select1" relevant=" /edu_status_5_18_yrs/education_status/going_school ='no'"/>
+      <bind nodeset="/edu_status_5_18_yrs/education_status/other_reason" type="string" relevant=" /edu_status_5_18_yrs/education_status/reason ='other'" jr:constraintMsg="jr:itext('/edu_status_5_18_yrs/education_status/other_reason:jr:constraintMsg')" constraint="string-length(.) &lt;= 300"/>
+      <bind nodeset="/edu_status_5_18_yrs/data/meta/__patient_uuid" type="string" calculate="../../../inputs/contact/_id"/>
+      <bind nodeset="/edu_status_5_18_yrs/data/meta/__patient_id" type="string" calculate="../../../inputs/contact/patient_id"/>
+      <bind nodeset="/edu_status_5_18_yrs/data/meta/__household_uuid" type="string" calculate="../../../inputs/contact/parent/_id"/>
+      <bind nodeset="/edu_status_5_18_yrs/data/meta/__source" type="string" calculate="../../../inputs/source"/>
+      <bind nodeset="/edu_status_5_18_yrs/data/meta/__source_id" type="string" calculate="../../../inputs/source_id"/>
+      <bind nodeset="/edu_status_5_18_yrs/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/edu_status_5_18_yrs/inputs">
+      <group ref="/edu_status_5_18_yrs/inputs/contact">
+        <label ref="jr:itext('/edu_status_5_18_yrs/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/edu_status_5_18_yrs/inputs/contact/_id">
+          <label ref="jr:itext('/edu_status_5_18_yrs/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/edu_status_5_18_yrs/inputs/contact/parent">
+          <group ref="/edu_status_5_18_yrs/inputs/contact/parent/parent">
+            <group ref="/edu_status_5_18_yrs/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/edu_status_5_18_yrs/education_status">
+      <select1 ref="/edu_status_5_18_yrs/education_status/going_school">
+        <label ref="jr:itext('/edu_status_5_18_yrs/education_status/going_school:label')"/>
+        <item>
+          <label ref="jr:itext('/edu_status_5_18_yrs/education_status/going_school/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/edu_status_5_18_yrs/education_status/going_school/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/edu_status_5_18_yrs/education_status/reason">
+        <label ref="jr:itext('/edu_status_5_18_yrs/education_status/reason:label')"/>
+        <item>
+          <label ref="jr:itext('/edu_status_5_18_yrs/education_status/reason/dropped_out:label')"/>
+          <value>dropped_out</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/edu_status_5_18_yrs/education_status/reason/to_support_family:label')"/>
+          <value>to_support_family</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/edu_status_5_18_yrs/education_status/reason/no_interest:label')"/>
+          <value>no_interest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/edu_status_5_18_yrs/education_status/reason/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/edu_status_5_18_yrs/education_status/reason/started_working:label')"/>
+          <value>started_working</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/edu_status_5_18_yrs/education_status/reason/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/edu_status_5_18_yrs/education_status/other_reason">
+        <label ref="jr:itext('/edu_status_5_18_yrs/education_status/other_reason:label')"/>
+      </input>
+    </group>
+    <group appearance="hidden" ref="/edu_status_5_18_yrs/data">
+      <group ref="/edu_status_5_18_yrs/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

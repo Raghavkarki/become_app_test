@@ -1,0 +1,33 @@
+{
+  "name": "config-nssd",
+  "version": "3.14.2",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "eslint": "npx eslint *.js *.json 'test/{,**}/*.js'",
+    "sqlfluff": "sqlfluff lint --ignore .sqlfluffignore --config ../.sqlfluff -n ../postgres/",
+    "test": "npm run eslint && npm run compile-forms && npm run compile-app-settings && npm run unittest",
+    "compile-app-settings": "npx cht --no-check compile-app-settings",
+    "compile-forms": "npx cht --no-check convert-app-forms convert-contact-forms",
+    "unittest": "TZ=Asia/Kathmandu mocha test/{,**}/*.spec.js --timeout 20000 --slow 500",
+    "unittest-win": "SET TZ=Asia/Kathmandu && mocha test/{,**}/*.spec.js --timeout 20000 --slow 500",
+    "coverage": "npx nyc --reporter=text npm run unittest -- --dev --reporter min"
+  },
+  "devDependencies": {
+    "@medic/eslint-config": "^1.1.0",
+    "chai": "^4.3.4",
+    "chai-like": "^1.1.1",
+    "chai-things": "^0.2.0",
+    "cht-conf": "^3.18.3",
+    "cht-conf-test-harness": "^4.0.1",
+    "eslint": "^7.21.0",
+    "eslint-plugin-json": "^2.0.1",
+    "mocha": "^9.1.3",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}

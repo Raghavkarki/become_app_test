@@ -1,0 +1,2596 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>PNC Service Form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pnc_service_form/couseling/generated_note_name_123:label">
+            <value>1. Urinationation each time after 4 to 6 hours. 
+2. Tab Iron should be taken for 6 weeks after delivery.
+3. One capsule of Vita A should be taken.
+4. Advice to mother for keep umbilical area dry and clean.
+5. Mother should take more nutritious and fluid food than usual. 
+6. Only Breastmilk till 6 months 
+7. Keep the baby warm: Wear a hat on head and socks on feet.. 
+8. If the mother is newly para, teach to her how to hold the baby during breastfeeding
+9. Councell the mother on good and bad practices of mother and child care.
+10. Discuss the Immunization schedule of the baby.</value>
+          </text>
+          <text id="/pnc_service_form/couseling:label">
+            <value>Counselling</value>
+          </text>
+          <text id="/pnc_service_form/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pnc_service_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pnc_service_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pnc_service_form/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/abdominal_pain/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/abdominal_pain/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/abdominal_pain:label">
+            <value>Severe lower abdominal pain</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/bleeding_surgery/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/bleeding_surgery/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/bleeding_surgery:label">
+            <value>In women who have given birth by surgery, is bleeding at the site of surgery, very painful?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/blurred_vision/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/blurred_vision/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/blurred_vision:label">
+            <value>Severe continuous headache or blurred vision</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/body_spasm/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/body_spasm/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/body_spasm:label">
+            <value>Will the body be spasm?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/calf_redness/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/calf_redness/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/calf_redness:label">
+            <value>Redness of Calf or swollen or difficulty in breathing or chest pain</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/generated_note_name_41:label">
+            <value>Does <output value=" /pnc_service_form/patient_name "/> have any danger signs? Ask and examine.</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/generated_note_name_52:label">
+            <value>**&lt;font color="red"&gt;Give the necessary advice to the Delivery women/household head and refer them to the mentioning everything in a referral card.
+
+Tell the date of arrival to understand the health condition.&lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/high_fever/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/high_fever/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/high_fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/leak_urine/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/leak_urine/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/leak_urine:label">
+            <value>Difficulty in micturition or leak urine</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/mood_swings/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/mood_swings/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/mood_swings:label">
+            <value>Do you have mood and emotional swings?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vagi_discharge/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vagi_discharge/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vagi_discharge:label">
+            <value>Foul-smelling white discharge from the vagina</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vaginal_bleeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vaginal_bleeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vaginal_bleeding:label">
+            <value>Excesive vaginal bleeding</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother:label">
+            <value>PNC service for mother</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_info/date_of_delivery:label">
+            <value>Date of Delivery <output value=" /pnc_service_form/delivery_date_ctx_ne "/></value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_info/generated_note_name_35:label">
+            <value><output value=" /pnc_service_form/follow_up "/> Service</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_info/generated_note_name_37:label">
+            <value>No of PNC service till date <output value=" /pnc_service_form/total_visit "/></value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_info:label">
+            <value>Description of maternity services</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/chest_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/chest_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/chest_1:label">
+            <value>Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/fever_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/fever_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/fever_1:label">
+            <value>Is there a fever and convulsion?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_57:label">
+            <value>Does a newborn baby <output value=" /pnc_service_form/baby_name_1_ctx "/> have danger signs? Ask and examine.</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_67:label">
+            <value>**&lt;font color="red"&gt; Inform that the newborn needs immediate treatment. Refer the newborn immediately to the health facility.
+
+Share the date when you are coming to check health status. &lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/h_res_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/h_res_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/h_res_1:label">
+            <value>Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1:label">
+            <value>No movement or poor movement only after stimulation. ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/pustules_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/pustules_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/pustules_1:label">
+            <value>Pustules more than 10 or 1 big pustule size more than 1 mm ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1:label">
+            <value>Refuse to suck breast feed ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1:label">
+            <value>Is there a pus from umbilical or readness around the umbilical area ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/vomits_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/vomits_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/vomits_1:label">
+            <value>Vomits everything eaten ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/y_hand_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/y_hand_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/y_hand_1:label">
+            <value>Yellow palms (hands) or soles (feet) ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1:label">
+            <value>PNC services for newborns-1</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/chest_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/chest_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/chest_2:label">
+            <value>Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/fever_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/fever_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/fever_2:label">
+            <value>Is there a fever and convulsion?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_72:label">
+            <value>Does a newborn baby <output value=" /pnc_service_form/baby_name_2_ctx "/> have danger signs? Ask and examine.</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_82:label">
+            <value>**&lt;font color="red"&gt; Inform that the newborn needs immediate treatment. Refer the newborn immediately to the health facility.
+
+Share the date when you are coming to check health status. &lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/h_res_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/h_res_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/h_res_2:label">
+            <value>Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2:label">
+            <value>No movement or poor movement only after stimulation. ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/pustules_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/pustules_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/pustules_2:label">
+            <value>Pustules more than 10 or 1 big pustule size more than 1 mm ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2:label">
+            <value>Refuse to suck breast feed ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2:label">
+            <value>Is there a pus from umbilical or readness around the umbilical area ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/vomits_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/vomits_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/vomits_2:label">
+            <value>Vomits everything eaten ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/y_hand_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/y_hand_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/y_hand_2:label">
+            <value>Yellow palms (hands) or soles (feet) ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2:label">
+            <value>PNC services for newborns-2</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/chest_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/chest_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/chest_3:label">
+            <value>Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/fever_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/fever_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/fever_3:label">
+            <value>Is there a fever and convulsion?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_87:label">
+            <value>Does a newborn baby <output value=" /pnc_service_form/baby_name_3_ctx "/> have danger signs? Ask and examine.</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_97:label">
+            <value>**&lt;font color="red"&gt; Inform that the newborn needs immediate treatment. Refer the newborn immediately to the health facility.
+
+Share the date when you are coming to check health status. &lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/h_res_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/h_res_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/h_res_3:label">
+            <value>Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3:label">
+            <value>No movement or poor movement only after stimulation. ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/pustules_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/pustules_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/pustules_3:label">
+            <value>Pustules more than 10 or 1 big pustule size more than 1 mm ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3:label">
+            <value>Refuse to suck breast feed ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3:label">
+            <value>Is there a pus from umbilical or readness around the umbilical area ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/vomits_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/vomits_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/vomits_3:label">
+            <value>Vomits everything eaten ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/y_hand_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/y_hand_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/y_hand_3:label">
+            <value>Yellow palms (hands) or soles (feet) ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3:label">
+            <value>PNC services for newborns-3</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/chest_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/chest_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/chest_4:label">
+            <value>Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/fever_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/fever_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/fever_4:label">
+            <value>Is there a fever and convulsion?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_103:label">
+            <value>Does a newborn baby <output value=" /pnc_service_form/baby_name_4_ctx "/> have danger signs? Ask and examine.</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_113:label">
+            <value>**&lt;font color="red"&gt; Inform that the newborn needs immediate treatment. Refer the newborn immediately to the health facility.
+
+Share the date when you are coming to check health status. &lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/h_res_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/h_res_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/h_res_4:label">
+            <value>Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4:label">
+            <value>No movement or poor movement only after stimulation. ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/pustules_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/pustules_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/pustules_4:label">
+            <value>Pustules more than 10 or 1 big pustule size more than 1 mm ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4:label">
+            <value>Refuse to suck breast feed ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4:label">
+            <value>Is there a pus from umbilical or readness around the umbilical area ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/vomits_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/vomits_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/vomits_4:label">
+            <value>Vomits everything eaten ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/y_hand_4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/y_hand_4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/y_hand_4:label">
+            <value>Yellow palms (hands) or soles (feet) ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4:label">
+            <value>PNC services for newborns-4</value>
+          </text>
+          <text id="/pnc_service_form/summary/c1_name:label">
+            <value>Name of first born child :- <output value=" /pnc_service_form/baby_name_1_ctx "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/c2_name:label">
+            <value>Name of second born child :- <output value=" /pnc_service_form/baby_name_2_ctx "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/c3_name:label">
+            <value>Name of third born child:- <output value=" /pnc_service_form/baby_name_3_ctx "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/c4_name:label">
+            <value>Name of fourth born child :- <output value=" /pnc_service_form/baby_name_4_ctx "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/child_age:label">
+            <value>Child's Age :- <output value=" /pnc_service_form/delivery_since_days_ctx "/> days</value>
+          </text>
+          <text id="/pnc_service_form/summary/counseling:label">
+            <value>Danger signs in mother&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/description:label">
+            <value>Description of service home&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_1:label">
+            <value>Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_2:label">
+            <value>Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_3:label">
+            <value>Is there a pus from umbilical or readness around the umbilical area ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_4:label">
+            <value>Yellow palms (hands) or soles (feet) ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_5:label">
+            <value>Pustules more than 10 or 1 big pustule size more than 1 mm ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_6:label">
+            <value>No movement or poor movement only after stimulation. ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_7:label">
+            <value>Is there a fever and convulsion?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_8:label">
+            <value>Refuse to suck breast feed ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_9:label">
+            <value>Vomits everything eaten ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_1:label">
+            <value>Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_2:label">
+            <value>Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_3:label">
+            <value>Is there a pus from umbilical or readness around the umbilical area ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_4:label">
+            <value>Yellow palms (hands) or soles (feet) ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_5:label">
+            <value>Pustules more than 10 or 1 big pustule size more than 1 mm ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_6:label">
+            <value>No movement or poor movement only after stimulation. ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_7:label">
+            <value>Is there a fever and convulsion?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_8:label">
+            <value>Refuse to suck breast feed ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_9:label">
+            <value>Vomits everything eaten ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_1:label">
+            <value>Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_2:label">
+            <value>Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_3:label">
+            <value>Is there a pus from umbilical or readness around the umbilical area ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_4:label">
+            <value>Yellow palms (hands) or soles (feet) ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_5:label">
+            <value>Pustules more than 10 or 1 big pustule size more than 1 mm ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_6:label">
+            <value>No movement or poor movement only after stimulation. ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_7:label">
+            <value>Is there a fever and convulsion?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_8:label">
+            <value>Refuse to suck breast feed ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_9:label">
+            <value>Vomits everything eaten ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_1:label">
+            <value>Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_2:label">
+            <value>Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_3:label">
+            <value>Is there a pus from umbilical or readness around the umbilical area ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_4:label">
+            <value>Yellow palms (hands) or soles (feet) ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_5:label">
+            <value>Pustules more than 10 or 1 big pustule size more than 1 mm ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_6:label">
+            <value>No movement or poor movement only after stimulation. ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_7:label">
+            <value>Is there a fever and convulsion?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_8:label">
+            <value>Refuse to suck breast feed ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_9:label">
+            <value>Vomits everything eaten ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/generated_note_name_192:label">
+            <value>Give the necessary advice to the Delivery women/household head and refer them to the mentioning everything in a referral card.
+
+Tell the date of arrival to understand the health condition.</value>
+          </text>
+          <text id="/pnc_service_form/summary/generated_note_name_193:label">
+            <value>Inform that the newborn needs immediate treatment. Refer the newborn immediately to the health facility.
+
+Share the date when you are coming to check health status.</value>
+          </text>
+          <text id="/pnc_service_form/summary/heading:label">
+            <value>Finally, press the "Submit Form" button.</value>
+          </text>
+          <text id="/pnc_service_form/summary/name_age:label">
+            <value>Mother's Age :- <output value=" /pnc_service_form/patient_age "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/name_des:label">
+            <value>Mother's Name :- <output value=" /pnc_service_form/patient_name "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/no_of_pnc:label">
+            <value>Number of PNC checks: <output value=" /pnc_service_form/total_visit "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/no_of_pnc_child:label">
+            <value>Number of PNC checks: <output value=" /pnc_service_form/total_visit "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/note_display:label">
+            <value>Dispatch notes&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/outcome_c1:label">
+            <value>Danger signs in 1st newborn <output value=" /pnc_service_form/baby_name_1_ctx "/> &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/outcome_c2:label">
+            <value>Danger signs in 2nd newborn <output value=" /pnc_service_form/baby_name_2_ctx "/> &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/outcome_c3:label">
+            <value>Danger signs in 3rd newborn <output value=" /pnc_service_form/baby_name_3_ctx "/> &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/outcome_c4:label">
+            <value>Danger signs in 4th newborn <output value=" /pnc_service_form/baby_name_4_ctx "/> &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_10:label">
+            <value>In women who have given birth by surgery, is bleeding at the site of surgery, very painful?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_1:label">
+            <value>Fever</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_2:label">
+            <value>Excesive vaginal bleeding</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_3:label">
+            <value>Will the body be spasm?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_4:label">
+            <value>Severe continuous headache or blurred vision</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_5:label">
+            <value>Severe lower abdominal pain</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_6:label">
+            <value>Foul-smelling white discharge from the vagina</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_7:label">
+            <value>Redness of Calf or swollen or difficulty in breathing or chest pain</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_8:label">
+            <value>Difficulty in micturition or leak urine</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_9:label">
+            <value>Do you have mood and emotional swings?</value>
+          </text>
+          <text id="/pnc_service_form/summary:label">
+            <value>Summary</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/pnc_service_form/couseling/generated_note_name_123:label">
+            <value>१. महिलालाई प्रत्येक ४ देखि ६ घण्टामा पिसाब खाली गर्ने भन्नुहोस् ।
+
+२. सुत्केरी भएको ६ हप्ता सम्म आईरन चक्कि खाईरहनु पर्छ ।
+
+३. भिटामिन "ए" को एक क्यापशुल खानुपर्छ ।
+
+४. बच्चाको नाभी सुक्खा र सफा राख्ने बारे सल्लाह दिनुहोस् ।
+
+५. आमाले यस्तो अवस्थामा पोषिलो र झोलिलो खाने कुरा साबिक भन्दा धेरै खानु पर्छ ।
+
+६. ६ महिना सम्म आमाको दुध बाहेक अन्य चिज केहि पनि खुवाउनु हुदैन ।
+
+७. बच्चालाई न्यानो बनाई राख्नुपर्छ : टाउकोमा टोपी र खुट्टामा मोजा लगाउनु पर्छ 
+
+८. यदि पहिलो पटक सुत्केरी हुनुभएको छ भने बच्चा लाई कसरी समातेर दुध चुसाउने बारे सिकाउनुहोस् 
+
+९. आमा र बच्चाको स्याहार बारे राम्रो नराम्रो चलनको बारे छलफल गर्नुहोस् ।
+
+१०. बच्चालाई खोप लगाउने (खोप तालिका) बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/pnc_service_form/couseling:label">
+            <value>परामर्श</value>
+          </text>
+          <text id="/pnc_service_form/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pnc_service_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pnc_service_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pnc_service_form/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/abdominal_pain/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/abdominal_pain/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/abdominal_pain:label">
+            <value>तल्लो पेट कडादुख्नु / तारन्तार बान्ता भैरहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/bleeding_surgery/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/bleeding_surgery/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/bleeding_surgery:label">
+            <value>शल्यक्रिया गरेर प्रसुति गराएका महिला मा शल्यक्रिया गरेको ठाउँमा रगत बगिरहेको, निकै कडा दुखिरहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/blurred_vision/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/blurred_vision/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/blurred_vision:label">
+            <value>कडा / लगातार टाउको दुख्नु वा दृष्टि धमिलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/body_spasm/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/body_spasm/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/body_spasm:label">
+            <value>शरिर बाउँडिने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/calf_redness/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/calf_redness/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/calf_redness:label">
+            <value>पिंडुला रातो भएको वा सुन्निएको, श्वास फेर्न गाह्रो हुनु वा छाती दुखी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/generated_note_name_41:label">
+            <value><output value=" /pnc_service_form/patient_name "/> मा कुनै खतराका सङ्केतहरु छन् सोध्नु /जाँच गर्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/generated_note_name_52:label">
+            <value>**&lt;font color="red"&gt;सुत्केरी महिला/घरमुलीलाई तुरुन्त आवश्यक सल्लाह दिई प्रेषण रिपोर्टमा सबै कुरा उल्लेख गरी प्रेषण गर्नुहोस् । 
+
+स्वास्थ्य अवस्था बुझ्नका लागि आउने मिति भन्नुहोस् ।&lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/high_fever/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/high_fever/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/high_fever:label">
+            <value>उच्च ज्वरो आएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/leak_urine/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/leak_urine/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/leak_urine:label">
+            <value>पिसाब सजिलै फेर्न नसक्ने वा पिसाब चुहिन छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/mood_swings/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/mood_swings/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/mood_swings:label">
+            <value>मुड र भावनात्मक परिवर्तन /दोधार भइरह्न्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vagi_discharge/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vagi_discharge/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vagi_discharge:label">
+            <value>यौनि बाट सेतो गन्ध आउने पानि बगीरहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vaginal_bleeding/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vaginal_bleeding/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother/vaginal_bleeding:label">
+            <value>योनिबाट अत्यधिक रक्तस्राव छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_for_mother:label">
+            <value>आमा लाई पि एन सी सेवा</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_info/date_of_delivery:label">
+            <value>सुत्केरी भएको मिति <output value=" /pnc_service_form/delivery_date_ctx_ne "/></value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_info/generated_note_name_35:label">
+            <value><output value=" /pnc_service_form/follow_up "/> जाँच</value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_info/generated_note_name_37:label">
+            <value>हाल सम्म पि एन सी जाँच गरेको संख्या <output value=" /pnc_service_form/total_visit "/></value>
+          </text>
+          <text id="/pnc_service_form/pnc_service_info:label">
+            <value>सुत्केरी सेवा विवरण</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/chest_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/chest_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/chest_1:label">
+            <value>कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/fever_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/fever_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/fever_1:label">
+            <value>ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_57:label">
+            <value>नब जात शिशुमा <output value=" /pnc_service_form/baby_name_1_ctx "/> तलका कुनै खतराका चिन्हहरु छन् ? सोध्नु /जाँच गर्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_67:label">
+            <value>**&lt;font color="red"&gt; नवजात शिशुलाई तुरुन्त औषधि उपचार को आवश्यकता भएको जानकारी गराउनु होस् ।तुरुन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् । 
+
+स्वास्थ्य अवस्था बुझ्नका लागि आउने मिति भन्नुहोस् ।&lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/h_res_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/h_res_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/h_res_1:label">
+            <value>(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1:label">
+            <value>सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/pustules_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/pustules_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/pustules_1:label">
+            <value>शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1:label">
+            <value>दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1:label">
+            <value>नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/vomits_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/vomits_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/vomits_1:label">
+            <value>खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/y_hand_1/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/y_hand_1/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1/y_hand_1:label">
+            <value>हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_1:label">
+            <value>नवजात शिशु लाई पि एन सी सेवा-1</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/chest_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/chest_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/chest_2:label">
+            <value>कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/fever_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/fever_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/fever_2:label">
+            <value>ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_72:label">
+            <value>नब जात शिशुमा <output value=" /pnc_service_form/baby_name_2_ctx "/> तलका कुनै खतराका चिन्हहरु छन् ? सोध्नु /जाँच गर्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_82:label">
+            <value>**&lt;font color="red"&gt; नवजात शिशुलाई तुरुन्त औषधि उपचार को आवश्यकता भएको जानकारी गराउनु होस् ।तुरुन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् । 
+
+स्वास्थ्य अवस्था बुझ्नका लागि आउने मिति भन्नुहोस् ।&lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/h_res_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/h_res_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/h_res_2:label">
+            <value>(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2:label">
+            <value>सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/pustules_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/pustules_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/pustules_2:label">
+            <value>शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2:label">
+            <value>दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2:label">
+            <value>नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/vomits_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/vomits_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/vomits_2:label">
+            <value>खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/y_hand_2/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/y_hand_2/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2/y_hand_2:label">
+            <value>हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_2:label">
+            <value>नवजात शिशु लाई पि एन सी सेवा-2</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/chest_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/chest_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/chest_3:label">
+            <value>कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/fever_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/fever_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/fever_3:label">
+            <value>ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_87:label">
+            <value>नब जात शिशुमा <output value=" /pnc_service_form/baby_name_3_ctx "/> तलका कुनै खतराका चिन्हहरु छन् ? सोध्नु /जाँच गर्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_97:label">
+            <value>**&lt;font color="red"&gt; नवजात शिशुलाई तुरुन्त औषधि उपचार को आवश्यकता भएको जानकारी गराउनु होस् ।तुरुन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् । 
+
+स्वास्थ्य अवस्था बुझ्नका लागि आउने मिति भन्नुहोस् ।&lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/h_res_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/h_res_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/h_res_3:label">
+            <value>(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3:label">
+            <value>सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/pustules_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/pustules_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/pustules_3:label">
+            <value>शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3:label">
+            <value>दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3:label">
+            <value>नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/vomits_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/vomits_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/vomits_3:label">
+            <value>खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/y_hand_3/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/y_hand_3/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3/y_hand_3:label">
+            <value>हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_3:label">
+            <value>नवजात शिशु लाई पि एन सी सेवा-3</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/chest_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/chest_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/chest_4:label">
+            <value>कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/fever_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/fever_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/fever_4:label">
+            <value>ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_103:label">
+            <value>नब जात शिशुमा <output value=" /pnc_service_form/baby_name_4_ctx "/> तलका कुनै खतराका चिन्हहरु छन् ? सोध्नु /जाँच गर्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_113:label">
+            <value>**&lt;font color="red"&gt; नवजात शिशुलाई तुरुन्त औषधि उपचार को आवश्यकता भएको जानकारी गराउनु होस् ।तुरुन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् । 
+
+स्वास्थ्य अवस्था बुझ्नका लागि आउने मिति भन्नुहोस् ।&lt;/font&gt;**</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/h_res_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/h_res_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/h_res_4:label">
+            <value>(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4:label">
+            <value>सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/pustules_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/pustules_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/pustules_4:label">
+            <value>शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4:label">
+            <value>दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4:label">
+            <value>नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/vomits_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/vomits_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/vomits_4:label">
+            <value>खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/y_hand_4/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/y_hand_4/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4/y_hand_4:label">
+            <value>हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/pnc_services_for_newborns_4:label">
+            <value>नवजात शिशु लाई पि एन सी सेवा-4</value>
+          </text>
+          <text id="/pnc_service_form/summary/c1_name:label">
+            <value>पहिलो जन्मेको बच्चाको नाम :- <output value=" /pnc_service_form/baby_name_1_ctx "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/c2_name:label">
+            <value>दोस्रो जन्मेको बच्चाको नाम :- <output value=" /pnc_service_form/baby_name_2_ctx "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/c3_name:label">
+            <value>तेस्रो जन्मेको बच्चाको नाम:- <output value=" /pnc_service_form/baby_name_3_ctx "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/c4_name:label">
+            <value>चौथो जन्मेको बच्चाको नाम :- <output value=" /pnc_service_form/baby_name_4_ctx "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/child_age:label">
+            <value>बच्चा को उमेर :- <output value=" /pnc_service_form/delivery_since_days_ctx "/> दिन</value>
+          </text>
+          <text id="/pnc_service_form/summary/counseling:label">
+            <value>आमा मा खतराका चिन्ह&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/description:label">
+            <value>सेवाग्राहीको विवरण&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_1:label">
+            <value>(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_2:label">
+            <value>कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_3:label">
+            <value>नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_4:label">
+            <value>हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_5:label">
+            <value>शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_6:label">
+            <value>सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_7:label">
+            <value>ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_8:label">
+            <value>दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c1_9:label">
+            <value>खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_1:label">
+            <value>(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_2:label">
+            <value>कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_3:label">
+            <value>नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_4:label">
+            <value>हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_5:label">
+            <value>शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_6:label">
+            <value>सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_7:label">
+            <value>ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_8:label">
+            <value>दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c2_9:label">
+            <value>खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_1:label">
+            <value>(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_2:label">
+            <value>कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_3:label">
+            <value>नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_4:label">
+            <value>हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_5:label">
+            <value>शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_6:label">
+            <value>सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_7:label">
+            <value>ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_8:label">
+            <value>दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c3_9:label">
+            <value>खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_1:label">
+            <value>(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_2:label">
+            <value>कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_3:label">
+            <value>नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_4:label">
+            <value>हात र खुट्टाको पैताला पहेँलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_5:label">
+            <value>शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_6:label">
+            <value>सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_7:label">
+            <value>ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_8:label">
+            <value>दुध चुस्न नमान्ने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/ds_c4_9:label">
+            <value>खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/generated_note_name_192:label">
+            <value>सुत्केरी महिला/घरमुलीलाई तुरुन्त आवश्यक सल्लाह दिई प्रेषण रिपोर्टमा सबै कुरा उल्लेख गरी प्रेषण गर्नुहोस् । 
+
+स्वास्थ्य अवस्था बुझ्नका लागि आउने मिति भन्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_service_form/summary/generated_note_name_193:label">
+            <value>नवजात शिशुलाई तुरुन्त औषधी उपचार को आवश्यकता भएको जानकारी गराउनु होस् ।तुरुन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् । 
+
+स्वास्थ्य अवस्था बुझ्नका लागि आउने मिति भन्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_service_form/summary/heading:label">
+            <value>अन्तिममा "फाराम बुझाउनुहोस्" भन्ने बटन थिच्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_service_form/summary/name_age:label">
+            <value>आमा को उमेर :- <output value=" /pnc_service_form/patient_age "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/name_des:label">
+            <value>आमा को नाम :- <output value=" /pnc_service_form/patient_name "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/no_of_pnc:label">
+            <value>पि एन सी जाँच गरेको संख्या : <output value=" /pnc_service_form/total_visit "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/no_of_pnc_child:label">
+            <value>पि एन सी जाँच गरेको संख्या : <output value=" /pnc_service_form/total_visit "/></value>
+          </text>
+          <text id="/pnc_service_form/summary/note_display:label">
+            <value>प्रेषण नोट&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/outcome_c1:label">
+            <value>पहिलो नवजात शिशुमा खतरा चिन्हहरू <output value=" /pnc_service_form/baby_name_1_ctx "/>
+ &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/outcome_c2:label">
+            <value>दोस्रो नवजात शिशुमा खतराको चिन्हहरू <output value=" /pnc_service_form/baby_name_2_ctx "/>
+ &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/outcome_c3:label">
+            <value>तेस्रो नवजात शिशुमा खतरा चिन्हहरू <output value=" /pnc_service_form/baby_name_3_ctx "/> 
+ &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/outcome_c4:label">
+            <value>चौथो नवजात शिशुमा खतरा चिन्हहरू <output value=" /pnc_service_form/baby_name_4_ctx "/>
+ &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_10:label">
+            <value>शल्यक्रिया गरेर प्रसुति गराएका महिला मा शल्यक्रिया गरेको ठाउँमा रगत बगिरहेको, निकै कडा दुखिरहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_1:label">
+            <value>उच्च ज्वरो आएको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_2:label">
+            <value>योनिबाट अत्यधिक रक्तस्राव छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_3:label">
+            <value>शरिर बाउँडिने छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_4:label">
+            <value>कडा / लगातार टाउको दुख्नु वा दृष्टि धमिलो छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_5:label">
+            <value>तल्लो पेट कडादुख्नु / तारन्तार बान्ता भैरहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_6:label">
+            <value>यौनि बाट सेतो गन्ध आउने पानि बगीरहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_7:label">
+            <value>पिंडुला रातो भएको वा सुन्निएको, श्वास फेर्न गाह्रो हुनु वा छाती दुखी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_8:label">
+            <value>पिसाब सजिलै फेर्न नसक्ने वा पिसाब चुहिन छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary/sign_outcome_9:label">
+            <value>मुड र भावनात्मक परिवर्तन /दोधार भइरह्न्छ ?</value>
+          </text>
+          <text id="/pnc_service_form/summary:label">
+            <value>सारंश</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pnc_service_form id="pnc_service_form" prefix="J1!pnc_service_form!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <patient_id/>
+              <age_in_years/>
+            </contact>
+          </inputs>
+          <patient_uuid tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_age tag="hidden"/>
+          <motherstatus_ctx tag="hidden"/>
+          <delivery_since_days_ctx tag="hidden"/>
+          <visit tag="hidden"/>
+          <follow_up/>
+          <delivery_type tag="hidden"/>
+          <total_visit tag="hidden"/>
+          <delivery_date_ctx tag="hidden"/>
+          <delivery_date_ctx_ne tag="hidden"/>
+          <baby_status_1_ctx tag="hidden"/>
+          <baby_status_2_ctx tag="hidden"/>
+          <baby_status_3_ctx tag="hidden"/>
+          <baby_status_4_ctx tag="hidden"/>
+          <baby_name_1_ctx tag="hidden"/>
+          <baby_name_2_ctx tag="hidden"/>
+          <baby_name_3_ctx tag="hidden"/>
+          <baby_name_4_ctx tag="hidden"/>
+          <pnc_service_info>
+            <generated_note_name_35 tag="hidden"/>
+            <date_of_delivery tag="hidden"/>
+            <generated_note_name_37 tag="hidden"/>
+          </pnc_service_info>
+          <pnc_service_for_mother>
+            <generated_note_name_41 tag="hidden"/>
+            <high_fever/>
+            <vaginal_bleeding/>
+            <body_spasm/>
+            <blurred_vision/>
+            <abdominal_pain/>
+            <vagi_discharge/>
+            <calf_redness/>
+            <leak_urine/>
+            <mood_swings/>
+            <bleeding_surgery/>
+            <generated_note_name_52 tag="hidden"/>
+          </pnc_service_for_mother>
+          <pnc_services_for_newborns_1>
+            <b1_name/>
+            <generated_note_name_57 tag="hidden"/>
+            <h_res_1/>
+            <chest_1/>
+            <umb_cord_1/>
+            <y_hand_1/>
+            <pustules_1/>
+            <poor_mo_1/>
+            <fever_1/>
+            <suck_breast_1/>
+            <vomits_1/>
+            <generated_note_name_67 tag="hidden"/>
+          </pnc_services_for_newborns_1>
+          <pnc_services_for_newborns_2>
+            <b2_name/>
+            <generated_note_name_72 tag="hidden"/>
+            <h_res_2/>
+            <chest_2/>
+            <umb_cord_2/>
+            <y_hand_2/>
+            <pustules_2/>
+            <poor_mo_2/>
+            <fever_2/>
+            <suck_breast_2/>
+            <vomits_2/>
+            <generated_note_name_82 tag="hidden"/>
+          </pnc_services_for_newborns_2>
+          <pnc_services_for_newborns_3>
+            <b3_name/>
+            <generated_note_name_87 tag="hidden"/>
+            <h_res_3/>
+            <chest_3/>
+            <umb_cord_3/>
+            <y_hand_3/>
+            <pustules_3/>
+            <poor_mo_3/>
+            <fever_3/>
+            <suck_breast_3/>
+            <vomits_3/>
+            <generated_note_name_97 tag="hidden"/>
+          </pnc_services_for_newborns_3>
+          <pnc_services_for_newborns_4>
+            <b4_name/>
+            <generated_note_name_103 tag="hidden"/>
+            <h_res_4/>
+            <chest_4/>
+            <umb_cord_4/>
+            <y_hand_4/>
+            <pustules_4/>
+            <poor_mo_4/>
+            <fever_4/>
+            <suck_breast_4/>
+            <vomits_4/>
+            <generated_note_name_113 tag="hidden"/>
+          </pnc_services_for_newborns_4>
+          <dt_mother tag="hidden"/>
+          <dt_child1 tag="hidden"/>
+          <dt_child2 tag="hidden"/>
+          <dt_child3 tag="hidden"/>
+          <dt_child4 tag="hidden"/>
+          <danger_trigger tag="hidden"/>
+          <couseling tag="hidden">
+            <generated_note_name_123 tag="hidden"/>
+          </couseling>
+          <summary tag="hidden">
+            <heading tag="hidden"/>
+            <description tag="hidden"/>
+            <name_des tag="hidden"/>
+            <name_age tag="hidden"/>
+            <no_of_pnc tag="hidden"/>
+            <c1_name tag="hidden"/>
+            <c2_name tag="hidden"/>
+            <c3_name tag="hidden"/>
+            <c4_name tag="hidden"/>
+            <child_age tag="hidden"/>
+            <no_of_pnc_child tag="hidden"/>
+            <counseling tag="hidden"/>
+            <sign_outcome_1 tag="hidden"/>
+            <sign_outcome_2 tag="hidden"/>
+            <sign_outcome_3 tag="hidden"/>
+            <sign_outcome_4 tag="hidden"/>
+            <sign_outcome_5 tag="hidden"/>
+            <sign_outcome_6 tag="hidden"/>
+            <sign_outcome_7 tag="hidden"/>
+            <sign_outcome_8 tag="hidden"/>
+            <sign_outcome_9 tag="hidden"/>
+            <sign_outcome_10 tag="hidden"/>
+            <outcome_c1 tag="hidden"/>
+            <ds_c1_1 tag="hidden"/>
+            <ds_c1_2 tag="hidden"/>
+            <ds_c1_3 tag="hidden"/>
+            <ds_c1_4 tag="hidden"/>
+            <ds_c1_5 tag="hidden"/>
+            <ds_c1_6 tag="hidden"/>
+            <ds_c1_7 tag="hidden"/>
+            <ds_c1_8 tag="hidden"/>
+            <ds_c1_9 tag="hidden"/>
+            <outcome_c2 tag="hidden"/>
+            <ds_c2_1 tag="hidden"/>
+            <ds_c2_2 tag="hidden"/>
+            <ds_c2_3 tag="hidden"/>
+            <ds_c2_4 tag="hidden"/>
+            <ds_c2_5 tag="hidden"/>
+            <ds_c2_6 tag="hidden"/>
+            <ds_c2_7 tag="hidden"/>
+            <ds_c2_8 tag="hidden"/>
+            <ds_c2_9 tag="hidden"/>
+            <outcome_c3 tag="hidden"/>
+            <ds_c3_1 tag="hidden"/>
+            <ds_c3_2 tag="hidden"/>
+            <ds_c3_3 tag="hidden"/>
+            <ds_c3_4 tag="hidden"/>
+            <ds_c3_5 tag="hidden"/>
+            <ds_c3_6 tag="hidden"/>
+            <ds_c3_7 tag="hidden"/>
+            <ds_c3_8 tag="hidden"/>
+            <ds_c3_9 tag="hidden"/>
+            <outcome_c4 tag="hidden"/>
+            <ds_c4_1 tag="hidden"/>
+            <ds_c4_2 tag="hidden"/>
+            <ds_c4_3 tag="hidden"/>
+            <ds_c4_4 tag="hidden"/>
+            <ds_c4_5 tag="hidden"/>
+            <ds_c4_6 tag="hidden"/>
+            <ds_c4_7 tag="hidden"/>
+            <ds_c4_8 tag="hidden"/>
+            <ds_c4_9 tag="hidden"/>
+            <note_display tag="hidden"/>
+            <generated_note_name_192 tag="hidden"/>
+            <generated_note_name_193 tag="hidden"/>
+          </summary>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pnc_service_form>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pnc_service_form/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pnc_service_form/inputs/source" type="string"/>
+      <bind nodeset="/pnc_service_form/inputs/source_id" type="string"/>
+      <bind nodeset="/pnc_service_form/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pnc_service_form/inputs/contact/name" type="string"/>
+      <bind nodeset="/pnc_service_form/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pnc_service_form/inputs/contact/age_in_years" type="string"/>
+      <bind nodeset="/pnc_service_form/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pnc_service_form/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pnc_service_form/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pnc_service_form/patient_age" type="string" calculate="../inputs/contact/age_in_years"/>
+      <bind nodeset="/pnc_service_form/motherstatus_ctx" type="string" calculate="if(instance('contact-summary')/context/motherstatus_ctx, instance('contact-summary')/context/motherstatus_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/delivery_since_days_ctx" type="string" calculate="if(instance('contact-summary')/context/delivery_since_days_ctx, instance('contact-summary')/context/delivery_since_days_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/visit" type="string"/>
+      <bind nodeset="/pnc_service_form/follow_up" type="string" calculate="if( /pnc_service_form/visit  = '1', 'दोस्रो', if( /pnc_service_form/visit  = '2', 'तेस्रो', if( /pnc_service_form/visit  = '3', 'चौथो','NA')))"/>
+      <bind nodeset="/pnc_service_form/delivery_type" type="string" calculate="if(instance('contact-summary')/context/delivery_type, instance('contact-summary')/context/delivery_type, .)"/>
+      <bind nodeset="/pnc_service_form/total_visit" type="string" calculate="if(instance('contact-summary')/context/total_visit, instance('contact-summary')/context/total_visit, .)"/>
+      <bind nodeset="/pnc_service_form/delivery_date_ctx" type="string" calculate="if(instance('contact-summary')/context/delivery_date_ctx, instance('contact-summary')/context/delivery_date_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/delivery_date_ctx_ne" type="string" calculate="to-bikram-sambat(../delivery_date_ctx)"/>
+      <bind nodeset="/pnc_service_form/baby_status_1_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_status_1_ctx, instance('contact-summary')/context/baby_status_1_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/baby_status_2_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_status_2_ctx, instance('contact-summary')/context/baby_status_2_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/baby_status_3_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_status_3_ctx, instance('contact-summary')/context/baby_status_3_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/baby_status_4_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_status_4_ctx, instance('contact-summary')/context/baby_status_4_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/baby_name_1_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_name_1_ctx, instance('contact-summary')/context/baby_name_1_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/baby_name_2_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_name_2_ctx, instance('contact-summary')/context/baby_name_2_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/baby_name_3_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_name_3_ctx, instance('contact-summary')/context/baby_name_3_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/baby_name_4_ctx" type="string" calculate="if(instance('contact-summary')/context/baby_name_4_ctx, instance('contact-summary')/context/baby_name_4_ctx, .)"/>
+      <bind nodeset="/pnc_service_form/pnc_service_info/generated_note_name_35" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/pnc_service_info/date_of_delivery" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/pnc_service_info/generated_note_name_37" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother" relevant=" /pnc_service_form/motherstatus_ctx  = 'healthy' or  /pnc_service_form/motherstatus_ctx  = 'unhealthy' or  /pnc_service_form/motherstatus_ctx  = '' or  /pnc_service_form/motherstatus_ctx  != 'death'"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/generated_note_name_41" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/high_fever" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/vaginal_bleeding" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/body_spasm" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/blurred_vision" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/abdominal_pain" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/vagi_discharge" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/calf_redness" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/leak_urine" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/mood_swings" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/bleeding_surgery" type="select1" required="true()" relevant=" /pnc_service_form/delivery_type  = 'cesarean_section'"/>
+      <bind nodeset="/pnc_service_form/pnc_service_for_mother/generated_note_name_52" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/high_fever  = 'yes' or  /pnc_service_form/pnc_service_for_mother/vaginal_bleeding  = 'yes' or  /pnc_service_form/pnc_service_for_mother/body_spasm  = 'yes' or  /pnc_service_form/pnc_service_for_mother/blurred_vision  = 'yes' or  /pnc_service_form/pnc_service_for_mother/abdominal_pain  = 'yes' or  /pnc_service_form/pnc_service_for_mother/vagi_discharge  = 'yes' or  /pnc_service_form/pnc_service_for_mother/calf_redness  = 'yes' or  /pnc_service_form/pnc_service_for_mother/leak_urine  = 'yes' or  /pnc_service_form/pnc_service_for_mother/mood_swings  = 'yes' or  /pnc_service_form/pnc_service_for_mother/bleeding_surgery  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1" relevant=" /pnc_service_form/baby_status_1_ctx  = 'healthy' or  /pnc_service_form/baby_status_1_ctx  = 'unhealthy'"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/b1_name" type="string" calculate=" /pnc_service_form/baby_name_1_ctx "/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_57" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/h_res_1" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/chest_1" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/y_hand_1" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/pustules_1" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/fever_1" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/vomits_1" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_67" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/h_res_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/chest_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/umb_cord_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/y_hand_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/pustules_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/poor_mo_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/fever_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/suck_breast_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/vomits_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2" relevant=" /pnc_service_form/baby_status_2_ctx  = 'healthy' or  /pnc_service_form/baby_status_2_ctx  = 'unhealthy'"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/b2_name" type="string" calculate=" /pnc_service_form/baby_name_2_ctx "/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_72" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/h_res_2" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/chest_2" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/y_hand_2" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/pustules_2" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/fever_2" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/vomits_2" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_82" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/h_res_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/chest_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/umb_cord_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/y_hand_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/pustules_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/poor_mo_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/fever_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/suck_breast_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/vomits_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3" relevant=" /pnc_service_form/baby_status_3_ctx  = 'healthy' or  /pnc_service_form/baby_status_3_ctx  = 'unhealthy'"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/b3_name" type="string" calculate=" /pnc_service_form/baby_name_3_ctx "/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_87" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/h_res_3" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/chest_3" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/y_hand_3" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/pustules_3" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/fever_3" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/vomits_3" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_97" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/h_res_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/chest_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/umb_cord_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/y_hand_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/pustules_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/poor_mo_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/fever_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/suck_breast_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/vomits_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4" relevant=" /pnc_service_form/baby_status_4_ctx  = 'healthy' or  /pnc_service_form/baby_status_4_ctx  = 'unhealthy'"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/b4_name" type="string" calculate=" /pnc_service_form/baby_name_4_ctx "/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_103" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/h_res_4" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/chest_4" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/y_hand_4" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/pustules_4" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/fever_4" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/vomits_4" type="select1" required="true()"/>
+      <bind nodeset="/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_113" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/h_res_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/chest_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/umb_cord_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/y_hand_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/pustules_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/poor_mo_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/fever_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/suck_breast_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/vomits_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/dt_mother" type="string" calculate="if( /pnc_service_form/pnc_service_for_mother/high_fever  = 'yes' or  /pnc_service_form/pnc_service_for_mother/vaginal_bleeding  = 'yes' or  /pnc_service_form/pnc_service_for_mother/body_spasm  = 'yes' or  /pnc_service_form/pnc_service_for_mother/blurred_vision  = 'yes' or  /pnc_service_form/pnc_service_for_mother/abdominal_pain  = 'yes' or  /pnc_service_form/pnc_service_for_mother/vagi_discharge  = 'yes' or  /pnc_service_form/pnc_service_for_mother/calf_redness  = 'yes' or  /pnc_service_form/pnc_service_for_mother/leak_urine  = 'yes' or  /pnc_service_form/pnc_service_for_mother/mood_swings  = 'yes' or  /pnc_service_form/pnc_service_for_mother/bleeding_surgery  = 'yes',1, 0)"/>
+      <bind nodeset="/pnc_service_form/dt_child1" type="string" calculate="if( /pnc_service_form/pnc_services_for_newborns_1/h_res_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/chest_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/umb_cord_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/y_hand_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/pustules_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/poor_mo_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/fever_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/suck_breast_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/vomits_1  = 'yes',1, 0)"/>
+      <bind nodeset="/pnc_service_form/dt_child2" type="string" calculate="if( /pnc_service_form/pnc_services_for_newborns_2/h_res_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/chest_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/umb_cord_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/y_hand_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/pustules_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/poor_mo_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/fever_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/suck_breast_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/vomits_2  = 'yes', 1, 0)"/>
+      <bind nodeset="/pnc_service_form/dt_child3" type="string" calculate="if( /pnc_service_form/pnc_services_for_newborns_3/h_res_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/chest_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/umb_cord_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/y_hand_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/pustules_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/poor_mo_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/fever_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/suck_breast_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/vomits_3  = 'yes', 1, 0)"/>
+      <bind nodeset="/pnc_service_form/dt_child4" type="string" calculate="if( /pnc_service_form/pnc_services_for_newborns_4/h_res_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/chest_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/umb_cord_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/y_hand_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/pustules_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/poor_mo_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/fever_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/suck_breast_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/vomits_4  = 'yes', 1, 0)"/>
+      <bind nodeset="/pnc_service_form/danger_trigger" type="string" calculate="if (  /pnc_service_form/dt_mother  = &quot;1&quot; or  /pnc_service_form/dt_child1  = &quot;1&quot; or  /pnc_service_form/dt_child2  = &quot;1&quot; or  /pnc_service_form/dt_child3  = &quot;1&quot; or  /pnc_service_form/dt_child4  = &quot;1&quot;, 1, 0)"/>
+      <bind nodeset="/pnc_service_form/couseling/generated_note_name_123" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/summary/heading" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/summary/description" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/summary/name_des" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/summary/name_age" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/summary/no_of_pnc" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/summary/c1_name" readonly="true()" type="string" relevant=" /pnc_service_form/baby_status_1_ctx  != ''"/>
+      <bind nodeset="/pnc_service_form/summary/c2_name" readonly="true()" type="string" relevant=" /pnc_service_form/baby_status_2_ctx  != ''"/>
+      <bind nodeset="/pnc_service_form/summary/c3_name" readonly="true()" type="string" relevant=" /pnc_service_form/baby_status_3_ctx  != ''"/>
+      <bind nodeset="/pnc_service_form/summary/c4_name" readonly="true()" type="string" relevant=" /pnc_service_form/baby_status_4_ctx  != ''"/>
+      <bind nodeset="/pnc_service_form/summary/child_age" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/summary/no_of_pnc_child" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/summary/counseling" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/high_fever  = 'yes' or  /pnc_service_form/pnc_service_for_mother/vaginal_bleeding  = 'yes' or  /pnc_service_form/pnc_service_for_mother/body_spasm  = 'yes' or  /pnc_service_form/pnc_service_for_mother/blurred_vision  = 'yes' or  /pnc_service_form/pnc_service_for_mother/abdominal_pain  = 'yes' or  /pnc_service_form/pnc_service_for_mother/vagi_discharge  = 'yes' or  /pnc_service_form/pnc_service_for_mother/calf_redness  = 'yes' or  /pnc_service_form/pnc_service_for_mother/leak_urine  = 'yes' or  /pnc_service_form/pnc_service_for_mother/mood_swings  = 'yes' or  /pnc_service_form/pnc_service_for_mother/bleeding_surgery  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_1" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/high_fever  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_2" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/vaginal_bleeding  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_3" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/body_spasm  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_4" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/blurred_vision  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_5" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/abdominal_pain  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_6" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/vagi_discharge  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_7" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/calf_redness  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_8" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/leak_urine  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_9" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/mood_swings  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/sign_outcome_10" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/bleeding_surgery  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/outcome_c1" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/h_res_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/chest_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/umb_cord_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/y_hand_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/pustules_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/poor_mo_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/fever_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/suck_breast_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/vomits_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c1_1" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/h_res_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c1_2" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/chest_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c1_3" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/umb_cord_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c1_4" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/y_hand_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c1_5" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/pustules_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c1_6" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/poor_mo_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c1_7" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/fever_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c1_8" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/suck_breast_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c1_9" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/vomits_1  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/outcome_c2" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/h_res_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/chest_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/umb_cord_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/y_hand_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/pustules_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/poor_mo_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/fever_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/suck_breast_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/vomits_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c2_1" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/h_res_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c2_2" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/chest_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c2_3" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/umb_cord_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c2_4" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/y_hand_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c2_5" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/pustules_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c2_6" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/poor_mo_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c2_7" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/fever_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c2_8" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/suck_breast_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c2_9" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_2/vomits_2  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/outcome_c3" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/h_res_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/chest_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/umb_cord_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/y_hand_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/pustules_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/poor_mo_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/fever_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/suck_breast_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/vomits_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c3_1" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/h_res_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c3_2" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/chest_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c3_3" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/umb_cord_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c3_4" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/y_hand_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c3_5" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/pustules_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c3_6" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/poor_mo_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c3_7" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/fever_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c3_8" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/suck_breast_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c3_9" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_3/vomits_3  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/outcome_c4" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/h_res_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/chest_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/umb_cord_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/y_hand_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/pustules_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/poor_mo_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/fever_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/suck_breast_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/vomits_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c4_1" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/h_res_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c4_2" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/chest_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c4_3" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/umb_cord_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c4_4" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/y_hand_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c4_5" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/pustules_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c4_6" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/poor_mo_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c4_7" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/fever_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c4_8" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/suck_breast_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/ds_c4_9" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_4/vomits_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/note_display" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_service_form/summary/generated_note_name_192" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_service_for_mother/high_fever  = 'yes' or  /pnc_service_form/pnc_service_for_mother/vaginal_bleeding  = 'yes' or  /pnc_service_form/pnc_service_for_mother/body_spasm  = 'yes' or  /pnc_service_form/pnc_service_for_mother/blurred_vision  = 'yes' or  /pnc_service_form/pnc_service_for_mother/abdominal_pain  = 'yes' or  /pnc_service_form/pnc_service_for_mother/vagi_discharge  = 'yes' or  /pnc_service_form/pnc_service_for_mother/calf_redness  = 'yes' or  /pnc_service_form/pnc_service_for_mother/leak_urine  = 'yes' or  /pnc_service_form/pnc_service_for_mother/mood_swings  = 'yes' or  /pnc_service_form/pnc_service_for_mother/bleeding_surgery  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/summary/generated_note_name_193" readonly="true()" type="string" relevant=" /pnc_service_form/pnc_services_for_newborns_1/h_res_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/chest_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/umb_cord_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/y_hand_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/pustules_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/poor_mo_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/fever_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/suck_breast_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_1/vomits_1  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/h_res_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/chest_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/umb_cord_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/y_hand_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/pustules_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/poor_mo_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/fever_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/suck_breast_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_2/vomits_2  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/h_res_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/chest_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/umb_cord_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/y_hand_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/pustules_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/poor_mo_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/fever_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/suck_breast_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_3/vomits_3  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/h_res_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/chest_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/umb_cord_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/y_hand_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/pustules_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/poor_mo_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/fever_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/suck_breast_4  = 'yes' or  /pnc_service_form/pnc_services_for_newborns_4/vomits_4  = 'yes'"/>
+      <bind nodeset="/pnc_service_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pnc_service_form/inputs">
+      <label ref="jr:itext('/pnc_service_form/inputs:label')"/>
+      <group ref="/pnc_service_form/inputs/contact">
+        <label ref="jr:itext('/pnc_service_form/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/pnc_service_form/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/pnc_service_form/pnc_service_info">
+      <label ref="jr:itext('/pnc_service_form/pnc_service_info:label')"/>
+      <input ref="/pnc_service_form/pnc_service_info/generated_note_name_35">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_info/generated_note_name_35:label')"/>
+      </input>
+      <input ref="/pnc_service_form/pnc_service_info/date_of_delivery">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_info/date_of_delivery:label')"/>
+      </input>
+      <input ref="/pnc_service_form/pnc_service_info/generated_note_name_37">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_info/generated_note_name_37:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pnc_service_form/pnc_service_for_mother">
+      <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother:label')"/>
+      <input ref="/pnc_service_form/pnc_service_for_mother/generated_note_name_41">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/generated_note_name_41:label')"/>
+      </input>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/high_fever">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/high_fever:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/high_fever/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/high_fever/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/vaginal_bleeding">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/vaginal_bleeding:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/vaginal_bleeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/vaginal_bleeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/body_spasm">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/body_spasm:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/body_spasm/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/body_spasm/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/blurred_vision">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/blurred_vision:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/blurred_vision/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/blurred_vision/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/abdominal_pain">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/abdominal_pain:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/abdominal_pain/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/abdominal_pain/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/vagi_discharge">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/vagi_discharge:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/vagi_discharge/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/vagi_discharge/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/calf_redness">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/calf_redness:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/calf_redness/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/calf_redness/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/leak_urine">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/leak_urine:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/leak_urine/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/leak_urine/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/mood_swings">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/mood_swings:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/mood_swings/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/mood_swings/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_service_for_mother/bleeding_surgery">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/bleeding_surgery:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/bleeding_surgery/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/bleeding_surgery/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pnc_service_form/pnc_service_for_mother/generated_note_name_52">
+        <label ref="jr:itext('/pnc_service_form/pnc_service_for_mother/generated_note_name_52:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pnc_service_form/pnc_services_for_newborns_1">
+      <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1:label')"/>
+      <input ref="/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_57">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_57:label')"/>
+      </input>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_1/h_res_1">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/h_res_1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/h_res_1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/h_res_1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_1/chest_1">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/chest_1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/chest_1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/chest_1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/umb_cord_1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_1/y_hand_1">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/y_hand_1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/y_hand_1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/y_hand_1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_1/pustules_1">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/pustules_1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/pustules_1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/pustules_1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/poor_mo_1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_1/fever_1">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/fever_1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/fever_1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/fever_1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/suck_breast_1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_1/vomits_1">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/vomits_1:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/vomits_1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/vomits_1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_67">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_1/generated_note_name_67:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pnc_service_form/pnc_services_for_newborns_2">
+      <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2:label')"/>
+      <input ref="/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_72">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_72:label')"/>
+      </input>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_2/h_res_2">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/h_res_2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/h_res_2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/h_res_2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_2/chest_2">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/chest_2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/chest_2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/chest_2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/umb_cord_2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_2/y_hand_2">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/y_hand_2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/y_hand_2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/y_hand_2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_2/pustules_2">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/pustules_2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/pustules_2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/pustules_2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/poor_mo_2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_2/fever_2">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/fever_2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/fever_2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/fever_2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/suck_breast_2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_2/vomits_2">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/vomits_2:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/vomits_2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/vomits_2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_82">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_2/generated_note_name_82:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pnc_service_form/pnc_services_for_newborns_3">
+      <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3:label')"/>
+      <input ref="/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_87">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_87:label')"/>
+      </input>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_3/h_res_3">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/h_res_3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/h_res_3/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/h_res_3/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_3/chest_3">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/chest_3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/chest_3/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/chest_3/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/umb_cord_3/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_3/y_hand_3">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/y_hand_3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/y_hand_3/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/y_hand_3/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_3/pustules_3">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/pustules_3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/pustules_3/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/pustules_3/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/poor_mo_3/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_3/fever_3">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/fever_3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/fever_3/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/fever_3/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/suck_breast_3/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_3/vomits_3">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/vomits_3:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/vomits_3/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/vomits_3/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_97">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_3/generated_note_name_97:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pnc_service_form/pnc_services_for_newborns_4">
+      <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4:label')"/>
+      <input ref="/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_103">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_103:label')"/>
+      </input>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_4/h_res_4">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/h_res_4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/h_res_4/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/h_res_4/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_4/chest_4">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/chest_4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/chest_4/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/chest_4/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/umb_cord_4/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_4/y_hand_4">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/y_hand_4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/y_hand_4/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/y_hand_4/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_4/pustules_4">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/pustules_4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/pustules_4/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/pustules_4/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/poor_mo_4/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_4/fever_4">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/fever_4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/fever_4/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/fever_4/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/suck_breast_4/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_service_form/pnc_services_for_newborns_4/vomits_4">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/vomits_4:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/vomits_4/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/vomits_4/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_113">
+        <label ref="jr:itext('/pnc_service_form/pnc_services_for_newborns_4/generated_note_name_113:label')"/>
+      </input>
+    </group>
+    <group ref="/pnc_service_form/couseling">
+      <label ref="jr:itext('/pnc_service_form/couseling:label')"/>
+      <input ref="/pnc_service_form/couseling/generated_note_name_123">
+        <label ref="jr:itext('/pnc_service_form/couseling/generated_note_name_123:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/pnc_service_form/summary">
+      <label ref="jr:itext('/pnc_service_form/summary:label')"/>
+      <input ref="/pnc_service_form/summary/heading">
+        <label ref="jr:itext('/pnc_service_form/summary/heading:label')"/>
+      </input>
+      <input appearance="h1 yellow" ref="/pnc_service_form/summary/description">
+        <label ref="jr:itext('/pnc_service_form/summary/description:label')"/>
+      </input>
+      <input ref="/pnc_service_form/summary/name_des">
+        <label ref="jr:itext('/pnc_service_form/summary/name_des:label')"/>
+      </input>
+      <input ref="/pnc_service_form/summary/name_age">
+        <label ref="jr:itext('/pnc_service_form/summary/name_age:label')"/>
+      </input>
+      <input ref="/pnc_service_form/summary/no_of_pnc">
+        <label ref="jr:itext('/pnc_service_form/summary/no_of_pnc:label')"/>
+      </input>
+      <input ref="/pnc_service_form/summary/c1_name">
+        <label ref="jr:itext('/pnc_service_form/summary/c1_name:label')"/>
+      </input>
+      <input ref="/pnc_service_form/summary/c2_name">
+        <label ref="jr:itext('/pnc_service_form/summary/c2_name:label')"/>
+      </input>
+      <input ref="/pnc_service_form/summary/c3_name">
+        <label ref="jr:itext('/pnc_service_form/summary/c3_name:label')"/>
+      </input>
+      <input ref="/pnc_service_form/summary/c4_name">
+        <label ref="jr:itext('/pnc_service_form/summary/c4_name:label')"/>
+      </input>
+      <input ref="/pnc_service_form/summary/child_age">
+        <label ref="jr:itext('/pnc_service_form/summary/child_age:label')"/>
+      </input>
+      <input ref="/pnc_service_form/summary/no_of_pnc_child">
+        <label ref="jr:itext('/pnc_service_form/summary/no_of_pnc_child:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/pnc_service_form/summary/counseling">
+        <label ref="jr:itext('/pnc_service_form/summary/counseling:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_1">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_1:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_2">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_2:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_3">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_3:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_4">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_4:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_5">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_5:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_6">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_6:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_7">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_7:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_8">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_8:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_9">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_9:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/sign_outcome_10">
+        <label ref="jr:itext('/pnc_service_form/summary/sign_outcome_10:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/pnc_service_form/summary/outcome_c1">
+        <label ref="jr:itext('/pnc_service_form/summary/outcome_c1:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c1_1">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c1_1:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c1_2">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c1_2:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c1_3">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c1_3:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c1_4">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c1_4:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c1_5">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c1_5:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c1_6">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c1_6:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c1_7">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c1_7:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c1_8">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c1_8:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c1_9">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c1_9:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/pnc_service_form/summary/outcome_c2">
+        <label ref="jr:itext('/pnc_service_form/summary/outcome_c2:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c2_1">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c2_1:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c2_2">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c2_2:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c2_3">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c2_3:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c2_4">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c2_4:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c2_5">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c2_5:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c2_6">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c2_6:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c2_7">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c2_7:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c2_8">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c2_8:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c2_9">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c2_9:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/pnc_service_form/summary/outcome_c3">
+        <label ref="jr:itext('/pnc_service_form/summary/outcome_c3:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c3_1">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c3_1:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c3_2">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c3_2:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c3_3">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c3_3:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c3_4">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c3_4:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c3_5">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c3_5:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c3_6">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c3_6:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c3_7">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c3_7:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c3_8">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c3_8:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c3_9">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c3_9:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/pnc_service_form/summary/outcome_c4">
+        <label ref="jr:itext('/pnc_service_form/summary/outcome_c4:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c4_1">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c4_1:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c4_2">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c4_2:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c4_3">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c4_3:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c4_4">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c4_4:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c4_5">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c4_5:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c4_6">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c4_6:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c4_7">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c4_7:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c4_8">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c4_8:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/ds_c4_9">
+        <label ref="jr:itext('/pnc_service_form/summary/ds_c4_9:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/pnc_service_form/summary/note_display">
+        <label ref="jr:itext('/pnc_service_form/summary/note_display:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/generated_note_name_192">
+        <label ref="jr:itext('/pnc_service_form/summary/generated_note_name_192:label')"/>
+      </input>
+      <input appearance="li" ref="/pnc_service_form/summary/generated_note_name_193">
+        <label ref="jr:itext('/pnc_service_form/summary/generated_note_name_193:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

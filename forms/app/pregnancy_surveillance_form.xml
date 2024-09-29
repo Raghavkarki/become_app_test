@@ -1,0 +1,1523 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>गर्भावस्था निगरानी फारम</h:title>
+    <model>
+      <itext>
+        <translation lang="ne">
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/any_question:label">
+            <value>उहाँ सँग कुनै प्रश्न छ भने सोध्न भन्नुहोस् । र सबै प्रश्न को उत्तर दिनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child:label">
+            <value>के तपाई ६ महिना वा कम उमेरको बच्चालाई आफ्नो दुध खुवाउँदै हुनुहुन्छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/child_in_future:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/child_in_future:label">
+            <value>के तपाईलाई भबिष्यमा बच्चा पाउने योजना छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/condom_counseling/back_up_methods:label">
+            <value>परिवार नियोजनको अस्थायी साधन "कण्डम"
+ - यो पुरुषले प्रयोग गर्ने अस्थायी र Back up method हो ।
+ - यो 79 - 95 प्रतिशत प्रभावकारी हुन्छ ।
+ - यसको प्रयोग गर्दा यौनजन्य रोग तथा एच. आई. भी संक्रमण बाट बचाउँछ ।
+ - यसमा कुनै हर्मोन प्रयोग गरिएको हुदैन दिर्घ रोग लागेका बिरामी ले पनि प्रयोग गर्न मिल्छ ।
+ - यदि ल्याटेक्स रबरबाट एलर्जी हुन्छ भने प्रयोग गर्नुहुन्न ।
+ - गर्भपतन पश्चात यौनसम्पर्कको चाहना भएमा कण्डमको प्रयोग गर्नुपर्छ ।
+ - यौनसम्पर्क को समयमा कण्डम फुटेमा आकस्मिक गर्भनिरोधक चक्की (ECPs) खानु पर्छ |</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/condom_counseling:label">
+            <value>कण्डम</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/benefit_of_depo:label">
+            <value>डिपो प्रोभेराको प्रयोगबाट स्वास्थ्यमा हुने फाईदा:
+
+ - पाठेघरको भित्रि भागको क्यान्सर र युटेराइन फाइब्रोडस् (Uterine Fibroids) हुनबाट बचाउँछ ।
+ - पाठेघरको संक्रमण (Pelevic Inflammatory Diseases) हुनबाट बचाउँछ ।
+ - आइरनको कमिबाट हुने रक्तअल्पता बाट बचाउँछ ।
+ - इन्ड्रोमेट्रिओसिस (Endometriosis) को लक्षण कम गराउँछ (कम्मर दुख्ने तथा अनियमित रक्तश्राब) ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/causes_using_depo:label">
+            <value>डिपो प्रोभेराको प्रयोगबाट हुन सक्ने असरहरु: 
+यी असरहरु कसै-कसै महिलाहरुमा देखिन सक्छ ।
+- अनियमित महिनावारी । - लामो समय सम्म रक्तश्राब हुने (८ दिन भन्दा धेरै)।
+- लामो समय सम्म रक्तश्राब हुने (८ दिन भन्दा धेरै)।
+- महिनावारीको समय बाहेक बिचमा अलि-अलि रगत बग्ने हुन् सक्छ
+- महिनावारी नहुन पनि सक्छ ।
+- केही महिलाहरुमा वजन बढने केहि महिना टाउको दुख्ने, रिंगटा लाग्ने। पछि कम वा बन्द हुन्छ।
+
+माथिका समस्या देखिएमा सेवाग्राहिलाई सामान्य असर हो र बिस्तारै हराउने हुदा डराएर बिचमै साधन स्वास्थ्यकर्मिको साल्लाह बिना छोड्नु हुदैन । भनि परामर्श गर्ने ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/depro_injection:label">
+            <value>परिवार नियोजनको अस्थायी साधन "तिन महिने सुई डिपो प्रोभेरा" 
+- महिनावारी भएको ७ दिनभित्र वा सुत्केरी भएको ६ हप्तापछि स्वास्थ्यकर्मी द्वारा महिलाको पाखुरा वा फिलामा लगाईन्छ ।यो तिन - तिन महिनामा लगाउनुपर्छ ।
+- स्तनपान गराई रहेका महिलाहरुलाई बच्चा जन्माएको ६ हप्ता पछि यसको प्रयोग गर्न सकिन्छ तर स्तनपान नगराई रहेका महिलाहरुलाई यो साधन तुरुन्तै लगाउन सकिन्छ ।
+- यसले पहिलो तिन महिनासम्म महिनावारीको समयमा रक्तश्राब धेरै हुने वा अनियमित हुने बनाउँन सक्छ तर १ वर्षपछि कम हुदै हराउदै जानेछन ।
+- सुईको प्रयोग गर्न छोडेपछि प्रजननशक्ति फर्कन ढिला हुन् सक्छ । अरु बिधिहरु भन्दा यसबाट प्रजनन् शक्ति फर्किन करिब ४ महिनासम्म लाग्न सक्छ ।
+- MVA गरे पश्चात यो सुईको प्रयोग तुरुन्तै र औसधिद्वारा गरिने गर्भपतनमा Mefipristone खाएको दिन देखिनै लगाउन सकिन्छ ।
+- ठिक - ठिक समयमा सुइ लगाएमा १०० महिलामा १ जनामा गर्भ रहन सक्ने (१ %)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/situation_for_no_depo:label">
+            <value>डिपो प्रोभेरा प्रयोग गर्न नहुने अवस्थाहरु: 
+- ६ हप्ता भन्दा कमको शिशुलाई स्तनपान गराइरहनु भएको छ भने ।
+- उच्चरक्तचापको समस्या छ भने (&gt;१६०/१०० mm/Hg) 
+- असामान्य गम्भिर प्रकृतीका मुटु, रक्तप्रणाली, कलेजोको रोगहरु छ भने ।
+- २० वर्ष भन्दा बढी समय देखि मधुमेह रोग लागेको छ भने।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo:label">
+            <value>डिपो प्रोभेरा</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps/benefit_of_ECPs:label">
+            <value>आकस्मिक गर्भनिरोधक चक्की (ECPs) प्रयोगबाट हुन सक्ने असरहरु: 
+- एक वा दुई दिन सम्म योनिबाट सामन्य रक्तश्राब हुनसक्छ ।
+- प्रयोग गरेको पहिलो हप्ता वाकवाकी हुन, पेट दुख्ने, थकान महसुस हुने, टाउको दुख्ने, स्तन भारी हुने, चक्कर आउँने हुनसक्छ ।
+- यस प्रयोग पछि महिनावारी छिटो वा ढिलो हुनसक्छ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps/suddenly_needs_ECPs:label">
+            <value>आकस्मिक गर्भनिरोधक चक्की (ECPs) 
+- महिलालाई सहवास पछि गर्भधारण हुन बाट बचाउने एक मात्र बिधि हो । 
+- असुरक्षित यौन सम्पर्क राखेको ५ दिन भित्रमा यो प्रयोग गर्नुपर्छ तर जति चाँडो प्रयोग भयो त्यति राम्रो काम गर्छ । 
+- हर्मोनल गर्भ निरोधक विधी प्रयोग गर्न नसक्ने महिलाको लागि सुरक्षित हुन्छ
+- आवश्वयकता अनुसार प्रयोग गर्न मिल्छ तर निरन्तर प्रयोगको लागि सुझाब दिइदैन। यो आपतकालीन गर्भ निरोधक विधी हो जुन अरु नियमित प्रयोग गर्ने परिवार नियोजनको जस्तै उपयुक्त छैन ।
+ - बिधमान गर्भधारणलाई ECPs ले कुनै हानी पु-याउदैन ।
+- गर्भपतन पश्चात असुरक्षित यौनसम्पर्क भएमा ECPs को प्रयोग गर्न सकिन्छ 
+- यसको प्रयोग लाई नियमित गर्भनिरोधकहरुको विकल्पमा लिइनु हुदैन ।गर्भ रहन नदिन तुरुन्त अर्को कुनै गर्भनिरोधक साधन अपनाउनु पर्छ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps:label">
+            <value>आकस्मिक गर्भनिरोधक चक्की (ECPs)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/benefit_of_implant:label">
+            <value>इम्प्लाण्टको प्रयोगबाट स्वास्थ्यमा हुने फाईदा: 
+- रक्तअल्पता हुन बाट बचाउँछ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/causes_using_implant:label">
+            <value>इम्प्लाण्टको प्रयोगबाट हुन सक्ने असरहरु:
+यी असरहरु कुनै कुनै महिलाहरुमा देखिनसक्छ ।
+
+१. पहिलो केही महिनाहरुमा
+ - अनियमित महिनावारी ।
+ - लामो समय सम्म रक्तश्राब हुने (८ दिन भन्दा धेरै)।
+ - महिनावारीको समय बाहेक बिचमा अलि-अलि रगत बग्ने हुन् सक्छ
+ - महिनावारी नहुन पनि सक्छ ।
+
+२.प्रयोग को पहिलो वर्ष पछि
+ - महिनावारीको बेला थोरै र अलि दिनको लागि रक्तश्राब हुन्छ ।
+ - अनियमित मासिकश्राब हुन्छ ।
+ - टाउको दुख्ने, पेट दुख्ने, स्तन भारी हुने। पछि कम वा बन्द हुन्छ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/implant_for_family_planning:label">
+            <value>परिवार नियोजनको अस्थायी साधन "इम्प्लाण्ट" 
+- यि साना रड अथवा क्याप्सुलहरु हुन् (करिब सलाईको काँटी जतिकै लामो हुन्छ) जसलाई पाखुराको छालाको मुनी राखिन्छ ।
+- यसले ५ वर्ष सम्म लामो समयका लागि गर्भधारण हुनबाट रोक्छ। तालिमप्राप्त सेवा प्रदायकले मात्र प्रत्यारोपण गर्नु वा निकाल्नु पर्छ । महिलाले चाहेमा सेवा प्रदायकले जुनसुकै बेला निकाल्न सकिन्छ ।
+- स्तनपान गराई रहेका महिलाका लागि सुरक्षित छ, बच्चा जन्माए पछि जुनसुकै बेला पनि यो प्रत्यारोपण गर्न सकिन्छ ।
+- यसले महिनावारीको रक्तश्राब अनियमित गराउँछ
+- सुरक्षित गर्भपतन गराउँदा MVA गरे लगतै र Mefipristone खाएको दिन देखिनै यो प्रयोग गर्न मिल्छ ।
+- यो HIV अथवा AIDS संक्रमित महिलाका साथै एआरभी (ARV) खाइरहेका महिला समेतका लागि पनि सुरक्षित मानिन्छ ।
+- १०० महिलामा १ जनामा गर्भ रहन सक्ने (१ %)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/situation_for_no_implant:label">
+            <value>इम्प्लाण्ट प्रयोग गर्न नहुने अवस्थाहरु: 
+- कारण छुट्याउन नसकेको अथवा निदान नभएको योनी बाट रगत बगिरहने भएमा ।
+- असामान्य गम्भिर प्रकृतीका मुटु, रक्तप्रणाली वा कलेजोको रोगहरु वा स्तन क्यान्सरबाट ग्रसित हुनुहुन्छ भने ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant:label">
+            <value>इम्प्लाण्ट</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/benefit_of_iucd:label">
+            <value>आई. यु. सि. डि. (IUCD) प्रयोगबाट स्वास्थ्यमा हुने फाईदा: 
+- आई. यु. सि. डि. (IUCD) प्रयोगबाट endometrial uterine क्यान्सरबाट बचाउन सक्छ । 
+- डिम्बाशयको र पाठेघरको मुखको क्यान्सर मा कमि आउन सकछ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/causes_using_iucd:label">
+            <value>आई. यु. सि. डि. (IUCD) प्रयोगबाट हुन सक्ने असरहरु: 
+यी असरहरु पहिलो केहि महिना पश्चात बिस्तारै कम हुदै जान्छन । 
+
+- यो राखेपछि सुरुको ३ देखि ६ महिना सम्म केही मात्रामा बढी रक्तश्राब हुनसक्छ । 
+- यो राखेपछि पेट दुख्ने वा बाउँडिन सक्छ । 
+- रक्तश्राब परिवर्तन हुन सक्छ । जस्मा लामो समय रगत बग्ने, अनिमियत रक्तश्राब, तल्लो पेट दुख्ने वा बाउँडिन सक्छ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/iucd_for_family_planning:label">
+            <value>परिवार नियोजनको अस्थायी साधन "आई. यु. सि. डि. (IUCD)" 
+- IUCD (Cut - 380 A) ले १२ वर्ष सम्म लामो समयका लागि गर्भ रहनबाट बचाउँछ ।
+- सानो लचिलो प्लास्टिकलाई तामाले बेरिएको साधन जसलाई तालिम प्राप्त स्वास्थ्यकर्मीद्वारा पाठेघरमा राखिन्छ ।
+- IUCD राख्न र निकाल्नको लागि तालिम प्राप्त सेवा प्रदायकद्वारा गर्नु पर्छ ।महिलाले चाहेमा जुनसुकै बेला सेवा प्रदायकद्वारा निकाल्न सक्नुहुन्छ ।(जस्तै १२ वर्ष भन्दा अगाडि) - स्तनपान गराइरहेकी महिलाले पनि प्रयोग गर्न सक्नुहुन्छ ।
+- IUCD लगाएको ६ महिनासम्म महिनावारीमा भारी वा लामो रक्तश्राब हुनसक्छ । 
+- MVA गरे लगतै यो साधन प्रयोग गर्न सकिन्छ तर औषधिद्वारा गरिने गर्भपतनमा, गर्भपतन पुरा भइसकेको यकिन भएपछी मात्र प्रयोग गर्न सकिन्छ 
+- PID/STI संक्रमण भएकी महिला (हाल वा तीन महिना भित्र) छिन भने IUCD लगाउन मिल्दैन ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/situation_for_no_iucd:label">
+            <value>आई. यु. सि. डि. (IUCD) प्रयोग गर्न नहुने अवस्थाहरु:
+- गर्भवती हुनुहुन्छ वा गर्भको शंका भएमा 
+- योनीबाट अश्वाभाबिक रक्तश्राब हुने समस्या भएमा ।
+- यौनरोगको संक्रमण छ भने ।
+- एडस (AIDS) संक्रमित भएर एआरभी (ARV) औसधि नलिएको भए वा स्वास्थ्य स्थिति राम्रो नभए ।
+- यौनजन्य संक्रमणको अत्याधिक जोखिममा हुनुहुन्छ भने ।
+- Incomplete Abortion को अवस्था छ भने 
+- सुत्केरी पश्चात Endometritis ra puerperal Sepsis छ भने।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd:label">
+            <value>आई. यु. सि. डि.</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/benefit_of_pills:label">
+            <value>पिल्सको प्रयोगबाट स्वास्थ्यमा हुने फाईदा:
+ - पाठेघर र डिम्बासयको अण्डासयको क्यान्सर हुनबाट बचाउँन सक्छ ।
+ - पाठेघरको संक्रमण (PID) हुनबाट बचाउँन सक्छ ।
+ - आमासयको सिस्टस् र रक्तअल्पता हुनबाट बचाउँन सक्छ ।
+ - महिनावारीको समयमा तल्लो पेट दुख्ने वा बाउँडिने र रक्तश्राबको समस्याहरु कम गर्न सक्छ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/intake_of_pills:label">
+            <value>परिवार नियोजनको अस्थायी साधन "पिल्स (खाने चक्की)" 
+- दिनदिनै एक- एक चक्की खाने ।
+ सेतो चक्कीबाट खान सुरु गरी खैरो चक्की सबै खाइसकेपछि एक दिन पनि नबिराइकन फेरि अर्को पाताको सेतो चक्कीबाट पुन: खान सुरु गर्नु पर्छ ।
+- प्रत्येक दिन उही समयमा खाने गर्नुपर्छ जस्तै : प्रत्येक दिन सुत्न जानु भन्दा अगाडी ।
+- यसले महिनावारीलाई नियमित गराउन मद्धत गर्छ ।
+- संक्रामक रोग, स्तन क्यान्सर, डिम्बासयमा बिकार तथा हाड खिइने समस्या लगायत अन्य विभिन्न शारिरीक तथा मानसिक समस्यालाई कम गर्न मद्धत गर्छ ।
+- यो HIV अथवा AIDS संक्रमित महिलाका साथै एआरभी (ARV) खाइरहेका महिला समेतका लागि पनि सुरक्षित मानिन्छ ।
+- डिम्बवाहिनी नलीमा गर्भ रहने सम्भावना कम हुन्छ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/over_use_of_pills:label">
+            <value>पिल्सको प्रयोगबाट हुन सक्ने असरहरु:
+ यी असरहरु कसै-कसै महिलाहरुमा देखिन सक्छ ।
+- अनियमित महिनावारी, महिनावारीको बिचमा अलि-अलि रगत बग्ने हुन् सक्छ (पहिलो तिन महिना सम्म सामान्य रुपमा) 
+- महिनावारी नहुन पनि सक्छ ।
+- केहि महिना टाउको दुख्ने, स्तन भारी तथा कडा भएजस्तो लाग्न सक्छ ।पछि कम वा बन्द हुन्छ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills:label">
+            <value>पिल्स</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy/counseling_male_vasectomy:label">
+            <value>स्वेच्छिक स्थायी पुरुष बन्ध्याकरण "भ्यासेक्टोमी (Non-Scalpel Vasectomy/NSV)"
+ - अब उप्रान्त बच्चा नचाहने पुरुष/दम्पति हरुलाई परिवार नियोजनको स्थायी साधन हो
+ - यसमा साधरण शल्यक्रियाद्वारा शुक्रवाहिनी नलीलाई काटेर बाँधिन्छ र शुक्रकीट जान नसक्ने पारिन्छ । एउटा सानो छिद्र बाट बिना कुनै चिरफार र टाँका लगाई छोटो समयमा नै यो बिधि सजिलै सम्पन्न गरिन्छ ।
+ - महिलाहरुको लागि गरिने मिनिल्याप बिधि भन्दा यो धेरै सजिलो र कम जोखिम पुर्ण छ।
+ - यस शल्यक्रिया विधि पछि सारीरिक कमजोरी, विर्य स्खलन र यौन उत्तेजनामा कमि आउँदैन। सहवासमा कुनै प्रकारको अन्तर आउदैन ।
+ - यो शल्यक्रिया गरेको ३महिना पछि मात्र प्रभावकारी हुन्छ । तत्काल गर्भ धारण हुन् बाट रोक्दैन ।
+ - भ्यासेक्टोमी गरे पछि ३ महिना सम्म कण्डम अथवा अरु विधिको प्रयोग गर्नु पर्छ ।
+ - फेरि सन्तानको इच्छा भएमा उल्टाउन मिल्ने (तर सफल हुने निश्चय भने नहुने)
+ - यसको प्रभावकारिता पहिलो वर्ष ९७ - ९९ % र तिन वर्ष पछि ९६% हुन्छ ।
+ - यसले HIV तथा यौन संक्रमण बाट बचाउँन सक्दैन ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy/situation_vasectomy:label">
+            <value>पुरुष बन्ध्याकरण"भ्यासेक्टोमी (Vasectomy)" गर्न नसक्ने अवस्थाहरु:
+ - यदि पुरुषको स्वास्थ्यमा कुनै कारणवश अनुकुल नभएमा बन्ध्याकरण"भ्यासेक्टोमी (Vasectomy) गर्ने दिन पछि सार्न पनि सकिन्छ (छाला वा अण्डकोषको सक्रमण, हाइड्रोशिल, Intrascrotal mass)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy:label">
+            <value>भ्यासेक्टोमी (Non-Scalpel Vasectomy/NSV)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/benefits_minilap:label">
+            <value>महिला बन्ध्याकरण " मिनिल्याप (Minilap)" ले स्वास्थ्यमा हुने फाईदाहरु :
+ - यसले डिम्बाशयको क्यान्सर हुनबाट बचाँउछ ।
+ - ओभरियन क्यान्सर हुनबाट बचाँउछ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/counseling_minilap:label">
+            <value>स्वेच्छिक स्थायी महिला बन्ध्याकरण " मिनिल्याप (Minilap)"
+- अब उप्रान्त बच्चा नचाहने महिलाहरुलाई परिवार नियोजनको स्थायी साधन हो
+ - शल्यक्रियाद्वारा डिम्बवाहिनी नलीलाई काटेर बाँधिन्छ र पुरुषको शुक्रकीटसँग महिलाको डिम्बको भेट नहुने गराइन्छ ।
+ - यस शल्यक्रिया विधिले सहवासमा कुनै प्रकारको अन्तर आउदैन ।
+ - फेरि सन्तानको इच्छा भएमा उल्टाउन मिल्ने (तर सफल हुने निश्चय भने नहुने)
+ - MVA गरे पश्चात लगतै यो प्रक्रिया गर्न सकिन्छ र औषधिद्वारा गरिने गर्भपतनमा गर्भ नभएको एकिन भएपछि मात्र यो प्रक्रिया गर्न सकिन्छ ।
+ - HIV तथा यौन संक्रमण बाट बचाउँन सक्दैन ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/situation_minilap:label">
+            <value>महिला बन्ध्याकरण " मिनिल्याप (Minilap)" गर्न नसक्ने अवस्थाहरु:
+ - गर्भवती भएको वा गर्भ रहेको शंका भएमा ।
+ - उदाशिन (Severe Depression) हुनुहुन्छ भने ।
+ - स्वास्थ्य समन्धी कुनै समस्या वा अवस्थाहरु भएमा मिनिल्याप (Minilap) गर्न दिन पछाडि सार्न पनि सकिन्छ । जस्तै : current Pelvic Infection, current Respiratory Infection, Uncontrolled asthma, Uncontrolled daibetes )</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap:label">
+            <value>मिनिल्याप (Minilap)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/device_decided_family_planning:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/device_decided_family_planning:label">
+            <value>तपाईले जानकारी दिनु भएका परिवार नियोजनका साधनको कुन बिधि प्रयोग गर्ने निर्णय गर्नु भयो ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/lactation_amenorrhea_method/breastfeeding_ways:label">
+            <value>स्तनपान बिधि (Lactation Amenorrhea Method)
+ - स्तनपान बिधि परिवार नियोजनको अस्थाई बिधि हो। पुर्ण स्तनपान रूपमा आफ्नो बच्चालाई स्तनपान गराउने महिलाहरूका लागि हो।छ महिना वा सोभन्दा कम उमेर का शिशु भएका सबै महिलाहरूका लागी उपयुक्त छ ।
+ - स्तनपान बिधि लाई ३ सर्तहरू चाहिन्छ। 1) सुत्केरी पछि महिलाको मासिक रक्तस्राव सुरु भएको छैन भने । 2) बच्चालाई दिन र रात exclusive पुर्ण स्स्तनपान गराउनु भएको छ भने 3) बच्चा 6 महिना भन्दा कम उमेरको छ भने ।
+ - बच्चालाई थप खाना सुरु गरे पछि परिवार नियोजनको अन्य साधन प्रयोग गर्नुपर्छ ।
+ - HIV अथवा AIDS संक्रमित महिलाले एआरभी (ARV) खाइरहनु भएको छ भने यो बिधि सुरक्षित छ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/lactation_amenorrhea_method:label">
+            <value>स्तनपान बिधि (Lactation Amenorrhea Method)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/menstruation_during_pregnancy:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/menstruation_during_pregnancy:label">
+            <value>सुत्केरी भएपछि के तपाईंको महिनावारी शुरु भैसकेको छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling:jr:constraintMsg">
+            <value>'कुनै समस्या छैन' संग अन्य लक्षण छान्न सक्नुहुन्न</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling:label">
+            <value>तल दिइएको कुनै अवस्था छ कि छैन भनेर एकिन गर्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/not_using_device:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/not_using_device:label">
+            <value>किन उहाँले कुनै पनि बिधि प्रयोग नगर्ने निर्णय गर्नु भयो ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/reason_not_using:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process/reason_not_using:label">
+            <value>उल्लेख गर्नुहोस ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/balanced_consultation_process:label">
+            <value>सन्तुलित परामर्श विधी फारम</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/condom/condom_information:label">
+            <value>कण्डम कति गोटा छ सो बारे जानकारी लिनुहोस् ।यो स्वास्थ्य संस्थामा वा परिवार नियोजन संघमा निशुल्क रुपामा पाइन्छ भनेर जानकारी दिनुहोस् । 
+१.कण्डमको प्रयोग गर्ने तरीका बारे छलफल गर्नुहोस । 
+२.यौनसम्पर्कको समयमा कण्डम फुटेमा आकस्मिक गर्भनिरोधक चक्की (ECPs) खानुपर्छ भनि सल्लाह दिनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions:jr:constraintMsg">
+            <value>'कुनै समस्या छैन' संग अन्य लक्षण छान्न सक्नुहुन्न</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions:label">
+            <value>डिपो प्रोभेरा लगाए पछी तल दिएको कुनै पनि अवस्था छ कि भनेर एकिन गर्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_date:jr:constraintMsg">
+            <value>मिति भविष्यमा हुनु भएन</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_date:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_date:label">
+            <value>डिपो प्रोभेरा लगाएको मिति लेख्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_injection_date:label">
+            <value>पुन: डिपो प्रोभेरा सुई लगाउने मिति: <output value=" /pregnancy_surveillance_form/family_planning_screening/depo/depo_calculation_ne "/></value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_injection_followup:label">
+            <value>प्रत्येक ३ महिना पुगेपछि अर्को सुई लगाउन अनिवार्य रुपमा दिएको समयमा लगाउनुपर्छ । यदि दिएको समयमा आउन सकिएन भने 2 हप्ता छिटो वा ४ हप्ता ढिलो लगाउन सक्ने बारे जानकारी दिनुहोस् । यदि डिपोप्रोभेरा लगाउन ४ हप्ता भन्दा ढिला भएमा असुरक्षित यौन सम्पर्क बाट टाढा रहने वा डिपोप्रोभेरा नलगाउनजेल सम्म कण्डमको प्रयोग गर्नुपर्छ भनि जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo/depo_refer:label">
+            <value>कृपया उहाँलाई स्वास्थ्य स‌‌स्थामा प्रेषण गर्नुका साथै डिपो प्रोभेरा सुई उहाँका लागि उपयुक्त नभएको जानकारी गराउनु होस् ।
+ तपाईले पुन : कहिले भेट गर्न आउनु हुन्छ जानकारी गराउनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/depo:hint">
+            <value>(गते/महिना/साल)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/emergency_pill/instance_pregnancy_pills:label">
+            <value>आकास्मिक गर्भनिरोधक चक्की (ECPs) लाई नियमित परिवार नियोजनको साधनका रुपमा प्रयोग गर्नुहुँदैन ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/family_planning_device:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/family_planning_device:label">
+            <value>के तपाईले हाल कुनै परिवार नियोजनको साधन प्रयोग गरिरहनु भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary:label">
+            <value>परिवार नियोजनका अस्थायी साधन ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/family_planning_tool:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/family_planning_tool:label">
+            <value>कुन परिवार नियोजनको साधन प्रयोग गरिरहनु भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_counseling:label">
+            <value>यसको प्रयोगबाट हुने सामन्य असरहरु र फाइदाको बारेमा छलफल गर्नुहोस् । 
+जस्तो ; 
+- यसको प्रयोगबाट रक्तअल्पत्ता हुनबाट बचाउँछ ।
+- अनियमित मासिक रक्तश्राब 
+- टाउको दुख्ने, पेट दुख्ने, स्तन भारि भए जस्तो हुने ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_date:hint">
+            <value>(गते/महिना/साल)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_date:jr:constraintMsg">
+            <value>मिति भविष्यमा हुनु भएन</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_date:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_date:label">
+            <value>इम्प्लाण्ट राखेको मिति लेख्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_refer:label">
+            <value>कृपया उहाँलाई तुरुन्तै स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई तपाईले पुन : कहिले भेट गर्न आउनु हुन्छ जानकारी गराउनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms:jr:constraintMsg">
+            <value>'कुनै समस्या छैन' संग अन्य लक्षण छान्न सक्नुहुन्न</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms:label">
+            <value>इम्प्लाण्ट को प्रयोग पछी के तपाईंलाई तलका मध्य कुनै लक्षण देखिएका छन् ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date:hint">
+            <value>(गते/महिना/साल)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date:jr:constraintMsg">
+            <value>मिति भविष्यमा हुनु भएन</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date:label">
+            <value>आई. यू. सि. डी राखेको मिति लेख्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used:jr:constraintMsg">
+            <value>'कुनै समस्या छैन' संग अन्य लक्षण छान्न सक्नुहुन्न</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used:label">
+            <value>आई. यु. सि. डि को प्रयोग पछी के तपाईंलाई तलका मध्य कुनै लक्षण देखिएका छन् ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/kits_causes:label">
+            <value>यसको प्रयोगबाट हुने असरहरु को बारेमा छलफल गर्नुहोस् । 
+जस्तो ; 
+- आई. यू. सि. डी राखेपछि केही मात्रमा बढी रक्तश्राब हुनसक्छ । जुन ३ देखि ६ महिनासम्म रहनसक्छ ।
+- आई. यू. सि. डी राखेपछि अनिमियत रक्तश्राब पेट दुख्ने वा बाउँडिन सक्छ ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/iucd/visiting_hospital:label">
+            <value>कृपया उहाँलाई तुरुन्तै स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई तपाईले पुन : कहिले भेट गर्न आउनु हुन्छ जानकारी गराउनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/natural_family_planning:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/natural_family_planning:label">
+            <value>परिवार नियोजनका प्राकृतिक तरिका ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device:label">
+            <value>के कारणले हाल परिवार नियोजनको साधन प्रयोग गरिरहनु भएको छैन ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/permanent_family_planning:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/permanent_family_planning:label">
+            <value>परिवार नियोजनका स्थायी साधन ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions:jr:constraintMsg">
+            <value>'कुनै समस्या छैन' संग अन्य लक्षण छान्न सक्नुहुन्न</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions:label">
+            <value>पिल्सको प्रयोग बाट तल दिएको कुनै पनि अवस्था छ कि भनेर एकिन गर्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/pills/pills_counseling:label">
+            <value>कृपया उहाँलाई स्वास्थ्य संस्थामा प्रेषण गर्नुका साथै पिल्स चक्की उहाँको लागि उपयुक्त नभएको जानकारी गराउनुहोस् र आजै बाट पिल्स चक्की प्रयोग नगर्न सल्लाह दिनुहोस् ।
+पिल्स चक्की सट्टा कण्डमको प्रयोग गर्न सुझाब दिनुहोस् ।
+तपाईले पुन : कहिले भेट गर्न आउनु हुन्छ जानकारी गराउनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/pills/pills_information:label">
+            <value>पिल्स कति पत्ता / चक्की छ सो बारे जानकारी लिनुहोस् ।
+१.पिल्स चक्किको प्रयोग गर्ने तरीका बारेमा छलफल गर्नुहोस् ।
+२.पिल्स चक्किको प्रयोगबाट हुने फाइदाको बारेमा छलफल गर्नुहोस्, जस्तो : पाठेघर र अण्डासयको क्यान्सर हुनबाट बचाउँछ, पाठेघर को संक्रमण (PID) बाट बचाउँछ । रक्तअल्पता हुन बाट बचाउँछ ।
+३.पिल्स चक्किको प्रयोगबाट हुन सक्ने असरहरुको बारेमा छलफल गर्नुहोस्, जस्तो : अनियमित मासिक श्राब, बीच - बीचमा अलि रगत बग्ने, महिनावारी नहुन पनि सक्छ, स्तन भारी वा कडा हुने ।
+४. तिन दिन वा सो भन्दा बढी पिल्सहरु खान छुटाउनु भएको छ भने आकस्मिक गर्भनिरोधक चक्की (ECPs) खान सल्लाह दिनुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/reason_not_using_family_planning:jr:constraintMsg">
+            <value>छोटकरीमा उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/reason_not_using_family_planning:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/reason_not_using_family_planning:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening/thank_you:label">
+            <value>तपाईको समयको लागी धेरै धन्यबाद ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/family_planning_screening:label">
+            <value>परिवार योजनाको स्क्रीनिङ</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/abortion:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/abortion:label">
+            <value>के गएको ७-१२ दिन भित्र तपाईको गर्भपतन भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems:label">
+            <value>के तपाईको गर्भपतन हुने समस्या छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/breastfeeding_only:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/breastfeeding_only:label">
+            <value>के तपाईले शिशुलाई पूर्ण रुपमा आफनो दुध मात्रै खुवाइ रहनु भएको छ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/consult_doctor:label">
+            <value>यो समस्यालाई उपचार गर्न सकिन्छ भनि परामर्श दिनुका साथै उँहा लाई स्त्री रोग विशेषज्ञ /स्वाथ्य संस्थामा प्रेषण गर्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/current_pregnant:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/current_pregnant:label">
+            <value>के उहाँ हाल गर्भवती हुनु भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/menstruation_cycle:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/menstruation_cycle:label">
+            <value>गएको ६ हप्ता भित्रमा तपाइँको महिनावारी भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy:label">
+            <value>के तपाई ६ महिना भित्रकी सुत्केरी हुनुहुन्छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy_mensuration:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy_mensuration:label">
+            <value>के सुत्केरी पछि तपाईको महिनावारी भएको छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_form:label">
+            <value>अब गर्भवती दर्ता फारम मा गएर गर्भवती दर्ता गर्नुहोस् |</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems:label">
+            <value>के तपाईको गर्भ नबस्ने समस्या छ ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_startup:label">
+            <value>यदि उँहाको आउने दिनमा गर्भवती हुने इच्छा छ भने गर्भवती हुनु भन्दा ३ महिना अगाडी देखिनै आफुलाई कसरी तयार गर्ने भन्ने बारे परामर्श गर्नुहोस् । 
+जस्तो : 
+- नियमित एक चक्की फोलिक एसीडको प्रयोग । 
+- आफ्नो व्यवहार र जीवनशैली परिवर्तन गर्नुपर्छ । जस्तो धुम्रपान, मध्यपान र चिन्ताबाट टाढा बस्ने ।
+- कुनै औषधीको सेवन गरिरहनु भएको छ भने डाक्टरको सल्लाह लिने । 
+- आफ्नो शरिरको तौल उचित राख्ने ।
+ - मानसिक र शारीरिक रुपमा स्वस्थ हुन योगा, शारीरिक व्यायाम गर्ने ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_symptom:label">
+            <value>उहाँ गर्भवती भए नभएको यकिन गर्नुहोस् ;
+- पिसाब जाँच गरेर वा अरु कुनै चिन्ह लक्षणबाट गर्भवती भएको /नभएको यकिन गर्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/safe_abortion:label">
+            <value>सुरक्षित गर्भपतन को लागि परामर्श गर्नुहोस् र स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy:label">
+            <value>के तपाई यो गर्भ राख्न चाहनु हुन्छ?</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance/women_problems:label">
+            <value>उहाँलाई स्त्री रोग विशेषज्ञ / स्वास्थ्य सँस्थामा गई आवश्यक जाँच गर्नको लागि परामर्श दिनुका साथै प्रेषण गर्नुहोस् ।</value>
+          </text>
+          <text id="/pregnancy_surveillance_form/pregnancy_surveillance:label">
+            <value>प्रजनन् उमेर समुहका महिलालाई घर भेट</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pregnancy_surveillance_form id="pregnancy_surveillance_form" prefix="J1!pregnancy_surveillance_form!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source/>
+            <source_id/>
+            <contact>
+              <_id/>
+              <patient_id/>
+              <name/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_id/>
+          <patient_name/>
+          <pregnancy_surveillance>
+            <menstruation_cycle/>
+            <post_pregnancy/>
+            <breastfeeding_only/>
+            <post_pregnancy_mensuration/>
+            <abortion/>
+            <pregnancy_symptom/>
+            <current_pregnant/>
+            <abortion_problems/>
+            <women_problems/>
+            <want_pregnancy/>
+            <pregnancy_form/>
+            <safe_abortion/>
+            <pregnancy_problems/>
+            <consult_doctor/>
+            <pregnancy_startup/>
+          </pregnancy_surveillance>
+          <family_planning_screening>
+            <family_planning_device/>
+            <family_planning_tool/>
+            <family_planning_kits_temporary/>
+            <iucd>
+              <iucd_date/>
+              <iucd_used/>
+              <visiting_hospital/>
+              <kits_causes/>
+            </iucd>
+            <implant>
+              <implant_date/>
+              <implant_symptoms/>
+              <implant_refer/>
+              <implant_counseling/>
+            </implant>
+            <depo>
+              <depo_date/>
+              <depo_conditions/>
+              <depo_refer/>
+              <depo_calculation/>
+              <depo_calculation_ne/>
+              <depo_injection_date/>
+              <depo_injection_followup/>
+            </depo>
+            <pills>
+              <pills_conditions/>
+              <pills_counseling/>
+              <pills_information/>
+            </pills>
+            <condom>
+              <condom_information/>
+            </condom>
+            <emergency_pill>
+              <instance_pregnancy_pills/>
+            </emergency_pill>
+            <permanent_family_planning/>
+            <natural_family_planning/>
+            <not_using_family_planning_device/>
+            <reason_not_using_family_planning/>
+            <thank_you/>
+          </family_planning_screening>
+          <balanced_consultation_process>
+            <child_in_future/>
+            <breastfeeding_child/>
+            <necessary_counseling/>
+            <menstruation_during_pregnancy/>
+            <condom_counseling>
+              <back_up_methods/>
+            </condom_counseling>
+            <counseling_pills>
+              <intake_of_pills/>
+              <over_use_of_pills/>
+              <benefit_of_pills/>
+            </counseling_pills>
+            <counseling_depo>
+              <depro_injection/>
+              <situation_for_no_depo/>
+              <causes_using_depo/>
+              <benefit_of_depo/>
+            </counseling_depo>
+            <counseling_implant>
+              <implant_for_family_planning/>
+              <situation_for_no_implant/>
+              <causes_using_implant/>
+              <benefit_of_implant/>
+            </counseling_implant>
+            <counseling_iucd>
+              <iucd_for_family_planning/>
+              <situation_for_no_iucd/>
+              <causes_using_iucd/>
+              <benefit_of_iucd/>
+            </counseling_iucd>
+            <counseling_ecps>
+              <suddenly_needs_ECPs/>
+              <benefit_of_ECPs/>
+            </counseling_ecps>
+            <lactation_amenorrhea_method>
+              <breastfeeding_ways/>
+            </lactation_amenorrhea_method>
+            <counseling_vasectomy>
+              <counseling_male_vasectomy/>
+              <situation_vasectomy/>
+            </counseling_vasectomy>
+            <counselling_minilap>
+              <counseling_minilap/>
+              <situation_minilap/>
+              <benefits_minilap/>
+            </counselling_minilap>
+            <any_question/>
+            <device_decided_family_planning/>
+            <not_using_device/>
+            <reason_not_using/>
+          </balanced_consultation_process>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy_surveillance_form>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pregnancy_surveillance_form/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pregnancy_surveillance_form/inputs/source" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/inputs/source_id" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pregnancy_surveillance_form/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/inputs/contact/name" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pregnancy_surveillance_form/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/pregnancy_surveillance_form/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/menstruation_cycle" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/menstruation_cycle:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/menstruation_cycle  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/breastfeeding_only" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/breastfeeding_only:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy  = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy_mensuration" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy_mensuration:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy  = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/abortion" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/abortion:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/menstruation_cycle  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_symptom" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/abortion  = 'no'"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/current_pregnant" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/current_pregnant:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/abortion  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/current_pregnant  ='yes' and  /pregnancy_surveillance_form/pregnancy_surveillance/abortion  = 'no' and  /pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/women_problems" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems  = 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_form" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy  = 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/safe_abortion" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy  = 'no'"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/menstruation_cycle  = 'yes' or  /pregnancy_surveillance_form/pregnancy_surveillance/current_pregnant  = 'no' and ( /pregnancy_surveillance_form/pregnancy_surveillance/abortion  = 'no' and  /pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy  = 'no')" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/consult_doctor" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems  = 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_startup" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems  = 'no' or  /pregnancy_surveillance_form/pregnancy_surveillance/abortion  = 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening" relevant=" /pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems  != 'yes' and  /pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems  != 'yes' and  /pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy  != 'yes' and  /pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy  != 'no'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/family_planning_device" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/family_planning_device:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/family_planning_tool" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/family_planning_tool:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_device  = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_tool  = 'temporary'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/iucd" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary  = 'iucd'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date" type="date" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date:jr:constraintMsg')" required="true()" constraint=". &lt;= today()"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used" type="select" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used:jr:constraintMsg')" required="true()" constraint="not(selected(.,'none') and count-selected(.)&gt;1)"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/iucd/visiting_hospital" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used  != 'none'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/iucd/kits_causes" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used  = 'none'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/implant" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary  = 'implant'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/implant/implant_date" type="date" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_date:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_date:jr:constraintMsg')" required="true()" constraint=". &lt;= today()"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms" type="select" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms:jr:constraintMsg')" required="true()" constraint="not(selected(.,'none') and count-selected(.)&gt;1)"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/implant/implant_refer" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms  != 'none'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/implant/implant_counseling" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms  = 'none'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/depo" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary  = 'depo'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/depo/depo_date" type="date" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_date:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_date:jr:constraintMsg')" required="true()" constraint=". &lt;= today()"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions" type="select" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions:jr:constraintMsg')" required="true()" constraint="not(selected(.,'none') and count-selected(.)&gt;1)"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/depo/depo_refer" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions  != 'none'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/depo/depo_calculation" type="string" calculate="format-date(date(decimal-date-time( /pregnancy_surveillance_form/family_planning_screening/depo/depo_date )+90), &quot;%Y-%m-%d&quot;)"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/depo/depo_calculation_ne" type="string" calculate="to-bikram-sambat( /pregnancy_surveillance_form/family_planning_screening/depo/depo_calculation )"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/depo/depo_injection_date" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions  = 'none'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/depo/depo_injection_followup" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions  = 'none'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/pills" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary  = 'pills'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions" type="select" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions:jr:constraintMsg')" required="true()" constraint="not(selected(.,'none') and count-selected(.)&gt;1)"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/pills/pills_counseling" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions  != 'none'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/pills/pills_information" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions  = 'none'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/condom" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary  = 'condom'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/condom/condom_information" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/emergency_pill" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary  = 'urgent_pills'"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/emergency_pill/instance_pregnancy_pills" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/permanent_family_planning" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/permanent_family_planning:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_tool  = 'permanent'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/natural_family_planning" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/natural_family_planning:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_tool  = 'natural'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/family_planning_screening/family_planning_device  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/reason_not_using_family_planning" type="string" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/reason_not_using_family_planning:jr:requiredMsg')" required="true()" constraint="string-length(.)&lt;=100" relevant=" /pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device  = 'other'" jr:constraintMsg="jr:itext('/pregnancy_surveillance_form/family_planning_screening/reason_not_using_family_planning:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_surveillance_form/family_planning_screening/thank_you" readonly="true()" type="string" relevant=" /pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device  = 'no_menstruation' or  /pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device  = 'widow' or  /pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device  = 'hysterectomy'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process" relevant="( /pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device  != 'no_menstruation' and  /pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device  != 'widow' and  /pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device  != 'hysterectomy') and  /pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems  != 'yes' and  /pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems  != 'yes' and  /pregnancy_surveillance_form/family_planning_screening/family_planning_tool  != 'temporary' and  /pregnancy_surveillance_form/family_planning_screening/family_planning_tool  != 'permanent' and  /pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy  != 'yes' and  /pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy  != 'no'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/child_in_future" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/child_in_future:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/child_in_future  = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling" type="select" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling:jr:requiredMsg')" required="true()" constraint="not(selected(.,'none') and count-selected(.)&gt;1)" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/child_in_future  = 'yes' and  /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  = 'no'" jr:constraintMsg="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/menstruation_during_pregnancy" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/menstruation_during_pregnancy:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/child_in_future  = 'yes' and  /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/condom_counseling" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/child_in_future != 'no' and  /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  != 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/condom_counseling/back_up_methods" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling  = 'none' and  /pregnancy_surveillance_form/balanced_consultation_process/child_in_future != 'no' and  /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  != 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/intake_of_pills" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/over_use_of_pills" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/benefit_of_pills" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling  = 'none' and  /pregnancy_surveillance_form/balanced_consultation_process/child_in_future != 'no' and  /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  != 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/depro_injection" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/situation_for_no_depo" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/causes_using_depo" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/benefit_of_depo" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/child_in_future != 'no' and  /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  != 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/implant_for_family_planning" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/situation_for_no_implant" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/causes_using_implant" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/benefit_of_implant" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/child_in_future != 'no' and  /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  != 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/iucd_for_family_planning" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/situation_for_no_iucd" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/causes_using_iucd" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/benefit_of_iucd" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/child_in_future != 'no' and  /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  != 'yes'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps/suddenly_needs_ECPs" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps/benefit_of_ECPs" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/lactation_amenorrhea_method" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/menstruation_during_pregnancy  != 'yes' and  /pregnancy_surveillance_form/balanced_consultation_process/child_in_future != 'no'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/lactation_amenorrhea_method/breastfeeding_ways" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  != 'yes' and  /pregnancy_surveillance_form/balanced_consultation_process/child_in_future  = 'no'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy/counseling_male_vasectomy" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy/situation_vasectomy" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child  != 'yes' and  /pregnancy_surveillance_form/balanced_consultation_process/child_in_future  = 'no'"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/counseling_minilap" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/situation_minilap" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/benefits_minilap" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/any_question" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/device_decided_family_planning" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/device_decided_family_planning:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/not_using_device" type="select1" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/not_using_device:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/device_decided_family_planning  = 'none'" required="true()"/>
+      <bind nodeset="/pregnancy_surveillance_form/balanced_consultation_process/reason_not_using" type="string" jr:requiredMsg="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/reason_not_using:jr:requiredMsg')" relevant=" /pregnancy_surveillance_form/balanced_consultation_process/not_using_device  = 'other'" required="true()" constraint="string-length(.)&lt;=100"/>
+      <bind nodeset="/pregnancy_surveillance_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="Field-list" ref="/pregnancy_surveillance_form/inputs">
+      <group ref="/pregnancy_surveillance_form/inputs/contact">
+        <input appearance="db-object" ref="/pregnancy_surveillance_form/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group appearance="Field-list" ref="/pregnancy_surveillance_form/pregnancy_surveillance">
+      <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance:label')"/>
+      <select1 ref="/pregnancy_surveillance_form/pregnancy_surveillance/menstruation_cycle">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/menstruation_cycle:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/pregnancy_surveillance/breastfeeding_only">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/breastfeeding_only:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy_mensuration">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/post_pregnancy_mensuration:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/pregnancy_surveillance/abortion">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/abortion:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_symptom">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_symptom:label')"/>
+      </input>
+      <select1 ref="/pregnancy_surveillance_form/pregnancy_surveillance/current_pregnant">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/current_pregnant:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/abortion_problems:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_surveillance_form/pregnancy_surveillance/women_problems">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/women_problems:label')"/>
+      </input>
+      <select1 ref="/pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/want_pregnancy:label')"/>
+        <item>
+          <label>चाहन्छु</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>चाह्न्न</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_form">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_form:label')"/>
+      </input>
+      <input ref="/pregnancy_surveillance_form/pregnancy_surveillance/safe_abortion">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/safe_abortion:label')"/>
+      </input>
+      <select1 ref="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_problems:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_surveillance_form/pregnancy_surveillance/consult_doctor">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/consult_doctor:label')"/>
+      </input>
+      <input ref="/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_startup">
+        <label ref="jr:itext('/pregnancy_surveillance_form/pregnancy_surveillance/pregnancy_startup:label')"/>
+      </input>
+    </group>
+    <group appearance="Field-list" ref="/pregnancy_surveillance_form/family_planning_screening">
+      <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening:label')"/>
+      <select1 ref="/pregnancy_surveillance_form/family_planning_screening/family_planning_device">
+        <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/family_planning_device:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/family_planning_screening/family_planning_tool">
+        <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/family_planning_tool:label')"/>
+        <item>
+          <label>परिवार नियोजनका अस्थायी साधन ।</label>
+          <value>temporary</value>
+        </item>
+        <item>
+          <label>परिवार नियोजनका स्थायी साधन ।</label>
+          <value>permanent</value>
+        </item>
+        <item>
+          <label>परिवार नियोजनका प्राकृतिक तरिका ।</label>
+          <value>natural</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary">
+        <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/family_planning_kits_temporary:label')"/>
+        <item>
+          <label>आई. यू. सि. डी</label>
+          <value>iucd</value>
+        </item>
+        <item>
+          <label>इम्प्लाण्ट</label>
+          <value>implant</value>
+        </item>
+        <item>
+          <label>डिपो प्रोभेरा</label>
+          <value>depo</value>
+        </item>
+        <item>
+          <label>पिल्स</label>
+          <value>pills</value>
+        </item>
+        <item>
+          <label>कन्डम</label>
+          <value>condom</value>
+        </item>
+        <item>
+          <label>सायना प्रेश</label>
+          <value>sayan</value>
+        </item>
+        <item>
+          <label>आकास्मिक गर्भनिरोधक चक्की (ECPs)</label>
+          <value>urgent_pills</value>
+        </item>
+      </select1>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/family_planning_screening/iucd">
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date:label')"/>
+          <hint ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_date:hint')"/>
+        </input>
+        <select ref="/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used:label')"/>
+          <hint ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/iucd_used:hint')"/>
+          <item>
+            <label>कडा किसिमले तल्लो पेट दुख्ने वा दुखाई बढ्दै गएको ।</label>
+            <value>severe_abdominal_pain</value>
+          </item>
+          <item>
+            <label>यौन कार्य वा सहवास गर्दा दुख्ने ।</label>
+            <value>hurts_during_intercourse</value>
+          </item>
+          <item>
+            <label>यौनीबाट अस्वभाविक गन्हाउने पानि बग्ने ।</label>
+            <value>foul_vaginal_discharge</value>
+          </item>
+          <item>
+            <label>ज्वोरो आउने, सितांग हुने, वाकवाकी लाग्ने वा बान्ता हुने ।</label>
+            <value>fever_nausea</value>
+          </item>
+          <item>
+            <label>आई. यू. सि. डी आफ्नो स्थानमा नरहेको महशुस भइरहने ।</label>
+            <value>out_of_place</value>
+          </item>
+          <item>
+            <label>कुनै समस्या छैन ।</label>
+            <value>none</value>
+          </item>
+        </select>
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/iucd/visiting_hospital">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/visiting_hospital:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/iucd/kits_causes">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/iucd/kits_causes:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/family_planning_screening/implant">
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/implant/implant_date">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_date:label')"/>
+          <hint ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_date:hint')"/>
+        </input>
+        <select ref="/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms:label')"/>
+          <hint ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_symptoms:hint')"/>
+          <item>
+            <label>साधन राखेको ठाउँमा तातो भएको, पिप निस्किएको वा रातो भएको छ ।</label>
+            <value>high_temp</value>
+          </item>
+          <item>
+            <label>साधन (इम्प्लाण्ट ) बाहिर आएको छ ।</label>
+            <value>device_came_out</value>
+          </item>
+          <item>
+            <label>हर्मोनल इम्प्लाण्ट पुनप्रयोग गर्ने समय भएको छ ।</label>
+            <value>reuse_implant</value>
+          </item>
+          <item>
+            <label>साधन ( इम्प्लाण्ट ) निकाल्नु पर्ने छ ।</label>
+            <value>has_to_be_removed</value>
+          </item>
+          <item>
+            <label>यसले गर्दा कुनै स्वास्थ्य समस्या देखिएको छ ।</label>
+            <value>health_problem</value>
+          </item>
+          <item>
+            <label>कुनै समस्या छैन ।</label>
+            <value>none</value>
+          </item>
+        </select>
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/implant/implant_refer">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_refer:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/implant/implant_counseling">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/implant/implant_counseling:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/family_planning_screening/depo">
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/depo/depo_date">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_date:label')"/>
+        </input>
+        <select ref="/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions:label')"/>
+          <hint ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_conditions:hint')"/>
+          <item>
+            <label>उच्च रक्तचापको समस्या छ (&gt;१६०/१०० mm/Hg)</label>
+            <value>high_bloodflow_problem</value>
+          </item>
+          <item>
+            <label>असामान्य गम्भिर प्रकृतीका मुटु, रक्तप्रणाली, कलेजोको रोगहरु</label>
+            <value>different_diseases</value>
+          </item>
+          <item>
+            <label>२० वर्ष भन्दा बढी समय देखि मधुमेह रोग लागेको छ ।</label>
+            <value>diabetes</value>
+          </item>
+          <item>
+            <label>कुनै समस्या छैन</label>
+            <value>none</value>
+          </item>
+        </select>
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/depo/depo_refer">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_refer:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/depo/depo_injection_date">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_injection_date:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/depo/depo_injection_followup">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/depo/depo_injection_followup:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/family_planning_screening/pills">
+        <select ref="/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions:label')"/>
+          <hint ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/pills/pills_conditions:hint')"/>
+          <item>
+            <label>६ महिना भन्दा कम उमेरको शिशु छ र exclusive breast feed गरिरहनु भएको छ ।</label>
+            <value>exclusive_breast_feed</value>
+          </item>
+          <item>
+            <label>महिलाको उमेर ३५ वर्ष वा सो भन्दा माथि छ र चुरोट/बिडी/तमाखु को धेरै सेवन गर्नुहुन्छ ।</label>
+            <value>aged_women</value>
+          </item>
+          <item>
+            <label>उच्च रक्तचापको समस्या छ ।</label>
+            <value>high_bloodflow_problem</value>
+          </item>
+          <item>
+            <label>कलेजो वा पित्त थैलीको रोग छ ।</label>
+            <value>glanbladder_problems</value>
+          </item>
+          <item>
+            <label>स्तन क्यान्सर (बिगत मा वा हालमा) छ ।</label>
+            <value>breast_cancer</value>
+          </item>
+          <item>
+            <label>रक्तप्रणाली सम्बन्धी  रोग छ ।</label>
+            <value>blood_disease</value>
+          </item>
+          <item>
+            <label>क्षयरोग वा छारेरोगको औषधी खाइरहनु भएको छ ।</label>
+            <value>tuberclosis_patient</value>
+          </item>
+          <item>
+            <label>Migraine with aura कहिलेकाहीं एउटा आँखामा सेतो दाग बढी रहेको छ ।</label>
+            <value>migraine_problems</value>
+          </item>
+          <item>
+            <label>पिल्स चक्किको प्रयोग बाट : धेरै पेट दुख्ने, टाउको दुख्ने जुन असामन्य छ र सुधार नभएको, दृष्टि कम हुदै गएकोछ ।</label>
+            <value>cause_of_pills</value>
+          </item>
+          <item>
+            <label>खुट्टा सुन्निने वा दुखेको छ भने ।</label>
+            <value>leg_pain</value>
+          </item>
+          <item>
+            <label>कुनै समस्या छैन ।</label>
+            <value>none</value>
+          </item>
+        </select>
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/pills/pills_counseling">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/pills/pills_counseling:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/pills/pills_information">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/pills/pills_information:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/family_planning_screening/condom">
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/condom/condom_information">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/condom/condom_information:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/family_planning_screening/emergency_pill">
+        <input ref="/pregnancy_surveillance_form/family_planning_screening/emergency_pill/instance_pregnancy_pills">
+          <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/emergency_pill/instance_pregnancy_pills:label')"/>
+        </input>
+      </group>
+      <select1 ref="/pregnancy_surveillance_form/family_planning_screening/permanent_family_planning">
+        <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/permanent_family_planning:label')"/>
+        <item>
+          <label>भ्यासेक्टोमी (पुरुषको बन्ध्याकरण) गरेको</label>
+          <value>vasectomy</value>
+        </item>
+        <item>
+          <label>मिनिल्याप (महिलाको बन्ध्याकरण) गरेको</label>
+          <value>minilap</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/family_planning_screening/natural_family_planning">
+        <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/natural_family_planning:label')"/>
+        <item>
+          <label>सेफ क्यालेन्डर</label>
+          <value>natural_safe_calender</value>
+        </item>
+        <item>
+          <label>विर्य बाहिर स्खलन</label>
+          <value>outside_ejaculation</value>
+        </item>
+        <item>
+          <label>स्तनपान बिधि</label>
+          <value>breastfeeding_method</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device">
+        <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/not_using_family_planning_device:label')"/>
+        <item>
+          <label>छिट्टै अर्को बच्चाको चाहना भएर</label>
+          <value>urgent_another_baby</value>
+        </item>
+        <item>
+          <label>यौन सम्पर्कमा अनियमितताको कारण</label>
+          <value>incorrect_intercourse</value>
+        </item>
+        <item>
+          <label>श्रीमान बाहिर हुनुहुन्छ</label>
+          <value>husband_is_out</value>
+        </item>
+        <item>
+          <label>महिलाको श्रीमान छैनन् वा बिधवा भएको</label>
+          <value>widow</value>
+        </item>
+        <item>
+          <label>हिस्टेरेक्टोमी (पाठेघर फालेको छ)</label>
+          <value>hysterectomy</value>
+        </item>
+        <item>
+          <label>महिनावारी सुकेको</label>
+          <value>no_menstruation</value>
+        </item>
+        <item>
+          <label>पछिलो सुत्केरी पछि महिनावारी भएको छैन</label>
+          <value>no_menstruation_after</value>
+        </item>
+        <item>
+          <label>गर्भनिरोधकको प्रयोगमा महिलाको असहमति</label>
+          <value>no_abortion_from_women</value>
+        </item>
+        <item>
+          <label>गर्भनिरोधकको प्रयोगमा श्रीमानको असहमति</label>
+          <value>no_abortion_from_men</value>
+        </item>
+        <item>
+          <label>गर्भनिरोधकको प्रयोगमा अरुको असहमति</label>
+          <value>no_abortion_from_other</value>
+        </item>
+        <item>
+          <label>कुनै बिधिको बारेमा थाहा नभएको</label>
+          <value>unknown_device</value>
+        </item>
+        <item>
+          <label>साधन कहाँबाट लिने भन्नेबारे थाहा नभएको</label>
+          <value>where_to_get_device</value>
+        </item>
+        <item>
+          <label>अन्य असर वा स्वास्थ्य समस्याको चिन्ताले</label>
+          <value>other_health_problems</value>
+        </item>
+        <item>
+          <label>पहुँचको अभाव/ धेरै टाढा</label>
+          <value>too_far</value>
+        </item>
+        <item>
+          <label>अन्य</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input appearance="multiline" ref="/pregnancy_surveillance_form/family_planning_screening/reason_not_using_family_planning">
+        <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/reason_not_using_family_planning:label')"/>
+      </input>
+      <input ref="/pregnancy_surveillance_form/family_planning_screening/thank_you">
+        <label ref="jr:itext('/pregnancy_surveillance_form/family_planning_screening/thank_you:label')"/>
+      </input>
+    </group>
+    <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process">
+      <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process:label')"/>
+      <select1 ref="/pregnancy_surveillance_form/balanced_consultation_process/child_in_future">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/child_in_future:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/breastfeeding_child:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling:label')"/>
+        <hint ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/necessary_counseling:hint')"/>
+        <item>
+          <label>सुत्केरी भएको २१ दिन भन्दा कम भएको छ ।</label>
+          <value>pregnancy_under_less_days</value>
+        </item>
+        <item>
+          <label>६ महिना भन्दा कम उमेरको शिशुलाई पूर्ण स्तनपान गराइरहनु भएको छ ।</label>
+          <value>breastfeeding_under_sixday_child</value>
+        </item>
+        <item>
+          <label>३५ वर्ष वा सो भन्दा माथिको उमेर छ र धेरै धुम्रपान गर्नु हुन्छ ।</label>
+          <value>no_smoking</value>
+        </item>
+        <item>
+          <label>उच्चरक्तचापको समस्या छ (&gt;१४०/९० )</label>
+          <value>high_bloodflow_problem</value>
+        </item>
+        <item>
+          <label>कलेजो वा पित्त थैलीको रोग छ ।</label>
+          <value>glanbladder_problems</value>
+        </item>
+        <item>
+          <label>स्तन क्यान्सर (बिगत मा वा हालमा) थियो /छ ।</label>
+          <value>breast_cancer</value>
+        </item>
+        <item>
+          <label>रक्तप्रणाली समन्धी रोग छ ।</label>
+          <value>blood_disease</value>
+        </item>
+        <item>
+          <label>क्षयरोग वा छारे रोग को औषधि खाइरहनु भएको छ।</label>
+          <value>tuberclosis_patient</value>
+        </item>
+        <item>
+          <label>Migraine aura कहिलेकाहीं एउटा आँखामा सेतो दाग बढी रहेको छ ।</label>
+          <value>migraine_problems</value>
+        </item>
+        <item>
+          <label>बिगत मा वा हालमा Venous thromboembolic disorder थियो /छ ।</label>
+          <value>venous_thromboembolic_disorde</value>
+        </item>
+        <item>
+          <label>२० वर्ष भन्दा बढी समय देखि मधुमेह रोग लागेको छ ।</label>
+          <value>diabetes_problems</value>
+        </item>
+        <item>
+          <label>माथिको कुनै अवस्था छैन ।</label>
+          <value>none</value>
+        </item>
+      </select>
+      <select1 ref="/pregnancy_surveillance_form/balanced_consultation_process/menstruation_during_pregnancy">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/menstruation_during_pregnancy:label')"/>
+        <item>
+          <label>छ</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>छैन</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process/condom_counseling">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/condom_counseling:label')"/>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/condom_counseling/back_up_methods">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/condom_counseling/back_up_methods:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills:label')"/>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/intake_of_pills">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/intake_of_pills:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/over_use_of_pills">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/over_use_of_pills:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/benefit_of_pills">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_pills/benefit_of_pills:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo:label')"/>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/depro_injection">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/depro_injection:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/situation_for_no_depo">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/situation_for_no_depo:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/causes_using_depo">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/causes_using_depo:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/benefit_of_depo">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_depo/benefit_of_depo:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant:label')"/>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/implant_for_family_planning">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/implant_for_family_planning:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/situation_for_no_implant">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/situation_for_no_implant:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/causes_using_implant">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/causes_using_implant:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/benefit_of_implant">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_implant/benefit_of_implant:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd:label')"/>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/iucd_for_family_planning">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/iucd_for_family_planning:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/situation_for_no_iucd">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/situation_for_no_iucd:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/causes_using_iucd">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/causes_using_iucd:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/benefit_of_iucd">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_iucd/benefit_of_iucd:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps:label')"/>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps/suddenly_needs_ECPs">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps/suddenly_needs_ECPs:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps/benefit_of_ECPs">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_ecps/benefit_of_ECPs:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process/lactation_amenorrhea_method">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/lactation_amenorrhea_method:label')"/>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/lactation_amenorrhea_method/breastfeeding_ways">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/lactation_amenorrhea_method/breastfeeding_ways:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy:label')"/>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy/counseling_male_vasectomy">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy/counseling_male_vasectomy:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy/situation_vasectomy">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counseling_vasectomy/situation_vasectomy:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap:label')"/>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/counseling_minilap">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/counseling_minilap:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/situation_minilap">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/situation_minilap:label')"/>
+        </input>
+        <input ref="/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/benefits_minilap">
+          <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/counselling_minilap/benefits_minilap:label')"/>
+        </input>
+      </group>
+      <input ref="/pregnancy_surveillance_form/balanced_consultation_process/any_question">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/any_question:label')"/>
+      </input>
+      <select1 ref="/pregnancy_surveillance_form/balanced_consultation_process/device_decided_family_planning">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/device_decided_family_planning:label')"/>
+        <item>
+          <label>कुनै बिधि प्रयोग नगर्ने</label>
+          <value>none</value>
+        </item>
+        <item>
+          <label>आई. यू. सि. डी</label>
+          <value>iucd</value>
+        </item>
+        <item>
+          <label>इम्प्लाण्ट</label>
+          <value>implant</value>
+        </item>
+        <item>
+          <label>डिप्रोप्रोभेरा</label>
+          <value>depo</value>
+        </item>
+        <item>
+          <label>पिल्स</label>
+          <value>pills</value>
+        </item>
+        <item>
+          <label>कन्डम</label>
+          <value>condom</value>
+        </item>
+        <item>
+          <label>स्तनपान बिधि</label>
+          <value>breastfeeding_ways</value>
+        </item>
+        <item>
+          <label>आपत्कालिन गर्भनिरोधक चक्की</label>
+          <value>emergency_pregnancy_pills</value>
+        </item>
+        <item>
+          <label>महिला बन्ध्याकरण</label>
+          <value>female_sterilisation</value>
+        </item>
+        <item>
+          <label>पुरुस बन्ध्याकरण</label>
+          <value>male_sterilisation</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_surveillance_form/balanced_consultation_process/not_using_device">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/not_using_device:label')"/>
+        <item>
+          <label>अन्य असर वा स्वास्थ्य समस्या को चिन्ताले ।</label>
+          <value>other_health_problem</value>
+        </item>
+        <item>
+          <label>थप विकल्पहरू विचार गर्न चाहनुहुन्छ ।</label>
+          <value>plus_other_ways</value>
+        </item>
+        <item>
+          <label>श्रीमान सँग छलफल गर्न चाहनुहुन्छ</label>
+          <value>discussion</value>
+        </item>
+        <item>
+          <label>यौन सम्पर्कमा अनियमितताको कारण ।</label>
+          <value>incorrect_intercourse</value>
+        </item>
+        <item>
+          <label>श्रीमान बाहिर हुनुहुन्छ ।</label>
+          <value>husband_is_out</value>
+        </item>
+        <item>
+          <label>सुत्केरी भएपछि महिनावारी भएको छैन ।</label>
+          <value>no_menstrutation_after_preganancy</value>
+        </item>
+        <item>
+          <label>अन्य</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input appearance="multiline" ref="/pregnancy_surveillance_form/balanced_consultation_process/reason_not_using">
+        <label ref="jr:itext('/pregnancy_surveillance_form/balanced_consultation_process/reason_not_using:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,4 @@
+We need to reference use cases's selected values in other forms.
+Example for each mother or baby danger sign shown in delivery, those danger sign should show up in the subsequent baby or mother danger sing it triggers.
+Example for a danger sign question, "body_spasm": "She has body spasms". Only the key "body"spasm" is saved during form fillup but we need to report "She has body spasms" danger sign during followup task / form filling". Hence we reqiure the key value pairs of those sections of the form here.
+A more automated appraoch could be to read/parse the XML file of app form and get the danger sign keys form the report and extract values form the XML file. (Looked into it but not tried due to time constraint)

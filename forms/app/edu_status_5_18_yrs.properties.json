@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Education status of 5 to 18 years"
+    },
+    {
+      "locale": "ne",
+      "content": "५ देखि १८ बर्ष उमेर समुहको शैक्षिक सर्बेक्षण फराम"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person'  && (!contact.date_of_birth || (ageInYears(contact) >= 5 && ageInYears(contact) <= 18)) && user._id != contact._id"
+  },
+  "icon": "icon-household-education"
+}

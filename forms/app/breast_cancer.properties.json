@@ -1,0 +1,19 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Breast Cancer Screening Form"
+    },
+    {
+      "locale": "ne",
+      "content": "स्तन क्यान्सरको स्क्रीनिङ"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person' && contact.gender =='female' && (ageInYears(contact) >= 20)"
+  },
+  "icon": "icon-healthcare-assessment",
+  "hidden_fields": []
+}

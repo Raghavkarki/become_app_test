@@ -1,0 +1,27 @@
+{
+    "dangerSignDictionaryEnglish": {
+        "fever": "Fever",
+        "vaginal_bleeding": "Severe vaginal bleeding",
+        "body_spasms": "Does she have body spasms",
+        "headache": "Severe continuous headache or blurred vision",
+        "abd_pain": "Severe lower abdominal pain / continuous vomiting ",
+        "vaginal_discharge": "Foul smelling white discharge from vagina",
+        "calf_redness_or_difficulty_breathing": "Redness of Calf or swollen or difficulty in breathing or chest pain",
+        "difficulty_or_leak_urine": "Difficulty in micturition or leak urine",
+        "moody": "Do you have mood and emotional swings",
+        "bleeding_at_surgical_site": "In women who have given birth by surgery, is bleeding at the site of surgery, very painful"
+    },
+    "dangerSignDictionaryNepali": {
+        "fever": "ज्वरो आएको छ ",
+        "vaginal_bleeding": "योनी बाट  धेरै रगत बगीरहेको छ ",
+        "body_spasms": "शरिर बाउँडिने छ ",
+        "headache": "कडा / लगातार टाउको दुख्नु वा दृष्टि धमिलो छ ",
+        "abd_pain": "तल्लो पेट कडादुख्नु / तारन्तार बान्ता भैरहेको छ ?",
+        "vaginal_discharge": "योनी बाट सेतो गन्ध आउने पानी बगीरहेको छ ",
+        "calf_redness_or_difficulty_breathing": "पिंडुला रातो भएको वा सुन्निएको, श्वास फेर्न गाह्रो हुनु वा छाती दुखी रहेको छ ",
+        "difficulty_or_leak_urine": "पिसाब सजिलै फेर्न नसक्ने वा पिसाब चुहिन छ ",
+        "moody": "मुड र भावनात्मक परिवर्तन /दोधार भइरह्न्छ ",
+        "bleeding_at_surgical_site": "शल्यक्रिया गरेर प्रसुति गराएका महिला मा शल्यक्रिया गरेको ठाउँमा रगत बगिरहेको, निकै कडा दुखिरहेको छ "
+    }
+}
+  

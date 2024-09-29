@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "PNC Service Form "
+    },
+    {
+      "locale": "ne",
+      "content": "पि एन सी सेवा फाराम"
+    }
+  ],
+ "context": {
+    "place": false,
+    "person": false
+  },
+  "icon": "icon-pnc_service",
+  "hidden_fields": []
+}

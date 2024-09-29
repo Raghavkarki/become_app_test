@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Mental Health Referal Follow up Form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/busy_with_work:label">
+            <value>Been busy with work</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/family_restrictions:label">
+            <value>Family restrictions</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/forgot:label">
+            <value>Forgot</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/no_transportation:label">
+            <value>No transportation</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/other_reasons:label">
+            <value>Other reasons</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/out_of_town:label">
+            <value>Out of town</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/physically_unable_to_travel:label">
+            <value>Physically unable to travel</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/unnecessary:label">
+            <value>Thinks it is unnecessary</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital:label">
+            <value>Why didn't he go to the health facility or the doctor for examination?</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/mention:label">
+            <value>Mention</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/importance_of_follow_up_visit:label">
+            <value>Please tell him the importance of a follow-up visit and advise him to visit a doctor or health facility for regular check-ups.
+1. 1. Mental patients have to take medicine regularly. If you don't take it regularly, the disease will not be completely cured and can flare up again.
+2. Do not stop taking medicine without a doctor's advice, even if symptoms disappear.
+3. People who take medicine should be examined at health institutions at least twice a year
+4. There may be common side effects like dry mouth, weight gain, headache, blurred vision etc. if you see such side effects, contact the hotline no.</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/alcohol_use_disorder:label">
+            <value>Alcohol Use Disorder</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/anxiety_disorder:label">
+            <value>Anxiety Disorder</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/conversion_disorder:label">
+            <value>Conversion Disorder</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/depression:label">
+            <value>Depression</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/epilepsy:label">
+            <value>Epilepsy</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/others:label">
+            <value>Other</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/psychosis:label">
+            <value>Psychosis</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness:label">
+            <value>What type of mental illness has he been diagnosed with?</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mention_other_reason:label">
+            <value>Mention</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/tips_of_stress_management:label">
+            <value>Some tips for stress management 
+1. Get at least 7 hours of restful sleep
+2. Eat food regularly
+3. Exercising, doing yoga, meditation (as per your convenience)
+4. Do not smoke, drink alcohol
+5. Schedule your daily work
+6. Identify your needs and stressors. Try to reduce the elements that cause stress as much as possible.
+7. Spend time with relatives and close friends and share your thoughts.</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not/no:label">
+            <value>No</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not:label">
+            <value>Has he gone to a health institution or a doctor for examination?</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup:label">
+            <value>Mental Health treatment Follow Up</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/busy_with_work:label">
+            <value>काममा व्यस्त भएर</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/family_restrictions:label">
+            <value>परिवारको सहयोग नपाएर</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/forgot:label">
+            <value>बिर्सेर</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/no_money:label">
+            <value>पैसा नभएर</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/no_transportation:label">
+            <value>यातायातको साधन नभएर</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/other_reasons:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/out_of_town:label">
+            <value>स्वास्थ्य संस्था टाढा भएर</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/physically_unable_to_travel:label">
+            <value>शारीरिक रूपमा यात्रा गर्न असमर्थ भएर</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/unnecessary:label">
+            <value>यो अनावश्यक छ भन्ने लागेर</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital:label">
+            <value>के कति कारणले उहाँ स्वास्थ्य संस्था वा डाक्टरको मा जाँच गराउन जानु भएन ?</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/mention:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/importance_of_follow_up_visit:label">
+            <value>कृपया उहाँलाई फलोअपको महत्व बताउनुहोस् र नियमित जाँचका लागि डाक्टर वा स्वास्थ्य संस्था जान सल्लाह, सुझाव दिनुहोस् ।
+1. मानसिक रोगिहरुले निरन्तर रुपमा औषधिको सेवन गर्नु पर्छ। नियमित रुपमा सेवन नगर्दा रोग पुर्ण रुपमा निको हुँदैन र फेरि बल्झन सक्दछ।
+2. लक्षणहरु हराउँदै गएमा पनि चिकित्सकको सल्लाह बिना औषधि खान छोड्नु हुँदैन।
+3. औषधि सेवन गर्ने व्यक्तिहरुले कम्तिमा वर्षको दुई पटक स्वास्थ्य संस्थामा जाँच गराउनु पर्दछ।
+4. औषधिको सेवन गर्दा सामान्य असरहरु हुन सक्दछ जस्तै मुख सुख्खा हुने, तौल बढ्ने , टाउको दुख्ने,आँखा धमिलो हुने आदि यस्तो असरहरु देखिएमा हटलाईन नं मा सम्पर्क गरी परामर्श लिने ।</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/alcohol_use_disorder:label">
+            <value>अल्कोहल प्रयोग विकार</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/anxiety_disorder:label">
+            <value>चिन्ता विकार</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/conversion_disorder:label">
+            <value>रूपान्तरण विकार</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/depression:label">
+            <value>डिप्रेसन</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/epilepsy:label">
+            <value>मिरगी</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/others:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/psychosis:label">
+            <value>मनोविकृति</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness:label">
+            <value>उहाँलाई कुन प्रकारको मानसिक रोग निदान भएको छ ?</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mention_other_reason:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/tips_of_stress_management:label">
+            <value>तनाव व्यवस्थापनका लागि केहि उपायहरु
+1. कम्तिमा पनि ७ घण्टा आरामले सुत्ने
+2. खाना नियमित रुपमा खाने
+3. व्यायाम गर्ने , योगा गर्ने, ध्यान गर्ने (आफ्नो सहजता अनुसार)
+4. धुम्रपान, मध्यपान नगर्ने
+5. आफ्नो दैनिकि समय तालिका बनाउने
+6. आफ्नो आवश्यकता पहिचान गर्ने र तनाव दिने तत्वहरुलाई पहिचान गर्ने। सकेसम्म तनाव पैदा गर्ने तत्वहरुलाई कम गर्ने प्रयास गर्नुपर्छ।
+7. आफन्त र नजिका साथिभाईहरु सँग समय बिताउने र मनका कुराहरु शेयर गर्ने।</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not:label">
+            <value>के उहाँ स्वास्थ्य संस्था वा डाक्टरलाई जाँच गराउन जानु भएको छ ?</value>
+          </text>
+          <text id="/mental_health_referral_follow_up/mental_health_treatment_followup:label">
+            <value>मानसिक रोग उपचार फलोअप</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <mental_health_referral_follow_up id="mental_health_referal_follow _up_form" prefix="J1!mental_health_referal_follow _up_form!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source/>
+            <source_id/>
+            <contact>
+              <_id/>
+              <patient_id/>
+              <name/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_id/>
+          <patient_name/>
+          <mental_health_treatment_followup>
+            <visited_hospital_or_not/>
+            <did_not_visit_hospital/>
+            <mention/>
+            <visited_hospital>
+              <mental_illness/>
+              <mention_other_reason/>
+              <importance_of_follow_up_visit/>
+              <tips_of_stress_management/>
+            </visited_hospital>
+          </mental_health_treatment_followup>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </mental_health_referral_follow_up>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/mental_health_referral_follow_up/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/mental_health_referral_follow_up/inputs/source" type="string"/>
+      <bind nodeset="/mental_health_referral_follow_up/inputs/source_id" type="string"/>
+      <bind nodeset="/mental_health_referral_follow_up/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/mental_health_referral_follow_up/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/mental_health_referral_follow_up/inputs/contact/name" type="string"/>
+      <bind nodeset="/mental_health_referral_follow_up/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/mental_health_referral_follow_up/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/mental_health_referral_follow_up/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not" type="select1" required="true()"/>
+      <bind nodeset="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital" type="select" required="true()" relevant=" /mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not  = 'no'"/>
+      <bind nodeset="/mental_health_referral_follow_up/mental_health_treatment_followup/mention" type="string" constraint="string-length(.)&lt;=100" relevant="selected( /mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital , 'other_reasons')"/>
+      <bind nodeset="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital" relevant=" /mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not  = 'yes'"/>
+      <bind nodeset="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness" type="select1" required="true()"/>
+      <bind nodeset="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mention_other_reason" type="string" constraint="string-length(.)&lt;=100" relevant=" /mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness = 'others'"/>
+      <bind nodeset="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/importance_of_follow_up_visit" readonly="true()" type="string"/>
+      <bind nodeset="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/tips_of_stress_management" readonly="true()" type="string"/>
+      <bind nodeset="/mental_health_referral_follow_up/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="Field-list" ref="/mental_health_referral_follow_up/inputs">
+      <group ref="/mental_health_referral_follow_up/inputs/contact">
+        <input appearance="db-object" ref="/mental_health_referral_follow_up/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group appearance="Field-list" ref="/mental_health_referral_follow_up/mental_health_treatment_followup">
+      <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup:label')"/>
+      <select1 ref="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not">
+        <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not:label')"/>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital_or_not/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital">
+        <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital:label')"/>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/forgot:label')"/>
+          <value>forgot</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/busy_with_work:label')"/>
+          <value>busy_with_work</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/unnecessary:label')"/>
+          <value>unnecessary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/no_transportation:label')"/>
+          <value>no_transportation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/out_of_town:label')"/>
+          <value>out_of_town</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/family_restrictions:label')"/>
+          <value>family_restrictions</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/physically_unable_to_travel:label')"/>
+          <value>physically_unable_to_travel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/did_not_visit_hospital/other_reasons:label')"/>
+          <value>other_reasons</value>
+        </item>
+      </select>
+      <input ref="/mental_health_referral_follow_up/mental_health_treatment_followup/mention">
+        <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/mention:label')"/>
+      </input>
+      <group ref="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital">
+        <select1 ref="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness">
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness:label')"/>
+          <hint>(कृपया स्वास्थ्य संस्थाको ओ.पि.डि टिकट वा डाक्टरको प्रिस्क्रिपसन हेरेर रोगको नाम लेख्नुहोस्।)</hint>
+          <item>
+            <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/anxiety_disorder:label')"/>
+            <value>anxiety_disorder</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/depression:label')"/>
+            <value>depression</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/psychosis:label')"/>
+            <value>psychosis</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/epilepsy:label')"/>
+            <value>epilepsy</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/alcohol_use_disorder:label')"/>
+            <value>alcohol_use_disorder</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/conversion_disorder:label')"/>
+            <value>conversion_disorder</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mental_illness/others:label')"/>
+            <value>others</value>
+          </item>
+        </select1>
+        <input ref="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mention_other_reason">
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/mention_other_reason:label')"/>
+        </input>
+        <input ref="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/importance_of_follow_up_visit">
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/importance_of_follow_up_visit:label')"/>
+        </input>
+        <input ref="/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/tips_of_stress_management">
+          <label ref="jr:itext('/mental_health_referral_follow_up/mental_health_treatment_followup/visited_hospital/tips_of_stress_management:label')"/>
+        </input>
+      </group>
+    </group>
+  </h:body>
+</h:html>

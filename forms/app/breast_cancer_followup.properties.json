@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Breast Cancer Followup Form"
+    },
+    {
+      "locale": "ne",
+      "content": "स्तन क्यान्सरको स्क्रीनिङ फलोअप"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": false
+  },
+  "icon": "icon-followup-general",
+  "hidden_fields": []
+}

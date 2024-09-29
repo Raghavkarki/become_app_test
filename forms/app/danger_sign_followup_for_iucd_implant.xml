@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>आई.यु.सि.डी र इम्प्लान्ट सम्बन्धी जटिलता / प्रतिकूल घटना दर्ता फारम</h:title>
+    <model>
+      <itext>
+        <translation lang="ne">
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital:label">
+            <value>के उहाँले स्वास्थ्य संस्थामा गएर जाँच गर्नु भएको छ ?</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/counselling_device:label">
+            <value>&lt;p style="text-align:justify"&gt;उहाँको स्वास्थ्य स्थिति बारे बुझ्नुहोस्। यसका सामान्य असरबारे छलफल गर्नुहोस् ।
+चाँडै स्वास्थ्यमा सुधार नभए स्वास्थ्य संस्थामा गएर जाँच गर्नको लागि आवश्यक 
+परामर्श दिनुहोस्। यस्ले पार्ने असरबारे विस्तृत रुपमा भन्नुहोस। &lt;/p&gt;</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/counselling_hospital:label">
+            <value>&lt;p style="text-align:justify"&gt;उहाँलाई स्वास्थ्य संस्थामा गएर जाँच गर्नको लागि आवश्यक परामर्श दिनुहोस्। यस्ले 
+पार्ने असर बारे विस्तृत रुपमा भन्नुहोस । 
+अबको ७ दिन भित्र स्वास्थ्य संस्था गएको सुनिश्चित गर्नुहोस्। &lt;/p&gt;</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not:label">
+            <value>के उहाँले उक्त साधन निकाल्नु भएको छ ?</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/reason_taking_out_device:jr:constraintMsg">
+            <value>छोटकरीमा उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/reason_taking_out_device:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup/reason_taking_out_device:label">
+            <value>के कारणले गर्दा उहाँले उक्त साधन निकाल्नु भएको हो ? 
+
+उल्लेख गर्नुहोस् :</value>
+          </text>
+          <text id="/danger_sign_followup_for_iucd_implant/danger_sign_followup:label">
+            <value>आई.यु.सि.डी र इम्प्लान्ट सम्बन्धी जटिलता / प्रतिकूल घटना दर्ता फारम</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <danger_sign_followup_for_iucd_implant id="danger_sign_followup_for_iucd_implant" prefix="J1!danger_sign_followup_for_iucd_implant!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source/>
+            <source_id/>
+            <contact>
+              <_id/>
+              <patient_id/>
+              <name/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_id/>
+          <patient_name/>
+          <danger_sign_followup>
+            <checkup_at_hospital/>
+            <device_taken_out_or_not/>
+            <reason_taking_out_device/>
+            <counselling_hospital/>
+            <counselling_device/>
+          </danger_sign_followup>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </danger_sign_followup_for_iucd_implant>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/inputs/source" type="string"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/inputs/source_id" type="string"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/inputs/contact/name" type="string"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital" type="select1" jr:requiredMsg="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not" type="select1" relevant=" /danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital  = 'yes'" jr:requiredMsg="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/danger_sign_followup/reason_taking_out_device" type="string" relevant=" /danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not  = 'yes'" required="true()" constraint="string-length(.) &lt;=100" jr:requiredMsg="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/reason_taking_out_device:jr:requiredMsg')" jr:constraintMsg="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/reason_taking_out_device:jr:constraintMsg')"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/danger_sign_followup/counselling_hospital" readonly="true()" type="string" relevant=" /danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital  = 'no'"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/danger_sign_followup/counselling_device" readonly="true()" type="string" relevant=" /danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not  = 'no'"/>
+      <bind nodeset="/danger_sign_followup_for_iucd_implant/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="Field-list" ref="/danger_sign_followup_for_iucd_implant/inputs">
+      <group ref="/danger_sign_followup_for_iucd_implant/inputs/contact">
+        <input appearance="db-object" ref="/danger_sign_followup_for_iucd_implant/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group appearance="Field-list" ref="/danger_sign_followup_for_iucd_implant/danger_sign_followup">
+      <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup:label')"/>
+      <select1 ref="/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital">
+        <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital:label')"/>
+        <item>
+          <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/checkup_at_hospital/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not">
+        <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not:label')"/>
+        <item>
+          <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/device_taken_out_or_not/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input appearance="multiline" ref="/danger_sign_followup_for_iucd_implant/danger_sign_followup/reason_taking_out_device">
+        <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/reason_taking_out_device:label')"/>
+      </input>
+      <input ref="/danger_sign_followup_for_iucd_implant/danger_sign_followup/counselling_hospital">
+        <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/counselling_hospital:label')"/>
+      </input>
+      <input ref="/danger_sign_followup_for_iucd_implant/danger_sign_followup/counselling_device">
+        <label ref="jr:itext('/danger_sign_followup_for_iucd_implant/danger_sign_followup/counselling_device:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

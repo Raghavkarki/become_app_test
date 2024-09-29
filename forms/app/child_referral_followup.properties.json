@@ -1,0 +1,17 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Child Referral Followup"
+    },
+    {
+      "locale": "ne",
+      "content": "प्रेषण बच्चाको फलोअप फारम"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": false
+  },
+ "icon": "icon-child-health-followup"
+}

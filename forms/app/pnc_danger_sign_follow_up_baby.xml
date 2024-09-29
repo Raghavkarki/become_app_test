@@ -1,0 +1,964 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>PNC danger sign follow-up (Baby)</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/danger_signs_question_note:label">
+            <value>Please make sure about danger signs, rechek again</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby1:label">
+            <value>**&lt;span style=&quot;color:red&quot;&gt;<output value=" /pnc_danger_sign_follow_up_baby/inputs/past_danger_signs_baby_en "/>&lt;/span&gt;**</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby:label">
+            <value>You have reported following danger signs during PNC visit</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing:label">
+            <value>Does the baby have high respiration rate? (&gt;60/minutes)</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing:label">
+            <value>Chest-Indrawing</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion:label">
+            <value>Is there a fever and convulsion?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement:label">
+            <value>No movement or poor movement only after stimulation. ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big:label">
+            <value>Pustules more than 10 or 1 big pustule size more than 1 mm ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding:label">
+            <value>Refuse to suck breast feed ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness:label">
+            <value>Is there a pus from umbilical or readness around the umbilical area ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything:label">
+            <value>Vomits everything eaten ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet:label">
+            <value>Yellow palms (hands) or soles (feet) ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_1:label">
+            <value>**&lt;span style="color:red"&gt;Refer to new born baby to near health facility, if possible give accompany &lt;/span&gt;**</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_2:label">
+            <value>Currently there are no any danger signs. Counsel to mother about danger signs.</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/thnk1:label">
+            <value>Thank you very much for visiting the health facility</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/thnk2:label">
+            <value>Give advice and pressure to family members to go to the health institution for check-up.</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm:label">
+            <value>Did the <output value=" /pnc_danger_sign_follow_up_baby/inputs/contact/name "/> took the health facility as recommended?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/delivery_uuid:label">
+            <value>Delivery Report ID</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+        </translation>
+        <translation lang="hi">
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/danger_sign_present:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/danger_signs_question_note:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby1:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/r_danger_sign_present:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_1:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_2:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/thnk1:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/thnk2:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__chest_indrawing:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__convulsions:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__difficulty_feeding_or_drinking:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__drowsy_or_unconscious:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__fast_breathing:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__has_danger_sign:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__infected_umbilical_cord:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__pustules:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__still_experiencing_danger_sign:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__visited_hf:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__vomits_everything:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__yellow_skin_color:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__delivery_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__household_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__patient_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__source:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/date_of_birth:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/sex:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/short_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/delivery_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/past_danger_signs_baby_en:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/past_danger_signs_baby_ne:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/source:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/patient_age_in_years:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/patient_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/patient_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/t_danger_signs_referral_follow_up:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/t_danger_signs_referral_follow_up_date:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/danger_signs_question_note:label">
+            <value>कृपया, खतराका चिन्हहरु छ कि छैन भनि पुन : जांच गर्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby1:label">
+            <value>**&lt;span style=&quot;color:red&quot;&gt;<output value=" /pnc_danger_sign_follow_up_baby/inputs/past_danger_signs_baby_ne "/>&lt;/span&gt;**</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby:label">
+            <value>तपाईले नवजात शिशुमा निम्न खतराका चिन्हहरु छन् भनि रिपोर्ट गर्नु भएको थियो</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing:label">
+            <value>(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फेर्ने छ *? 
+(&gt;६०/ मिनेट)</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing:label">
+            <value>कोखा हानी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion:label">
+            <value>ज्वरो आएको कम्पन छुट्टने छ ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement:label">
+            <value>सुति रहने, ब्युझाउन गार्हो हुने छ ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big:label">
+            <value>शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( &gt;१ मिमि) पिप्सो छ ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding:label">
+            <value>दुध चुस्न नम्माने छ ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness:label">
+            <value>नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything:label">
+            <value>खाएको सबै उल्टि गर्छ ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet:label">
+            <value>हात र खुट्टाको पैताला पहेलो छ ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_1:label">
+            <value>**&lt;span style="color:red"&gt;नवजात शिशुमा खतराका चिन्हहरु देखिएको ले तुरुन्तै नजिकको स्वास्थ्य संस्थामा लैजान सल्लाह दिनुहोस् ।
+यदि सम्भव भए तपाई पनि संगै जानुहोस् ।&lt;/span&gt;**</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_2:label">
+            <value>हाल नवजात शिशुमा कुनै खतराका चिन्हहरु छैन ।नव जात शिशुमा के कस्ता खतरा चिन्हहरु हुन सक्कछन् भनि जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/thnk1:label">
+            <value>स्वास्थ्य संस्था गएर जाँच गर्नु भएकोमा धेरै धन्यबाद</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/thnk2:label">
+            <value>स्वास्थ्य संस्था गएर जाँच गर्नको लागि घरका सदस्य लाई परामर्स र दबाब दिनुहोस् ।यसले गर्दा नवजात शिशुमा के कस्ता किसिमका खतरा हुनसक्छन जानकारी गराउनुहोस् ।</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm:label">
+            <value>के <output value=" /pnc_danger_sign_follow_up_baby/inputs/contact/name "/> लाई स्वास्थ्य संस्था लगेर जाँच गर्नु भएको छ ?</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__chest_indrawing:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__convulsions:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__difficulty_feeding_or_drinking:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__drowsy_or_unconscious:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__fast_breathing:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__has_danger_sign:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__infected_umbilical_cord:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__pustules:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__still_experiencing_danger_sign:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__visited_hf:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__vomits_everything:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/__yellow_skin_color:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__delivery_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__household_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__patient_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__source:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta/__source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data/meta:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/data:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/date_of_birth:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/sex:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact/short_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/delivery_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/past_danger_signs_baby_en:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/past_danger_signs_baby_ne:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/source:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs/source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/inputs:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/patient_age_in_years:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/patient_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/patient_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/t_danger_signs_referral_follow_up:label">
+            <value>-</value>
+          </text>
+          <text id="/pnc_danger_sign_follow_up_baby/t_danger_signs_referral_follow_up_date:label">
+            <value>-</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pnc_danger_sign_follow_up_baby delimiter="#" id="pnc_danger_sign_follow_up_baby" prefix="J1!pnc_danger_sign_follow_up_baby!" version="2024-05-30 16:57:05">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <delivery_uuid/>
+            <past_danger_signs_baby_ne/>
+            <past_danger_signs_baby_en/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <t_danger_signs_referral_follow_up_date tag="hidden"/>
+          <t_danger_signs_referral_follow_up tag="hidden"/>
+          <danger_signs>
+            <dnger_sign_rpt_bby tag="hidden"/>
+            <dnger_sign_rpt_bby1 tag="hidden"/>
+            <visit_confirm tag="hidden"/>
+            <thnk1 tag="hidden"/>
+            <thnk2 tag="hidden"/>
+            <danger_signs_question_note tag="hidden"/>
+            <profile_baby_fast_breathing/>
+            <profile_chest_indrawing/>
+            <profile_umblical_pus_or_redness/>
+            <profile_yellow_palms_feet/>
+            <profile_pustules_10_or_big/>
+            <profile_no_movement/>
+            <profile_fever_convulsion/>
+            <profile_refuse_breastfeeding/>
+            <profile_vomits_everything/>
+            <danger_sign_present tag="hidden"/>
+            <r_danger_sign_present tag="hidden"/>
+            <refer_patient_note_1 tag="hidden"/>
+            <refer_patient_note_2 tag="hidden"/>
+          </danger_signs>
+          <data tag="hidden">
+            <__visited_hf/>
+            <__still_experiencing_danger_sign/>
+            <__infected_umbilical_cord/>
+            <__convulsions/>
+            <__difficulty_feeding_or_drinking/>
+            <__vomits_everything/>
+            <__drowsy_or_unconscious/>
+            <__pustules/>
+            <__yellow_skin_color/>
+            <__fast_breathing/>
+            <__chest_indrawing/>
+            <__has_danger_sign/>
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+              <__delivery_uuid/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pnc_danger_sign_follow_up_baby>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/source" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/source_id" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/delivery_uuid" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/past_danger_signs_baby_ne" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/past_danger_signs_baby_en" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/contact/name" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )" nodeset="/pnc_danger_sign_follow_up_baby/patient_age_in_years" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/pnc_danger_sign_follow_up_baby/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/patient_id" nodeset="/pnc_danger_sign_follow_up_baby/patient_id" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/pnc_danger_sign_follow_up_baby/patient_name" type="string"/>
+      <bind calculate="date-time(floor(decimal-date-time(today())) + 3)" nodeset="/pnc_danger_sign_follow_up_baby/t_danger_signs_referral_follow_up_date" type="string"/>
+      <bind calculate="../danger_signs/r_danger_sign_present" nodeset="/pnc_danger_sign_follow_up_baby/t_danger_signs_referral_follow_up" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby1" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm" required="true()" type="select1"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/thnk1" readonly="true()" relevant="selected( /pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm ,'yes')" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/thnk2" readonly="true()" relevant="selected( /pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm ,'no')" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/danger_signs_question_note" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing" type="select1"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing" type="select1"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness" type="select1"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet" type="select1"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big" type="select1"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement" type="select1"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion" type="select1"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding" type="select1"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything" type="select1"/>
+      <bind calculate="if(selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything , 'yes'), 'yes', 'no')" nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/danger_sign_present" required="true()" type="string"/>
+      <bind calculate="if(selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding , 'yes') or selected( /pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything , 'yes'), 'yes', 'no')" nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/r_danger_sign_present" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_1" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind nodeset="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_2" readonly="true()" relevant="../danger_sign_present = 'no' or ../r_danger_sign_present = 'no'" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm " nodeset="/pnc_danger_sign_follow_up_baby/data/__visited_hf" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/danger_sign_present " nodeset="/pnc_danger_sign_follow_up_baby/data/__still_experiencing_danger_sign" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness " nodeset="/pnc_danger_sign_follow_up_baby/data/__infected_umbilical_cord" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion " nodeset="/pnc_danger_sign_follow_up_baby/data/__convulsions" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding " nodeset="/pnc_danger_sign_follow_up_baby/data/__difficulty_feeding_or_drinking" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything " nodeset="/pnc_danger_sign_follow_up_baby/data/__vomits_everything" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement " nodeset="/pnc_danger_sign_follow_up_baby/data/__drowsy_or_unconscious" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big " nodeset="/pnc_danger_sign_follow_up_baby/data/__pustules" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet " nodeset="/pnc_danger_sign_follow_up_baby/data/__yellow_skin_color" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing " nodeset="/pnc_danger_sign_follow_up_baby/data/__fast_breathing" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing " nodeset="/pnc_danger_sign_follow_up_baby/data/__chest_indrawing" type="string"/>
+      <bind calculate=" /pnc_danger_sign_follow_up_baby/danger_signs/r_danger_sign_present " nodeset="/pnc_danger_sign_follow_up_baby/data/__has_danger_sign" type="string"/>
+      <bind calculate="../../../inputs/contact/_id" nodeset="/pnc_danger_sign_follow_up_baby/data/meta/__patient_uuid" type="string"/>
+      <bind calculate="../../../inputs/contact/patient_id" nodeset="/pnc_danger_sign_follow_up_baby/data/meta/__patient_id" type="string"/>
+      <bind calculate="../../../inputs/contact/parent/_id" nodeset="/pnc_danger_sign_follow_up_baby/data/meta/__household_uuid" type="string"/>
+      <bind calculate="../../../inputs/source" nodeset="/pnc_danger_sign_follow_up_baby/data/meta/__source" type="string"/>
+      <bind calculate="../../../inputs/source_id" nodeset="/pnc_danger_sign_follow_up_baby/data/meta/__source_id" type="string"/>
+      <bind calculate="../../../inputs/delivery_uuid" nodeset="/pnc_danger_sign_follow_up_baby/data/meta/__delivery_uuid" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/pnc_danger_sign_follow_up_baby/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pnc_danger_sign_follow_up_baby/inputs">
+      <group ref="/pnc_danger_sign_follow_up_baby/inputs/contact">
+        <input appearance="db-object" ref="/pnc_danger_sign_follow_up_baby/inputs/contact/_id">
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/pnc_danger_sign_follow_up_baby/inputs/contact/parent">
+          <group ref="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent">
+            <group ref="/pnc_danger_sign_follow_up_baby/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/pnc_danger_sign_follow_up_baby/danger_signs">
+      <input ref="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby:label')"/>
+      </input>
+      <input ref="/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby1">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/dnger_sign_rpt_bby1:label')"/>
+      </input>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/visit_confirm/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pnc_danger_sign_follow_up_baby/danger_signs/thnk1">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/thnk1:label')"/>
+      </input>
+      <input ref="/pnc_danger_sign_follow_up_baby/danger_signs/thnk2">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/thnk2:label')"/>
+      </input>
+      <input ref="/pnc_danger_sign_follow_up_baby/danger_signs/danger_signs_question_note">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/danger_signs_question_note:label')"/>
+      </input>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_baby_fast_breathing/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_chest_indrawing/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_umblical_pus_or_redness/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_yellow_palms_feet/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_pustules_10_or_big/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_no_movement/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_fever_convulsion/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_refuse_breastfeeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/profile_vomits_everything/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_1">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_1:label')"/>
+      </input>
+      <input ref="/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_2">
+        <label ref="jr:itext('/pnc_danger_sign_follow_up_baby/danger_signs/refer_patient_note_2:label')"/>
+      </input>
+    </group>
+    <group appearance="hidden" ref="/pnc_danger_sign_follow_up_baby/data">
+      <group ref="/pnc_danger_sign_follow_up_baby/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

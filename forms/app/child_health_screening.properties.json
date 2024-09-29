@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Child Health Screening Form"
+    },
+    {
+      "locale": "ne",
+      "content": "बाल स्वास्थ्य परीक्षण फारम"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person' && (!contact.date_of_birth || (ageInYears(contact) <= 5))"
+  },
+ "icon": "icon-child-health"
+}

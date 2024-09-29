@@ -1,0 +1,19 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Diabetes Mellitus Screening"
+    },
+    {
+      "locale": "ne",
+      "content": "मधुमेहको स्क्रीनिङ"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person' && (ageInYears(contact) >= 30)"
+  },
+  "icon": "icon-diabetes",
+  "hidden_fields": []
+}

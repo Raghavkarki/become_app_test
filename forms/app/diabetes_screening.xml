@@ -1,0 +1,1309 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Diabetes Mellitus screening form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/diabetes_screening/behaviour/diabetes_before/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_before/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_before:label">
+            <value>Have you had diabetes before?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_medicine/before:label">
+            <value>I used previous but now I stopped</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_medicine/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_medicine/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_medicine:label">
+            <value>Have you been taking diabetes medicine?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_since_month:label">
+            <value>Months</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_since_year:label">
+            <value>Years</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/family_diabetes/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/family_diabetes/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/family_diabetes:label">
+            <value>Does your father/mother/sibling have diabetes (sugar disease)?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/n_10:label">
+            <value>Counsell about the importance of taking medicine regularly and immediately refer to the health facility.
+
+Share the date when you are coming to visit next time.</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/n_11:label">
+            <value>Advise that the medicine should not be left without a doctor's advice and refer to the health facility immediately.
+
+Share the date when you are coming to visit next time.</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/prob_dur:label">
+            <value>How long have you had diabetes?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/smoking_last_year/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/smoking_last_year/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/smoking_last_year:label">
+            <value>Are you smoking cigarettes/bindi/hookah/tobacco for the last 1 year?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/workout_sweating/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/workout_sweating/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/workout_sweating:label">
+            <value>Do you work out till sweating ? (5 days a week)</value>
+          </text>
+          <text id="/diabetes_screening/behaviour:label">
+            <value>Personal and Family Behaviour</value>
+          </text>
+          <text id="/diabetes_screening/counselling/n_13:label">
+            <value>Counselling him/her about the following points brifely;
+1. Vision checkup every year
+
+2. Kidney function test every year, which includes; urine routine, Albumin and Renal functional test.
+
+3. Advise on when to examine the nervous system (according to guidelines).
+
+4. Care of foot (Educate diabetic patients or family members about foot examination and care and advise them to do so regularly).
+
+5. Frequency of eating, help to make a calorie diet plan according to the doctor's advice.
+
+6. Advise those over 40 to check blood sugar once a year and urine every 6 months.
+
+7. In order to control weight, advise to exercise or walk for at least 30 minutes a day to get sweaty.
+
+8. Adopt measures to reduce mental stress.
+
+9. Provide information about the health insurance program, which provides free check-ups, examinations and treatment</value>
+          </text>
+          <text id="/diabetes_screening/counselling:label">
+            <value>Counselling</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/dry_skin/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/dry_skin/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/dry_skin:label">
+            <value>Have very dry skin ?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/feeling_tired/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/feeling_tired/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/feeling_tired:label">
+            <value>Feeling very tired.</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/freq_urination/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/freq_urination/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/freq_urination:label">
+            <value>frequent urination (mostly at night)?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/hungry/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/hungry/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/hungry:label">
+            <value>Feeling very hungry and very thirsty?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/low_eyesight/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/low_eyesight/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/low_eyesight:label">
+            <value>Is your eyesight low, blurred vision?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/n_12:label">
+            <value>Tell him/her that he needs immediate treatment and refer to the health facility where s/he will be treated. Also, inform about the complications if not treated on time.
+
+
+Share the date when you are going to visit his/her next time.</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/n_19:label">
+            <value>Please select if <output value=" /diabetes_screening/patient_name "/> has any of the following danger signs.(Ask/observe)</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/numb_tingling/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/numb_tingling/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/numb_tingling:label">
+            <value>Numb or tingling hands or feet</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/sore_feet/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/sore_feet/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/sore_feet:label">
+            <value>Do you have sores on your feet?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/weight_loss/no:label">
+            <value>No</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/weight_loss/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/weight_loss:label">
+            <value>Have you lost a lot of weight?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs:label">
+            <value>Danger Signs</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/glucometer:label">
+            <value>Measure blood sugar with the help of a glucometer.</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/height:label">
+            <value>Height (in CM)</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_1:label">
+            <value>Calculate Body Mass Index (BMI) of <output value=" /diabetes_screening/patient_name "/></value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_2:label">
+            <value>Your BMI is <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> which is &lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/>को दायरामा हुनुहुन्छ &lt;/strong&gt;</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_3:label">
+            <value>Your BMI is <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> which is **&lt;font color=&quot;green&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/>को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;**</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_4:label">
+            <value>Your BMI is <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> which is **&lt;font color=&quot;red&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/>को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;**</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_5:label">
+            <value>1. Body mass index (BMI) is used to determine a healthy weight range for a person's height.
+
+2.Assessing the risk by measuring the amount of fat from the body mass index.
+
+3. High weight/obesity is more likely to cause non-communicable diseases; like High blood pressure, heart disease, diabetes.
+
+4. For a healthy weight, give advice for healthy behavior, healthy food, and physical exercise.</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_6:label">
+            <value>Your blood sugar level <output value=" /diabetes_screening/diabetes_screening/glucometer "/> is, which is <output value=" /diabetes_screening/diabetes_screening/fbs_reading "/></value></text>
+          <text id="/diabetes_screening/diabetes_screening/n_7:label">
+            <value>Your blood sugar level <output value=" /diabetes_screening/diabetes_screening/glucometer "/> is, which is <output value=" /diabetes_screening/diabetes_screening/pps_rbs_reading "/></value></text>
+          <text id="/diabetes_screening/diabetes_screening/n_8:label">
+            <value>Inform <output value=" /diabetes_screening/patient_name "/> has diabetes mellitus and advise to visit a health facility for further examination.
+
+Share the date when you are coming to visit next time.</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_9:label">
+            <value>Inform <output value=" /diabetes_screening/patient_name "/> has diabetes mellitus and advise to visit a health facility for further examination.
+
+Share the date when you are coming to visit next time.</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/pre_measure/fbs:label">
+            <value>Empty stomach (FBS)</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/pre_measure/pps:label">
+            <value>2 hours after meal (PPS)</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/pre_measure/rbs:label">
+            <value>Other conditions than above (RBS)</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/pre_measure:label">
+            <value>Before measuring blood sugar, please note the following situation</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/weight:label">
+            <value>Weight (in Kg)</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening:label">
+            <value>Screening of Diabetes</value>
+          </text>
+          <text id="/diabetes_screening/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/diabetes_screening/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/diabetes_screening/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/diabetes_screening/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/diabetes_screening/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/diabetes_screening/summary/counseling:label">
+            <value>The result of the investigation&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/description:label">
+            <value>Description&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/ds_outcome:label">
+            <value>Danger signs/symptoms&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/heading:label">
+            <value>Finally, press the "Submit Form" button.</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_14:label">
+            <value>Counsell about the importance of taking medicine regularly and immediately refer to the health facility.
+
+Share the date when you are coming to visit next time.</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_15:label">
+            <value>Advise that the medicine should not be left without a doctor's advice and refer to the health facility immediately.
+
+Share the date when you are coming to visit next time.</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_16:label">
+            <value>Inform <output value=" /diabetes_screening/patient_name "/> has diabetes mellitus and advise to visit a health facility for further examination.
+
+Share the date when you are coming to visit next time.</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_17:label">
+            <value>Inform <output value=" /diabetes_screening/patient_name "/> has diabetes mellitus and advise to visit a health facility for further examination.
+
+Share the date when you are coming to visit next time.</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_18:label">
+            <value>Tell him/her that he needs immediate treatment and refer to the health facility where s/he will be treated. Also, inform about the complications if not treated on time.
+
+
+Share the date when you are going to visit his/her next time.</value>
+          </text>
+          <text id="/diabetes_screening/summary/name_age:label">
+            <value>Age :- <output value=" /diabetes_screening/patient_age "/></value>
+          </text>
+          <text id="/diabetes_screening/summary/name_des:label">
+            <value>Name :- <output value=" /diabetes_screening/patient_name "/></value>
+          </text>
+          <text id="/diabetes_screening/summary/note_display:label">
+            <value>Dispatch&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome:label">
+            <value>Body Mass Index (BMI):</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_10:label">
+            <value>Your blood sugar level <output value=" /diabetes_screening/diabetes_screening/glucometer "/> is, which is <output value=" /diabetes_screening/diabetes_screening/fbs_reading "/></value></text>
+          <text id="/diabetes_screening/summary/outcome_11:label">
+            <value>Your blood sugar level <output value=" /diabetes_screening/diabetes_screening/glucometer "/> is, which is <output value=" /diabetes_screening/diabetes_screening/pps_rbs_reading "/></value></text>
+          <text id="/diabetes_screening/summary/outcome_1:label">
+            <value>Your BMI is <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> which is &lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/> को दायरामा हुनुहुन्छ&lt;/strong&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_2:label">
+            <value>Your BMI is <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> which is **&lt;font color=&quot;green&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/> को दायरामा हुनुहुन्छ&lt;/strong&gt;&lt;/font&gt;**</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_3:label">
+            <value>Your BMI is <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> which is **&lt;font color=&quot;red&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/>को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;**</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_4:label">
+            <value>Your BMI is <output value=" /diabetes_screening/pre_bmi_cal "/> which is &lt;strong&gt;<output value=" /diabetes_screening/pre_bmi_result "/> को दायरामा हुनुहुन्छ&lt;/strong&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_5:label">
+            <value>Your BMI is <output value=" /diabetes_screening/pre_bmi_cal "/> which is **&lt;font color=&quot;green&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/pre_bmi_result "/> को दायरामा हुनुहुन्छ&lt;/strong&gt;&lt;/font&gt;**</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_6:label">
+            <value>Your BMI is <output value=" /diabetes_screening/pre_bmi_cal "/> which is **&lt;font color=&quot;red&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/pre_bmi_result "/>को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;**</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_7:label">
+            <value>Empty stomach (FBS)</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_8:label">
+            <value>2 hours after meal (PPS)</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_9:label">
+            <value>Other conditions than above (RBS)</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_1:label">
+            <value>Is your eyesight low, blurred vision.</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_2:label">
+            <value>Have very dry skin .</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_3:label">
+            <value>Do you have sores on your feet.</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_4:label">
+            <value>frequent urination (mostly at night).</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_5:label">
+            <value>Have you lost a lot of weight.</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_6:label">
+            <value>Feeling very hungry and very thirsty.</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_7:label">
+            <value>Numb or tingling hands or feet.</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_8:label">
+            <value>Feeling very tired.</value>
+          </text>
+          <text id="/diabetes_screening/summary:label">
+            <value>Summary</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/diabetes_screening/behaviour/diabetes_before/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_before/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_before:label">
+            <value>के तपाईलाई मधुमेह (चिनि रोग) समस्या पहिले देखि थियो ?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_medicine/before:label">
+            <value>पहिला सेवन गरेको हाल बन्द गरेको छु ।</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_medicine/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_medicine/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_medicine:label">
+            <value>के तपाईले मधुमेह औषधि सेवन गरी राख्नु भएको छ ?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_since_month:label">
+            <value>महिना</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/diabetes_since_year:label">
+            <value>वर्ष</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/family_diabetes/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/family_diabetes/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/family_diabetes:label">
+            <value>के तपाईको परिवारमा बा/आमा/ दाजु/ भाई लाई मधुमेह (चिनि रोग) लागेको छ ?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/n_10:label">
+            <value>औषधि नियमित खानुको महत्वबारे परामर्श गर्नुहोस र तुरन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/n_11:label">
+            <value>डाक्टरको सल्लाह बिना औषधी छोड्नु हुदैन भनि सल्लाह दिनुहोस् र तुरन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस ।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/prob_dur:label">
+            <value>तपाईलाई मधुमेह रोग लागेको कति समय भयो?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/smoking_last_year/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/smoking_last_year/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/smoking_last_year:label">
+            <value>के तपाई चुरोट /बिंडी/हुक्का/सुर्ती को सेवन बिगत १ वर्ष देखि गरिरहनु भएको छ ?</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/workout_sweating/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/workout_sweating/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/behaviour/workout_sweating:label">
+            <value>के तपाई पसिना आउने गरि शारीरिक ब्यायाम गरिरहनु भएको छ ? (हप्ता ५ दिन)</value>
+          </text>
+          <text id="/diabetes_screening/behaviour:label">
+            <value>ब्यक्तिगत / पारिवारिक ब्यबहार</value>
+          </text>
+          <text id="/diabetes_screening/counselling/n_13:label">
+            <value>उहाँलाई तल दिएका बुँदाका बारेमा बिस्तृत परामर्श दिनुहोस् ।
+१.आँखाको जाँच ( बर्षको एक पटक गर्ने)
+
+२.मृगौलको जाँच (बर्षको एक पटक Urine Routine and Albumin, Renal function test गर्ने)
+
+३.स्नायु प्रणालिको जाँच कहिले गर्ने (गाइडलाईन अनुसार) बारे परामर्श दिनुहोस् ।
+
+४.खुट्टाको हेरचाह (मधुमेह लागेको विरामि वा परिवारको सदस्यहरुलाई खुट्टाको जाँच र हेरचाह बारे सिकाउने र नियमित रुपमा गर्नका लागि सल्लाह दिनुहोस्।
+
+५. खानपिनको नियमितता चिकित्सकले दिएको सल्लाह अनुसारको क्यालोरि डाईट प्लान बनाउन सहयोग गर्नुहोस्। 
+
+६. ४० बर्षभन्दा माथिकालाई रगतमा चिनिको जाँच एक वर्षमा र पिसाबमा प्रत्येक ६-६ महिनामा जाँच गर्नुपर्छ भनि सल्लाह दिनुहोस्।
+
+७. तौल नियन्त्रण गर्न शारिरिक कसरत गर्ने दिनको कम्तिमा ३० मिनेट खल खल पसिना आउने गरि शारिरिक ब्यायम गर्ने वा हिडने भनि परामर्श दिनुहोस् ।
+
+८. मानसिक तनाव कम गर्ने उपायहरु अपनाउने ।
+
+९. स्वास्थ्य बिमा कार्यक्रम बारे जानकारि दिनुहोस्, जस्ले गर्दा चेक, जाँच र उपचार निशुल्क हुन्छ भनि परामर्श दिनुहोस्</value>
+          </text>
+          <text id="/diabetes_screening/counselling:label">
+            <value>परामर्श</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/dry_skin/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/dry_skin/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/dry_skin:label">
+            <value>छाला सुक्खा भएको छ ?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/feeling_tired/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/feeling_tired/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/feeling_tired:label">
+            <value>धेरै थकान महसुस हुन्छ।</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/freq_urination/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/freq_urination/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/freq_urination:label">
+            <value>छिटो छिटो र धेरै पिसाब लाग्ने (प्राय राति)?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/hungry/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/hungry/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/hungry:label">
+            <value>धेरै भोक लाग्ने र धेरै तिर्खा लाग्ने ?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/low_eyesight/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/low_eyesight/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/low_eyesight:label">
+            <value>आँखाको ज्योति कम भएको, धमिलो देख्ने भएको छ ?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/n_12:label">
+            <value>उहाँलाई तुरुन्त उपचारको आवश्यकता भएको भनि घर परिवारलाई उपचार हुने स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् । साथै समयमै उपचार नभए यसबाट हुने जटिलताको बारे जानकारी गराउनुहोस् ।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/n_19:label">
+            <value><output value=" /diabetes_screening/patient_name "/> मा तल दिएका कुनै खतराका चिन्हहरु छन् कि भनि एकिन गर्नुहोस् ।(सोध्नुहोस् /हेर्नुहोस्)</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/numb_tingling/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/numb_tingling/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/numb_tingling:label">
+            <value>हात / खुट्टा सुन्न वा झमझमाउने</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/sore_feet/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/sore_feet/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/sore_feet:label">
+            <value>खुट्टामा घाउ खटिरा आउने ?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/weight_loss/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/weight_loss/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs/weight_loss:label">
+            <value>धेरै तौल घटेको छ ?</value>
+          </text>
+          <text id="/diabetes_screening/danger_signs:label">
+            <value>खतराका चिन्हहरु</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/glucometer:label">
+            <value>ग्लुकोमिटरको सहयोगले रगतमा चिनीको मात्रा नाप्नुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/height:label">
+            <value>Height (CM) मा</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_1:label">
+            <value><output value=" /diabetes_screening/patient_name "/> को Body Mass Index (BMI) Calculate गर्नुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_2:label">
+            <value>तपाईको BMI <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> छ, तपाईं &lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/> को दायरामा हुनुहुन्छ &lt;/strong&gt;।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_3:label">
+            <value>तपाईको BMI <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> छ, तपाईं **&lt;font color=&quot;green&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/> को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;** ।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_4:label">
+            <value>तपाईको BMI <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> छ, तपाईं **&lt;font color=&quot;red&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/> को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;** ।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_5:label">
+            <value>१.बडी मास इन्डेक्स (BMI), व्यक्तिको उचाइको लागि स्वस्थ तौलको दायरा निर्धारण गर्न प्रयोग गरिन्छ ।
+
+२.बडी मास इन्डेक्सबाट फ्याटको मात्रा मापन गरेर जोखिमको आकलन गर्न मद्दत गर्छ।
+
+३. उच्च तौल / मोटोपनले नसर्ने रोग हुने सम्भावना धेरै हुन्छ । जस्तो : उच्च रक्तचाप, मुटु सम्बन्धी रोग, चिनी रोग। 
+
+४. स्वस्थ तौलको लागि स्वस्थ व्यवहार, स्वस्थ खाना, शारिरिक कसरत गर्नुपर्छ भनि परामर्श दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_6:label">
+            <value>तपाई को रगतमा चिनीको मात्रा <output value=" /diabetes_screening/diabetes_screening/glucometer "/> छ, जुन <output value=" /diabetes_screening/diabetes_screening/fbs_reading "/> हो।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_7:label">
+            <value>तपाई को रगतमा चिनीको मात्रा <output value=" /diabetes_screening/diabetes_screening/glucometer "/> छ, जुन <output value=" /diabetes_screening/diabetes_screening/pps_rbs_reading "/> हो।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_8:label">
+            <value><output value=" /diabetes_screening/patient_name "/> मधुमेह भएको जानकारी दिनुहोस् र उहाँलाई थप जाँचकालागि स्वास्थ्य संस्थामा जानकोलागि परामर्श दिनुहोस् ।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/n_9:label">
+            <value><output value=" /diabetes_screening/patient_name "/> मधुमेह भएको जानकारी दिनुहोस् र उहाँलाई थप जाँचकालागि स्वास्थ्य संस्थामा जानकोलागि परामर्श दिनुहोस् ।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/pre_measure/fbs:label">
+            <value>खाली पेट (FBS)</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/pre_measure/pps:label">
+            <value>खाना खायको २ घण्टा पछी (PPS)</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/pre_measure/rbs:label">
+            <value>माथिको बाहेक अन्य अवस्था (RBS)</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/pre_measure:label">
+            <value>रगतमा चिनीको मात्रा नाप्नु भन्दा अगाडी तलको कुरा सुनुस्चित गर्नुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening/weight:label">
+            <value>Weight (Kg) मा</value>
+          </text>
+          <text id="/diabetes_screening/diabetes_screening:label">
+            <value>मधुमेहको स्क्रीनिङ</value>
+          </text>
+          <text id="/diabetes_screening/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/diabetes_screening/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/diabetes_screening/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/diabetes_screening/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/diabetes_screening/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/diabetes_screening/summary/counseling:label">
+            <value>जाँचको परिणाम
+&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/description:label">
+            <value>विवरण&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/ds_outcome:label">
+            <value>खतराका चिन्ह / लक्ष्णहरु
+ &lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/heading:label">
+            <value>अन्तिममा "फाराम बुझाउनुहोस्" भन्ने बटन थिच्नुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_14:label">
+            <value>औषधि नियमित खानुको महत्वबारे परामर्श गर्नुहोस र तुरन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_15:label">
+            <value>डाक्टरको सल्लाह बिना औषधी छोड्नु हुदैन भनि सल्लाह दिनुहोस् र तुरन्त स्वास्थ्य संस्थामा प्रेषण गर्नुहोस ।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_16:label">
+            <value><output value=" /diabetes_screening/patient_name "/> मधुमेह भएको जानकारी दिनुहोस् र उहाँलाई थप जाँचकालागि स्वास्थ्य संस्थामा जानकोलागि परामर्श दिनुहोस् ।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_17:label">
+            <value><output value=" /diabetes_screening/patient_name "/> मधुमेह भएको जानकारी दिनुहोस् र उहाँलाई थप जाँचकालागि स्वास्थ्य संस्थामा जानकोलागि परामर्श दिनुहोस् ।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/n_18:label">
+            <value>उहाँलाई तुरुन्त उपचारको आवश्यकता भएको भनि घर परिवारलाई उपचार हुने स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् । साथै समयमै उपचार नभए यसबाट हुने जटिलताको बारे जानकारी गराउनुहोस् ।
+
+उहाँलाई पुन: कहिले भेटने हो सो मिति बारे जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/name_age:label">
+            <value>उमेर :- <output value=" /diabetes_screening/patient_age "/></value>
+          </text>
+          <text id="/diabetes_screening/summary/name_des:label">
+            <value>नाम :- <output value=" /diabetes_screening/patient_name "/></value>
+          </text>
+          <text id="/diabetes_screening/summary/note_display:label">
+            <value>प्रेषण&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome:label">
+            <value>बडी मास इन्डेक्स (BMI) :</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_10:label">
+            <value>तपाईको रगतमा चिनीको मात्रा <output value=" /diabetes_screening/diabetes_screening/glucometer "/> छ, जुन <output value=" /diabetes_screening/diabetes_screening/fbs_reading "/> हो।</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_11:label">
+            <value>तपाईको रगतमा चिनीको मात्रा <output value=" /diabetes_screening/diabetes_screening/glucometer "/> छ, जुन <output value=" /diabetes_screening/diabetes_screening/pps_rbs_reading "/> हो।</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_1:label">
+            <value>तपाईको BMI <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> छ, तपाईं &lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/> को दायरामा हुनुहुन्छ &lt;/strong&gt;।</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_2:label">
+            <value>तपाईको BMI <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> छ, तपाईं **&lt;font color=&quot;green&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/> को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;** ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_3:label">
+            <value>तपाईको BMI <output value=" /diabetes_screening/diabetes_screening/bmi_cal "/> छ, तपाईं **&lt;font color=&quot;red&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/diabetes_screening/bmi_result "/> को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;** ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_4:label">
+            <value>तपाईको BMI <output value=" /diabetes_screening/pre_bmi_cal "/> छ, तपाईं &lt;strong&gt;<output value=" /diabetes_screening/pre_bmi_result "/> को दायरामा हुनुहुन्छ &lt;/strong&gt;।</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_5:label">
+            <value>तपाईको BMI <output value=" /diabetes_screening/pre_bmi_cal "/> छ, तपाईं **&lt;font color=&quot;green&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/pre_bmi_result "/> को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;** ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_6:label">
+            <value>तपाईको BMI <output value=" /diabetes_screening/pre_bmi_cal "/> छ, तपाईं **&lt;font color=&quot;red&quot;&gt;&lt;strong&gt;<output value=" /diabetes_screening/pre_bmi_result "/> को दायरामा हुनुहुन्छ &lt;/strong&gt;&lt;/font&gt;** ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_7:label">
+            <value>खाली पेट (FBS):</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_8:label">
+            <value>खाना खायको २ घण्टा पछी (PPS):</value>
+          </text>
+          <text id="/diabetes_screening/summary/outcome_9:label">
+            <value>माथिको बाहेक अन्य अवस्था (RBS):</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_1:label">
+            <value>आँखाको ज्योति कम भएको, धमिलो देख्ने भएको छ ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_2:label">
+            <value>छाला सुक्खा भएको छ ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_3:label">
+            <value>खुट्टामा घाउ खटिरा आउने ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_4:label">
+            <value>छिटो छिटो र धेरै पिसाब लाग्ने (प्राय राति) ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_5:label">
+            <value>धेरै तौल घटेको छ ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_6:label">
+            <value>धेरै भोक लाग्ने र धेरै तिर्खा लाग्ने ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_7:label">
+            <value>हात / खुट्टा सुन्न वा झमझमाउने ।</value>
+          </text>
+          <text id="/diabetes_screening/summary/signs_8:label">
+            <value>धेरै थकान महसुस हुन्छ ।</value>
+          </text>
+          <text id="/diabetes_screening/summary:label">
+            <value>सारंश</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <diabetes_screening id="diabetes_screening" prefix="J1!diabetes_screening!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <patient_id/>
+              <date_of_birth/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_id/>
+          <patient_age/>
+          <previous_bmi tag="hidden"/>
+          <pre_bmi_cal tag="hidden"/>
+          <pre_bmi_result tag="hidden"/>
+          <diabetes_screening>
+            <n_1 tag="hidden"/>
+            <weight/>
+            <height/>
+            <bmi_cal/>
+            <bmi_result/>
+            <n_2 tag="hidden"/>
+            <n_3 tag="hidden"/>
+            <n_4 tag="hidden"/>
+            <n_5 tag="hidden"/>
+            <pre_measure/>
+            <glucometer/>
+            <fbs_reading/>
+            <pps_rbs_reading/>
+            <n_6 tag="hidden"/>
+            <n_7 tag="hidden"/>
+            <n_8 tag="hidden"/>
+            <n_9 tag="hidden"/>
+          </diabetes_screening>
+          <behaviour>
+            <diabetes_before/>
+            <family_diabetes/>
+            <smoking_last_year/>
+            <workout_sweating/>
+            <prob_dur/>
+            <diabetes_since_year/>
+            <diabetes_since_month/>
+            <diabetes_medicine/>
+            <n_10 tag="hidden"/>
+            <n_11 tag="hidden"/>
+          </behaviour>
+          <danger_signs>
+            <n_19 tag="hidden"/>
+            <low_eyesight/>
+            <dry_skin/>
+            <sore_feet/>
+            <freq_urination/>
+            <weight_loss/>
+            <hungry/>
+            <numb_tingling/>
+            <feeling_tired/>
+            <n_12 tag="hidden"/>
+          </danger_signs>
+          <dt_pps_rbs tag="hidden"/>
+          <dt_fbs tag="hidden"/>
+          <danger_trigger tag="hidden"/>
+          <counselling tag="hidden">
+            <n_13 tag="hidden"/>
+          </counselling>
+          <summary tag="hidden">
+            <heading tag="hidden"/>
+            <description tag="hidden"/>
+            <name_des tag="hidden"/>
+            <name_age tag="hidden"/>
+            <counseling tag="hidden"/>
+            <outcome tag="hidden"/>
+            <outcome_1 tag="hidden"/>
+            <outcome_2 tag="hidden"/>
+            <outcome_3 tag="hidden"/>
+            <outcome_4 tag="hidden"/>
+            <outcome_5 tag="hidden"/>
+            <outcome_6 tag="hidden"/>
+            <outcome_7 tag="hidden"/>
+            <outcome_8 tag="hidden"/>
+            <outcome_9 tag="hidden"/>
+            <outcome_10 tag="hidden"/>
+            <outcome_11 tag="hidden"/>
+            <ds_outcome tag="hidden"/>
+            <signs_1 tag="hidden"/>
+            <signs_2 tag="hidden"/>
+            <signs_3 tag="hidden"/>
+            <signs_4 tag="hidden"/>
+            <signs_5 tag="hidden"/>
+            <signs_6 tag="hidden"/>
+            <signs_7 tag="hidden"/>
+            <signs_8 tag="hidden"/>
+            <note_display tag="hidden"/>
+            <n_14 tag="hidden"/>
+            <n_15 tag="hidden"/>
+            <n_16 tag="hidden"/>
+            <n_17 tag="hidden"/>
+            <n_18 tag="hidden"/>
+          </summary>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </diabetes_screening>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/diabetes_screening/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/diabetes_screening/inputs/source" type="string"/>
+      <bind nodeset="/diabetes_screening/inputs/source_id" type="string"/>
+      <bind nodeset="/diabetes_screening/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/diabetes_screening/inputs/contact/name" type="string"/>
+      <bind nodeset="/diabetes_screening/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/diabetes_screening/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/diabetes_screening/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/diabetes_screening/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/diabetes_screening/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/diabetes_screening/patient_age" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/diabetes_screening/previous_bmi" type="string" calculate="if(instance('contact-summary')/context/bmi_previous_ctx, instance('contact-summary')/context/bmi_previous_ctx, .)"/>
+      <bind nodeset="/diabetes_screening/pre_bmi_cal" type="string" calculate="if(instance('contact-summary')/context/bmical_show_ctx_diabetes, instance('contact-summary')/context/bmical_show_ctx_diabetes, .)"/>
+      <bind nodeset="/diabetes_screening/pre_bmi_result" type="string" calculate="if(instance('contact-summary')/context/bmi_result_ctx_diabetes, instance('contact-summary')/context/bmi_result_ctx_diabetes, .)"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/n_1" readonly="true()" type="string" relevant=" /diabetes_screening/previous_bmi  = ''"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/weight" type="decimal" constraint=".&gt;=30 and .&lt;=200" jr:constraintMsg="value should be 30-200" required="true()" relevant=" /diabetes_screening/previous_bmi  = ''"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/height" type="decimal" constraint=".&gt;=120 and .&lt;=200" jr:constraintMsg="value should be 120-200" required="true()" relevant=" /diabetes_screening/previous_bmi  = ''"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/bmi_cal" type="string" calculate="round( /diabetes_screening/diabetes_screening/weight  div ( /diabetes_screening/diabetes_screening/height  *  /diabetes_screening/diabetes_screening/height  div 10000),1)" relevant=" /diabetes_screening/previous_bmi  = ''"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/bmi_result" type="string" calculate="if( /diabetes_screening/diabetes_screening/bmi_cal  &lt; 18.5, &quot;कम तौल&quot;, if(( /diabetes_screening/diabetes_screening/bmi_cal  &gt;=18.5 and  /diabetes_screening/diabetes_screening/bmi_cal  &lt;= 24.9), &quot;स्वस्थ तौल&quot;, if(( /diabetes_screening/diabetes_screening/bmi_cal  &gt;=25 and  /diabetes_screening/diabetes_screening/bmi_cal  &lt;=29.9), &quot;उच्च तौल&quot;, if(( /diabetes_screening/diabetes_screening/bmi_cal  &gt;=30 and  /diabetes_screening/diabetes_screening/bmi_cal  &lt;=34.9), &quot;मोटोपन (ग्रेड १) &quot;, if(( /diabetes_screening/diabetes_screening/bmi_cal  &gt;= 35 and  /diabetes_screening/diabetes_screening/bmi_cal  &lt;= 39.9), &quot;मोटोपन (ग्रेड २) &quot;, &quot;मोटोपन (ग्रेड ३)&quot;)))))" relevant=" /diabetes_screening/previous_bmi  = ''"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/n_2" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/bmi_cal  &lt; 18.5"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/n_3" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/bmi_cal  &gt;=18.5 and  /diabetes_screening/diabetes_screening/bmi_cal  &lt;= 24.9"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/n_4" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/bmi_cal  &gt;=25"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/n_5" readonly="true()" type="string" relevant=" /diabetes_screening/previous_bmi  = ''"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/pre_measure" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/glucometer" type="decimal" required="true()"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/fbs_reading" type="string" calculate="if( /diabetes_screening/diabetes_screening/glucometer  &lt;= 99, &quot;सामन्य /नर्मल&quot;, if ( /diabetes_screening/diabetes_screening/glucometer  &gt;= 100 and  /diabetes_screening/diabetes_screening/glucometer  &lt;= 125, &quot;मधुमेहको जोखिम&quot;, &quot;मधुमेह&quot;))" relevant=" /diabetes_screening/diabetes_screening/pre_measure ='fbs'"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/pps_rbs_reading" type="string" calculate="if( /diabetes_screening/diabetes_screening/glucometer  &lt;= 139, &quot;सामन्य /नर्मल&quot;, if ( /diabetes_screening/diabetes_screening/glucometer  &gt;= 140 and  /diabetes_screening/diabetes_screening/glucometer  &lt;= 199, &quot;मधुमेहको जोखिम&quot;, &quot;मधुमेह&quot;))" relevant=" /diabetes_screening/diabetes_screening/pre_measure ='pps' or 
+ /diabetes_screening/diabetes_screening/pre_measure ='rbs'"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/n_6" readonly="true()" type="string" relevant="( /diabetes_screening/diabetes_screening/pre_measure ='fbs') and ( /diabetes_screening/diabetes_screening/glucometer &gt;=99 or  /diabetes_screening/diabetes_screening/glucometer &lt;=150)"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/n_7" readonly="true()" type="string" relevant="( /diabetes_screening/diabetes_screening/pre_measure ='pps' or 
+ /diabetes_screening/diabetes_screening/pre_measure ='rbs') and (( /diabetes_screening/diabetes_screening/glucometer &gt;=120 or  /diabetes_screening/diabetes_screening/glucometer &lt;200))"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/n_8" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/glucometer &gt;=100 and  /diabetes_screening/diabetes_screening/pre_measure ='fbs'"/>
+      <bind nodeset="/diabetes_screening/diabetes_screening/n_9" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/glucometer &gt;=140 and ( /diabetes_screening/diabetes_screening/pre_measure ='pps' or 
+ /diabetes_screening/diabetes_screening/pre_measure ='rbs')"/>
+      <bind nodeset="/diabetes_screening/behaviour/diabetes_before" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/behaviour/family_diabetes" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/behaviour/smoking_last_year" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/behaviour/workout_sweating" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/behaviour/prob_dur" readonly="true()" type="string" relevant=" /diabetes_screening/behaviour/diabetes_before  = 'yes'"/>
+      <bind nodeset="/diabetes_screening/behaviour/diabetes_since_year" type="int" constraint=". &gt;= 0 and . &lt;= 50" required="true()" relevant=" /diabetes_screening/behaviour/diabetes_before  = 'yes'"/>
+      <bind nodeset="/diabetes_screening/behaviour/diabetes_since_month" type="int" constraint=". &gt;= 0 and . &lt;= 12" required="true()" relevant=" /diabetes_screening/behaviour/diabetes_before  = 'yes'"/>
+      <bind nodeset="/diabetes_screening/behaviour/diabetes_medicine" type="select1" required="true()" relevant=" /diabetes_screening/behaviour/diabetes_before  = 'yes'"/>
+      <bind nodeset="/diabetes_screening/behaviour/n_10" readonly="true()" type="string" relevant=" /diabetes_screening/behaviour/diabetes_medicine  = 'no'"/>
+      <bind nodeset="/diabetes_screening/behaviour/n_11" readonly="true()" type="string" relevant=" /diabetes_screening/behaviour/diabetes_medicine  = 'before'"/>
+      <bind nodeset="/diabetes_screening/danger_signs/n_19" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/danger_signs/low_eyesight" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/danger_signs/dry_skin" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/danger_signs/sore_feet" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/danger_signs/freq_urination" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/danger_signs/weight_loss" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/danger_signs/hungry" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/danger_signs/numb_tingling" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/danger_signs/feeling_tired" type="select1" required="true()"/>
+      <bind nodeset="/diabetes_screening/danger_signs/n_12" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/low_eyesight  ='yes' or  /diabetes_screening/danger_signs/dry_skin  = 'yes' or  /diabetes_screening/danger_signs/sore_feet  ='yes' or  /diabetes_screening/danger_signs/freq_urination ='yes' or  /diabetes_screening/danger_signs/weight_loss = 'yes' or  /diabetes_screening/danger_signs/hungry = 'yes' or  /diabetes_screening/danger_signs/numb_tingling = 'yes' or  /diabetes_screening/danger_signs/feeling_tired = 'yes'"/>
+      <bind nodeset="/diabetes_screening/dt_pps_rbs" type="string" calculate="if (  /diabetes_screening/diabetes_screening/glucometer  &gt;= 140 or  /diabetes_screening/danger_signs/low_eyesight ='yes' or
+ /diabetes_screening/danger_signs/dry_skin ='yes' or
+ /diabetes_screening/danger_signs/sore_feet ='yes' or 
+ /diabetes_screening/danger_signs/freq_urination ='yes' or 
+ /diabetes_screening/danger_signs/weight_loss ='yes' or 
+ /diabetes_screening/danger_signs/hungry ='yes' or 
+ /diabetes_screening/danger_signs/numb_tingling ='yes' or 
+ /diabetes_screening/danger_signs/feeling_tired ='yes' 
+, 1, 0)" relevant=" /diabetes_screening/diabetes_screening/pre_measure ='pps' or 
+ /diabetes_screening/diabetes_screening/pre_measure ='rbs'"/>
+      <bind nodeset="/diabetes_screening/dt_fbs" type="string" calculate="if (  /diabetes_screening/diabetes_screening/glucometer  &gt;= 100 or  /diabetes_screening/danger_signs/low_eyesight ='yes' or
+ /diabetes_screening/danger_signs/dry_skin ='yes' or
+ /diabetes_screening/danger_signs/sore_feet ='yes' or 
+ /diabetes_screening/danger_signs/freq_urination ='yes' or 
+ /diabetes_screening/danger_signs/weight_loss ='yes' or 
+ /diabetes_screening/danger_signs/hungry ='yes' or 
+ /diabetes_screening/danger_signs/numb_tingling ='yes' or 
+ /diabetes_screening/danger_signs/feeling_tired ='yes' 
+, 1, 0)" relevant=" /diabetes_screening/diabetes_screening/pre_measure ='fbs'"/>
+      <bind nodeset="/diabetes_screening/danger_trigger" type="string" calculate="if (  /diabetes_screening/dt_pps_rbs  = &quot;1&quot; or  /diabetes_screening/dt_fbs  = &quot;1&quot; or  /diabetes_screening/behaviour/diabetes_medicine ='no' or  /diabetes_screening/behaviour/diabetes_medicine ='before' , 1, 0)"/>
+      <bind nodeset="/diabetes_screening/counselling/n_13" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/summary/heading" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/summary/description" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/summary/name_des" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/summary/name_age" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/summary/counseling" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/summary/outcome" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_1" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/bmi_cal  &lt; 18.5"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_2" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/bmi_cal  &gt;=18.5 and  /diabetes_screening/diabetes_screening/bmi_cal  &lt;= 24.9"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_3" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/bmi_cal  &gt;=25"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_4" readonly="true()" type="string" relevant=" /diabetes_screening/pre_bmi_cal  &lt; 18.5"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_5" readonly="true()" type="string" relevant=" /diabetes_screening/pre_bmi_cal  &gt;=18.5 and  /diabetes_screening/pre_bmi_cal  &lt;= 24.9"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_6" readonly="true()" type="string" relevant=" /diabetes_screening/pre_bmi_cal  &gt;=25"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_7" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/pre_measure ='fbs'"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_8" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/pre_measure ='pps'"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_9" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/pre_measure ='rbs'"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_10" readonly="true()" type="string" relevant="( /diabetes_screening/diabetes_screening/pre_measure ='fbs') and ( /diabetes_screening/diabetes_screening/glucometer &gt;=99 or  /diabetes_screening/diabetes_screening/glucometer &lt;=150)"/>
+      <bind nodeset="/diabetes_screening/summary/outcome_11" readonly="true()" type="string" relevant="( /diabetes_screening/diabetes_screening/pre_measure ='pps' or 
+ /diabetes_screening/diabetes_screening/pre_measure ='rbs') and (( /diabetes_screening/diabetes_screening/glucometer &gt;=120 or  /diabetes_screening/diabetes_screening/glucometer &lt;200))"/>
+      <bind nodeset="/diabetes_screening/summary/ds_outcome" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/summary/signs_1" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/low_eyesight ='yes'"/>
+      <bind nodeset="/diabetes_screening/summary/signs_2" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/dry_skin ='yes'"/>
+      <bind nodeset="/diabetes_screening/summary/signs_3" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/sore_feet ='yes'"/>
+      <bind nodeset="/diabetes_screening/summary/signs_4" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/freq_urination ='yes'"/>
+      <bind nodeset="/diabetes_screening/summary/signs_5" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/weight_loss ='yes'"/>
+      <bind nodeset="/diabetes_screening/summary/signs_6" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/hungry ='yes'"/>
+      <bind nodeset="/diabetes_screening/summary/signs_7" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/numb_tingling ='yes'"/>
+      <bind nodeset="/diabetes_screening/summary/signs_8" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/feeling_tired ='yes'"/>
+      <bind nodeset="/diabetes_screening/summary/note_display" readonly="true()" type="string"/>
+      <bind nodeset="/diabetes_screening/summary/n_14" readonly="true()" type="string" relevant=" /diabetes_screening/behaviour/diabetes_medicine  = 'no'"/>
+      <bind nodeset="/diabetes_screening/summary/n_15" readonly="true()" type="string" relevant=" /diabetes_screening/behaviour/diabetes_medicine  = 'before'"/>
+      <bind nodeset="/diabetes_screening/summary/n_16" readonly="true()" type="string" relevant=" /diabetes_screening/diabetes_screening/pre_measure ='fbs' and  /diabetes_screening/diabetes_screening/glucometer &gt;=100"/>
+      <bind nodeset="/diabetes_screening/summary/n_17" readonly="true()" type="string" relevant="( /diabetes_screening/diabetes_screening/pre_measure ='pps' or 
+ /diabetes_screening/diabetes_screening/pre_measure ='rbs') and  /diabetes_screening/diabetes_screening/glucometer &gt;=140"/>
+      <bind nodeset="/diabetes_screening/summary/n_18" readonly="true()" type="string" relevant=" /diabetes_screening/danger_signs/low_eyesight  ='yes' or  /diabetes_screening/danger_signs/dry_skin  = 'yes' or  /diabetes_screening/danger_signs/sore_feet  ='yes' or  /diabetes_screening/danger_signs/freq_urination ='yes' or  /diabetes_screening/danger_signs/weight_loss = 'yes' or  /diabetes_screening/danger_signs/hungry = 'yes' or  /diabetes_screening/danger_signs/numb_tingling = 'yes' or  /diabetes_screening/danger_signs/feeling_tired = 'yes'"/>
+      <bind nodeset="/diabetes_screening/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/diabetes_screening/inputs">
+      <label ref="jr:itext('/diabetes_screening/inputs:label')"/>
+      <group ref="/diabetes_screening/inputs/contact">
+        <label ref="jr:itext('/diabetes_screening/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/diabetes_screening/inputs/contact/_id">
+          <label ref="jr:itext('/diabetes_screening/inputs/contact/_id:label')"/>
+        </input>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/diabetes_screening/diabetes_screening">
+      <label ref="jr:itext('/diabetes_screening/diabetes_screening:label')"/>
+      <input ref="/diabetes_screening/diabetes_screening/n_1">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/n_1:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/weight">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/weight:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/height">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/height:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/n_2">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/n_2:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/n_3">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/n_3:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/n_4">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/n_4:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/n_5">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/n_5:label')"/>
+      </input>
+      <select1 ref="/diabetes_screening/diabetes_screening/pre_measure">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/pre_measure:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/diabetes_screening/pre_measure/fbs:label')"/>
+          <value>fbs</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/diabetes_screening/pre_measure/pps:label')"/>
+          <value>pps</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/diabetes_screening/pre_measure/rbs:label')"/>
+          <value>rbs</value>
+        </item>
+      </select1>
+      <input ref="/diabetes_screening/diabetes_screening/glucometer">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/glucometer:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/n_6">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/n_6:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/n_7">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/n_7:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/n_8">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/n_8:label')"/>
+      </input>
+      <input ref="/diabetes_screening/diabetes_screening/n_9">
+        <label ref="jr:itext('/diabetes_screening/diabetes_screening/n_9:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/diabetes_screening/behaviour">
+      <label ref="jr:itext('/diabetes_screening/behaviour:label')"/>
+      <select1 ref="/diabetes_screening/behaviour/diabetes_before">
+        <label ref="jr:itext('/diabetes_screening/behaviour/diabetes_before:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/diabetes_before/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/diabetes_before/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/behaviour/family_diabetes">
+        <label ref="jr:itext('/diabetes_screening/behaviour/family_diabetes:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/family_diabetes/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/family_diabetes/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/behaviour/smoking_last_year">
+        <label ref="jr:itext('/diabetes_screening/behaviour/smoking_last_year:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/smoking_last_year/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/smoking_last_year/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/behaviour/workout_sweating">
+        <label ref="jr:itext('/diabetes_screening/behaviour/workout_sweating:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/workout_sweating/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/workout_sweating/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/diabetes_screening/behaviour/prob_dur">
+        <label ref="jr:itext('/diabetes_screening/behaviour/prob_dur:label')"/>
+        <hint>वर्ष पुरा भएको छैन भने 0 लेख्नुहोस्</hint>
+      </input>
+      <input ref="/diabetes_screening/behaviour/diabetes_since_year">
+        <label ref="jr:itext('/diabetes_screening/behaviour/diabetes_since_year:label')"/>
+        <hint>वर्ष</hint>
+      </input>
+      <input ref="/diabetes_screening/behaviour/diabetes_since_month">
+        <label ref="jr:itext('/diabetes_screening/behaviour/diabetes_since_month:label')"/>
+        <hint>महिना</hint>
+      </input>
+      <select1 ref="/diabetes_screening/behaviour/diabetes_medicine">
+        <label ref="jr:itext('/diabetes_screening/behaviour/diabetes_medicine:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/diabetes_medicine/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/diabetes_medicine/no:label')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/behaviour/diabetes_medicine/before:label')"/>
+          <value>before</value>
+        </item>
+      </select1>
+      <input ref="/diabetes_screening/behaviour/n_10">
+        <label ref="jr:itext('/diabetes_screening/behaviour/n_10:label')"/>
+      </input>
+      <input ref="/diabetes_screening/behaviour/n_11">
+        <label ref="jr:itext('/diabetes_screening/behaviour/n_11:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/diabetes_screening/danger_signs">
+      <label ref="jr:itext('/diabetes_screening/danger_signs:label')"/>
+      <input ref="/diabetes_screening/danger_signs/n_19">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/n_19:label')"/>
+      </input>
+      <select1 ref="/diabetes_screening/danger_signs/low_eyesight">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/low_eyesight:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/low_eyesight/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/low_eyesight/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/danger_signs/dry_skin">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/dry_skin:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/dry_skin/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/dry_skin/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/danger_signs/sore_feet">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/sore_feet:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/sore_feet/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/sore_feet/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/danger_signs/freq_urination">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/freq_urination:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/freq_urination/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/freq_urination/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/danger_signs/weight_loss">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/weight_loss:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/weight_loss/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/weight_loss/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/danger_signs/hungry">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/hungry:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/hungry/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/hungry/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/danger_signs/numb_tingling">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/numb_tingling:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/numb_tingling/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/numb_tingling/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/diabetes_screening/danger_signs/feeling_tired">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/feeling_tired:label')"/>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/feeling_tired/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/diabetes_screening/danger_signs/feeling_tired/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/diabetes_screening/danger_signs/n_12">
+        <label ref="jr:itext('/diabetes_screening/danger_signs/n_12:label')"/>
+      </input>
+    </group>
+    <group appearance="field_list" ref="/diabetes_screening/counselling">
+      <label ref="jr:itext('/diabetes_screening/counselling:label')"/>
+      <input ref="/diabetes_screening/counselling/n_13">
+        <label ref="jr:itext('/diabetes_screening/counselling/n_13:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/diabetes_screening/summary">
+      <label ref="jr:itext('/diabetes_screening/summary:label')"/>
+      <input ref="/diabetes_screening/summary/heading">
+        <label ref="jr:itext('/diabetes_screening/summary/heading:label')"/>
+      </input>
+      <input appearance="h1 yellow" ref="/diabetes_screening/summary/description">
+        <label ref="jr:itext('/diabetes_screening/summary/description:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/name_des">
+        <label ref="jr:itext('/diabetes_screening/summary/name_des:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/name_age">
+        <label ref="jr:itext('/diabetes_screening/summary/name_age:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/diabetes_screening/summary/counseling">
+        <label ref="jr:itext('/diabetes_screening/summary/counseling:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_1">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_1:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_2">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_2:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_3">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_3:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_4">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_4:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_5">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_5:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_6">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_6:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_7">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_7:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_8">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_8:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_9">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_9:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_10">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_10:label')"/>
+      </input>
+      <input ref="/diabetes_screening/summary/outcome_11">
+        <label ref="jr:itext('/diabetes_screening/summary/outcome_11:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/diabetes_screening/summary/ds_outcome">
+        <label ref="jr:itext('/diabetes_screening/summary/ds_outcome:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/signs_1">
+        <label ref="jr:itext('/diabetes_screening/summary/signs_1:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/signs_2">
+        <label ref="jr:itext('/diabetes_screening/summary/signs_2:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/signs_3">
+        <label ref="jr:itext('/diabetes_screening/summary/signs_3:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/signs_4">
+        <label ref="jr:itext('/diabetes_screening/summary/signs_4:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/signs_5">
+        <label ref="jr:itext('/diabetes_screening/summary/signs_5:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/signs_6">
+        <label ref="jr:itext('/diabetes_screening/summary/signs_6:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/signs_7">
+        <label ref="jr:itext('/diabetes_screening/summary/signs_7:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/signs_8">
+        <label ref="jr:itext('/diabetes_screening/summary/signs_8:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/diabetes_screening/summary/note_display">
+        <label ref="jr:itext('/diabetes_screening/summary/note_display:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/n_14">
+        <label ref="jr:itext('/diabetes_screening/summary/n_14:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/n_15">
+        <label ref="jr:itext('/diabetes_screening/summary/n_15:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/n_16">
+        <label ref="jr:itext('/diabetes_screening/summary/n_16:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/n_17">
+        <label ref="jr:itext('/diabetes_screening/summary/n_17:label')"/>
+      </input>
+      <input appearance="li" ref="/diabetes_screening/summary/n_18">
+        <label ref="jr:itext('/diabetes_screening/summary/n_18:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

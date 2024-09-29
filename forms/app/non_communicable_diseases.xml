@@ -1,0 +1,591 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Non Communicable Diseases</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/non_communicable_diseases/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/cancer/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/cancer/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/cancer:label">
+            <value>Do you have cancer?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/congenital_health/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/congenital_health/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/congenital_health:label">
+            <value>Do you have congenital health problems?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/copd/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/copd/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/copd:label">
+            <value>Do you have COPD?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/diabetes/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/diabetes/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/diabetes:label">
+            <value>Do you have diabetes?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/has_other_ncd/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/has_other_ncd/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/has_other_ncd:label">
+            <value>Do you have any other non communicable diseases ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/heart_disease/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/heart_disease/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/heart_disease:label">
+            <value>Do you have heart disease?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/high_blood_pressure/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/high_blood_pressure/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/high_blood_pressure:label">
+            <value>Do you have high blood pressure?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/kidney_disease/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/kidney_disease/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/kidney_disease:label">
+            <value>Do you have kidney disease?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/alternative:label">
+            <value>Alternative / Ayurvedic medicine is kept.</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/cured:label">
+            <value>The disease has been cured</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/not_prescribe:label">
+            <value>The doctor did not prescribe any medicine</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine:label">
+            <value>Why are you not taking medicine?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/other_ncd:jr:constraintMsg">
+            <value>max characters = 300</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/other_ncd:label">
+            <value>Mention</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/other_reason:jr:constraintMsg">
+            <value>max characters = 300</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/other_reason:label">
+            <value>Mention</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/taking_medicine/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/taking_medicine/yes_all:label">
+            <value>Yes (for all)</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/taking_medicine/yes_some:label">
+            <value>Yes (for some)</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/taking_medicine:label">
+            <value>Are you taking any medicine?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/thyroid/no:label">
+            <value>No</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/thyroid/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/thyroid:label">
+            <value>Do you have a thyroid problem?</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/non_communicable_diseases/data/meta/__household_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/non_communicable_diseases/data/meta/__patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/non_communicable_diseases/data/meta/__patient_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/non_communicable_diseases/data/meta/__source:label">
+            <value>-</value>
+          </text>
+          <text id="/non_communicable_diseases/data/meta/__source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/non_communicable_diseases/data/meta:label">
+            <value>-</value>
+          </text>
+          <text id="/non_communicable_diseases/data:label">
+            <value>-</value>
+          </text>
+          <text id="/non_communicable_diseases/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/cancer/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/cancer/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/cancer:label">
+            <value>के तपाईँ लाई क्यान्सर छ ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/congenital_health/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/congenital_health/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/congenital_health:label">
+            <value>के तपाईँ लाई जन्मजात कुनै स्वास्थ्य समस्या छ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/copd/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/copd/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/copd:label">
+            <value>के तपाईँ लाई दम (सीओपीडी) छ ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/diabetes/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/diabetes/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/diabetes:label">
+            <value>के तपाईँ लाई मधुमेह छ ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/has_other_ncd/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/has_other_ncd/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/has_other_ncd:label">
+            <value>के अन्य कुनै नसर्ने रोगको समस्या छ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/heart_disease/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/heart_disease/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/heart_disease:label">
+            <value>के तपाईँ लाई मुटु रोग छ ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/high_blood_pressure/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/high_blood_pressure/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/high_blood_pressure:label">
+            <value>के तपाईँ लाई उच्च रक्तचाप छ ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/kidney_disease/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/kidney_disease/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/kidney_disease:label">
+            <value>के तपाईँ लाई मृगौला सम्बन्धी रोग छ ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/alternative:label">
+            <value>वैकल्पिक/आयुर्वेदिक औषधि लिइ राखेको</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/cured:label">
+            <value>रोग निको भैसक्यो</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/no_money:label">
+            <value>पैसा छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/not_prescribe:label">
+            <value>डाक्टरले कुनै औषधि लेखेनन्</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine:label">
+            <value>के कारणले औषधि खाई रहनु भएको छैन ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/other_ncd:jr:constraintMsg">
+            <value>अधिकतम अक्षर = ३००</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/other_ncd:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/other_reason:jr:constraintMsg">
+            <value>अधिकतम अक्षर = ३००</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/other_reason:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/taking_medicine/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/taking_medicine/yes_all:label">
+            <value>छ (सबैको लागि)</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/taking_medicine/yes_some:label">
+            <value>छ (केहिको लागि)</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/taking_medicine:label">
+            <value>के तपाईँले औषधि खाई रहनु भएको छ ?</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/thyroid/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/thyroid/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/non_communicable_diseases/non_communicable_diseases/thyroid:label">
+            <value>के तपाईँ लाई थाइरोइड को समस्या छ ?</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <non_communicable_diseases id="non_communicable_diseases" prefix="J1!non_communicable_diseases!" delimiter="#" version="16-08-2021 12-01-17">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <non_communicable_diseases>
+            <heart_disease/>
+            <high_blood_pressure/>
+            <diabetes/>
+            <copd/>
+            <cancer/>
+            <kidney_disease/>
+            <thyroid/>
+            <congenital_health/>
+            <has_other_ncd/>
+            <other_ncd/>
+            <taking_medicine/>
+            <not_taking_medicine/>
+            <other_reason/>
+          </non_communicable_diseases>
+          <data tag="hidden">
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </non_communicable_diseases>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/non_communicable_diseases/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/non_communicable_diseases/inputs/source" type="string"/>
+      <bind nodeset="/non_communicable_diseases/inputs/source_id" type="string"/>
+      <bind nodeset="/non_communicable_diseases/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/non_communicable_diseases/inputs/contact/name" type="string"/>
+      <bind nodeset="/non_communicable_diseases/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/non_communicable_diseases/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/non_communicable_diseases/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/non_communicable_diseases/inputs/contact/sex" type="string"/>
+      <bind nodeset="/non_communicable_diseases/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/non_communicable_diseases/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/non_communicable_diseases/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/non_communicable_diseases/patient_age_in_years" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/non_communicable_diseases/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/non_communicable_diseases/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/non_communicable_diseases/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/heart_disease" type="select1" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/high_blood_pressure" type="select1" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/diabetes" type="select1" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/copd" type="select1" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/cancer" type="select1" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/kidney_disease" type="select1" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/thyroid" type="select1" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/congenital_health" type="select1" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/has_other_ncd" type="select1" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/other_ncd" type="string" jr:constraintMsg="jr:itext('/non_communicable_diseases/non_communicable_diseases/other_ncd:jr:constraintMsg')" constraint="string-length(.) &lt;= 300" relevant=" /non_communicable_diseases/non_communicable_diseases/has_other_ncd ='yes'" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/taking_medicine" type="select1" relevant=" /non_communicable_diseases/non_communicable_diseases/heart_disease ='yes' 
+or  /non_communicable_diseases/non_communicable_diseases/high_blood_pressure ='yes'
+or  /non_communicable_diseases/non_communicable_diseases/diabetes ='yes'
+or  /non_communicable_diseases/non_communicable_diseases/copd ='yes'
+or  /non_communicable_diseases/non_communicable_diseases/cancer ='yes'
+or  /non_communicable_diseases/non_communicable_diseases/kidney_disease ='yes'
+or  /non_communicable_diseases/non_communicable_diseases/thyroid ='yes'
+or  /non_communicable_diseases/non_communicable_diseases/congenital_health ='yes'
+or  /non_communicable_diseases/non_communicable_diseases/has_other_ncd ='yes'" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine" type="select1" relevant=" /non_communicable_diseases/non_communicable_diseases/taking_medicine ='no' or  /non_communicable_diseases/non_communicable_diseases/taking_medicine  = 'yes_some'" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/non_communicable_diseases/other_reason" type="string" jr:constraintMsg="jr:itext('/non_communicable_diseases/non_communicable_diseases/other_reason:jr:constraintMsg')" constraint="string-length(.) &lt;= 300" relevant=" /non_communicable_diseases/non_communicable_diseases/not_taking_medicine ='other'" required="true()"/>
+      <bind nodeset="/non_communicable_diseases/data/meta/__patient_uuid" type="string" calculate="../../../inputs/contact/_id"/>
+      <bind nodeset="/non_communicable_diseases/data/meta/__patient_id" type="string" calculate="../../../inputs/contact/patient_id"/>
+      <bind nodeset="/non_communicable_diseases/data/meta/__household_uuid" type="string" calculate="../../../inputs/contact/parent/_id"/>
+      <bind nodeset="/non_communicable_diseases/data/meta/__source" type="string" calculate="../../../inputs/source"/>
+      <bind nodeset="/non_communicable_diseases/data/meta/__source_id" type="string" calculate="../../../inputs/source_id"/>
+      <bind nodeset="/non_communicable_diseases/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/non_communicable_diseases/inputs">
+      <group ref="/non_communicable_diseases/inputs/contact">
+        <label ref="jr:itext('/non_communicable_diseases/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/non_communicable_diseases/inputs/contact/_id">
+          <label ref="jr:itext('/non_communicable_diseases/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/non_communicable_diseases/inputs/contact/parent">
+          <group ref="/non_communicable_diseases/inputs/contact/parent/parent">
+            <group ref="/non_communicable_diseases/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/non_communicable_diseases/non_communicable_diseases">
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/heart_disease">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/heart_disease:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/heart_disease/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/heart_disease/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/high_blood_pressure">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/high_blood_pressure:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/high_blood_pressure/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/high_blood_pressure/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/diabetes">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/diabetes:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/diabetes/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/diabetes/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/copd">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/copd:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/copd/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/copd/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/cancer">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/cancer:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/cancer/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/cancer/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/kidney_disease">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/kidney_disease:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/kidney_disease/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/kidney_disease/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/thyroid">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/thyroid:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/thyroid/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/thyroid/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/congenital_health">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/congenital_health:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/congenital_health/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/congenital_health/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/has_other_ncd">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/has_other_ncd:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/has_other_ncd/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/has_other_ncd/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/non_communicable_diseases/non_communicable_diseases/other_ncd">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/other_ncd:label')"/>
+      </input>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/taking_medicine">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/taking_medicine:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/taking_medicine/yes_all:label')"/>
+          <value>yes_all</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/taking_medicine/yes_some:label')"/>
+          <value>yes_some</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/taking_medicine/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/non_communicable_diseases/non_communicable_diseases/not_taking_medicine">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/not_taking_medicine:label')"/>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/not_prescribe:label')"/>
+          <value>not_prescribe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/alternative:label')"/>
+          <value>alternative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/not_taking_medicine/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/non_communicable_diseases/non_communicable_diseases/other_reason">
+        <label ref="jr:itext('/non_communicable_diseases/non_communicable_diseases/other_reason:label')"/>
+      </input>
+    </group>
+    <group appearance="hidden" ref="/non_communicable_diseases/data">
+      <group ref="/non_communicable_diseases/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

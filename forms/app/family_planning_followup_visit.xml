@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>परिवार योजनाको फलोअप फारम</h:title>
+    <model>
+      <itext>
+        <translation lang="ne">
+          <text id="/family_planning_followup_visit/family_planning/counselling_condom:label">
+            <value>उहाँसँग हाल कण्डम कति गोटा छ बुझ्नुहोस् ।
+
+उहाँलाई थप गोटा दिनुहोस् । यदि तपाई सँग छैन भने स्वास्थ्य संस्थामा गएर लिन परामर्श गर्नुहोस् ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/counselling_minilap:label">
+            <value>**गर्भ रोक्नमा प्रभावकारिताको बारेमा छलफल गर्नुहोस् ।**
+
+ - शल्यक्रिया विधि पछि गर्भधारण दर । पहिलो वर्षमा - १०० महिलामा १ गर्भधारण (१%) ।
+
+ - यसले डिम्बाशयको क्यान्सर हुनबाट बचाँउछ ।
+
+ - ओभरियन क्यान्सर हुनबाट बचाँउछ ।
+
+ - HIV तथा यौन संक्रमणबाट बचाउँन सक्दैन ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/counselling_pills:label">
+            <value>उहाँसँग हाल पिल्सको पत्तामा कति चक्कि छ बुझ्नुहोस् ।
+
+उहाँलाई थप पिल्सको पत्ता दिनुहोस् । यदि तपाईसँग छैन भने स्वास्थ्य सँस्थामा गएर लिन परामर्श गर्नुहोस् ।
+
+पिल्सको प्रयोगबाट हुने सामान्य असरको बारेमा छलफल गर्नुहोस् । जस्तो: अनियमित महिनावारी, महिनावारीको बिचमा अलि-अलि रगत बग्ने हुन सक्छ (पहिलो तिन महिना सम्म सामान्य रुपमा), महिनावारी नहुन पनि सक्छ, केहि महिना टाउको दुख्ने, स्तन भारी तथा कडा भएजस्तो लाग्न सक्छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/counselling_vasectomy:label">
+            <value>**तलका बिषयमा छलफल गर्नुहोस ।**
+ 
+- यो शल्यक्रिया गरेको ३ महिना पछि मात्र प्रभावकारी हुन्छ । तत्काल गर्भधारण हुनबाट रोक्दैन ।
+
+ - भ्यासेक्टोमी गरेपछि ३ महिना सम्म कण्डम अथवा अरु विधिको प्रयोग गर्नुपर्छ ।
+
+ - फेरि सन्तानको इच्छा भएमा उल्टाउन मिल्ने (तर सफल हुने निश्चय भने नहुने) ।
+
+ - यसको प्रभावकारिता पहिलो वर्ष ९७ - ९९ % र तिन वर्ष पछि ९६% हुन्छ ।
+
+ - यसले HIV तथा यौन संक्रमणबाट बचाउँन सक्दैन ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/depo/counselling_depo:label">
+            <value>प्रत्येक ३ महिना पुगेपछि अर्को सुई लगाउन अनिवार्य रुपमा दिएको समयमा लगाउनुपर्छ । यदि दिएको समयमा आउन सकिएन भने ४ हप्ता छिटो वा ४ हप्ता ढिलो लगाउन सक्ने बारे जानकारी दिनुहोस् ।
+
+यदि डिपोप्रोभेरा लगाउन ४ हप्ता भन्दा ढिला भएमा असुरक्षित यौन सम्पर्कबाट टाढा रहने वा डिपोप्रोभेरा नलगाउन्जेल सम्म कण्डमको प्रयोग गर्नुपर्छ भनि जानकारी दिनुहोस् ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/depo/depo_date:hint">
+            <value>(गते/महिना/साल)</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/depo/depo_date:jr:constraintMsg">
+            <value>मिति भविष्यमा हुनु भएन</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/depo/depo_date:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/depo/depo_date:label">
+            <value>डिपो प्रोभेरा लगाएको मिति लेख्नुहोस् ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/depo/depo_next_visit:label">
+            <value>पुन: डिपो प्रोभेरा सुई लगाउने मिति : <output value=" /family_planning_followup_visit/family_planning/depo/depo_date_next "/></value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/depo:label">
+            <value>डिपो प्रोभेरा</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method/condom:label">
+            <value>कन्डम</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method/depo:label">
+            <value>डिपो प्रोभेरा</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method/implant:label">
+            <value>इम्प्लाण्ट</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method/iucd:label">
+            <value>आई. यू. सि. डी</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method/minilap:label">
+            <value>स्वेच्छिक स्थायी महिला बन्ध्याकरण " मिनिल्याप  (Minilap)"</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method/none:label">
+            <value>कुनै पनि बिधि प्रयोग गरिरहनु भएको छैन</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method/pills:label">
+            <value>पिल्स</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method/vasectomy:label">
+            <value>स्थायी पुरुष बन्ध्याकरण"भ्यासेक्टोमी  (Vasectomy)"</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/family_planning_method:label">
+            <value>तपाईले जानकारी दिनु भएका परिवार नियोजनका साधनमा कुन बिधि प्रयोग गर्दै हुनुहुन्छ ?</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/counselling_implant:label">
+            <value>**यसको प्रयोगबाट हुने सामन्य असरहरु र फाइदाको बारेमा छलफल गर्नुहोस् ।** जस्तो ;
+
+ - यसको प्रयोगबाट पी. आई. डी. (तल्लो पेट दुख्ने) रोगबाट बचाउन सक्छ ।
+
+ - यसको प्रयोगबाट रक्तअल्पता हुनबाट बचाउँछ ।
+
+ - अनियमित मासिक रक्तश्राब ।
+
+ - टाउँको दुख्ने, पेट दुख्ने, स्तन भारि भए जस्तो हुने ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_date:jr:constraintMsg">
+            <value>मिति भविष्यमा हुनु भएन</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_date:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_date:label">
+            <value>इम्प्लाण्ट राखेको मिति लेख्नुहोस् ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_refer:label">
+            <value>कृपया उहाँलाई तुरुन्तै स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई तपाईले पुन : कहिले भेट गर्न आउनु हुन्छ जानकारी गराउनुहोस् ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms/device_came_out:label">
+            <value>साधन (इम्प्लाण्ट ) बाहिर आएको छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms/has_to_be_removed:label">
+            <value>साधन ( इम्प्लाण्ट ) निकाल्नु पर्नेछ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms/health_problem:label">
+            <value>यसले गर्दा कुनै स्वास्थ्य समस्या देखिएको छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms/hot_pus_red:label">
+            <value>साधन राखेको ठाउँमा तातो भएको, पिप निस्किएको वा रातो भएको छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms/none:label">
+            <value>कुनै समस्या छैन</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms/reuse_implant:label">
+            <value>इम्प्लाण्ट पुनप्रयोग गर्ने समय भएको छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms:jr:constraintMsg">
+            <value>'कुनै समस्या छैन' संग अन्य लक्ष्ण छान्न सक्नुहुन्न</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant/implant_symptoms:label">
+            <value>इम्प्लाण्टले गर्दा तल भनेको जस्तो कुनै लक्षण देखिएका छन् ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/implant:label">
+            <value>इम्प्लाण्ट</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/counselling_iucd:label">
+            <value>**यसको प्रयोगबाट हुने सामान्य असरहरुको बारेमा छलफल गर्नुहोस् । जस्तो ;**
+
+ - आई. यू. सि. डी राखेपछि केही मात्रमा बढी रक्तश्राब हुनसक्छ । जुन ३ देखि ६ महिनासम्म रहनसक्छ ।
+
+ - आई. यू. सि. डी राखेपछि अनियमित रक्तश्राब पेट दुख्ने वा बाउँडिन सक्छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_date:hint">
+            <value>(गते/महिना/साल)</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_date:jr:constraintMsg">
+            <value>मिति भविष्यमा हुनु भएन</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_date:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_date:label">
+            <value>आई. यू. सि. डी राखेको मिति लेख्नुहोस् ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_refer:label">
+            <value>कृपया उहाँलाई तुरुन्तै स्वास्थ्य संस्थामा प्रेषण गर्नुहोस् र उहाँलाई तपाईले पुन : कहिले भेट गर्न आउनु हुन्छ जानकारी गराउनुहोस् ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/fever_nausea:label">
+            <value>ज्वोरो, शितांग, वाकवाकी वा बान्ता भइरहेको छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/foul_vaginal_discharge:label">
+            <value>योनिबाट अस्वभाविक गन्हाउने पानि बगेको छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/hurts_during_intercourse:label">
+            <value>यौन कार्य वा सहवास गर्दा दुखिरहेको छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/no_followup:label">
+            <value>आई. यू. सि. डी राखेको ३- ६ हप्ता भएको छ र फलो-अप को लागि जानु भएको छैन ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/none:label">
+            <value>कुनै समस्या छैन ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/out_of_place:label">
+            <value>आई. यू. सि. डी आफ्नो स्थानमा नरहेको महशुस भइरहेको छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/severe_abdominal_pain:label">
+            <value>कडा किसिमले तल्लो पेट दुखिरहेको छ वा दुखाई बढ्दै गएको छ ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms:jr:constraintMsg">
+            <value>'कुनै समस्या छैन' संग अन्य लक्ष्ण छान्न सक्नुहुन्न</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms:label">
+            <value>आई. यु. सि. डि ले गर्दा तल भनेको जस्तो कुनै लक्षण देखिएका छन् ?</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/iucd:label">
+            <value>आई. यू. सि. डी</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using/busy:label">
+            <value>कामले फुर्सद नभएर ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using/health_facilities_away:label">
+            <value>स्थायी बन्ध्याकरण गर्ने स्वास्थ्य सँस्था नजिक नभएर ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using/health_issue:label">
+            <value>स्वास्थ्य समस्याले ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using/husband_disagree:label">
+            <value>श्रीमानले मान्नु भएन ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using/husband_out:label">
+            <value>श्रीमान बाहिर जानुभयो।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using/irregular_sex:label">
+            <value>यौन सम्पर्कमा अनियमितताको कारण ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using/not_available:label">
+            <value>स्वास्थ्य  सँस्थामा उपलब्ध छैन ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using/untrained_health_workers:label">
+            <value>स्वास्थ्य सँस्थामा तालिम प्राप्त स्वास्थ्यकर्मी नभएर ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/method_not_using:label">
+            <value>के कारणले हाल सम्म कुनै कुनै पनि बिधि प्रयोग गरिरहनु भएको छैन ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/why_not_using:jr:constraintMsg">
+            <value>छोटकरीमा उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/why_not_using:jr:requiredMsg">
+            <value>उत्तर दिनुहोस्</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning/why_not_using:label">
+            <value>उल्लेख गर्नुहोस ।</value>
+          </text>
+          <text id="/family_planning_followup_visit/family_planning:label">
+            <value>परिवार योजनाको फलोअप फारम</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <family_planning_followup_visit delimiter="#" id="family_planning_followup_visit" prefix="J1!family_planning_followup_visit!" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source/>
+            <source_id/>
+            <contact>
+              <_id/>
+              <patient_id/>
+              <name/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_id/>
+          <patient_name/>
+          <family_planning>
+            <family_planning_method/>
+            <method_not_using/>
+            <why_not_using/>
+            <counselling_pills/>
+            <depo>
+              <depo_date/>
+              <depo_date_next/>
+              <depo_next_visit/>
+              <counselling_depo/>
+            </depo>
+            <counselling_condom/>
+            <iucd>
+              <iucd_date/>
+              <iucd_symptoms/>
+              <iucd_refer/>
+              <counselling_iucd/>
+            </iucd>
+            <implant>
+              <implant_date/>
+              <implant_symptoms/>
+              <implant_refer/>
+              <counselling_implant/>
+            </implant>
+            <counselling_vasectomy/>
+            <counselling_minilap/>
+          </family_planning>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </family_planning_followup_visit>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/family_planning_followup_visit/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/family_planning_followup_visit/inputs/source" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/inputs/source_id" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/family_planning_followup_visit/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/inputs/contact/name" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/family_planning_followup_visit/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/patient_id" nodeset="/family_planning_followup_visit/patient_id" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/family_planning_followup_visit/patient_name" type="string"/>
+      <bind jr:requiredMsg="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method:jr:requiredMsg')" nodeset="/family_planning_followup_visit/family_planning/family_planning_method" required="true()" type="select1"/>
+      <bind jr:requiredMsg="jr:itext('/family_planning_followup_visit/family_planning/method_not_using:jr:requiredMsg')" nodeset="/family_planning_followup_visit/family_planning/method_not_using" relevant=" /family_planning_followup_visit/family_planning/family_planning_method  ='none'" required="true()" type="select1"/>
+      <bind constraint="string-length(.) &lt;= 100" jr:constraintMsg="jr:itext('/family_planning_followup_visit/family_planning/why_not_using:jr:constraintMsg')" jr:requiredMsg="jr:itext('/family_planning_followup_visit/family_planning/why_not_using:jr:requiredMsg')" nodeset="/family_planning_followup_visit/family_planning/why_not_using" relevant=" /family_planning_followup_visit/family_planning/method_not_using  ='other'" required="true()" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/counselling_pills" readonly="true()" relevant=" /family_planning_followup_visit/family_planning/family_planning_method  ='pills'" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/depo" relevant=" /family_planning_followup_visit/family_planning/family_planning_method  ='depo'"/>
+      <bind constraint=". &lt;= today()" jr:constraintMsg="jr:itext('/family_planning_followup_visit/family_planning/depo/depo_date:jr:constraintMsg')" jr:requiredMsg="jr:itext('/family_planning_followup_visit/family_planning/depo/depo_date:jr:requiredMsg')" nodeset="/family_planning_followup_visit/family_planning/depo/depo_date" required="true()" type="date"/>
+      <bind calculate="to-bikram-sambat(format-date(decimal-date-time( /family_planning_followup_visit/family_planning/depo/depo_date ) + 90, '%Y-%m-%d'))" nodeset="/family_planning_followup_visit/family_planning/depo/depo_date_next" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/depo/depo_next_visit" readonly="true()" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/depo/counselling_depo" readonly="true()" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/counselling_condom" readonly="true()" relevant=" /family_planning_followup_visit/family_planning/family_planning_method  ='condom'" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/iucd" relevant=" /family_planning_followup_visit/family_planning/family_planning_method  ='iucd'"/>
+      <bind constraint=". &lt;= today()" jr:constraintMsg="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_date:jr:constraintMsg')" jr:requiredMsg="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_date:jr:requiredMsg')" nodeset="/family_planning_followup_visit/family_planning/iucd/iucd_date" required="true()" type="date"/>
+      <bind constraint="not(selected(., 'none') and count-selected(.) &gt; 1)" jr:constraintMsg="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms:jr:constraintMsg')" jr:requiredMsg="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms:jr:requiredMsg')" nodeset="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms" required="true()" type="select"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/iucd/iucd_refer" readonly="true()" relevant=" /family_planning_followup_visit/family_planning/iucd/iucd_symptoms  != 'none'" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/iucd/counselling_iucd" readonly="true()" relevant=" /family_planning_followup_visit/family_planning/iucd/iucd_symptoms  = 'none'" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/implant" relevant=" /family_planning_followup_visit/family_planning/family_planning_method  ='implant'"/>
+      <bind constraint=". &lt;= today()" jr:constraintMsg="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_date:jr:constraintMsg')" jr:requiredMsg="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_date:jr:requiredMsg')" nodeset="/family_planning_followup_visit/family_planning/implant/implant_date" required="true()" type="date"/>
+      <bind constraint="not(selected(., 'none') and count-selected(.) &gt; 1)" jr:constraintMsg="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms:jr:constraintMsg')" jr:requiredMsg="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms:jr:requiredMsg')" nodeset="/family_planning_followup_visit/family_planning/implant/implant_symptoms" required="true()" type="select"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/implant/implant_refer" readonly="true()" relevant=" /family_planning_followup_visit/family_planning/implant/implant_symptoms  != 'none'" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/implant/counselling_implant" readonly="true()" relevant=" /family_planning_followup_visit/family_planning/implant/implant_symptoms  = 'none'" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/counselling_vasectomy" readonly="true()" relevant=" /family_planning_followup_visit/family_planning/family_planning_method  ='vasectomy'" type="string"/>
+      <bind nodeset="/family_planning_followup_visit/family_planning/counselling_minilap" readonly="true()" relevant=" /family_planning_followup_visit/family_planning/family_planning_method  ='minilap'" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/family_planning_followup_visit/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="Field-list" ref="/family_planning_followup_visit/inputs">
+      <group ref="/family_planning_followup_visit/inputs/contact">
+        <input appearance="db-object" ref="/family_planning_followup_visit/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group appearance="Field-list" ref="/family_planning_followup_visit/family_planning">
+      <label ref="jr:itext('/family_planning_followup_visit/family_planning:label')"/>
+      <select1 ref="/family_planning_followup_visit/family_planning/family_planning_method">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method:label')"/>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method/none:label')"/>
+          <value>none</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method/pills:label')"/>
+          <value>pills</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method/depo:label')"/>
+          <value>depo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method/condom:label')"/>
+          <value>condom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method/iucd:label')"/>
+          <value>iucd</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method/implant:label')"/>
+          <value>implant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method/vasectomy:label')"/>
+          <value>vasectomy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/family_planning_method/minilap:label')"/>
+          <value>minilap</value>
+        </item>
+      </select1>
+      <select1 ref="/family_planning_followup_visit/family_planning/method_not_using">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using:label')"/>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using/health_issue:label')"/>
+          <value>health_issue</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using/husband_disagree:label')"/>
+          <value>husband_disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using/irregular_sex:label')"/>
+          <value>irregular_sex</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using/husband_out:label')"/>
+          <value>husband_out</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using/health_facilities_away:label')"/>
+          <value>health_facilities_away</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using/untrained_health_workers:label')"/>
+          <value>untrained_health_workers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using/busy:label')"/>
+          <value>busy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using/not_available:label')"/>
+          <value>not_available</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/method_not_using/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input appearance="multiline" ref="/family_planning_followup_visit/family_planning/why_not_using">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/why_not_using:label')"/>
+      </input>
+      <input ref="/family_planning_followup_visit/family_planning/counselling_pills">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/counselling_pills:label')"/>
+      </input>
+      <group appearance="Field-list" ref="/family_planning_followup_visit/family_planning/depo">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/depo:label')"/>
+        <input ref="/family_planning_followup_visit/family_planning/depo/depo_date">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/depo/depo_date:label')"/>
+          <hint ref="jr:itext('/family_planning_followup_visit/family_planning/depo/depo_date:hint')"/>
+        </input>
+        <input ref="/family_planning_followup_visit/family_planning/depo/depo_next_visit">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/depo/depo_next_visit:label')"/>
+        </input>
+        <input ref="/family_planning_followup_visit/family_planning/depo/counselling_depo">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/depo/counselling_depo:label')"/>
+        </input>
+      </group>
+      <input ref="/family_planning_followup_visit/family_planning/counselling_condom">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/counselling_condom:label')"/>
+      </input>
+      <group appearance="Field-list" ref="/family_planning_followup_visit/family_planning/iucd">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd:label')"/>
+        <input ref="/family_planning_followup_visit/family_planning/iucd/iucd_date">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_date:label')"/>
+          <hint ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_date:hint')"/>
+        </input>
+        <select ref="/family_planning_followup_visit/family_planning/iucd/iucd_symptoms">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms:label')"/>
+          <hint ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms:hint')"/>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/severe_abdominal_pain:label')"/>
+            <value>severe_abdominal_pain</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/hurts_during_intercourse:label')"/>
+            <value>hurts_during_intercourse</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/foul_vaginal_discharge:label')"/>
+            <value>foul_vaginal_discharge</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/fever_nausea:label')"/>
+            <value>fever_nausea</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/out_of_place:label')"/>
+            <value>out_of_place</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/no_followup:label')"/>
+            <value>no_followup</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_symptoms/none:label')"/>
+            <value>none</value>
+          </item>
+        </select>
+        <input ref="/family_planning_followup_visit/family_planning/iucd/iucd_refer">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/iucd_refer:label')"/>
+        </input>
+        <input ref="/family_planning_followup_visit/family_planning/iucd/counselling_iucd">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/iucd/counselling_iucd:label')"/>
+        </input>
+      </group>
+      <group appearance="Field-list" ref="/family_planning_followup_visit/family_planning/implant">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant:label')"/>
+        <input ref="/family_planning_followup_visit/family_planning/implant/implant_date">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_date:label')"/>
+        </input>
+        <select ref="/family_planning_followup_visit/family_planning/implant/implant_symptoms">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms:label')"/>
+          <hint ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms:hint')"/>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms/hot_pus_red:label')"/>
+            <value>hot_pus_red</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms/device_came_out:label')"/>
+            <value>device_came_out</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms/reuse_implant:label')"/>
+            <value>reuse_implant</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms/has_to_be_removed:label')"/>
+            <value>has_to_be_removed</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms/health_problem:label')"/>
+            <value>health_problem</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_symptoms/none:label')"/>
+            <value>none</value>
+          </item>
+        </select>
+        <input ref="/family_planning_followup_visit/family_planning/implant/implant_refer">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/implant_refer:label')"/>
+        </input>
+        <input ref="/family_planning_followup_visit/family_planning/implant/counselling_implant">
+          <label ref="jr:itext('/family_planning_followup_visit/family_planning/implant/counselling_implant:label')"/>
+        </input>
+      </group>
+      <input ref="/family_planning_followup_visit/family_planning/counselling_vasectomy">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/counselling_vasectomy:label')"/>
+      </input>
+      <input ref="/family_planning_followup_visit/family_planning/counselling_minilap">
+        <label ref="jr:itext('/family_planning_followup_visit/family_planning/counselling_minilap:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

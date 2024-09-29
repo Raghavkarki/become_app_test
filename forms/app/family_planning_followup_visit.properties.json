@@ -1,0 +1,17 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Family Planning follow up visit form"
+    },
+    {
+      "locale": "ne",
+      "content": "परिवार योजना को फलोअप फारम"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": false
+  },
+ "icon": "icon-people-woman"
+}

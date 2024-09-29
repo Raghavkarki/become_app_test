@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Postnatal danger sign follow-up (Mother)"
+    },
+    {
+      "locale": "ne",
+      "content": "सुत्केरी महिला मा खतराका चिन्ह पहिचान पछि पुन : भेट्"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": false
+   
+  },
+  "icon": "icon-pncmom"
+}

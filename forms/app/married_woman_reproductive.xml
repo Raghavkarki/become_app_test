@@ -1,0 +1,1630 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Married Woman Reproductive</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive/no:label">
+            <value>No</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive:label">
+            <value>Have you ever used an emergency contraceptive pill?</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive_count:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive_count:label">
+            <value>How many times have you used it in a year?</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_method_type/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_method_type/permanent:label">
+            <value>Permanent</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_method_type/temporary:label">
+            <value>Temporary</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_method_type:label">
+            <value>Which family planning type are you using?</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_permanent_method/female_sterilization:label">
+            <value>Female Sterilization</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_permanent_method/male_sterilization:label">
+            <value>Male sterilization</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_permanent_method/tube_ligation:label">
+            <value>Tube ligation</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_permanent_method:label">
+            <value>Permanent methods of family planning</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/condom:label">
+            <value>Condom</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/dipo:label">
+            <value>Dipo</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/implant:label">
+            <value>Implant</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/lucd:label">
+            <value>IUCD</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/pills:label">
+            <value>Pills</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method:label">
+            <value>Temporary methods of family planning</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_fp_method/emergency_contraceptive:label">
+            <value>Emergency contraceptive method</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_fp_method/lactation_amenorrhea:label">
+            <value>Lactation Amenorrhea Method</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_fp_method/natural_method:label">
+            <value>Natural Method</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_fp_method:label">
+            <value>Other methods of family planning</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_reason_fp_no_use:label">
+            <value>Mention the reason for not using any FP methods.</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/another_baby_soon:label">
+            <value>Wanting another baby soon</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/breastfeeding:label">
+            <value>Breastfeeding</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/god_will:label">
+            <value>God's will</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/husband_abroad:label">
+            <value>The husband is out</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/husband_disagreement:label">
+            <value>Husband's disagreement with the use of contraceptives</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/hysterectomy:label">
+            <value>Hysterectomy</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/irregular_intercourse:label">
+            <value>Due to irregular sexual intercourse</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/no_menstruation:label">
+            <value>No menstruation after last delivery</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/not_knowing_method:label">
+            <value>Not knowing about any method</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/not_knowing_place:label">
+            <value>Not knowing where to get the contraceptive device</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/others_disagree:label">
+            <value>Others disagree on the use of contraceptives</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/side_effects:label">
+            <value>Concerns about other side effects or health problems</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/too_far:label">
+            <value>Lack of access / too far</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/widowed:label">
+            <value>The woman has no husband or is widowed</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/women_disagreement:label">
+            <value>Women's disagreement with the use of contraceptives</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use:label">
+            <value>Reasons not to use family planning methods</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/used_contraceptives/no:label">
+            <value>No</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/used_contraceptives/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/used_contraceptives:label">
+            <value>Have you used any contraceptives method to prevent pregnancy recently ?</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb/1:label">
+            <value>Single</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb/2:label">
+            <value>Twins</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb/3:label">
+            <value>Triplets</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb/4:label">
+            <value>Quadruplets</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb:label">
+            <value>How many babies in your womb?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/additional_food:jr:constraintMsg">
+            <value>Valid range is between 1 and 12 only.</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/additional_food:label">
+            <value>After how many months of birth did you start feeding additional food?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time/1week_28days:label">
+            <value>Within 1 week to 28 days</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time/24hrs:label">
+            <value>Within 24 hours of birth</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time/24hrs_1week:label">
+            <value>Within 24 hours to 1 week</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time/28_45_days:label">
+            <value>Within 28 days to 45 days</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time:label">
+            <value>After birth what time later s/he died?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_gender/female:label">
+            <value>Female</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_gender/male:label">
+            <value>Male</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_gender:label">
+            <value>Gender of the baby</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_reason:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_reason:label">
+            <value>Baby's reason</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_weighed/dont_know:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_weighed/no:label">
+            <value>No</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_weighed/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_weighed:label">
+            <value>Was the baby weighed?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/birth_outcome/died_born:label">
+            <value>Died baby born</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/birth_outcome/later_died:label">
+            <value>Born live but died later</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/birth_outcome/live_born:label">
+            <value>Live baby born</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/birth_outcome:label">
+            <value>Birth outcome</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfed/no:label">
+            <value>No</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfed/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfed:label">
+            <value>Did you breastfed your baby?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth/after_1hrs:label">
+            <value>After 1 hour</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth/no_milk:label">
+            <value>No milk secretion</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth/within_1hr:label">
+            <value>Within 1 hour of birth</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth:label">
+            <value>How long after birth did you breastfeed?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/1yr:label">
+            <value>Up to 1 year</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/6_mth:label">
+            <value>Up to 6 months</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/less_than_6mth:label">
+            <value>A few days after birth (less than 6 months)</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/still_feeding:label">
+            <value>Less than 6 months (Still feeding)</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period:label">
+            <value>How long did you exclusively breastfeed?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby/big:label">
+            <value>Too big</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby/normal:label">
+            <value>Normal size</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby/smaller:label">
+            <value>Slightly smaller than usual</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby/very_small:label">
+            <value>Very small</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby:label">
+            <value>How big the baby was at birth?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/not_breastfeeding:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/not_breastfeeding:label">
+            <value>What was the reason for not breastfeeding (Mother reason)</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/weight:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/weight:label">
+            <value>What was the weight in KG ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info:label">
+            <value>Baby's information</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_date:jr:constraintMsg">
+            <value>Can not be the future date.</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_date:label">
+            <value>When did the delivery?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/Midwife:label">
+            <value>Midwife</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/Nurse:label">
+            <value>Nurse</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/doctor:label">
+            <value>Doctor</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/no_body:label">
+            <value>No body</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/relatives:label">
+            <value>Relatives/Colligues</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/someone_else:label">
+            <value>Someone else</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped:label">
+            <value>Who helped you for delivery?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place/gov_hf:label">
+            <value>Goverment Health Facility</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place/home:label">
+            <value>Home</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place/on_way_hosp:label">
+            <value>On the way of hospital</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place/private_hf:label">
+            <value>Private Health Facility</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place:label">
+            <value>Where did you get the delivery?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_method:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_method:label">
+            <value>Which method did you use?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_use_after/no:label">
+            <value>No</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_use_after/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_use_after:label">
+            <value>Did you use family planning right after miscarriage or baby's birth?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/facility:label">
+            <value>Hospital / Health post</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/fpa:label">
+            <value>Family planning association</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/household_method:label">
+            <value>By using household method</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/medicine_at_home:label">
+            <value>By using Medicine at home</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/self:label">
+            <value>Self miscarried</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place:label">
+            <value>Where did the miscarriage occur ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_weeks:hint">
+            <value>Weeks</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_weeks:jr:constraintMsg">
+            <value>Only 6 yo 28 Week is valid.</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_weeks:label">
+            <value>On which week was it miscarried?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarried/no:label">
+            <value>No</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarried/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarried:label">
+            <value>Was this prenancy miscarried ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/1_visited:label">
+            <value>1 visit</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/2_visited:label">
+            <value>2 visits</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/3_visited:label">
+            <value>3 visits</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/4_visited:label">
+            <value>4 visits</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/more_than_4:label">
+            <value>More than 4 visits</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/not_visited:label">
+            <value>Not visited</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit:label">
+            <value>How many pregnancies visit did you test at this health facility?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnant_last_year/no:label">
+            <value>No</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnant_last_year/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnant_last_year:label">
+            <value>Were you pregnant in the last year?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/gestational_diabetes:label">
+            <value>Gestational diabetes</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/hypertension:label">
+            <value>Hypertension</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/lower_limb_swelling:label">
+            <value>Lower limb swelling</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/nausea_vomitting:label">
+            <value>Excessive nausea and vomitting</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/severe_abdominal_pain:label">
+            <value>Severe abdominal pain</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/severe_headache:label">
+            <value>Severe headache</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/vaginal_bleeding:label">
+            <value>Vaginal bleeding</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem:label">
+            <value>What was the problem?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem_during_period/no:label">
+            <value>No</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem_during_period/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem_during_period:label">
+            <value>Did you have any problems in this pregnancy?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/remedy/done_nothing:label">
+            <value>Nothing done</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/remedy/purchased_medicine:label">
+            <value>Purchased medicine without consult health worker</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/remedy/visited_hf:label">
+            <value>Visited health facility for treatemnt</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/remedy:label">
+            <value>What did you do about it?</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive:label">
+            <value>तपाईँले आकस्मिक गर्भ निरोधको चक्कि प्रयोग गर्नु भएको छ?</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive_count:jr:constraintMsg">
+            <value>अधिकतम २००</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/emergency_contraceptive_count:label">
+            <value>१ वर्षमा कति पटक प्रयोग गर्नु भएको छ ?</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_method_type/others:label">
+            <value>अन्य साधन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_method_type/permanent:label">
+            <value>स्थायी साधन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_method_type/temporary:label">
+            <value>अस्थायी साधन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_method_type:label">
+            <value>परिवार नियोजनको कुन साधन / उपाय अपनाउनु भएको छ ?</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_permanent_method/female_sterilization:label">
+            <value>महिलाको बन्ध्याकरण</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_permanent_method/male_sterilization:label">
+            <value>पुरुषको बन्ध्याकरण</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_permanent_method/tube_ligation:label">
+            <value>ट्युब लिगेशन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_permanent_method:label">
+            <value>परिवार नियोजनका स्थायी साधन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/condom:label">
+            <value>कन्डम</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/dipo:label">
+            <value>डिपो</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/implant:label">
+            <value>इम्प्लांट</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/lucd:label">
+            <value>आई. यु. सि. डि</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method/pills:label">
+            <value>पिल्स</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/fp_temporary_method:label">
+            <value>परिवार नियोजनका अस्थायी साधन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_fp_method/emergency_contraceptive:label">
+            <value>आकस्मिक गर्भनिरोध</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_fp_method/lactation_amenorrhea:label">
+            <value>दुध चुसायर (Lactation Amenorrhea method)</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_fp_method/natural_method:label">
+            <value>प्राकृतिक तरिका</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_fp_method:label">
+            <value>परिवार नियोजनका अन्य साधन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/other_reason_fp_no_use:label">
+            <value>अन्य कारण खुलाउनुहोस्</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/another_baby_soon:label">
+            <value>छिट्टै अर्को बच्चाको चाहना भएर</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/breastfeeding:label">
+            <value>स्तनपान गराईराखेको</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/god_will:label">
+            <value>भगवानको इच्छा</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/husband_abroad:label">
+            <value>श्रीमान बाहिर हुनुहुन्छ</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/husband_disagreement:label">
+            <value>गर्भनिरोधकको प्रयोगमा श्रीमानको असहमति</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/hysterectomy:label">
+            <value>पाठेघर निकालेको</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/irregular_intercourse:label">
+            <value>यौन सम्पर्क अनियमित भएको कारण</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/no_menstruation:label">
+            <value>पछिलो सुत्केरी पछि महिनावारी भएको छैन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/not_knowing_method:label">
+            <value>कुनै बिधिको बारेमा थाहा नभएको</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/not_knowing_place:label">
+            <value>साधन कहाँबाट लिने भन्नेबारे थाहा नभएको</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/others_disagree:label">
+            <value>गर्भनिरोधकको प्रयोगमा अरुको असहमति</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/side_effects:label">
+            <value>अन्य असर वा स्वास्थ्य समस्याको चिन्ताले</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/too_far:label">
+            <value>पहुँचको अभाव/ धेरै टाढा</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/widowed:label">
+            <value>महिलाको श्रीमान छैनन् वा बिधवा भएको</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use/women_disagreement:label">
+            <value>गर्भनिरोधकको प्रयोगमा महिलाको असहमति</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/reasons_no_use:label">
+            <value>परिवार नियोजनको साधन प्रयोग नगर्नुको कारणहरु ।</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/used_contraceptives/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/used_contraceptives/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/married_woman_reproductive/fp_info/used_contraceptives:label">
+            <value>के तपाईँले गर्भ अन्तर गर्न वा गर्भ रहन नदिन हाल केहि परिवार नियोजनको साधन प्रयोग गर्नुभएको छ ?</value>
+          </text>
+          <text id="/married_woman_reproductive/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb/1:label">
+            <value>एउटा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb/2:label">
+            <value>जुम्ल्याहा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb/3:label">
+            <value>तिम्ल्याहा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb/4:label">
+            <value>चम्ल्याहा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_in_womb:label">
+            <value>तपाईँको गर्भमा कति वटा बच्चा थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/additional_food:jr:constraintMsg">
+            <value>१ देखि १२ सम्मको मात्र कुनै छान्नुहोस्।</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/additional_food:label">
+            <value>जन्मेको कति महिना पछि थप खाना खुवाउन सुरु गर्नु भएको हो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time/1week_28days:label">
+            <value>१ हप्ता देखि २८ दिन भित्र</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time/24hrs:label">
+            <value>जन्मेको २४ घण्टामा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time/24hrs_1week:label">
+            <value>२४ घण्टा देखि १ हप्ता भित्र</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time/28_45_days:label">
+            <value>२८ दिन देखि ४५ दिन भित्र</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/after_death_time:label">
+            <value>जन्मेको कति समयमा मृत्यु भएको हो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_gender/female:label">
+            <value>महिला</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_gender/male:label">
+            <value>पुरुष</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_gender:label">
+            <value>बच्चाको लिङ्ग</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_reason:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_reason:label">
+            <value>बच्चाको कारण।</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_weighed/dont_know:label">
+            <value>थाहा छैन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_weighed/no:label">
+            <value>थिएन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_weighed/yes:label">
+            <value>थियो</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/baby_weighed:label">
+            <value>बच्चाको तौल नापिएको थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/birth_outcome/died_born:label">
+            <value>मरेको बच्चा जन्मिएको</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/birth_outcome/later_died:label">
+            <value>बच्चा जीवित जन्मिएको तर पछि मृत्यु भएको</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/birth_outcome/live_born:label">
+            <value>बच्चा जीवित थियो</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/birth_outcome:label">
+            <value>जन्मको नतिजा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfed/no:label">
+            <value>गराइँन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfed/yes:label">
+            <value>गराएँ</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfed:label">
+            <value>तपाईँले आफ्नो बच्चालाई स्तनपान गराउनु भयो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth/after_1hrs:label">
+            <value>१ घण्टा पछि</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth/no_milk:label">
+            <value>दुध नआएको</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth/within_1hr:label">
+            <value>जन्मेको १ घण्टा भित्र</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth:label">
+            <value>तपाईँले बच्चा जन्मिएको कति समयमा स्तनपान गराउनु भयो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/1yr:label">
+            <value>१ वर्ष सम्म</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/6_mth:label">
+            <value>६ महिना सम्म</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/less_than_6mth:label">
+            <value>जन्मेको केहि दिन (६ महिना भन्दा कम)</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/still_feeding:label">
+            <value>खुवाइरहेको (६ महिना मुनि को बच्चा)</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period:label">
+            <value>तपाईँले बच्चालाई कति समय सम्म आफ्नो दुध मात्रै खुवाउनु भयो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby/big:label">
+            <value>धेरै नै ठुलो</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby/normal:label">
+            <value>सामान्य आकारको</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby/smaller:label">
+            <value>सामान्य भन्दा अलि सानो</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby/very_small:label">
+            <value>धेरै सानो</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/how_big_baby:label">
+            <value>बच्चा जन्मिदा कत्रो जन्मिएको थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/not_breastfeeding:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/not_breastfeeding:label">
+            <value>स्तनपान नगराउनुको कारण भन्नुहोस् ।
+(आमाको कारण)</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/weight:jr:constraintMsg">
+            <value>0.५ देखि ६.५ सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info/weight:label">
+            <value>कति के.जी. को थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/babies_info:label">
+            <value>बच्चाहरुको विवरण</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_date:jr:constraintMsg">
+            <value>भविष्यको मिति हुनु हुँदैन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_date:label">
+            <value>सुत्केरी कहिले भयो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/Midwife:label">
+            <value>सुडेनी</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/Nurse:label">
+            <value>नर्स / अनमी</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/doctor:label">
+            <value>डाक्टर</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/no_body:label">
+            <value>कसैले मदत गरेन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/relatives:label">
+            <value>आफन्त/ साथि</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped/someone_else:label">
+            <value>अरु नै कोहि</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_helped:label">
+            <value>सुत्केरी गराउन कसले मद्दत गरेको थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place/gov_hf:label">
+            <value>सरकारी स्वास्थ्य संस्थामा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place/home:label">
+            <value>घरमा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place/on_way_hosp:label">
+            <value>बाटोमा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place/private_hf:label">
+            <value>निजि स्वास्थ्य संस्थामा</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/delivery_place:label">
+            <value>सुत्केरी कहाँ गराउनुभयो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_method:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_method:label">
+            <value>कुन साधन प्रयोग गर्नुभयो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_use_after/no:label">
+            <value>थिइँन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_use_after/yes:label">
+            <value>थिएँ</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/fp_use_after:label">
+            <value>तपाईँले बच्चा जन्मिने बित्तीकै / गर्भपतन पछी परिवार नियोजनको साधन अपनाउनु भएको थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/facility:label">
+            <value>अस्पताल / स्वास्थ्य संस्था</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/fpa:label">
+            <value>परिवार नियोजन संघ</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/household_method:label">
+            <value>घरेलु बिधिको प्रयोग गरेर</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/medicine_at_home:label">
+            <value>औषधिको प्रयोग गरेर घरमै गरेको</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place/self:label">
+            <value>आफै गर्भपतन भएको</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_place:label">
+            <value>गर्भपतन कहाँ भएको थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_weeks:hint">
+            <value>हप्ता</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_weeks:jr:constraintMsg">
+            <value>६ देखि २८ हप्ता सम्मको मात्र मान्य हुनेछ।</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarriage_weeks:label">
+            <value>कत्ति हप्ताको गर्भपतन भएको थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarried/no:label">
+            <value>थिएन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarried/yes:label">
+            <value>थियो</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/miscarried:label">
+            <value>के उक्त गर्भ खेर (गर्भपतन) भएको थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/1_visited:label">
+            <value>१ पटक</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/2_visited:label">
+            <value>२ पटक</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/3_visited:label">
+            <value>३ पटक</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/4_visited:label">
+            <value>४ पटक</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/more_than_4:label">
+            <value>४ भन्दा बढी</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit/not_visited:label">
+            <value>जचाएको थिएन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnancies_visit:label">
+            <value>यो गर्भको लागि तपाईँले स्वास्थ्य संस्थामा कति पटक गर्भ जाँच गर्नु भयो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnant_last_year/no:label">
+            <value>थिइँन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnant_last_year/yes:label">
+            <value>थिएँ</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/pregnant_last_year:label">
+            <value>गएको १ वर्ष भित्रमा तपाईँ गर्भवति हुनुभएको थियो?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/gestational_diabetes:label">
+            <value>गर्भावस्था मधुमेह</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/hypertension:label">
+            <value>उच्च रक्तचाप</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/lower_limb_swelling:label">
+            <value>धेरै खुट्टा  सुनिने</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/nausea_vomitting:label">
+            <value>धेरै वाकवाक र बान्ता हुने</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/severe_abdominal_pain:label">
+            <value>धेरै पेट दुख्ने</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/severe_headache:label">
+            <value>धेरै टाउको दुख्ने</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem/vaginal_bleeding:label">
+            <value>योनिबाट रगत बगेको</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem:label">
+            <value>के के समस्या भएको थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem_during_period/no:label">
+            <value>थिएन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem_during_period/yes:label">
+            <value>थियो</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/problem_during_period:label">
+            <value>यो गर्भमा तपाईँलाई कुनै समस्या भएको थियो ?</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/remedy/done_nothing:label">
+            <value>केहि पनि गरिन</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/remedy/purchased_medicine:label">
+            <value>आफै औषधि किनेर खाए</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/remedy/visited_hf:label">
+            <value>स्वास्थ्य संस्थामा उपचारको लागि गए</value>
+          </text>
+          <text id="/married_woman_reproductive/womb_result/remedy:label">
+            <value>उक्त समस्याको लागि के उपाय गर्नु भयो ?</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <married_woman_reproductive id="married_woman_reproductive" prefix="J1!married_woman_reproductive!" delimiter="#" version="16-08-2021 12-01-17">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <womb_result>
+            <pregnant_last_year/>
+            <miscarried/>
+            <miscarriage_weeks/>
+            <miscarriage_place/>
+            <pregnancies_visit/>
+            <problem_during_period/>
+            <problem/>
+            <remedy/>
+            <delivery_date/>
+            <delivery_place/>
+            <delivery_helped/>
+            <babies_in_womb/>
+            <babies_info_count/>
+            <babies_info jr:template="">
+              <baby_gender/>
+              <birth_outcome/>
+              <after_death_time/>
+              <how_big_baby/>
+              <baby_weighed/>
+              <weight/>
+              <breastfed/>
+              <not_breastfeeding/>
+              <baby_reason/>
+              <breastfeed_after_birth/>
+              <breastfeeding_period/>
+              <additional_food/>
+            </babies_info>
+            <fp_use_after/>
+            <fp_method/>
+          </womb_result>
+          <fp_info>
+            <used_contraceptives/>
+            <fp_method_type/>
+            <fp_temporary_method/>
+            <fp_permanent_method/>
+            <other_fp_method/>
+            <reasons_no_use/>
+            <other_reason_fp_no_use/>
+            <emergency_contraceptive/>
+            <emergency_contraceptive_count/>
+            <fp_method_used/>
+          </fp_info>
+          <data tag="hidden">
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </married_woman_reproductive>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/married_woman_reproductive/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/married_woman_reproductive/inputs/source" type="string"/>
+      <bind nodeset="/married_woman_reproductive/inputs/source_id" type="string"/>
+      <bind nodeset="/married_woman_reproductive/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/married_woman_reproductive/inputs/contact/name" type="string"/>
+      <bind nodeset="/married_woman_reproductive/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/married_woman_reproductive/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/married_woman_reproductive/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/married_woman_reproductive/inputs/contact/sex" type="string"/>
+      <bind nodeset="/married_woman_reproductive/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/married_woman_reproductive/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/married_woman_reproductive/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/married_woman_reproductive/patient_age_in_years" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/married_woman_reproductive/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/married_woman_reproductive/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/married_woman_reproductive/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/pregnant_last_year" type="select1" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/miscarried" type="select1" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/miscarriage_weeks" type="string" constraint=". &gt;=6 and .&lt;=28" relevant=" /married_woman_reproductive/womb_result/miscarried ='yes'" required="true()" jr:constraintMsg="jr:itext('/married_woman_reproductive/womb_result/miscarriage_weeks:jr:constraintMsg')"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/miscarriage_place" type="select1" relevant=" /married_woman_reproductive/womb_result/miscarried ='yes'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/pregnancies_visit" type="select1" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/problem_during_period" type="select1" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/problem" type="select1" relevant=" /married_woman_reproductive/womb_result/problem_during_period  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/remedy" type="select1" relevant=" /married_woman_reproductive/womb_result/problem_during_period  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/delivery_date" type="date" constraint=". &lt; today()" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()" jr:constraintMsg="jr:itext('/married_woman_reproductive/womb_result/delivery_date:jr:constraintMsg')"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/delivery_place" type="select1" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/delivery_helped" type="select1" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_in_womb" type="select1" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info_count" type="string" readonly="true()" calculate=" /married_woman_reproductive/womb_result/babies_in_womb "/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info" relevant=" /married_woman_reproductive/womb_result/babies_in_womb &gt;=1 and  /married_woman_reproductive/womb_result/babies_in_womb  &lt;=4"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/baby_gender" type="select1" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/birth_outcome" type="select1" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes' and  /married_woman_reproductive/womb_result/miscarried ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/after_death_time" type="select1" relevant=" /married_woman_reproductive/womb_result/babies_info/birth_outcome  ='later_died'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/how_big_baby" type="select1" relevant=" /married_woman_reproductive/womb_result/babies_info/birth_outcome  ='live_born'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/baby_weighed" type="select1" relevant=" /married_woman_reproductive/womb_result/babies_info/birth_outcome  ='live_born'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/weight" type="decimal" constraint=". &gt; 0.4 and .&lt;= 6.5" relevant=" /married_woman_reproductive/womb_result/babies_info/baby_weighed ='yes'" required="true()" jr:constraintMsg="jr:itext('/married_woman_reproductive/womb_result/babies_info/weight:jr:constraintMsg')"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/breastfed" type="select1" relevant=" /married_woman_reproductive/womb_result/babies_info/birth_outcome  ='live_born'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/not_breastfeeding" type="string" constraint="string-length(.) &lt;= 100" relevant=" /married_woman_reproductive/womb_result/babies_info/breastfed  ='no'" required="true()" jr:constraintMsg="jr:itext('/married_woman_reproductive/womb_result/babies_info/not_breastfeeding:jr:constraintMsg')"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/baby_reason" type="string" constraint="string-length(.) &lt;= 100" relevant=" /married_woman_reproductive/womb_result/babies_info/breastfed  ='no'" required="true()" jr:constraintMsg="jr:itext('/married_woman_reproductive/womb_result/babies_info/baby_reason:jr:constraintMsg')"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth" type="select1" relevant=" /married_woman_reproductive/womb_result/babies_info/breastfed  ='yes'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period" type="select1" relevant=" /married_woman_reproductive/womb_result/babies_info/birth_outcome  ='live_born' and  /married_woman_reproductive/womb_result/babies_info/breastfed ='yes'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/babies_info/additional_food" type="int" constraint=".&gt;=1 and .&lt;=12" relevant=" /married_woman_reproductive/womb_result/babies_info/breastfeeding_period !='still_feeding' and  /married_woman_reproductive/womb_result/babies_info/breastfeeding_period !=''" required="true()" jr:constraintMsg="jr:itext('/married_woman_reproductive/womb_result/babies_info/additional_food:jr:constraintMsg')"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/fp_use_after" type="select1" relevant=" /married_woman_reproductive/womb_result/pregnant_last_year  ='yes'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/womb_result/fp_method" type="string" constraint="string-length(.) &lt;= 100" relevant=" /married_woman_reproductive/womb_result/fp_use_after  ='yes'" required="true()" jr:constraintMsg="jr:itext('/married_woman_reproductive/womb_result/fp_method:jr:constraintMsg')"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/used_contraceptives" type="select1" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/fp_method_type" type="select1" relevant=" /married_woman_reproductive/fp_info/used_contraceptives  ='yes'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/fp_temporary_method" type="select1" relevant=" /married_woman_reproductive/fp_info/fp_method_type  ='temporary'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/fp_permanent_method" type="select1" relevant=" /married_woman_reproductive/fp_info/fp_method_type  ='permanent'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/other_fp_method" type="select1" relevant=" /married_woman_reproductive/fp_info/fp_method_type  ='others'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/reasons_no_use" type="select1" relevant=" /married_woman_reproductive/fp_info/used_contraceptives  ='no'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/other_reason_fp_no_use" type="string" relevant=" /married_woman_reproductive/fp_info/reasons_no_use ='other'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/emergency_contraceptive" type="select1" relevant=" /married_woman_reproductive/fp_info/used_contraceptives  ='yes'" required="true()"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/emergency_contraceptive_count" type="int" constraint=". &gt; 0 and .&lt;= 200" relevant="( /married_woman_reproductive/fp_info/used_contraceptives  ='yes') and ( /married_woman_reproductive/fp_info/emergency_contraceptive  ='yes')" required="true()" jr:constraintMsg="jr:itext('/married_woman_reproductive/fp_info/emergency_contraceptive_count:jr:constraintMsg')"/>
+      <bind nodeset="/married_woman_reproductive/fp_info/fp_method_used" type="string" relevant=" /married_woman_reproductive/fp_info/used_contraceptives  ='yes'" calculate="coalesce(../fp_temporary_method,coalesce(../fp_permanent_method,../other_fp_method))"/>
+      <bind nodeset="/married_woman_reproductive/data/meta/__patient_uuid" type="string" calculate="../../../inputs/contact/_id"/>
+      <bind nodeset="/married_woman_reproductive/data/meta/__patient_id" type="string" calculate="../../../inputs/contact/patient_id"/>
+      <bind nodeset="/married_woman_reproductive/data/meta/__household_uuid" type="string" calculate="../../../inputs/contact/parent/_id"/>
+      <bind nodeset="/married_woman_reproductive/data/meta/__source" type="string" calculate="../../../inputs/source"/>
+      <bind nodeset="/married_woman_reproductive/data/meta/__source_id" type="string" calculate="../../../inputs/source_id"/>
+      <bind nodeset="/married_woman_reproductive/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/married_woman_reproductive/inputs">
+      <group ref="/married_woman_reproductive/inputs/contact">
+        <label ref="jr:itext('/married_woman_reproductive/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/married_woman_reproductive/inputs/contact/_id">
+          <label ref="jr:itext('/married_woman_reproductive/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/married_woman_reproductive/inputs/contact/parent">
+          <group ref="/married_woman_reproductive/inputs/contact/parent/parent">
+            <group ref="/married_woman_reproductive/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/married_woman_reproductive/womb_result">
+      <select1 ref="/married_woman_reproductive/womb_result/pregnant_last_year">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnant_last_year:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnant_last_year/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnant_last_year/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/womb_result/miscarried">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarried:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarried/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarried/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/married_woman_reproductive/womb_result/miscarriage_weeks">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarriage_weeks:label')"/>
+        <hint ref="jr:itext('/married_woman_reproductive/womb_result/miscarriage_weeks:hint')"/>
+      </input>
+      <select1 ref="/married_woman_reproductive/womb_result/miscarriage_place">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarriage_place:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarriage_place/self:label')"/>
+          <value>self</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarriage_place/medicine_at_home:label')"/>
+          <value>medicine_at_home</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarriage_place/fpa:label')"/>
+          <value>fpa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarriage_place/facility:label')"/>
+          <value>facility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/miscarriage_place/household_method:label')"/>
+          <value>household_method</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/womb_result/pregnancies_visit">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnancies_visit:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnancies_visit/not_visited:label')"/>
+          <value>not_visited</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnancies_visit/1_visited:label')"/>
+          <value>1_visited</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnancies_visit/2_visited:label')"/>
+          <value>2_visited</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnancies_visit/3_visited:label')"/>
+          <value>3_visited</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnancies_visit/4_visited:label')"/>
+          <value>4_visited</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/pregnancies_visit/more_than_4:label')"/>
+          <value>more_than_4</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/womb_result/problem_during_period">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/problem_during_period:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/problem_during_period/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/problem_during_period/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/womb_result/problem">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/problem:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/problem/gestational_diabetes:label')"/>
+          <value>gestational_diabetes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/problem/hypertension:label')"/>
+          <value>hypertension</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/problem/nausea_vomitting:label')"/>
+          <value>nausea_vomitting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/problem/severe_headache:label')"/>
+          <value>severe_headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/problem/lower_limb_swelling:label')"/>
+          <value>lower_limb_swelling</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/problem/vaginal_bleeding:label')"/>
+          <value>vaginal_bleeding</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/problem/severe_abdominal_pain:label')"/>
+          <value>severe_abdominal_pain</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/womb_result/remedy">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/remedy:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/remedy/visited_hf:label')"/>
+          <value>visited_hf</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/remedy/purchased_medicine:label')"/>
+          <value>purchased_medicine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/remedy/done_nothing:label')"/>
+          <value>done_nothing</value>
+        </item>
+      </select1>
+      <input ref="/married_woman_reproductive/womb_result/delivery_date">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_date:label')"/>
+      </input>
+      <select1 ref="/married_woman_reproductive/womb_result/delivery_place">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_place:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_place/home:label')"/>
+          <value>home</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_place/gov_hf:label')"/>
+          <value>gov_hf</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_place/on_way_hosp:label')"/>
+          <value>on_way_hosp</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_place/private_hf:label')"/>
+          <value>private_hf</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/womb_result/delivery_helped">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_helped:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_helped/doctor:label')"/>
+          <value>doctor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_helped/Nurse:label')"/>
+          <value>Nurse</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_helped/Midwife:label')"/>
+          <value>Midwife</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_helped/relatives:label')"/>
+          <value>relatives</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_helped/no_body:label')"/>
+          <value>no_body</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/delivery_helped/someone_else:label')"/>
+          <value>someone_else</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/womb_result/babies_in_womb">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_in_womb:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_in_womb/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_in_womb/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_in_womb/3:label')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_in_womb/4:label')"/>
+          <value>4</value>
+        </item>
+      </select1>
+      <group ref="/married_woman_reproductive/womb_result/babies_info">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info:label')"/>
+        <repeat nodeset="/married_woman_reproductive/womb_result/babies_info" jr:count=" /married_woman_reproductive/womb_result/babies_info_count ">
+          <select1 ref="/married_woman_reproductive/womb_result/babies_info/baby_gender">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/baby_gender:label')"/>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/baby_gender/male:label')"/>
+              <value>male</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/baby_gender/female:label')"/>
+              <value>female</value>
+            </item>
+          </select1>
+          <select1 ref="/married_woman_reproductive/womb_result/babies_info/birth_outcome">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/birth_outcome:label')"/>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/birth_outcome/live_born:label')"/>
+              <value>live_born</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/birth_outcome/died_born:label')"/>
+              <value>died_born</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/birth_outcome/later_died:label')"/>
+              <value>later_died</value>
+            </item>
+          </select1>
+          <select1 ref="/married_woman_reproductive/womb_result/babies_info/after_death_time">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/after_death_time:label')"/>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/after_death_time/24hrs:label')"/>
+              <value>24hrs</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/after_death_time/24hrs_1week:label')"/>
+              <value>24hrs_1week</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/after_death_time/1week_28days:label')"/>
+              <value>1week_28days</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/after_death_time/28_45_days:label')"/>
+              <value>28_45_days</value>
+            </item>
+          </select1>
+          <select1 ref="/married_woman_reproductive/womb_result/babies_info/how_big_baby">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/how_big_baby:label')"/>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/how_big_baby/big:label')"/>
+              <value>big</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/how_big_baby/normal:label')"/>
+              <value>normal</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/how_big_baby/smaller:label')"/>
+              <value>smaller</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/how_big_baby/very_small:label')"/>
+              <value>very_small</value>
+            </item>
+          </select1>
+          <select1 ref="/married_woman_reproductive/womb_result/babies_info/baby_weighed">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/baby_weighed:label')"/>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/baby_weighed/yes:label')"/>
+              <value>yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/baby_weighed/no:label')"/>
+              <value>no</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/baby_weighed/dont_know:label')"/>
+              <value>dont_know</value>
+            </item>
+          </select1>
+          <input ref="/married_woman_reproductive/womb_result/babies_info/weight">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/weight:label')"/>
+          </input>
+          <select1 ref="/married_woman_reproductive/womb_result/babies_info/breastfed">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfed:label')"/>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfed/yes:label')"/>
+              <value>yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfed/no:label')"/>
+              <value>no</value>
+            </item>
+          </select1>
+          <input ref="/married_woman_reproductive/womb_result/babies_info/not_breastfeeding">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/not_breastfeeding:label')"/>
+          </input>
+          <input ref="/married_woman_reproductive/womb_result/babies_info/baby_reason">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/baby_reason:label')"/>
+          </input>
+          <select1 ref="/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth:label')"/>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth/within_1hr:label')"/>
+              <value>within_1hr</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth/after_1hrs:label')"/>
+              <value>after_1hrs</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfeed_after_birth/no_milk:label')"/>
+              <value>no_milk</value>
+            </item>
+          </select1>
+          <select1 ref="/married_woman_reproductive/womb_result/babies_info/breastfeeding_period">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfeeding_period:label')"/>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/still_feeding:label')"/>
+              <value>still_feeding</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/less_than_6mth:label')"/>
+              <value>less_than_6mth</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/6_mth:label')"/>
+              <value>6_mth</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/breastfeeding_period/1yr:label')"/>
+              <value>1yr</value>
+            </item>
+          </select1>
+          <input ref="/married_woman_reproductive/womb_result/babies_info/additional_food">
+            <label ref="jr:itext('/married_woman_reproductive/womb_result/babies_info/additional_food:label')"/>
+          </input>
+        </repeat>
+      </group>
+      <select1 ref="/married_woman_reproductive/womb_result/fp_use_after">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/fp_use_after:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/fp_use_after/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/womb_result/fp_use_after/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/married_woman_reproductive/womb_result/fp_method">
+        <label ref="jr:itext('/married_woman_reproductive/womb_result/fp_method:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/married_woman_reproductive/fp_info">
+      <select1 ref="/married_woman_reproductive/fp_info/used_contraceptives">
+        <label ref="jr:itext('/married_woman_reproductive/fp_info/used_contraceptives:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/used_contraceptives/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/used_contraceptives/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/fp_info/fp_method_type">
+        <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_method_type:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_method_type/temporary:label')"/>
+          <value>temporary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_method_type/permanent:label')"/>
+          <value>permanent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_method_type/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/fp_info/fp_temporary_method">
+        <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_temporary_method:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_temporary_method/lucd:label')"/>
+          <value>lucd</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_temporary_method/implant:label')"/>
+          <value>implant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_temporary_method/dipo:label')"/>
+          <value>dipo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_temporary_method/pills:label')"/>
+          <value>pills</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_temporary_method/condom:label')"/>
+          <value>condom</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/fp_info/fp_permanent_method">
+        <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_permanent_method:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_permanent_method/male_sterilization:label')"/>
+          <value>male_sterilization</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_permanent_method/female_sterilization:label')"/>
+          <value>female_sterilization</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/fp_permanent_method/tube_ligation:label')"/>
+          <value>tube_ligation</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/fp_info/other_fp_method">
+        <label ref="jr:itext('/married_woman_reproductive/fp_info/other_fp_method:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/other_fp_method/emergency_contraceptive:label')"/>
+          <value>emergency_contraceptive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/other_fp_method/natural_method:label')"/>
+          <value>natural_method</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/other_fp_method/lactation_amenorrhea:label')"/>
+          <value>lactation_amenorrhea</value>
+        </item>
+      </select1>
+      <select1 ref="/married_woman_reproductive/fp_info/reasons_no_use">
+        <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/another_baby_soon:label')"/>
+          <value>another_baby_soon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/irregular_intercourse:label')"/>
+          <value>irregular_intercourse</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/husband_abroad:label')"/>
+          <value>husband_abroad</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/widowed:label')"/>
+          <value>widowed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/no_menstruation:label')"/>
+          <value>no_menstruation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/breastfeeding:label')"/>
+          <value>breastfeeding</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/god_will:label')"/>
+          <value>god_will</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/women_disagreement:label')"/>
+          <value>women_disagreement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/husband_disagreement:label')"/>
+          <value>husband_disagreement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/others_disagree:label')"/>
+          <value>others_disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/not_knowing_method:label')"/>
+          <value>not_knowing_method</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/not_knowing_place:label')"/>
+          <value>not_knowing_place</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/side_effects:label')"/>
+          <value>side_effects</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/too_far:label')"/>
+          <value>too_far</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/hysterectomy:label')"/>
+          <value>hysterectomy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/reasons_no_use/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/married_woman_reproductive/fp_info/other_reason_fp_no_use">
+        <label ref="jr:itext('/married_woman_reproductive/fp_info/other_reason_fp_no_use:label')"/>
+      </input>
+      <select1 ref="/married_woman_reproductive/fp_info/emergency_contraceptive">
+        <label ref="jr:itext('/married_woman_reproductive/fp_info/emergency_contraceptive:label')"/>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/emergency_contraceptive/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/married_woman_reproductive/fp_info/emergency_contraceptive/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/married_woman_reproductive/fp_info/emergency_contraceptive_count">
+        <label ref="jr:itext('/married_woman_reproductive/fp_info/emergency_contraceptive_count:label')"/>
+      </input>
+    </group>
+    <group appearance="hidden" ref="/married_woman_reproductive/data">
+      <group ref="/married_woman_reproductive/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Married woman reproductve age form"
+    },
+    {
+      "locale": "ne",
+      "content": "बिवाहित महिला सर्बेक्षण फराम"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person' && contact.gender =='female' && contact.marital_status =='married' && (!contact.date_of_birth || (ageInYears(contact) >= 15 && ageInYears(contact) <= 49)) && user._id != contact._id"
+  },
+  "icon": "icon-people-woman"
+}

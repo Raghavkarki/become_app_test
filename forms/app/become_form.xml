@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>BECOME</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/become_form/become/hp_selection/anxiety:label">
+            <value>Anxiety</value>
+          </text>
+          <text id="/become_form/become/hp_selection/depression:label">
+            <value>Depression</value>
+          </text>
+          <text id="/become_form/become/hp_selection/diabetes:label">
+            <value>Diabetes</value>
+          </text>
+          <text id="/become_form/become/hp_selection/hypertension:label">
+            <value>Hypertension</value>
+          </text>
+          <text id="/become_form/become/hp_selection:label">
+            <value>Select the condition of <output value=" /become_form/patient_name "/></value>
+          </text>
+          <text id="/become_form/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/become_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/become_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/become_form/inputs:label">
+            <value>Patient</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/become_form/become/hp_selection/anxiety:label">
+            <value>चिन्ता</value>
+          </text>
+          <text id="/become_form/become/hp_selection/depression:label">
+            <value>दिक्दारिपन</value>
+          </text>
+          <text id="/become_form/become/hp_selection/diabetes:label">
+            <value>मधुमेह</value>
+          </text>
+          <text id="/become_form/become/hp_selection/hypertension:label">
+            <value>उच्च रक्तचाप</value>
+          </text>
+          <text id="/become_form/become/hp_selection:label">
+            <value>${patient_name को समस्या चयन गर्नुहोस् I</value>
+          </text>
+          <text id="/become_form/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/become_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/become_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/become_form/inputs:label">
+            <value>Patient</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <become_form id="become_form" prefix="J1!become_form!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <patient_id/>
+            </contact>
+          </inputs>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_id/>
+          <become>
+            <hp_selection/>
+          </become>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </become_form>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/become_form/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/become_form/inputs/source" type="string"/>
+      <bind nodeset="/become_form/inputs/source_id" type="string"/>
+      <bind nodeset="/become_form/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/become_form/inputs/contact/name" type="string"/>
+      <bind nodeset="/become_form/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/become_form/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/become_form/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/become_form/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/become_form/become/hp_selection" type="select" required="true()"/>
+      <bind nodeset="/become_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/become_form/inputs">
+      <label ref="jr:itext('/become_form/inputs:label')"/>
+      <group ref="/become_form/inputs/contact">
+        <label ref="jr:itext('/become_form/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/become_form/inputs/contact/_id"/>
+      </group>
+    </group>
+    <group ref="/become_form/become">
+      <select ref="/become_form/become/hp_selection">
+        <label ref="jr:itext('/become_form/become/hp_selection:label')"/>
+        <item>
+          <label ref="jr:itext('/become_form/become/hp_selection/anxiety:label')"/>
+          <value>anxiety</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/become_form/become/hp_selection/depression:label')"/>
+          <value>depression</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/become_form/become/hp_selection/diabetes:label')"/>
+          <value>diabetes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/become_form/become/hp_selection/hypertension:label')"/>
+          <value>hypertension</value>
+        </item>
+      </select>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Non-communicable diseases survey form"
+    },
+    {
+      "locale": "ne",
+      "content": "नसर्ने रोग सम्बन्धी सर्बेक्षण फारम"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person' && user._id != contact._id"
+  },
+  "icon": "icon-healthcare-assessment"
+}

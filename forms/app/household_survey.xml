@@ -1,0 +1,2569 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Household survey</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/household_survey/consent_survey/consent/agree:label">
+            <value>Agree</value>
+          </text>
+          <text id="/household_survey/consent_survey/consent/disagree:label">
+            <value>Disagree</value>
+          </text>
+          <text id="/household_survey/consent_survey/consent_note:label">
+            <value>Namaste. My name is _______. I am a Community Nurse working with _______ Municipality. We are conducting a survey about health and other topics within the municipality to prepare for a community health program. I would like to ask you some questions about your household, Maternal history, Under-five children history, non-communicable diseases. 
+The questions usually take about 30-40 minutes. The information we collect will help the municipality to better plan, deliver and track the progress of the program which will eventually improve the health of the people within this municipality. We will also use your data to understand the overall impact of the program, but we will maintain your confidentiality while doing so. No part of this interview is being recorded on tape or video. 
+Do you agree to continue this interview?</value>
+          </text>
+          <text id="/household_survey/death/death_count:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/death/death_count:label">
+            <value>Number of death</value>
+          </text>
+          <text id="/household_survey/death/death_details/cause:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/death/death_details/cause:label">
+            <value>Cause of death</value>
+          </text>
+          <text id="/household_survey/death/death_details/certificate/don't_know:label">
+            <value>Don't Know</value>
+          </text>
+          <text id="/household_survey/death/death_details/certificate/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/death/death_details/certificate/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/death/death_details/certificate:label">
+            <value>Do you have the death certificate?</value>
+          </text>
+          <text id="/household_survey/death/death_details/certified_reason:label">
+            <value>Looking at the death certificate write down the immediate reason for death.</value>
+          </text>
+          <text id="/household_survey/death/death_details/date:jr:constraintMsg">
+            <value>Date of death can not be in the future.</value>
+          </text>
+          <text id="/household_survey/death/death_details/date:label">
+            <value>When the person died?</value>
+          </text>
+          <text id="/household_survey/death/death_details/day:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/death/death_details/day:label">
+            <value>Day</value>
+          </text>
+          <text id="/household_survey/death/death_details/death_age:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/death/death_details/death_age:label">
+            <value>What was the age (completed) of the person at the time of death (including any neonates immediately after birth)?</value>
+          </text>
+          <text id="/household_survey/death/death_details/gender/female:label">
+            <value>Female</value>
+          </text>
+          <text id="/household_survey/death/death_details/gender/male:label">
+            <value>Male</value>
+          </text>
+          <text id="/household_survey/death/death_details/gender/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/household_survey/death/death_details/gender:label">
+            <value>What was the sex of the deceased?</value>
+          </text>
+          <text id="/household_survey/death/death_details/hour:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/death/death_details/hour:label">
+            <value>Hour</value>
+          </text>
+          <text id="/household_survey/death/death_details/month:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/death/death_details/month:label">
+            <value>Month</value>
+          </text>
+          <text id="/household_survey/death/death_details/place/health_facility:label">
+            <value>Health Facility</value>
+          </text>
+          <text id="/household_survey/death/death_details/place/home:label">
+            <value>Home</value>
+          </text>
+          <text id="/household_survey/death/death_details/place/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/household_survey/death/death_details/place/way_to_hf:label">
+            <value>On the way of Health Facility</value>
+          </text>
+          <text id="/household_survey/death/death_details/place:label">
+            <value>Where the person died?</value>
+          </text>
+          <text id="/household_survey/death/death_details/year:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/death/death_details/year:label">
+            <value>Year</value>
+          </text>
+          <text id="/household_survey/death/death_details:label">
+            <value>Fill in the following information for each deceased member.</value>
+          </text>
+          <text id="/household_survey/death/member_deceased/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/death/member_deceased/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/death/member_deceased:label">
+            <value>In the last year, did any members of your family die (including any neonates immediately after birth)?</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/cholera:label">
+            <value>Cholera</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/cold:label">
+            <value>Cold</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/covid_19:label">
+            <value>COVID-19</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/dengue:label">
+            <value>Dengue</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/hiv:label">
+            <value>HIV/AIDS</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/kalazar:label">
+            <value>Kalazar</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/leprosy:label">
+            <value>Leprosy</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/leptospirosis:label">
+            <value>Leptospirosis</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/malaria:label">
+            <value>Malaria</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/other:label">
+            <value>Others</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/pneumonia:label">
+            <value>Pneumonia</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/tuberculosis:label">
+            <value>Tuberculosis</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/typhoid:label">
+            <value>Typhoid</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases:label">
+            <value>Which communicable diseases?</value>
+          </text>
+          <text id="/household_survey/disease/details/no_reason_other:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/disease/details/no_reason_other:label">
+            <value>Others</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/alternative:label">
+            <value>Taking alternative/ayurvedic medication</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/not_prescribed:label">
+            <value>Doctor did not prescribe any medication</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/other:label">
+            <value>Others</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/recovered:label">
+            <value>Already recovered</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason:label">
+            <value>Why s/he is not in treatment</value>
+          </text>
+          <text id="/household_survey/disease/details/others:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/disease/details/others:label">
+            <value>Specify</value>
+          </text>
+          <text id="/household_survey/disease/details/treatment_ongoing/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/disease/details/treatment_ongoing/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/disease/details/treatment_ongoing:label">
+            <value>Is s/he in treatment?</value>
+          </text>
+          <text id="/household_survey/disease/details:label">
+            <value>Please add the information about each diseased member below.</value>
+          </text>
+          <text id="/household_survey/disease/infected_count:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/disease/infected_count:label">
+            <value>How many people suffered from communicable diseases?</value>
+          </text>
+          <text id="/household_survey/disease/infected_last_year/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/disease/infected_last_year/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/disease/infected_last_year:label">
+            <value>In the last one year, did any family members get communicable diseases?</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance:label">
+            <value>Does your family have health insurance?</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type/employer:label">
+            <value>Employer provided</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type/government:label">
+            <value>Health Insurance Program of Nepal Government</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type/private:label">
+            <value>Privately bought</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type:label">
+            <value>What type of insurance covers your family?</value>
+          </text>
+          <text id="/household_survey/health_insurance/insured_people:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/health_insurance/insured_people:label">
+            <value>Number of insurance person</value>
+          </text>
+          <text id="/household_survey/health_insurance/members_covered/no:label">
+            <value>No, only some members are covered</value>
+          </text>
+          <text id="/household_survey/health_insurance/members_covered/yes:label">
+            <value>Yes, all are covered</value>
+          </text>
+          <text id="/household_survey/health_insurance/members_covered:label">
+            <value>Are all members covered by the insurance?</value>
+          </text>
+          <text id="/household_survey/health_insurance/other_insurance:label">
+            <value>Specify</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf/hrs_1_2:label">
+            <value>1 - 2 hour</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf/less_than_30min:label">
+            <value>&lt; 30 Minutes</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf/min_30_60:label">
+            <value>30 - 60 Minutes</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf/more_than_2:label">
+            <value>&gt; 2hour</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf:label">
+            <value>How long does it take to reach the nearest government health facility center from your house?</value>
+          </text>
+          <text id="/household_survey/household/aana:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/aana:label">
+            <value>Aana</value>
+          </text>
+          <text id="/household_survey/household/bedrooms:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/bedrooms:label">
+            <value>How many rooms in this household are used for sleeping?</value>
+          </text>
+          <text id="/household_survey/household/bigha:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/bigha:label">
+            <value>Bigha</value>
+          </text>
+          <text id="/household_survey/household/buffalo:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/buffalo:label">
+            <value>Buffalo</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/hand_pump:label">
+            <value>Hand pump</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/jar:label">
+            <value>Jar Water</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/piped:label">
+            <value>Piped water</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/rain:label">
+            <value>Rain water (collected)</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/spring:label">
+            <value>Water from spring</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/tanker:label">
+            <value>Tanker water</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/waterbody:label">
+            <value>River, pond, canal</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/well:label">
+            <value>Dug well</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source:label">
+            <value>What is the main source of water for cooking for members of your family?</value>
+          </text>
+          <text id="/household_survey/household/cow_ox:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/cow_ox:label">
+            <value>Cow/Ox</value>
+          </text>
+          <text id="/household_survey/household/dhur:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/dhur:label">
+            <value>Dhur</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/commercial:label">
+            <value>Commercial/private collection</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/compost:label">
+            <value>Composting</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/municipal:label">
+            <value>Municipal collection</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/open:label">
+            <value>Open field</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable:label">
+            <value>How do you dispose of your solid (biodegradable) waste?</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste/kitchen_garden:label">
+            <value>Kitchen garden</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste/pit:label">
+            <value>Pit</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste/sewage:label">
+            <value>Sewage</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste:label">
+            <value>How do you dispose liquid waste?</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste_other:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste_other:label">
+            <value>Specify</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/burn:label">
+            <value>Burn</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/commercial:label">
+            <value>Commercial/private collection</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/municipal:label">
+            <value>Municipal collection</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/open:label">
+            <value>Open field</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable:label">
+            <value>How do you dispose of your solid (Non - Biodegradable) waste?</value>
+          </text>
+          <text id="/household_survey/household/dispose_waste_others:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/dispose_waste_others:label">
+            <value>Specify</value>
+          </text>
+          <text id="/household_survey/household/distance_latrine_m:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/distance_latrine_m:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/distance_latrine_m:label">
+            <value>What is the distance of the latrine from the water source?</value>
+          </text>
+          <text id="/household_survey/household/drainage_type/closed:label">
+            <value>Closed</value>
+          </text>
+          <text id="/household_survey/household/drainage_type/open:label">
+            <value>Open</value>
+          </text>
+          <text id="/household_survey/household/drainage_type/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/household_survey/household/drainage_type/semi_closed:label">
+            <value>Semi Closed</value>
+          </text>
+          <text id="/household_survey/household/drainage_type:label">
+            <value>What type of drainage system do you have?</value>
+          </text>
+          <text id="/household_survey/household/drainage_type_other:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/drainage_type_other:label">
+            <value>Specify</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/hand_pump:label">
+            <value>Hand pump</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/jar:label">
+            <value>Jar Water</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/piped:label">
+            <value>Piped water</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/rain:label">
+            <value>Rain water (collected)</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/spring:label">
+            <value>Water from spring</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/tanker:label">
+            <value>Tanker water</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/waterbody:label">
+            <value>River, pond, canal</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/well:label">
+            <value>Dug well</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source:label">
+            <value>What is the main source of water for drinking for members of your family?</value>
+          </text>
+          <text id="/household_survey/household/duck:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/duck:label">
+            <value>Duck</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/biogas:label">
+            <value>Biogas</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/dung:label">
+            <value>Animal dung</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/electricity:label">
+            <value>Electricity</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/kerosene:label">
+            <value>Kerosene stove</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/lpg:label">
+            <value>LPG</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/other:label">
+            <value>Others</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/wood:label">
+            <value>Wood</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking:label">
+            <value>What type of fuel does your household mainly use for cooking?</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking_other:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking_other:label">
+            <value>Specify</value>
+          </text>
+          <text id="/household_survey/household/goat:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/goat:label">
+            <value>Goat</value>
+          </text>
+          <text id="/household_survey/household/has_kitchen_garden/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/household/has_kitchen_garden/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/household/has_kitchen_garden:label">
+            <value>Do you have a kitchen garden?</value>
+          </text>
+          <text id="/household_survey/household/has_smokestack/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/household/has_smokestack/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/household/has_smokestack:label">
+            <value>Do you have smokestack/chimney?</value>
+          </text>
+          <text id="/household_survey/household/hen:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/hen:label">
+            <value>Hen</value>
+          </text>
+          <text id="/household_survey/household/horse:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/horse:label">
+            <value>Horse</value>
+          </text>
+          <text id="/household_survey/household/house_type/cemented:label">
+            <value>Cemented house</value>
+          </text>
+          <text id="/household_survey/household/house_type/mud:label">
+            <value>Mud house</value>
+          </text>
+          <text id="/household_survey/household/house_type:label">
+            <value>Type of house?</value>
+          </text>
+          <text id="/household_survey/household/kattha:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/kattha:label">
+            <value>Katha</value>
+          </text>
+          <text id="/household_survey/household/land_area_ask:label">
+            <value>How many bigha/ropani of agricultural land do members of this household own?</value>
+          </text>
+          <text id="/household_survey/household/livestock_number:label">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/livestock_other/livestock_count:label">
+            <value>Number</value>
+          </text>
+          <text id="/household_survey/household/livestock_other/livestock_type:label">
+            <value>Livestock</value>
+          </text>
+          <text id="/household_survey/household/livestock_other:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/livestock_other:label">
+            <value>Add others</value>
+          </text>
+          <text id="/household_survey/household/non_biodegradable_others:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/non_biodegradable_others:label">
+            <value>Specify</value>
+          </text>
+          <text id="/household_survey/household/own_land/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/household/own_land/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/household/own_land:label">
+            <value>Does this household own any agricultural land?</value>
+          </text>
+          <text id="/household_survey/household/own_livestock/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/household/own_livestock/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/household/own_livestock:label">
+            <value>Does this household own any farm animals, or poultry?</value>
+          </text>
+          <text id="/household_survey/household/pig:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/pig:label">
+            <value>Pig</value>
+          </text>
+          <text id="/household_survey/household/purify_water/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/household/purify_water/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/household/purify_water:label">
+            <value>Do you do anything to the water to make it safer to drink?</value>
+          </text>
+          <text id="/household_survey/household/rented_house/own:label">
+            <value>Own house</value>
+          </text>
+          <text id="/household_survey/household/rented_house/rented:label">
+            <value>Rented</value>
+          </text>
+          <text id="/household_survey/household/rented_house:label">
+            <value>Is this your house or rented?</value>
+          </text>
+          <text id="/household_survey/household/ropani:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/ropani:label">
+            <value>Ropani</value>
+          </text>
+          <text id="/household_survey/household/separate_kitchen/no:label">
+            <value>No</value>
+          </text>
+          <text id="/household_survey/household/separate_kitchen/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household_survey/household/separate_kitchen:label">
+            <value>Do you have a separate room which is used for cooking?</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/composting_toilet:label">
+            <value>Composting toilet</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/flush_drain:label">
+            <value>Flush or pour flush toilet (connected to drain)</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/flush_tank:label">
+            <value>Flush or pour flush toilet (safety tank)</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/open:label">
+            <value>No facility / open field</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/pit:label">
+            <value>Pit Latrine</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/public_toilet:label">
+            <value>Public Toilet</value>
+          </text>
+          <text id="/household_survey/household/toilet_type:label">
+            <value>What kind of toilet facility do members of your household usually use?</value>
+          </text>
+          <text id="/household_survey/household/toilet_type_other:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/toilet_type_other:label">
+            <value>Specify</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/hand_pump:label">
+            <value>Hand pump</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/jar:label">
+            <value>Jar Water</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/piped:label">
+            <value>Piped water</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/rain:label">
+            <value>Rain water (collected)</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/spring:label">
+            <value>Water from spring</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/tanker:label">
+            <value>Tanker water</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/waterbody:label">
+            <value>River, pond, canal</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/well:label">
+            <value>Dug well</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source:label">
+            <value>What is the main source of water for hand washing and bath for members of your family?</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/boil:label">
+            <value>Boil</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/chlorine:label">
+            <value>Add Bleach/chlorine</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/filter:label">
+            <value>Use water filter (Ceramic/sand/composite/etc)</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/other:label">
+            <value>Others</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/sedimentation:label">
+            <value>Sedimentation/let it stand and settle</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/solar:label">
+            <value>Solar disinfection</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/strain_cloth:label">
+            <value>Strain through cloth</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method:hint">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method:label">
+            <value>What do you do?</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method_other:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method_other:label">
+            <value>Specify</value>
+          </text>
+          <text id="/household_survey/household/yak:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/household/yak:label">
+            <value>Yak</value>
+          </text>
+          <text id="/household_survey/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/household_survey/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/household_survey/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/household_survey/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/household_survey/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/household_survey/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/household_survey/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/household_survey/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/household_survey/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/household_survey/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/household_survey/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/household_survey/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/household_survey/consent_survey/consent/agree:label">
+            <value>सहमत छु</value>
+          </text>
+          <text id="/household_survey/consent_survey/consent/disagree:label">
+            <value>सहमत छैन</value>
+          </text>
+          <text id="/household_survey/consent_survey/consent_note:label">
+            <value>नमस्ते,
+मेरो नाम ...................... हो। म …………………… गाउँपालिका/नगरपालिकामा सामुदायिक नर्सको रुपमा काम गर्छु। हामीले सामुदायिक स्वास्थ्य कार्यक्रम संचालनको तयारीको लागि सर्वेक्षण गर्दैछौँ। यो सर्वेक्षण पछि म घर-घरमा आएर परामर्श तथा स्वास्थ्य सेवा दिनेछु। म तपाईँहरुको स्वास्थ्य जानकारी र केही विवरण - जस्तै नाम, परिवार संख्या, पाँच वर्ष मुनिको बच्चाको बारेमा, गएको एक वर्षमा कति जना बिरामी हुनु भो, कहाँ जानु भयो भन्ने बारेमा जानकारी पनि संकलन गर्छु।
+आजको सर्वेक्षणको लागि ३० देखि ४० मिनट समय लाग्नेछ। तपाईँबाट संकलन गरेको जानकारीले स्थानीय तहलाई सामुदायिक स्वास्थ्य कार्यक्रमको योजना बनाउन, कार्यान्वन गर्न र त्यसको उपलब्धिको समीक्षा गर्न सहयोग पुर्‍याउनेछ। यसो गर्दा गोपनीयता पूर्ण रुपमा कायम गरिनेछ। हाम्रो कुराकानीको भिडिओ वा अडियो कुनै पनि तरिकाबाट रेकर्ड हुनेछैन। कुनै पनि प्रश्न नबुझेको खण्डमा नहिच्किचाई भन्नुहोला। त्यस्तो अवस्थामा प्रश्न दोहोर्‍याउनेछु।
+के तपाईँ अन्तरवार्ताको लागि सहमत हुनुहुन्छ?</value>
+          </text>
+          <text id="/household_survey/data/meta/__household_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/data/meta/__patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/data/meta/__patient_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/data/meta/__source:label">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/data/meta/__source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/data/meta:label">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/data:label">
+            <value>-</value>
+          </text>
+          <text id="/household_survey/death/death_count:jr:constraintMsg">
+            <value>० देखि ५ सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/death/death_count:label">
+            <value>कति जना परिवारका सदस्यको मृत्यु भएको थियो?</value>
+          </text>
+          <text id="/household_survey/death/death_details/cause:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/death/death_details/cause:label">
+            <value>मृत्यु हुनाको कारण लेख्नुहोस्।</value>
+          </text>
+          <text id="/household_survey/death/death_details/certificate/don't_know:label">
+            <value>थाहा छैन</value>
+          </text>
+          <text id="/household_survey/death/death_details/certificate/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/death/death_details/certificate/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/death/death_details/certificate:label">
+            <value>मृत्यु प्रमाणपत्र छ?</value>
+          </text>
+          <text id="/household_survey/death/death_details/certified_reason:label">
+            <value>मृत्युको प्रमाणपत्र हेरेर मृत्यु हुनाको तत्काल कारण लेख्नुहोस्।</value>
+          </text>
+          <text id="/household_survey/death/death_details/date:jr:constraintMsg">
+            <value>मृत्युको दिन भविष्यमा हुन सक्दैन।</value>
+          </text>
+          <text id="/household_survey/death/death_details/date:label">
+            <value>उक्त व्यक्तिको मृत्यु कहिले भयो?</value>
+          </text>
+          <text id="/household_survey/death/death_details/day:jr:constraintMsg">
+            <value>० देखि ५९ दिन सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/death/death_details/day:label">
+            <value>दिन</value>
+          </text>
+          <text id="/household_survey/death/death_details/death_age:hint">
+            <value>जन्म पछि तुरुन्तै भएको नवजात शिशुको मृत्युका लागि सबैमा ० राख्नुहोस्।</value>
+          </text>
+          <text id="/household_survey/death/death_details/death_age:label">
+            <value>मृत्युको समयमा उक्त व्यक्तिको उमेर कति पूरा भएको थियो?</value>
+          </text>
+          <text id="/household_survey/death/death_details/gender/female:label">
+            <value>महिला</value>
+          </text>
+          <text id="/household_survey/death/death_details/gender/male:label">
+            <value>पुरुष</value>
+          </text>
+          <text id="/household_survey/death/death_details/gender/others:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/death/death_details/gender:label">
+            <value>मृतकको लिंग के थियो?</value>
+          </text>
+          <text id="/household_survey/death/death_details/hour:jr:constraintMsg">
+            <value>० देखि २४ घण्टा सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/death/death_details/hour:label">
+            <value>घण्टा</value>
+          </text>
+          <text id="/household_survey/death/death_details/month:jr:constraintMsg">
+            <value>० देखि २३ महिना सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/death/death_details/month:label">
+            <value>महिना</value>
+          </text>
+          <text id="/household_survey/death/death_details/place/health_facility:label">
+            <value>स्वास्थ्य सँस्था</value>
+          </text>
+          <text id="/household_survey/death/death_details/place/home:label">
+            <value>घर</value>
+          </text>
+          <text id="/household_survey/death/death_details/place/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/death/death_details/place/way_to_hf:label">
+            <value>स्वास्थ्य सँस्था जाँदा बाटो मा</value>
+          </text>
+          <text id="/household_survey/death/death_details/place:label">
+            <value>उक्त व्यक्तिको मृत्यु कहाँ भएको थियो?</value>
+          </text>
+          <text id="/household_survey/death/death_details/year:jr:constraintMsg">
+            <value>० देखि १२० वर्ष सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/death/death_details/year:label">
+            <value>वर्ष</value>
+          </text>
+          <text id="/household_survey/death/death_details:label">
+            <value>हरेक मृतकको लागि तलको विवरण भर्नुहोस्।</value>
+          </text>
+          <text id="/household_survey/death/member_deceased/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/death/member_deceased/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/death/member_deceased:label">
+            <value>पछिल्लो एक वर्षमा तपाईँको परिवारको कुनै सदस्यको मृत्यु भएको छ? (जन्म पछि तुरुन्तै मृत्यु भएका पनि )</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/cholera:label">
+            <value>हैजा</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/cold:label">
+            <value>रुघा खोकी</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/covid_19:label">
+            <value>कोभिड-१९</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/dengue:label">
+            <value>डेंगु</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/hiv:label">
+            <value>एचआईभी/एड्स</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/kalazar:label">
+            <value>कालाजार</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/leprosy:label">
+            <value>कुष्ठरोग</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/leptospirosis:label">
+            <value>लेप्टोस्पायरोसिस</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/malaria:label">
+            <value>मलेरिया</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/pneumonia:label">
+            <value>निमोनिया</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/tuberculosis:label">
+            <value>क्षयरोग</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases/typhoid:label">
+            <value>टाइफाइड</value>
+          </text>
+          <text id="/household_survey/disease/details/diseases:label">
+            <value>कुन सरुवा रोग लागेको थियो?</value>
+          </text>
+          <text id="/household_survey/disease/details/no_reason_other:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/disease/details/no_reason_other:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/alternative:label">
+            <value>वैकल्पिक/आयुर्वेदिक औषधि लिइ राख्नु भएको छ ।</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/no_money:label">
+            <value>पैसा छैन</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/not_prescribed:label">
+            <value>डाक्टरले कुनै औषधि लेखेनन्</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason/recovered:label">
+            <value>रोग निको भैसक्यो</value>
+          </text>
+          <text id="/household_survey/disease/details/no_treatment_reason:label">
+            <value>के कारणले उहाँ उपचारमा हुनुहुन्न?</value>
+          </text>
+          <text id="/household_survey/disease/details/others:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/disease/details/others:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/disease/details/treatment_ongoing/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/disease/details/treatment_ongoing/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/disease/details/treatment_ongoing:label">
+            <value>के उहाँको अहिले पनि उपचार भइरहेको छ?</value>
+          </text>
+          <text id="/household_survey/disease/details:label">
+            <value>प्रत्येक बिरामी व्यक्तिको विवरण तल भर्नुहोस्:</value>
+          </text>
+          <text id="/household_survey/disease/infected_count:jr:constraintMsg">
+            <value>० देखि १० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/disease/infected_count:label">
+            <value>कति जना परिवारका सदस्यलाई सरुवा रोग लागेको थियो?</value>
+          </text>
+          <text id="/household_survey/disease/infected_last_year/no:label">
+            <value>थिएन</value>
+          </text>
+          <text id="/household_survey/disease/infected_last_year/yes:label">
+            <value>थियो</value>
+          </text>
+          <text id="/household_survey/disease/infected_last_year:label">
+            <value>विगत १ वर्षमा तपाईँको घरपरिवारका सदस्यलाई कुनै सरुवा रोग लागेको थियो?</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance:label">
+            <value>के तपाईँको परिवारले स्वास्थ्य बिमा गरेको छ?</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type/employer:label">
+            <value>कार्यालयले दिएको</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type/government:label">
+            <value>नेपाल सरकारको स्वास्थ्य बिमा</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type/private:label">
+            <value>निजि किनेको</value>
+          </text>
+          <text id="/household_survey/health_insurance/insurance_type:label">
+            <value>तपाईँको परिवारले कस्तो प्रकारको बिमा गरेको छ?</value>
+          </text>
+          <text id="/household_survey/health_insurance/insured_people:jr:constraintMsg">
+            <value>० देखि २० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/health_insurance/insured_people:label">
+            <value>बिमा गरेको परिवारको सदस्य संख्या</value>
+          </text>
+          <text id="/household_survey/health_insurance/members_covered/no:label">
+            <value>छैन (केहि सदस्यको मात्र बिमा छ)</value>
+          </text>
+          <text id="/household_survey/health_insurance/members_covered/yes:label">
+            <value>छ (सबै सदस्यको)</value>
+          </text>
+          <text id="/household_survey/health_insurance/members_covered:label">
+            <value>के परिवारका सबै सदस्यको बिमा गरिएको छ?</value>
+          </text>
+          <text id="/household_survey/health_insurance/other_insurance:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf/hrs_1_2:label">
+            <value>१-२ घण्टा</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf/less_than_30min:label">
+            <value>३० मिनेट भन्दा कम</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf/min_30_60:label">
+            <value>३०-६० मिनेट</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf/more_than_2:label">
+            <value>२ घण्टा भन्दा बढी</value>
+          </text>
+          <text id="/household_survey/health_insurance/time_reach_hf:label">
+            <value>तपाईंको घरबाट नजिकको सरकारी स्वास्थ्य संस्था पुग्न कति समय लाग्छ?</value>
+          </text>
+          <text id="/household_survey/household/aana:jr:constraintMsg">
+            <value>२.१ देखि १००.१ सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/aana:label">
+            <value>आना</value>
+          </text>
+          <text id="/household_survey/household/bedrooms:jr:constraintMsg">
+            <value>० देखि १० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/bedrooms:label">
+            <value>यो घरमा सुत्नका लागि कति कोठा प्रयोग गर्नुहुन्छ?</value>
+          </text>
+          <text id="/household_survey/household/bigha:jr:constraintMsg">
+            <value>१.१ देखि ३०.१ सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/bigha:label">
+            <value>बिघा</value>
+          </text>
+          <text id="/household_survey/household/buffalo:jr:constraintMsg">
+            <value>० देखि १०० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/buffalo:label">
+            <value>भैंसी</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/hand_pump:label">
+            <value>नलका/कल</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/jar:label">
+            <value>जारको पानी</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/piped:label">
+            <value>खानेपानी (पाईप लाइन)</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/rain:label">
+            <value>जम्मा गरेको बर्सातको पानी</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/spring:label">
+            <value>धारा (मूल) को पानी</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/tanker:label">
+            <value>टयांकर बाट ल्याएको</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/waterbody:label">
+            <value>नदी, ताल, खोला, नाला, नहर, कुलो</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source/well:label">
+            <value>कुवा</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/household_survey/household/cooking_water_source:label">
+            <value>खाना पकाउनको लागि पानीको मूल स्रोत के हो?</value>
+          </text>
+          <text id="/household_survey/household/cow_ox:jr:constraintMsg">
+            <value>० देखि १०० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/cow_ox:label">
+            <value>गाई/गोरु</value>
+          </text>
+          <text id="/household_survey/household/dhur:jr:constraintMsg">
+            <value>२.५ देखि १००.५ सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/dhur:label">
+            <value>धूर</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/commercial:label">
+            <value>प्राइभेट कम्पनिले लैजान्छ</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/compost:label">
+            <value>मल बनाएर</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/municipal:label">
+            <value>नगरपालिका/गाँउपालिकाले लैजान्छ</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/open:label">
+            <value>खाली ठाउँमा</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/household_survey/household/dispose_biodegradable:label">
+            <value>तपाईंले सड्ने/गल्ने ठोस फोहोरलाई कसरी व्यवस्थापन गर्नुहुन्छ?</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste/kitchen_garden:label">
+            <value>करेसाबारीमा</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste/pit:label">
+            <value>खाल्डोमा जम्मा गर्छौँ</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste/sewage:label">
+            <value>ढलमा</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste:label">
+            <value>तपाईंको घरबाट निस्केको तरल फोहोरको व्यवस्थापन कहाँ गर्नुहुन्छ? 
+ उदाहरणको लागि, भान्छा र लुगा धुने ठाउँबाट निस्कने तरल फोहोर।</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste_other:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/household/dispose_liquid_waste_other:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/burn:label">
+            <value>जलाएर</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/commercial:label">
+            <value>प्राइभेट कम्पनिले लैजान्छ</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/municipal:label">
+            <value>नगरपालिका/गाँउपालिकाले लैजान्छ</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/open:label">
+            <value>खाली ठाउँमा</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/household_survey/household/dispose_non_biodegradable:label">
+            <value>तपाईंले नसड्ने/नगल्ने ठोस फोहोरलाई कसरी व्यवस्थापन गर्नुहुन्छ?</value>
+          </text>
+          <text id="/household_survey/household/dispose_waste_others:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/household/dispose_waste_others:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/household/distance_latrine_m:hint">
+            <value>(मिटर मा)</value>
+          </text>
+          <text id="/household_survey/household/distance_latrine_m:jr:constraintMsg">
+            <value>० देखि १०० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/distance_latrine_m:label">
+            <value>पानीको स्रोतबाट शौचालयको दूरी कति छ?</value>
+          </text>
+          <text id="/household_survey/household/drainage_type/closed:label">
+            <value>पूरै बन्द</value>
+          </text>
+          <text id="/household_survey/household/drainage_type/open:label">
+            <value>खुला</value>
+          </text>
+          <text id="/household_survey/household/drainage_type/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/household/drainage_type/semi_closed:label">
+            <value>आंशिक बन्द</value>
+          </text>
+          <text id="/household_survey/household/drainage_type:label">
+            <value>तपाईंको घरमा कस्तो प्रकारको ढल निकासको व्यवस्था छ?</value>
+          </text>
+          <text id="/household_survey/household/drainage_type_other:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/household/drainage_type_other:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/hand_pump:label">
+            <value>नलका/कल</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/jar:label">
+            <value>जारको पानी</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/piped:label">
+            <value>खानेपानी (पाईप लाइन)</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/rain:label">
+            <value>जम्मा गरेको बर्सातको पानी</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/spring:label">
+            <value>धारा (मूल) को पानी</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/tanker:label">
+            <value>टयांकर बाट ल्याएको</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/waterbody:label">
+            <value>नदी, ताल, खोला, नाला, नहर, कुलो</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source/well:label">
+            <value>कुवा</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/household_survey/household/drinking_water_source:label">
+            <value>पिउने पानीको मूल स्रोत के हो?</value>
+          </text>
+          <text id="/household_survey/household/duck:jr:constraintMsg">
+            <value>० देखि १०० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/duck:label">
+            <value>हाँस</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/biogas:label">
+            <value>गोबर ग्यास (बायो ग्यास )</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/dung:label">
+            <value>गुइँठा</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/electricity:label">
+            <value>बिजुली</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/kerosene:label">
+            <value>स्टोभ</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/lpg:label">
+            <value>एल. पि. जि. ग्यास</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking/wood:label">
+            <value>दाउरा</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking:label">
+            <value>तपाईंको परिवारले खाना पकाउन कस्तो किसिमको इन्धन प्रयोग गर्दछ?</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking_other:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/household/fuel_cooking_other:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/household/goat:jr:constraintMsg">
+            <value>० देखि ५०० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/goat:label">
+            <value>बाख्रा/भेडा</value>
+          </text>
+          <text id="/household_survey/household/has_kitchen_garden/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/household/has_kitchen_garden/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/household/has_kitchen_garden:label">
+            <value>के तपाईंसँग करेसाबारी छ?</value>
+          </text>
+          <text id="/household_survey/household/has_smokestack/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/household/has_smokestack/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/household/has_smokestack:label">
+            <value>धुँवा जाने चिम्नी छ?</value>
+          </text>
+          <text id="/household_survey/household/hen:jr:constraintMsg">
+            <value>० देखि २००० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/hen:label">
+            <value>कुखुरा</value>
+          </text>
+          <text id="/household_survey/household/horse:jr:constraintMsg">
+            <value>० देखि २० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/horse:label">
+            <value>घोडा/गधा/खच्चर</value>
+          </text>
+          <text id="/household_survey/household/house_type/cemented:label">
+            <value>पक्का घर</value>
+          </text>
+          <text id="/household_survey/household/house_type/mud:label">
+            <value>कच्चा घर</value>
+          </text>
+          <text id="/household_survey/household/house_type:label">
+            <value>घर कस्तो किसिमको छ?</value>
+          </text>
+          <text id="/household_survey/household/kattha:jr:constraintMsg">
+            <value>.५ देखि ३०० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/kattha:label">
+            <value>कठ्ठा</value>
+          </text>
+          <text id="/household_survey/household/land_area_ask:label">
+            <value>कति कट्ठा/बिघा/रोपनी छ?</value>
+          </text>
+          <text id="/household_survey/household/livestock_number:label">
+            <value>पशुपन्छी को संख्या:</value>
+          </text>
+          <text id="/household_survey/household/livestock_other/livestock_count:label">
+            <value>संख्या</value>
+          </text>
+          <text id="/household_survey/household/livestock_other/livestock_type:label">
+            <value>प्रकार</value>
+          </text>
+          <text id="/household_survey/household/livestock_other:hint">
+            <value>जस्तै: अस्ट्रिच, बट्टाई</value>
+          </text>
+          <text id="/household_survey/household/livestock_other:label">
+            <value>अन्य भए तल थप्नुहोस्</value>
+          </text>
+          <text id="/household_survey/household/non_biodegradable_others:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/household/non_biodegradable_others:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/household/own_land/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/household/own_land/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/household/own_land:label">
+            <value>तपाईंको कृषियोग्य जग्गा छ?</value>
+          </text>
+          <text id="/household_survey/household/own_livestock/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/household/own_livestock/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/household/own_livestock:label">
+            <value>के तपाईंले कुनै चौपाया पशु वा कुखुरा/हाँस पाल्नु भएको छ?</value>
+          </text>
+          <text id="/household_survey/household/pig:jr:constraintMsg">
+            <value>० देखि १०० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/pig:label">
+            <value>सुँगुर/बंगुर</value>
+          </text>
+          <text id="/household_survey/household/purify_water/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/household/purify_water/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/household/purify_water:label">
+            <value>के तपाईंको परिवारले पिउने पानी सुरक्षित बनाउन कुनै विधि प्रयोग गरिरहेको छ?</value>
+          </text>
+          <text id="/household_survey/household/rented_house/own:label">
+            <value>आफ्नै घर</value>
+          </text>
+          <text id="/household_survey/household/rented_house/rented:label">
+            <value>भाडाको घर</value>
+          </text>
+          <text id="/household_survey/household/rented_house:label">
+            <value>के यो तपाईंको आफ्नै घर वा भाडाको घर/फ्ल्याट हो?</value>
+          </text>
+          <text id="/household_survey/household/ropani:jr:constraintMsg">
+            <value>२.१ देखि १००.१ सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/ropani:label">
+            <value>रोपनी</value>
+          </text>
+          <text id="/household_survey/household/separate_kitchen/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/household_survey/household/separate_kitchen/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/household_survey/household/separate_kitchen:label">
+            <value>खाना पकाउनको लागी छुट्टै कोठा छ?</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/composting_toilet:label">
+            <value>गोबर ग्यासमा जोडेको</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/flush_drain:label">
+            <value>फ्लस भएको (नाली सँग जोडेको)</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/flush_tank:label">
+            <value>फ्लस भएको (सेप्टी टंकी भएको)</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/open:label">
+            <value>खुला ठाउँ</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/pit:label">
+            <value>खाल्डे शौचालय</value>
+          </text>
+          <text id="/household_survey/household/toilet_type/public_toilet:label">
+            <value>सरकारी शौचालय</value>
+          </text>
+          <text id="/household_survey/household/toilet_type:label">
+            <value>तपाईंका घरका सदस्यले प्राय: कस्तो प्रकारको शौचालय प्रयोग गर्दछन्?</value>
+          </text>
+          <text id="/household_survey/household/toilet_type_other:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/household/toilet_type_other:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/hand_pump:label">
+            <value>नलका/कल</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/jar:label">
+            <value>जारको पानी</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/piped:label">
+            <value>खानेपानी (पाईप लाइन)</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/rain:label">
+            <value>जम्मा गरेको बर्सातको पानी</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/spring:label">
+            <value>धारा (मूल) को पानी</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/tanker:label">
+            <value>टयांकर बाट ल्याएको</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/waterbody:label">
+            <value>नदी, ताल, खोला, नाला, नहर, कुलो</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source/well:label">
+            <value>कुवा</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/household_survey/household/washing_water_source:label">
+            <value>लुगा धुने, हात धुने र नुहाउने पानीको मूल स्रोत के हो?</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/boil:label">
+            <value>उमालेर</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/chlorine:label">
+            <value>ब्लीच/क्लोरीन को प्रयोग</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/filter:label">
+            <value>फिल्टर</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/sedimentation:label">
+            <value>थिगारेर</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/solar:label">
+            <value>घाममा तताएर</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method/strain_cloth:label">
+            <value>कपडाले छानेर</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method:hint">
+            <value>(एक वा एक भन्दा बढी उत्तर छान्न सक्नुहुन्छ)</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method:label">
+            <value>कुन विधि प्रयोग गरिरहनु भएको छ?</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method_other:jr:constraintMsg">
+            <value>अधिकतम अक्षर = १००</value>
+          </text>
+          <text id="/household_survey/household/water_purify_method_other:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/household_survey/household/yak:jr:constraintMsg">
+            <value>० देखि २० सम्म मात्र संख्या स्वीकार गरिनेछ</value>
+          </text>
+          <text id="/household_survey/household/yak:label">
+            <value>याक/चौरी</value>
+          </text>
+          <text id="/household_survey/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <household_survey id="household_survey" prefix="J1!household_survey!" delimiter="#" version="16-08-2021 12-01-17">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <ver>1</ver>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <consent_survey>
+            <consent_note/>
+            <consent/>
+          </consent_survey>
+          <household>
+            <house_type/>
+            <rented_house/>
+            <drinking_water_source/>
+            <cooking_water_source/>
+            <washing_water_source/>
+            <purify_water/>
+            <water_purify_method/>
+            <water_purify_method_other/>
+            <toilet_type/>
+            <toilet_type_other/>
+            <distance_latrine_m/>
+            <has_kitchen_garden/>
+            <dispose_biodegradable/>
+            <dispose_waste_others/>
+            <dispose_non_biodegradable/>
+            <non_biodegradable_others/>
+            <dispose_liquid_waste/>
+            <dispose_liquid_waste_other/>
+            <drainage_type/>
+            <drainage_type_other/>
+            <fuel_cooking/>
+            <fuel_cooking_other/>
+            <separate_kitchen/>
+            <has_smokestack/>
+            <bedrooms/>
+            <own_livestock/>
+            <livestock_number/>
+            <cow_ox/>
+            <buffalo/>
+            <goat/>
+            <pig/>
+            <yak/>
+            <horse/>
+            <duck/>
+            <hen/>
+            <livestock_other jr:template="">
+              <livestock_type/>
+              <livestock_count/>
+            </livestock_other>
+            <own_land/>
+            <land_area_ask/>
+            <aana/>
+            <dhur/>
+            <kattha/>
+            <bigha/>
+            <ropani/>
+          </household>
+          <health_insurance>
+            <insurance/>
+            <insurance_type/>
+            <other_insurance/>
+            <members_covered/>
+            <insured_people/>
+            <time_reach_hf/>
+          </health_insurance>
+          <death>
+            <member_deceased/>
+            <death_count/>
+            <death_details_count/>
+            <death_details jr:template="">
+              <death_age/>
+              <year/>
+              <month/>
+              <day/>
+              <hour/>
+              <gender/>
+              <date/>
+              <place/>
+              <cause/>
+              <certificate/>
+              <certified_reason/>
+            </death_details>
+          </death>
+          <disease>
+            <infected_last_year/>
+            <infected_count/>
+            <details jr:template="">
+              <diseases/>
+              <others/>
+              <treatment_ongoing/>
+              <no_treatment_reason/>
+              <no_reason_other/>
+            </details>
+          </disease>
+          <data tag="hidden">
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </household_survey>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/household_survey/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/household_survey/inputs/source" type="string"/>
+      <bind nodeset="/household_survey/inputs/source_id" type="string"/>
+      <bind nodeset="/household_survey/inputs/ver" type="string"/>
+      <bind nodeset="/household_survey/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/household_survey/inputs/contact/name" type="string"/>
+      <bind nodeset="/household_survey/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/household_survey/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/household_survey/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/household_survey/inputs/contact/sex" type="string"/>
+      <bind nodeset="/household_survey/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/household_survey/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/household_survey/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/household_survey/patient_age_in_years" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/household_survey/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/household_survey/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/household_survey/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/household_survey/consent_survey/consent_note" readonly="true()" type="string"/>
+      <bind nodeset="/household_survey/consent_survey/consent" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household" relevant=" /household_survey/consent_survey/consent  ='agree'"/>
+      <bind nodeset="/household_survey/household/house_type" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/rented_house" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/drinking_water_source" type="select" required="true()"/>
+      <bind nodeset="/household_survey/household/cooking_water_source" type="select" required="true()"/>
+      <bind nodeset="/household_survey/household/washing_water_source" type="select" required="true()"/>
+      <bind nodeset="/household_survey/household/purify_water" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/water_purify_method" type="select" required="true()" relevant=" /household_survey/household/purify_water ='yes'"/>
+      <bind nodeset="/household_survey/household/water_purify_method_other" type="string" jr:constraintMsg="jr:itext('/household_survey/household/water_purify_method_other:jr:constraintMsg')" constraint="string-length(.) &lt;= 100" relevant="selected( /household_survey/household/water_purify_method , 'other')"/>
+      <bind nodeset="/household_survey/household/toilet_type" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/toilet_type_other" type="string" jr:constraintMsg="jr:itext('/household_survey/household/toilet_type_other:jr:constraintMsg')" constraint="string-length(.) &lt;= 100" relevant=" /household_survey/household/toilet_type  ='other'"/>
+      <bind nodeset="/household_survey/household/distance_latrine_m" type="decimal" required="true()" jr:constraintMsg="jr:itext('/household_survey/household/distance_latrine_m:jr:constraintMsg')" constraint=". &gt;= 0 and .&lt;= 100"/>
+      <bind nodeset="/household_survey/household/has_kitchen_garden" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/dispose_biodegradable" type="select" required="true()"/>
+      <bind nodeset="/household_survey/household/dispose_waste_others" type="string" jr:constraintMsg="jr:itext('/household_survey/household/dispose_waste_others:jr:constraintMsg')" constraint="string-length(.) &lt;= 100" relevant="selected( /household_survey/household/dispose_biodegradable , 'other')"/>
+      <bind nodeset="/household_survey/household/dispose_non_biodegradable" type="select" required="true()"/>
+      <bind nodeset="/household_survey/household/non_biodegradable_others" type="string" jr:constraintMsg="jr:itext('/household_survey/household/non_biodegradable_others:jr:constraintMsg')" constraint="string-length(.) &lt;= 100" relevant="selected( /household_survey/household/dispose_non_biodegradable , 'other')"/>
+      <bind nodeset="/household_survey/household/dispose_liquid_waste" type="select" required="true()"/>
+      <bind nodeset="/household_survey/household/dispose_liquid_waste_other" type="string" jr:constraintMsg="jr:itext('/household_survey/household/dispose_liquid_waste_other:jr:constraintMsg')" constraint="string-length(.) &lt;= 100" relevant="selected( /household_survey/household/dispose_liquid_waste , 'other')"/>
+      <bind nodeset="/household_survey/household/drainage_type" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/drainage_type_other" type="string" jr:constraintMsg="jr:itext('/household_survey/household/drainage_type_other:jr:constraintMsg')" constraint="string-length(.) &lt;= 100" relevant=" /household_survey/household/drainage_type  ='other'"/>
+      <bind nodeset="/household_survey/household/fuel_cooking" type="select" required="true()"/>
+      <bind nodeset="/household_survey/household/fuel_cooking_other" type="string" jr:constraintMsg="jr:itext('/household_survey/household/fuel_cooking_other:jr:constraintMsg')" constraint="string-length(.) &lt;= 100" relevant="selected( /household_survey/household/fuel_cooking , 'other')"/>
+      <bind nodeset="/household_survey/household/separate_kitchen" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/has_smokestack" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/bedrooms" type="int" required="true()" jr:constraintMsg="jr:itext('/household_survey/household/bedrooms:jr:constraintMsg')" constraint=". &gt;= 0 and .&lt;= 10"/>
+      <bind nodeset="/household_survey/household/own_livestock" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/livestock_number" readonly="true()" type="string" required="false()" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/cow_ox" type="int" jr:constraintMsg="jr:itext('/household_survey/household/cow_ox:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 100" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/buffalo" type="int" jr:constraintMsg="jr:itext('/household_survey/household/buffalo:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 100" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/goat" type="int" jr:constraintMsg="jr:itext('/household_survey/household/goat:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 500" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/pig" type="int" jr:constraintMsg="jr:itext('/household_survey/household/pig:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 100" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/yak" type="int" jr:constraintMsg="jr:itext('/household_survey/household/yak:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 20" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/horse" type="int" jr:constraintMsg="jr:itext('/household_survey/household/horse:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 20" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/duck" type="int" jr:constraintMsg="jr:itext('/household_survey/household/duck:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 100" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/hen" type="int" jr:constraintMsg="jr:itext('/household_survey/household/hen:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 2000" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/livestock_other" relevant=" /household_survey/household/own_livestock  ='yes'"/>
+      <bind nodeset="/household_survey/household/livestock_other/livestock_type" type="string"/>
+      <bind nodeset="/household_survey/household/livestock_other/livestock_count" type="int" constraint=". &gt; 0 and .&lt;= 2000"/>
+      <bind nodeset="/household_survey/household/own_land" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/household/land_area_ask" readonly="true()" type="string" relevant=" /household_survey/household/own_land  ='yes'"/>
+      <bind nodeset="/household_survey/household/aana" type="decimal" jr:constraintMsg="jr:itext('/household_survey/household/aana:jr:constraintMsg')" constraint=". &gt; 2.1 and .&lt;= 100.1" relevant=" /household_survey/household/own_land  ='yes'"/>
+      <bind nodeset="/household_survey/household/dhur" type="decimal" jr:constraintMsg="jr:itext('/household_survey/household/dhur:jr:constraintMsg')" constraint=". &gt; 2.5 and .&lt;= 100.5" relevant=" /household_survey/household/own_land  ='yes'"/>
+      <bind nodeset="/household_survey/household/kattha" type="decimal" jr:constraintMsg="jr:itext('/household_survey/household/kattha:jr:constraintMsg')" constraint=". &gt; 0.5 and .&lt;= 300" relevant=" /household_survey/household/own_land  ='yes'"/>
+      <bind nodeset="/household_survey/household/bigha" type="decimal" jr:constraintMsg="jr:itext('/household_survey/household/bigha:jr:constraintMsg')" constraint=". &gt; 1.1 and .&lt;= 30.1" relevant=" /household_survey/household/own_land  ='yes'"/>
+      <bind nodeset="/household_survey/household/ropani" type="decimal" jr:constraintMsg="jr:itext('/household_survey/household/ropani:jr:constraintMsg')" constraint=". &gt; 2.1 and .&lt;= 100.1" relevant=" /household_survey/household/own_land  ='yes'"/>
+      <bind nodeset="/household_survey/health_insurance" relevant=" /household_survey/consent_survey/consent  ='agree'"/>
+      <bind nodeset="/household_survey/health_insurance/insurance" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/health_insurance/insurance_type" type="select1" required="true()" relevant=" /household_survey/health_insurance/insurance  ='yes'"/>
+      <bind nodeset="/household_survey/health_insurance/other_insurance" type="string" relevant=" /household_survey/health_insurance/insurance_type  ='other'"/>
+      <bind nodeset="/household_survey/health_insurance/members_covered" type="select1" required="true()" relevant=" /household_survey/health_insurance/insurance  ='yes'"/>
+      <bind nodeset="/household_survey/health_insurance/insured_people" type="int" required="true()" jr:constraintMsg="jr:itext('/household_survey/health_insurance/insured_people:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 20" relevant=" /household_survey/health_insurance/members_covered  ='no'"/>
+      <bind nodeset="/household_survey/health_insurance/time_reach_hf" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/death" relevant=" /household_survey/consent_survey/consent  = 'agree'"/>
+      <bind nodeset="/household_survey/death/member_deceased" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/death/death_count" type="int" required="true()" jr:constraintMsg="jr:itext('/household_survey/death/death_count:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 5" relevant=" /household_survey/death/member_deceased  = 'yes'"/>
+      <bind nodeset="/household_survey/death/death_details_count" type="string" readonly="true()" calculate=" /household_survey/death/death_count "/>
+      <bind nodeset="/household_survey/death/death_details" required="true()" relevant=" /household_survey/death/member_deceased  = 'yes' and  /household_survey/death/death_count &lt;=5"/>
+      <bind nodeset="/household_survey/death/death_details/death_age" readonly="true()" type="string"/>
+      <bind nodeset="/household_survey/death/death_details/year" type="int" jr:constraintMsg="jr:itext('/household_survey/death/death_details/year:jr:constraintMsg')" constraint=". &gt;= 0 and . &lt;= 120"/>
+      <bind nodeset="/household_survey/death/death_details/month" type="int" jr:constraintMsg="jr:itext('/household_survey/death/death_details/month:jr:constraintMsg')" constraint=". &gt;= 0 and . &lt; 24"/>
+      <bind nodeset="/household_survey/death/death_details/day" type="int" jr:constraintMsg="jr:itext('/household_survey/death/death_details/day:jr:constraintMsg')" constraint=". &gt;= 0 and . &lt; 60"/>
+      <bind nodeset="/household_survey/death/death_details/hour" type="int" jr:constraintMsg="jr:itext('/household_survey/death/death_details/hour:jr:constraintMsg')" constraint=". &gt;= 0 and . &lt;= 24"/>
+      <bind nodeset="/household_survey/death/death_details/gender" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/death/death_details/date" type="date" required="true()" jr:constraintMsg="jr:itext('/household_survey/death/death_details/date:jr:constraintMsg')" constraint="decimal-date-time(.) &lt;= floor(decimal-date-time(today()))"/>
+      <bind nodeset="/household_survey/death/death_details/place" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/death/death_details/cause" type="string" required="true()" jr:constraintMsg="jr:itext('/household_survey/death/death_details/cause:jr:constraintMsg')" constraint="string-length(.) &lt;= 100"/>
+      <bind nodeset="/household_survey/death/death_details/certificate" type="select1" required="true()"/>
+      <bind nodeset="/household_survey/death/death_details/certified_reason" type="string" relevant=" /household_survey/death/death_details/certificate  ='yes'"/>
+      <bind nodeset="/household_survey/disease" relevant=" /household_survey/consent_survey/consent  ='agree'"/>
+      <bind nodeset="/household_survey/disease/infected_last_year" type="select1"/>
+      <bind nodeset="/household_survey/disease/infected_count" type="int" jr:constraintMsg="jr:itext('/household_survey/disease/infected_count:jr:constraintMsg')" constraint=". &gt; 0 and .&lt;= 10" relevant=" /household_survey/disease/infected_last_year  ='yes'"/>
+      <bind nodeset="/household_survey/disease/details" required="true()" relevant=" /household_survey/disease/infected_last_year  ='yes'"/>
+      <bind nodeset="/household_survey/disease/details/diseases" type="select" relevant=" /household_survey/disease/infected_last_year  ='yes'"/>
+      <bind nodeset="/household_survey/disease/details/others" type="string" jr:constraintMsg="jr:itext('/household_survey/disease/details/others:jr:constraintMsg')" constraint="string-length(.) &lt;= 100" relevant=" /household_survey/disease/details/diseases  ='other'"/>
+      <bind nodeset="/household_survey/disease/details/treatment_ongoing" type="select1" relevant=" /household_survey/disease/infected_last_year  ='yes'"/>
+      <bind nodeset="/household_survey/disease/details/no_treatment_reason" type="select1" relevant=" /household_survey/disease/details/treatment_ongoing  ='no'"/>
+      <bind nodeset="/household_survey/disease/details/no_reason_other" type="string" jr:constraintMsg="jr:itext('/household_survey/disease/details/no_reason_other:jr:constraintMsg')" constraint="string-length(.) &lt;= 100" relevant=" /household_survey/disease/details/no_treatment_reason  ='other'"/>
+      <bind nodeset="/household_survey/data/meta/__patient_uuid" type="string" calculate="../../../inputs/contact/_id"/>
+      <bind nodeset="/household_survey/data/meta/__patient_id" type="string" calculate="../../../inputs/contact/patient_id"/>
+      <bind nodeset="/household_survey/data/meta/__household_uuid" type="string" calculate="../../../inputs/contact/parent/_id"/>
+      <bind nodeset="/household_survey/data/meta/__source" type="string" calculate="../../../inputs/source"/>
+      <bind nodeset="/household_survey/data/meta/__source_id" type="string" calculate="../../../inputs/source_id"/>
+      <bind nodeset="/household_survey/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/household_survey/inputs">
+      <group ref="/household_survey/inputs/contact">
+        <label ref="jr:itext('/household_survey/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/household_survey/inputs/contact/_id">
+          <label ref="jr:itext('/household_survey/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/household_survey/inputs/contact/parent">
+          <group ref="/household_survey/inputs/contact/parent/parent">
+            <group ref="/household_survey/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/household_survey/consent_survey">
+      <input ref="/household_survey/consent_survey/consent_note">
+        <label ref="jr:itext('/household_survey/consent_survey/consent_note:label')"/>
+      </input>
+      <select1 ref="/household_survey/consent_survey/consent">
+        <item>
+          <label ref="jr:itext('/household_survey/consent_survey/consent/agree:label')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/consent_survey/consent/disagree:label')"/>
+          <value>disagree</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/household_survey/household">
+      <select1 ref="/household_survey/household/house_type">
+        <label ref="jr:itext('/household_survey/household/house_type:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/house_type/mud:label')"/>
+          <value>mud</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/house_type/cemented:label')"/>
+          <value>cemented</value>
+        </item>
+      </select1>
+      <select1 ref="/household_survey/household/rented_house">
+        <label ref="jr:itext('/household_survey/household/rented_house:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/rented_house/rented:label')"/>
+          <value>rented</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/rented_house/own:label')"/>
+          <value>own</value>
+        </item>
+      </select1>
+      <select ref="/household_survey/household/drinking_water_source">
+        <label ref="jr:itext('/household_survey/household/drinking_water_source:label')"/>
+        <hint ref="jr:itext('/household_survey/household/drinking_water_source:hint')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drinking_water_source/piped:label')"/>
+          <value>piped</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drinking_water_source/hand_pump:label')"/>
+          <value>hand_pump</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drinking_water_source/well:label')"/>
+          <value>well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drinking_water_source/jar:label')"/>
+          <value>jar</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drinking_water_source/spring:label')"/>
+          <value>spring</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drinking_water_source/tanker:label')"/>
+          <value>tanker</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drinking_water_source/waterbody:label')"/>
+          <value>waterbody</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drinking_water_source/rain:label')"/>
+          <value>rain</value>
+        </item>
+      </select>
+      <select ref="/household_survey/household/cooking_water_source">
+        <label ref="jr:itext('/household_survey/household/cooking_water_source:label')"/>
+        <hint ref="jr:itext('/household_survey/household/cooking_water_source:hint')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/cooking_water_source/piped:label')"/>
+          <value>piped</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/cooking_water_source/hand_pump:label')"/>
+          <value>hand_pump</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/cooking_water_source/well:label')"/>
+          <value>well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/cooking_water_source/jar:label')"/>
+          <value>jar</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/cooking_water_source/spring:label')"/>
+          <value>spring</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/cooking_water_source/tanker:label')"/>
+          <value>tanker</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/cooking_water_source/waterbody:label')"/>
+          <value>waterbody</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/cooking_water_source/rain:label')"/>
+          <value>rain</value>
+        </item>
+      </select>
+      <select ref="/household_survey/household/washing_water_source">
+        <label ref="jr:itext('/household_survey/household/washing_water_source:label')"/>
+        <hint ref="jr:itext('/household_survey/household/washing_water_source:hint')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/washing_water_source/piped:label')"/>
+          <value>piped</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/washing_water_source/hand_pump:label')"/>
+          <value>hand_pump</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/washing_water_source/well:label')"/>
+          <value>well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/washing_water_source/jar:label')"/>
+          <value>jar</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/washing_water_source/spring:label')"/>
+          <value>spring</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/washing_water_source/tanker:label')"/>
+          <value>tanker</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/washing_water_source/waterbody:label')"/>
+          <value>waterbody</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/washing_water_source/rain:label')"/>
+          <value>rain</value>
+        </item>
+      </select>
+      <select1 ref="/household_survey/household/purify_water">
+        <label ref="jr:itext('/household_survey/household/purify_water:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/purify_water/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/purify_water/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/household_survey/household/water_purify_method">
+        <label ref="jr:itext('/household_survey/household/water_purify_method:label')"/>
+        <hint ref="jr:itext('/household_survey/household/water_purify_method:hint')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/water_purify_method/boil:label')"/>
+          <value>boil</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/water_purify_method/chlorine:label')"/>
+          <value>chlorine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/water_purify_method/strain_cloth:label')"/>
+          <value>strain_cloth</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/water_purify_method/filter:label')"/>
+          <value>filter</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/water_purify_method/solar:label')"/>
+          <value>solar</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/water_purify_method/sedimentation:label')"/>
+          <value>sedimentation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/water_purify_method/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/household_survey/household/water_purify_method_other">
+        <label ref="jr:itext('/household_survey/household/water_purify_method_other:label')"/>
+      </input>
+      <select1 ref="/household_survey/household/toilet_type">
+        <label ref="jr:itext('/household_survey/household/toilet_type:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/toilet_type/flush_drain:label')"/>
+          <value>flush_drain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/toilet_type/flush_tank:label')"/>
+          <value>flush_tank</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/toilet_type/pit:label')"/>
+          <value>pit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/toilet_type/composting_toilet:label')"/>
+          <value>composting_toilet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/toilet_type/public_toilet:label')"/>
+          <value>public_toilet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/toilet_type/open:label')"/>
+          <value>open</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/toilet_type/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/household_survey/household/toilet_type_other">
+        <label ref="jr:itext('/household_survey/household/toilet_type_other:label')"/>
+      </input>
+      <input ref="/household_survey/household/distance_latrine_m">
+        <label ref="jr:itext('/household_survey/household/distance_latrine_m:label')"/>
+        <hint ref="jr:itext('/household_survey/household/distance_latrine_m:hint')"/>
+      </input>
+      <select1 ref="/household_survey/household/has_kitchen_garden">
+        <label ref="jr:itext('/household_survey/household/has_kitchen_garden:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/has_kitchen_garden/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/has_kitchen_garden/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/household_survey/household/dispose_biodegradable">
+        <label ref="jr:itext('/household_survey/household/dispose_biodegradable:label')"/>
+        <hint ref="jr:itext('/household_survey/household/dispose_biodegradable:hint')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_biodegradable/open:label')"/>
+          <value>open</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_biodegradable/compost:label')"/>
+          <value>compost</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_biodegradable/municipal:label')"/>
+          <value>municipal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_biodegradable/commercial:label')"/>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_biodegradable/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/household_survey/household/dispose_waste_others">
+        <label ref="jr:itext('/household_survey/household/dispose_waste_others:label')"/>
+      </input>
+      <select ref="/household_survey/household/dispose_non_biodegradable">
+        <label ref="jr:itext('/household_survey/household/dispose_non_biodegradable:label')"/>
+        <hint ref="jr:itext('/household_survey/household/dispose_non_biodegradable:hint')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_non_biodegradable/open:label')"/>
+          <value>open</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_non_biodegradable/burn:label')"/>
+          <value>burn</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_non_biodegradable/municipal:label')"/>
+          <value>municipal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_non_biodegradable/commercial:label')"/>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_non_biodegradable/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/household_survey/household/non_biodegradable_others">
+        <label ref="jr:itext('/household_survey/household/non_biodegradable_others:label')"/>
+      </input>
+      <select ref="/household_survey/household/dispose_liquid_waste">
+        <label ref="jr:itext('/household_survey/household/dispose_liquid_waste:label')"/>
+        <hint ref="jr:itext('/household_survey/household/dispose_liquid_waste:hint')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_liquid_waste/kitchen_garden:label')"/>
+          <value>kitchen_garden</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_liquid_waste/sewage:label')"/>
+          <value>sewage</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_liquid_waste/pit:label')"/>
+          <value>pit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/dispose_liquid_waste/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/household_survey/household/dispose_liquid_waste_other">
+        <label ref="jr:itext('/household_survey/household/dispose_liquid_waste_other:label')"/>
+      </input>
+      <select1 ref="/household_survey/household/drainage_type">
+        <label ref="jr:itext('/household_survey/household/drainage_type:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drainage_type/open:label')"/>
+          <value>open</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drainage_type/closed:label')"/>
+          <value>closed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drainage_type/semi_closed:label')"/>
+          <value>semi_closed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/drainage_type/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/household_survey/household/drainage_type_other">
+        <label ref="jr:itext('/household_survey/household/drainage_type_other:label')"/>
+      </input>
+      <select ref="/household_survey/household/fuel_cooking">
+        <label ref="jr:itext('/household_survey/household/fuel_cooking:label')"/>
+        <hint ref="jr:itext('/household_survey/household/fuel_cooking:hint')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/fuel_cooking/electricity:label')"/>
+          <value>electricity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/fuel_cooking/lpg:label')"/>
+          <value>lpg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/fuel_cooking/biogas:label')"/>
+          <value>biogas</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/fuel_cooking/kerosene:label')"/>
+          <value>kerosene</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/fuel_cooking/wood:label')"/>
+          <value>wood</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/fuel_cooking/dung:label')"/>
+          <value>dung</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/fuel_cooking/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/household_survey/household/fuel_cooking_other">
+        <label ref="jr:itext('/household_survey/household/fuel_cooking_other:label')"/>
+      </input>
+      <select1 ref="/household_survey/household/separate_kitchen">
+        <label ref="jr:itext('/household_survey/household/separate_kitchen:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/separate_kitchen/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/separate_kitchen/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/household_survey/household/has_smokestack">
+        <label ref="jr:itext('/household_survey/household/has_smokestack:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/has_smokestack/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/has_smokestack/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/household_survey/household/bedrooms">
+        <label ref="jr:itext('/household_survey/household/bedrooms:label')"/>
+      </input>
+      <select1 ref="/household_survey/household/own_livestock">
+        <label ref="jr:itext('/household_survey/household/own_livestock:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/own_livestock/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/own_livestock/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/household_survey/household/livestock_number">
+        <label ref="jr:itext('/household_survey/household/livestock_number:label')"/>
+      </input>
+      <input ref="/household_survey/household/cow_ox">
+        <label ref="jr:itext('/household_survey/household/cow_ox:label')"/>
+      </input>
+      <input ref="/household_survey/household/buffalo">
+        <label ref="jr:itext('/household_survey/household/buffalo:label')"/>
+      </input>
+      <input ref="/household_survey/household/goat">
+        <label ref="jr:itext('/household_survey/household/goat:label')"/>
+      </input>
+      <input ref="/household_survey/household/pig">
+        <label ref="jr:itext('/household_survey/household/pig:label')"/>
+      </input>
+      <input ref="/household_survey/household/yak">
+        <label ref="jr:itext('/household_survey/household/yak:label')"/>
+      </input>
+      <input ref="/household_survey/household/horse">
+        <label ref="jr:itext('/household_survey/household/horse:label')"/>
+      </input>
+      <input ref="/household_survey/household/duck">
+        <label ref="jr:itext('/household_survey/household/duck:label')"/>
+      </input>
+      <input ref="/household_survey/household/hen">
+        <label ref="jr:itext('/household_survey/household/hen:label')"/>
+      </input>
+      <group ref="/household_survey/household/livestock_other">
+        <label ref="jr:itext('/household_survey/household/livestock_other:label')"/>
+        <repeat nodeset="/household_survey/household/livestock_other">
+          <input ref="/household_survey/household/livestock_other/livestock_type">
+            <label ref="jr:itext('/household_survey/household/livestock_other/livestock_type:label')"/>
+          </input>
+          <input ref="/household_survey/household/livestock_other/livestock_count">
+            <label ref="jr:itext('/household_survey/household/livestock_other/livestock_count:label')"/>
+          </input>
+        </repeat>
+      </group>
+      <select1 ref="/household_survey/household/own_land">
+        <label ref="jr:itext('/household_survey/household/own_land:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/household/own_land/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/household/own_land/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/household_survey/household/land_area_ask">
+        <label ref="jr:itext('/household_survey/household/land_area_ask:label')"/>
+      </input>
+      <input ref="/household_survey/household/aana">
+        <label ref="jr:itext('/household_survey/household/aana:label')"/>
+      </input>
+      <input ref="/household_survey/household/dhur">
+        <label ref="jr:itext('/household_survey/household/dhur:label')"/>
+      </input>
+      <input ref="/household_survey/household/kattha">
+        <label ref="jr:itext('/household_survey/household/kattha:label')"/>
+      </input>
+      <input ref="/household_survey/household/bigha">
+        <label ref="jr:itext('/household_survey/household/bigha:label')"/>
+      </input>
+      <input ref="/household_survey/household/ropani">
+        <label ref="jr:itext('/household_survey/household/ropani:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/household_survey/health_insurance">
+      <select1 ref="/household_survey/health_insurance/insurance">
+        <label ref="jr:itext('/household_survey/health_insurance/insurance:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/insurance/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/insurance/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/household_survey/health_insurance/insurance_type">
+        <label ref="jr:itext('/household_survey/health_insurance/insurance_type:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/insurance_type/government:label')"/>
+          <value>government</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/insurance_type/employer:label')"/>
+          <value>employer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/insurance_type/private:label')"/>
+          <value>private</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/insurance_type/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/household_survey/health_insurance/other_insurance">
+        <label ref="jr:itext('/household_survey/health_insurance/other_insurance:label')"/>
+      </input>
+      <select1 ref="/household_survey/health_insurance/members_covered">
+        <label ref="jr:itext('/household_survey/health_insurance/members_covered:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/members_covered/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/members_covered/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/household_survey/health_insurance/insured_people">
+        <label ref="jr:itext('/household_survey/health_insurance/insured_people:label')"/>
+      </input>
+      <select1 ref="/household_survey/health_insurance/time_reach_hf">
+        <label ref="jr:itext('/household_survey/health_insurance/time_reach_hf:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/time_reach_hf/less_than_30min:label')"/>
+          <value>less_than_30min</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/time_reach_hf/min_30_60:label')"/>
+          <value>min_30_60</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/time_reach_hf/hrs_1_2:label')"/>
+          <value>hrs_1_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/health_insurance/time_reach_hf/more_than_2:label')"/>
+          <value>more_than_2</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/household_survey/death">
+      <select1 ref="/household_survey/death/member_deceased">
+        <label ref="jr:itext('/household_survey/death/member_deceased:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/death/member_deceased/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/death/member_deceased/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/household_survey/death/death_count">
+        <label ref="jr:itext('/household_survey/death/death_count:label')"/>
+      </input>
+      <group ref="/household_survey/death/death_details">
+        <label ref="jr:itext('/household_survey/death/death_details:label')"/>
+        <repeat nodeset="/household_survey/death/death_details" jr:count=" /household_survey/death/death_details_count ">
+          <input ref="/household_survey/death/death_details/death_age">
+            <label ref="jr:itext('/household_survey/death/death_details/death_age:label')"/>
+            <hint ref="jr:itext('/household_survey/death/death_details/death_age:hint')"/>
+          </input>
+          <input ref="/household_survey/death/death_details/year">
+            <label ref="jr:itext('/household_survey/death/death_details/year:label')"/>
+          </input>
+          <input ref="/household_survey/death/death_details/month">
+            <label ref="jr:itext('/household_survey/death/death_details/month:label')"/>
+          </input>
+          <input ref="/household_survey/death/death_details/day">
+            <label ref="jr:itext('/household_survey/death/death_details/day:label')"/>
+          </input>
+          <input ref="/household_survey/death/death_details/hour">
+            <label ref="jr:itext('/household_survey/death/death_details/hour:label')"/>
+          </input>
+          <select1 ref="/household_survey/death/death_details/gender">
+            <label ref="jr:itext('/household_survey/death/death_details/gender:label')"/>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/gender/male:label')"/>
+              <value>male</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/gender/female:label')"/>
+              <value>female</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/gender/others:label')"/>
+              <value>others</value>
+            </item>
+          </select1>
+          <input ref="/household_survey/death/death_details/date">
+            <label ref="jr:itext('/household_survey/death/death_details/date:label')"/>
+          </input>
+          <select1 ref="/household_survey/death/death_details/place">
+            <label ref="jr:itext('/household_survey/death/death_details/place:label')"/>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/place/home:label')"/>
+              <value>home</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/place/health_facility:label')"/>
+              <value>health_facility</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/place/way_to_hf:label')"/>
+              <value>way_to_hf</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/place/other:label')"/>
+              <value>other</value>
+            </item>
+          </select1>
+          <input ref="/household_survey/death/death_details/cause">
+            <label ref="jr:itext('/household_survey/death/death_details/cause:label')"/>
+          </input>
+          <select1 ref="/household_survey/death/death_details/certificate">
+            <label ref="jr:itext('/household_survey/death/death_details/certificate:label')"/>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/certificate/yes:label')"/>
+              <value>yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/certificate/no:label')"/>
+              <value>no</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/death/death_details/certificate/don't_know:label')"/>
+              <value>don't_know</value>
+            </item>
+          </select1>
+          <input ref="/household_survey/death/death_details/certified_reason">
+            <label ref="jr:itext('/household_survey/death/death_details/certified_reason:label')"/>
+          </input>
+        </repeat>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/household_survey/disease">
+      <select1 ref="/household_survey/disease/infected_last_year">
+        <label ref="jr:itext('/household_survey/disease/infected_last_year:label')"/>
+        <item>
+          <label ref="jr:itext('/household_survey/disease/infected_last_year/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household_survey/disease/infected_last_year/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/household_survey/disease/infected_count">
+        <label ref="jr:itext('/household_survey/disease/infected_count:label')"/>
+      </input>
+      <group ref="/household_survey/disease/details">
+        <label ref="jr:itext('/household_survey/disease/details:label')"/>
+        <repeat nodeset="/household_survey/disease/details">
+          <select ref="/household_survey/disease/details/diseases">
+            <label ref="jr:itext('/household_survey/disease/details/diseases:label')"/>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/hiv:label')"/>
+              <value>hiv</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/leprosy:label')"/>
+              <value>leprosy</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/tuberculosis:label')"/>
+              <value>tuberculosis</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/malaria:label')"/>
+              <value>malaria</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/kalazar:label')"/>
+              <value>kalazar</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/dengue:label')"/>
+              <value>dengue</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/cholera:label')"/>
+              <value>cholera</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/pneumonia:label')"/>
+              <value>pneumonia</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/cold:label')"/>
+              <value>cold</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/typhoid:label')"/>
+              <value>typhoid</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/leptospirosis:label')"/>
+              <value>leptospirosis</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/covid_19:label')"/>
+              <value>covid_19</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/diseases/other:label')"/>
+              <value>other</value>
+            </item>
+          </select>
+          <input ref="/household_survey/disease/details/others">
+            <label ref="jr:itext('/household_survey/disease/details/others:label')"/>
+          </input>
+          <select1 ref="/household_survey/disease/details/treatment_ongoing">
+            <label ref="jr:itext('/household_survey/disease/details/treatment_ongoing:label')"/>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/treatment_ongoing/yes:label')"/>
+              <value>yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/treatment_ongoing/no:label')"/>
+              <value>no</value>
+            </item>
+          </select1>
+          <select1 ref="/household_survey/disease/details/no_treatment_reason">
+            <label ref="jr:itext('/household_survey/disease/details/no_treatment_reason:label')"/>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/no_treatment_reason/recovered:label')"/>
+              <value>recovered</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/no_treatment_reason/not_prescribed:label')"/>
+              <value>not_prescribed</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/no_treatment_reason/alternative:label')"/>
+              <value>alternative</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/no_treatment_reason/no_money:label')"/>
+              <value>no_money</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household_survey/disease/details/no_treatment_reason/other:label')"/>
+              <value>other</value>
+            </item>
+          </select1>
+          <input ref="/household_survey/disease/details/no_reason_other">
+            <label ref="jr:itext('/household_survey/disease/details/no_reason_other:label')"/>
+          </input>
+        </repeat>
+      </group>
+    </group>
+    <group appearance="hidden" ref="/household_survey/data">
+      <group ref="/household_survey/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

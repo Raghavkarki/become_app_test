@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Hypertension Referral Followup Form"
+    },
+    {
+      "locale": "ne",
+      "content": "उच्च रक्तचापको प्रेषण फलोअप"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": false
+  },
+  "icon": "icon-hypertension-referral",
+  "hidden_fields": []
+}

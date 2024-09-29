@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Diabetes Mellitus Referral Followup Form"
+    },
+    {
+      "locale": "ne",
+      "content": "मधुमेहको प्रेषण फलोअप"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": false
+  },
+  "icon": "icon-diabetes-referral",
+  "hidden_fields": []
+}

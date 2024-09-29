@@ -1,0 +1,17 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Cervical Cancer Followup Visit"
+    },
+    {
+      "locale": "ne",
+      "content": "पाठेघरको मुखको क्यान्सरको फलोअप"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": false
+  },
+  "icon": "icon-cervical-followup"
+}

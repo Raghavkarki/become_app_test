@@ -1,0 +1,25 @@
+{
+"dangerSignDictionaryNepali": {
+    "profile_baby_fast_breathing": "(श्वास दर गन्नु होस् ) चाडो - चाडो श्वास फर्ने छ (>६०/ मिनेट)",
+    "profile_chest_indrawing": "कोखा हानी रहेको छ ",
+    "profile_umbilical_pus_or_redness": "नाभी बाट पिप आउने वा नाभी वरपर रातो भएको छ ",
+    "profile_yellow_palms_feet": "हात र खुट्टाको पैताला पहेलो छ ",
+    "profile_pustules_10_or_big": "शरिरमा १० ओटा साना पिप्सो वा १ ठुलो ( >१ मिमि) पिप्सो छ ",
+    "profile_no_movement": "सुति रहने, ब्युझाउन गार्हो हुने छ ",
+    "profile_fever_convulsion": "ज्वरो आएको कम्पन छुट्टने छ ",
+    "profile_refuse_breastfeeding": "दुध चुस्न नम्माने छ ",
+    "profile_vomits_everything": "खाएको सबै उल्टि गर्छ "
+},
+"dangerSignDictionaryEnglish": {
+    "profile_baby_fast_breathing": "Does the baby have high respiration rate (>60/minutes)",
+    "profile_chest_indrawing": "Chest-Indrawing",
+    "profile_umbilical_pus_or_redness": "Is there a pus from umbilical or redness around the umbilical area",
+    "profile_yellow_palms_feet": "Yellow palms (hands) or soles (feet)",
+    "profile_pustules_10_or_big": "Pustules more than 10 or 1 big pustule size more than 1 mm",
+    "profile_no_movement": "No movement or poor movement only after stimulation",
+    "profile_fever_convulsion": "Is there a fever and convulsion",
+    "profile_refuse_breastfeeding": "Refuse to suck breast feed",
+    "profile_vomits_everything": "Vomits everything eaten"
+}
+}
+  
