@@ -2,17 +2,17 @@
   "title": [
     {
       "locale": "en",
-      "content": "PNC Referral follow up Form"
+      "content": "BECOME Session"
     },
     {
       "locale": "ne",
-      "content": "पि एन सी प्रेसण फलोअप फाराम"
+      "content": "BECOME भेटहरु"
     }
   ],
   "context": {
     "place": false,
     "person": false
   },
-  "icon": "icon-pnc_referral",
+  "icon": "icon-become_session",
   "hidden_fields": []
 }

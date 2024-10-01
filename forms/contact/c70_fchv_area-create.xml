@@ -110,36 +110,6 @@
           <text id="/data/contact/phone:label">
             <value>mHealth Phone Number</value>
           </text>
-          <text id="/data/contact/post/ahw:label">
-            <value>AHW</value>
-          </text>
-          <text id="/data/contact/post/anm:label">
-            <value>ANM</value>
-          </text>
-          <text id="/data/contact/post/community_health_nurse:label">
-            <value>Community Health Nurse</value>
-          </text>
-          <text id="/data/contact/post/community_health_officer:label">
-            <value>community Health Officer</value>
-          </text>
-          <text id="/data/contact/post/ha:label">
-            <value>HA</value>
-          </text>
-          <text id="/data/contact/post/health_coordinator:label">
-            <value>Health Coordinator</value>
-          </text>
-          <text id="/data/contact/post/medical_officer:label">
-            <value>Medical Officer</value>
-          </text>
-          <text id="/data/contact/post/others:label">
-            <value>Others</value>
-          </text>
-          <text id="/data/contact/post/public_health_inspector:label">
-            <value>Public Health Inspector</value>
-          </text>
-          <text id="/data/contact/post/staff_nurse:label">
-            <value>Staff Nurse</value>
-          </text>
           <text id="/data/contact/post:label">
             <value>Post</value>
           </text>
@@ -230,6 +200,186 @@
           <text id="/data/inputs/user/name:label">
             <value>Name of the logged in user</value>
           </text>
+          <text id="static_instance-caste_code-0">
+            <value>Dalit</value>
+          </text>
+          <text id="static_instance-caste_code-1">
+            <value>Janajati</value>
+          </text>
+          <text id="static_instance-caste_code-2">
+            <value>Madhesi</value>
+          </text>
+          <text id="static_instance-caste_code-3">
+            <value>Muslim</value>
+          </text>
+          <text id="static_instance-caste_code-4">
+            <value>Brahmin/Chhetri</value>
+          </text>
+          <text id="static_instance-caste_code-5">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-caste_code-6">
+            <value>Unknown</value>
+          </text>
+          <text id="static_instance-contact-0">
+            <value>Create a new person</value>
+          </text>
+          <text id="static_instance-contact-1">
+            <value>Skip this step</value>
+          </text>
+          <text id="static_instance-generated_name-0">
+            <value><output value=" /data/init/contact_name "/>'s CHN Area</value>
+          </text>
+          <text id="static_instance-generated_name-1">
+            <value><output value=" /data/init/contact_name "/>'s Area</value>
+          </text>
+          <text id="static_instance-level_of_education-0">
+            <value>lliterate</value>
+          </text>
+          <text id="static_instance-level_of_education-1">
+            <value>Literate</value>
+          </text>
+          <text id="static_instance-level_of_education-2">
+            <value>Basic level</value>
+          </text>
+          <text id="static_instance-level_of_education-3">
+            <value>Secondary level</value>
+          </text>
+          <text id="static_instance-level_of_education-4">
+            <value>Higher secondary level or high</value>
+          </text>
+          <text id="static_instance-level_of_education-5">
+            <value>Undergraduate level or higher</value>
+          </text>
+          <text id="static_instance-male_female_other-0">
+            <value>Female</value>
+          </text>
+          <text id="static_instance-male_female_other-1">
+            <value>Male</value>
+          </text>
+          <text id="static_instance-male_female_other-2">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-person_type-0">
+            <value>c12_center_contact</value>
+          </text>
+          <text id="static_instance-person_type-1">
+            <value>c22_province_contact</value>
+          </text>
+          <text id="static_instance-person_type-2">
+            <value>c32_district_contact</value>
+          </text>
+          <text id="static_instance-person_type-3">
+            <value>c42_municipality_contact</value>
+          </text>
+          <text id="static_instance-person_type-4">
+            <value>c52_ward_contact</value>
+          </text>
+          <text id="static_instance-person_type-5">
+            <value>c62_chn_area_contact</value>
+          </text>
+          <text id="static_instance-person_type-6">
+            <value>c72_fchv_area_contact</value>
+          </text>
+          <text id="static_instance-place_type-0">
+            <value>Center</value>
+          </text>
+          <text id="static_instance-place_type-1">
+            <value>Province</value>
+          </text>
+          <text id="static_instance-place_type-2">
+            <value>District</value>
+          </text>
+          <text id="static_instance-place_type-3">
+            <value>Municipality</value>
+          </text>
+          <text id="static_instance-place_type-4">
+            <value>Ward</value>
+          </text>
+          <text id="static_instance-place_type-5">
+            <value>CHN Area</value>
+          </text>
+          <text id="static_instance-place_type-6">
+            <value>FCHV Area</value>
+          </text>
+          <text id="static_instance-post-0">
+            <value>AHW</value>
+          </text>
+          <text id="static_instance-post-1">
+            <value>ANM</value>
+          </text>
+          <text id="static_instance-post-10">
+            <value>Public Health Administrator</value>
+          </text>
+          <text id="static_instance-post-11">
+            <value>Director</value>
+          </text>
+          <text id="static_instance-post-12">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-post-2">
+            <value>HA</value>
+          </text>
+          <text id="static_instance-post-3">
+            <value>Staff Nurse</value>
+          </text>
+          <text id="static_instance-post-4">
+            <value>Community Health Nurse</value>
+          </text>
+          <text id="static_instance-post-5">
+            <value>Community Health Officer</value>
+          </text>
+          <text id="static_instance-post-6">
+            <value>Public Health Inspector</value>
+          </text>
+          <text id="static_instance-post-7">
+            <value>Health Coordinator</value>
+          </text>
+          <text id="static_instance-post-8">
+            <value>Medical Officer</value>
+          </text>
+          <text id="static_instance-post-9">
+            <value>Public Health Officer</value>
+          </text>
+          <text id="static_instance-received_or_not-0">
+            <value>Received</value>
+          </text>
+          <text id="static_instance-received_or_not-1">
+            <value>Not Received</value>
+          </text>
+          <text id="static_instance-roles-0">
+            <value>Client</value>
+          </text>
+          <text id="static_instance-roles-1">
+            <value>App User</value>
+          </text>
+          <text id="static_instance-roles-2">
+            <value>FCHV</value>
+          </text>
+          <text id="static_instance-translate_name_label-0">
+            <value>Name</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no_generated_name-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no_generated_name-1">
+            <value>No, I want to name it manually</value>
+          </text>
+          <text id="static_instance-yes_no_unknown-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no_unknown-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no_unknown-2">
+            <value>Unknown</value>
+          </text>
         </translation>
         <translation lang="ne">
           <text id="/data/c70_fchv_area/external_id:label">
@@ -272,25 +422,25 @@
             <value>म. स्वा. स्व. से. को आधारभूत तालिम पाउनुभयो?</value>
           </text>
           <text id="/data/contact/caste_code/brahmin_chhetri:label">
-            <value>५ - ब्राहमण</value>
+            <value>ब्राहमण</value>
           </text>
           <text id="/data/contact/caste_code/dalit:label">
-            <value>१ - दलित</value>
+            <value>दलित</value>
           </text>
           <text id="/data/contact/caste_code/janajati:label">
-            <value>२ - जनजाति</value>
+            <value>जनजाति</value>
           </text>
           <text id="/data/contact/caste_code/madhesi:label">
-            <value>३ -  मधेशी</value>
+            <value>मधेशी</value>
           </text>
           <text id="/data/contact/caste_code/muslim:label">
-            <value>४ - मुस्लिम</value>
+            <value>मुस्लिम</value>
           </text>
           <text id="/data/contact/caste_code/other:label">
-            <value>६ - क्षेत्री</value>
+            <value>क्षेत्री</value>
           </text>
           <text id="/data/contact/caste_code/unknown:label">
-            <value>७ - अन्य</value>
+            <value>अन्य</value>
           </text>
           <text id="/data/contact/caste_code:hint">
             <value>मिल्ने जति सबै जाति कोड छान्नुहोस्। जाति कोड थाहा नभएमा "थाहा नभएको" या दिइएको मध्य नपरेमा "अन्य" छान्नुहोला ।</value>
@@ -348,36 +498,6 @@
           </text>
           <text id="/data/contact/phone:label">
             <value>फोन नम्बर</value>
-          </text>
-          <text id="/data/contact/post/ahw:label">
-            <value>अ. हे. व.</value>
-          </text>
-          <text id="/data/contact/post/anm:label">
-            <value>एच. ए.</value>
-          </text>
-          <text id="/data/contact/post/community_health_nurse:label">
-            <value>सामुदायिक स्वास्थ्य नर्स</value>
-          </text>
-          <text id="/data/contact/post/community_health_officer:label">
-            <value>सामुदायिक स्वास्थ्य अधिकृत</value>
-          </text>
-          <text id="/data/contact/post/ha:label">
-            <value>अ. न. मि.</value>
-          </text>
-          <text id="/data/contact/post/health_coordinator:label">
-            <value>स्वास्थ्य संयोजक</value>
-          </text>
-          <text id="/data/contact/post/medical_officer:label">
-            <value>डाक्टर</value>
-          </text>
-          <text id="/data/contact/post/others:label">
-            <value>अन्य</value>
-          </text>
-          <text id="/data/contact/post/public_health_inspector:label">
-            <value>जनस्वास्थ्य निरिक्षक</value>
-          </text>
-          <text id="/data/contact/post/staff_nurse:label">
-            <value>स्टाफ नर्स</value>
           </text>
           <text id="/data/contact/post:label">
             <value>पद</value>
@@ -475,10 +595,190 @@
           <text id="/data/inputs/user/name:label">
             <value>लग इन गरेको प्रयोगकर्ताको नाम</value>
           </text>
+          <text id="static_instance-caste_code-0">
+            <value>दलित</value>
+          </text>
+          <text id="static_instance-caste_code-1">
+            <value>जनजाति</value>
+          </text>
+          <text id="static_instance-caste_code-2">
+            <value>मधेशी</value>
+          </text>
+          <text id="static_instance-caste_code-3">
+            <value>मुस्लिम</value>
+          </text>
+          <text id="static_instance-caste_code-4">
+            <value>ब्राहमण</value>
+          </text>
+          <text id="static_instance-caste_code-5">
+            <value>क्षेत्री</value>
+          </text>
+          <text id="static_instance-caste_code-6">
+            <value>अन्य</value>
+          </text>
+          <text id="static_instance-contact-0">
+            <value>नयाँ व्यक्ति दर्ता</value>
+          </text>
+          <text id="static_instance-contact-1">
+            <value>अहिले सम्पर्क व्यक्ति नबनाउने</value>
+          </text>
+          <text id="static_instance-generated_name-0">
+            <value><output value=" /data/init/contact_name "/> को स्वास्थ्य क्षेत्र</value>
+          </text>
+          <text id="static_instance-generated_name-1">
+            <value><output value=" /data/init/contact_name "/> को क्षेत्र</value>
+          </text>
+          <text id="static_instance-level_of_education-0">
+            <value>निरक्षर</value>
+          </text>
+          <text id="static_instance-level_of_education-1">
+            <value>साक्षर</value>
+          </text>
+          <text id="static_instance-level_of_education-2">
+            <value>आधारभुत तह</value>
+          </text>
+          <text id="static_instance-level_of_education-3">
+            <value>माध्यमिक तह</value>
+          </text>
+          <text id="static_instance-level_of_education-4">
+            <value>उच्च माध्यमिक तह वा सो भन्दा बढी</value>
+          </text>
+          <text id="static_instance-level_of_education-5">
+            <value>स्नातक तह वा सो भन्दा बढी</value>
+          </text>
+          <text id="static_instance-male_female_other-0">
+            <value>महिला</value>
+          </text>
+          <text id="static_instance-male_female_other-1">
+            <value>पुरुष</value>
+          </text>
+          <text id="static_instance-male_female_other-2">
+            <value>अन्य</value>
+          </text>
+          <text id="static_instance-person_type-0">
+            <value>c12_center_contact</value>
+          </text>
+          <text id="static_instance-person_type-1">
+            <value>c22_province_contact</value>
+          </text>
+          <text id="static_instance-person_type-2">
+            <value>c32_district_contact</value>
+          </text>
+          <text id="static_instance-person_type-3">
+            <value>c42_municipality_contact</value>
+          </text>
+          <text id="static_instance-person_type-4">
+            <value>c52_ward_contact</value>
+          </text>
+          <text id="static_instance-person_type-5">
+            <value>c62_chn_area_contact</value>
+          </text>
+          <text id="static_instance-person_type-6">
+            <value>c72_fchv_area_contact</value>
+          </text>
+          <text id="static_instance-place_type-0">
+            <value>केन्द्र</value>
+          </text>
+          <text id="static_instance-place_type-1">
+            <value>प्रदेश</value>
+          </text>
+          <text id="static_instance-place_type-2">
+            <value>जिल्ला</value>
+          </text>
+          <text id="static_instance-place_type-3">
+            <value>नगरपालिका</value>
+          </text>
+          <text id="static_instance-place_type-4">
+            <value>वडा</value>
+          </text>
+          <text id="static_instance-place_type-5">
+            <value>सामुदायिक स्वास्थ्य नर्सको क्षेत्र</value>
+          </text>
+          <text id="static_instance-place_type-6">
+            <value>महिला स्वास्थ्य स्वयंसेविकाको क्षेत्र</value>
+          </text>
+          <text id="static_instance-post-0">
+            <value>अ. हे. व.</value>
+          </text>
+          <text id="static_instance-post-1">
+            <value>अ. न. मि.</value>
+          </text>
+          <text id="static_instance-post-10">
+            <value>जनस्वास्थ्य प्रशासक</value>
+          </text>
+          <text id="static_instance-post-11">
+            <value>निर्देशक</value>
+          </text>
+          <text id="static_instance-post-12">
+            <value>अन्य</value>
+          </text>
+          <text id="static_instance-post-2">
+            <value>एच. ए.</value>
+          </text>
+          <text id="static_instance-post-3">
+            <value>स्टाफ नर्स</value>
+          </text>
+          <text id="static_instance-post-4">
+            <value>सामुदायिक स्वास्थ्य नर्स</value>
+          </text>
+          <text id="static_instance-post-5">
+            <value>सामुदायिक स्वास्थ्य अधिकृत</value>
+          </text>
+          <text id="static_instance-post-6">
+            <value>जनस्वास्थ्य निरिक्षक</value>
+          </text>
+          <text id="static_instance-post-7">
+            <value>स्वास्थ्य संयोजक</value>
+          </text>
+          <text id="static_instance-post-8">
+            <value>डाक्टर</value>
+          </text>
+          <text id="static_instance-post-9">
+            <value>जनस्वास्थ्य अधिकृत</value>
+          </text>
+          <text id="static_instance-received_or_not-0">
+            <value>पाएको</value>
+          </text>
+          <text id="static_instance-received_or_not-1">
+            <value>नपाएको</value>
+          </text>
+          <text id="static_instance-roles-0">
+            <value>सेवाग्राही</value>
+          </text>
+          <text id="static_instance-roles-1">
+            <value>प्रयोगकर्ता</value>
+          </text>
+          <text id="static_instance-roles-2">
+            <value>महिला स्वास्थ्य स्वयंसेविका</value>
+          </text>
+          <text id="static_instance-translate_name_label-0">
+            <value>नाम</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>हो</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>होइन</value>
+          </text>
+          <text id="static_instance-yes_no_generated_name-0">
+            <value>हो</value>
+          </text>
+          <text id="static_instance-yes_no_generated_name-1">
+            <value>होइन, म आफैँ नाम दिन चाहन्छु</value>
+          </text>
+          <text id="static_instance-yes_no_unknown-0">
+            <value>हो</value>
+          </text>
+          <text id="static_instance-yes_no_unknown-1">
+            <value>होइन</value>
+          </text>
+          <text id="static_instance-yes_no_unknown-2">
+            <value>थाहा नभएको</value>
+          </text>
         </translation>
       </itext>
       <instance>
-        <data id="contact:c70_fchv_area:create" prefix="J1!contact:c70_fchv_area:create!" delimiter="#" version="2021-12-12 15-33">
+        <data id="contact:c70_fchv_area:create" prefix="J1!contact:c70_fchv_area:create!" delimiter="#" version="2022-01-04 19-33">
           <inputs>
             <meta>
               <location>
@@ -517,6 +817,7 @@
             <custom_place_name_label/>
             <custom_place_name/>
             <place_type>c70_fchv_area</place_type>
+            <place_type_prefix/>
             <place_type_translation/>
             <generated_name>c70_fchv_area</generated_name>
             <generated_name_translation/>
@@ -550,6 +851,315 @@
           </meta>
         </data>
       </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no_unknown">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no_unknown-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_unknown-1</itextId>
+            <name>no</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_unknown-2</itextId>
+            <name>unknown</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="male_female_other">
+        <root>
+          <item>
+            <itextId>static_instance-male_female_other-0</itextId>
+            <name>female</name>
+          </item>
+          <item>
+            <itextId>static_instance-male_female_other-1</itextId>
+            <name>male</name>
+          </item>
+          <item>
+            <itextId>static_instance-male_female_other-2</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="contact">
+        <root>
+          <item>
+            <itextId>static_instance-contact-0</itextId>
+            <name>new_person</name>
+          </item>
+          <item>
+            <itextId>static_instance-contact-1</itextId>
+            <name>none</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="roles">
+        <root>
+          <item>
+            <itextId>static_instance-roles-0</itextId>
+            <name>patient</name>
+          </item>
+          <item>
+            <itextId>static_instance-roles-1</itextId>
+            <name>app_user</name>
+          </item>
+          <item>
+            <itextId>static_instance-roles-2</itextId>
+            <name>chw</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no_generated_name">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no_generated_name-0</itextId>
+            <name>true</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_generated_name-1</itextId>
+            <name>false</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="place_type">
+        <root>
+          <item>
+            <itextId>static_instance-place_type-0</itextId>
+            <name>c10_center</name>
+          </item>
+          <item>
+            <itextId>static_instance-place_type-1</itextId>
+            <name>c20_province</name>
+          </item>
+          <item>
+            <itextId>static_instance-place_type-2</itextId>
+            <name>c30_district</name>
+          </item>
+          <item>
+            <itextId>static_instance-place_type-3</itextId>
+            <name>c40_municipality</name>
+          </item>
+          <item>
+            <itextId>static_instance-place_type-4</itextId>
+            <name>c50_ward</name>
+          </item>
+          <item>
+            <itextId>static_instance-place_type-5</itextId>
+            <name>c60_chn_area</name>
+          </item>
+          <item>
+            <itextId>static_instance-place_type-6</itextId>
+            <name>c70_fchv_area</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="caste_code">
+        <root>
+          <item>
+            <itextId>static_instance-caste_code-0</itextId>
+            <name>dalit</name>
+          </item>
+          <item>
+            <itextId>static_instance-caste_code-1</itextId>
+            <name>janajati</name>
+          </item>
+          <item>
+            <itextId>static_instance-caste_code-2</itextId>
+            <name>madhesi</name>
+          </item>
+          <item>
+            <itextId>static_instance-caste_code-3</itextId>
+            <name>muslim</name>
+          </item>
+          <item>
+            <itextId>static_instance-caste_code-4</itextId>
+            <name>brahmin_chhetri</name>
+          </item>
+          <item>
+            <itextId>static_instance-caste_code-5</itextId>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-caste_code-6</itextId>
+            <name>unknown</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="level_of_education">
+        <root>
+          <item>
+            <itextId>static_instance-level_of_education-0</itextId>
+            <name>iliterate</name>
+          </item>
+          <item>
+            <itextId>static_instance-level_of_education-1</itextId>
+            <name>literate</name>
+          </item>
+          <item>
+            <itextId>static_instance-level_of_education-2</itextId>
+            <name>basic</name>
+          </item>
+          <item>
+            <itextId>static_instance-level_of_education-3</itextId>
+            <name>secondary</name>
+          </item>
+          <item>
+            <itextId>static_instance-level_of_education-4</itextId>
+            <name>secondary_level_high</name>
+          </item>
+          <item>
+            <itextId>static_instance-level_of_education-5</itextId>
+            <name>undergard_or_high</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="received_or_not">
+        <root>
+          <item>
+            <itextId>static_instance-received_or_not-0</itextId>
+            <name>true</name>
+          </item>
+          <item>
+            <itextId>static_instance-received_or_not-1</itextId>
+            <name>false</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="generated_name">
+        <root>
+          <item>
+            <itextId>static_instance-generated_name-0</itextId>
+            <name>c60_chn_area</name>
+          </item>
+          <item>
+            <itextId>static_instance-generated_name-1</itextId>
+            <name>c70_fchv_area</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="translate_name_label">
+        <root>
+          <item>
+            <itextId>static_instance-translate_name_label-0</itextId>
+            <name>name</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="post">
+        <root>
+          <item>
+            <itextId>static_instance-post-0</itextId>
+            <name>ahw</name>
+            <places>c40</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-1</itextId>
+            <name>anm</name>
+            <places>c30 c40</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-2</itextId>
+            <name>ha</name>
+            <places>c40 c50 c60</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-3</itextId>
+            <name>sn</name>
+            <places>c30 c40 c50</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-4</itextId>
+            <name>chn</name>
+            <places>c40 c60</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-5</itextId>
+            <name>cho</name>
+            <places>c40</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-6</itextId>
+            <name>phi</name>
+            <places>c30 c40 c50</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-7</itextId>
+            <name>hc</name>
+            <places>c40</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-8</itextId>
+            <name>mo</name>
+            <places>c30 c40 c50</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-9</itextId>
+            <name>pho</name>
+            <places>c20 c30</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-10</itextId>
+            <name>pha</name>
+            <places>c20 c30</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-11</itextId>
+            <name>director</name>
+            <places>c10</places>
+          </item>
+          <item>
+            <itextId>static_instance-post-12</itextId>
+            <name>other</name>
+            <places>all</places>
+          </item>
+        </root>
+      </instance>
+      <instance id="person_type">
+        <root>
+          <item>
+            <itextId>static_instance-person_type-0</itextId>
+            <name>c10_center</name>
+          </item>
+          <item>
+            <itextId>static_instance-person_type-1</itextId>
+            <name>c20_province</name>
+          </item>
+          <item>
+            <itextId>static_instance-person_type-2</itextId>
+            <name>c30_district</name>
+          </item>
+          <item>
+            <itextId>static_instance-person_type-3</itextId>
+            <name>c40_municipality</name>
+          </item>
+          <item>
+            <itextId>static_instance-person_type-4</itextId>
+            <name>c50_ward</name>
+          </item>
+          <item>
+            <itextId>static_instance-person_type-5</itextId>
+            <name>c60_chn_area</name>
+          </item>
+          <item>
+            <itextId>static_instance-person_type-6</itextId>
+            <name>c70_fchv_area</name>
+          </item>
+        </root>
+      </instance>
       <bind nodeset="/data/inputs" relevant="false()"/>
       <bind nodeset="/data/inputs/user/contact_id" type="string"/>
       <bind nodeset="/data/inputs/user/facility_id" type="string"/>
@@ -557,10 +1167,11 @@
       <bind nodeset="/data/init/create_new_person" type="select1" required="true()"/>
       <bind nodeset="/data/init/name" type="string"/>
       <bind nodeset="/data/init/contact_name" type="string" calculate="coalesce(../name, ../../contact/name)"/>
-      <bind nodeset="/data/init/custom_place_name_label_translator" type="select1" relevant="selected( /data/init/create_new_person ,'none')" calculate="&quot;name&quot;"/>
+      <bind nodeset="/data/init/custom_place_name_label_translator" type="select1" calculate="&quot;name&quot;" relevant="selected( /data/init/create_new_person ,'none')"/>
       <bind nodeset="/data/init/custom_place_name_label" type="string" calculate="jr:choice-name( /data/init/custom_place_name_label_translator ,' /data/init/custom_place_name_label_translator ')"/>
-      <bind nodeset="/data/init/custom_place_name" type="string" relevant="not( /data/init/place_type  = 'c60_chn_area' or  /data/init/place_type  = 'c70_fchv_area') or selected( /data/c70_fchv_area/is_name_generated , 'false') or selected( /data/init/create_new_person ,'none')" required="true()"/>
+      <bind nodeset="/data/init/custom_place_name" type="string" required="true()" relevant="not( /data/init/place_type  = 'c60_chn_area' or  /data/init/place_type  = 'c70_fchv_area') or selected( /data/c70_fchv_area/is_name_generated , 'false') or selected( /data/init/create_new_person ,'none')"/>
       <bind nodeset="/data/init/place_type" type="select1"/>
+      <bind nodeset="/data/init/place_type_prefix" type="string" calculate="substr( /data/init/place_type , 0, 3)"/>
       <bind nodeset="/data/init/place_type_translation" type="string" calculate="jr:choice-name( /data/init/place_type ,' /data/init/place_type ')"/>
       <bind nodeset="/data/init/generated_name" type="select1"/>
       <bind nodeset="/data/init/generated_name_translation" type="string" calculate="jr:choice-name( /data/init/generated_name ,' /data/init/generated_name ')"/>
@@ -570,24 +1181,24 @@
       <bind nodeset="/data/contact/type" type="string"/>
       <bind nodeset="/data/contact/contact_type" type="string" calculate="jr:choice-name( /data/init/person_type ,' /data/init/person_type ')"/>
       <bind nodeset="/data/contact/role" type="string" calculate="if( /data/init/place_type  = 'c70_fchv_area', 'chw', 'app_user')"/>
-      <bind nodeset="/data/contact/first_name" type="string" constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')" jr:constraintMsg="jr:itext('/data/contact/first_name:jr:constraintMsg')" required="true()"/>
-      <bind nodeset="/data/contact/last_name" type="string" constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')" jr:constraintMsg="jr:itext('/data/contact/last_name:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/data/contact/first_name" type="string" required="true()" constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')" jr:constraintMsg="jr:itext('/data/contact/first_name:jr:constraintMsg')"/>
+      <bind nodeset="/data/contact/last_name" type="string" required="true()" constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')" jr:constraintMsg="jr:itext('/data/contact/last_name:jr:constraintMsg')"/>
       <bind nodeset="/data/contact/name" type="string" calculate="concat( /data/contact/first_name , ' ',  /data/contact/last_name )"/>
       <bind nodeset="/data/contact/age" type="int"/>
       <bind nodeset="/data/contact/gender" type="select1" required="true()"/>
-      <bind nodeset="/data/contact/caste_code" type="select" constraint="not(selected(., 'unknown') and (selected(., 'dalit') or selected(., 'janajati') or selected(., 'madhesi')or selected(., 'muslim')or selected(., 'brahmin_chettri') or selected(., 'other') ))" jr:constraintMsg="jr:itext('/data/contact/caste_code:jr:constraintMsg')" relevant=" /data/contact/role  = 'chw'" required="true()"/>
-      <bind nodeset="/data/contact/phone" type="tel" constraint="true()" jr:constraintMsg="jr:itext('/data/contact/phone:jr:constraintMsg')" required="true()"/>
-      <bind nodeset="/data/contact/fchv_id_number" type="string" constraint="regex(.,'^[0-9]*$')" jr:constraintMsg="jr:itext('/data/contact/fchv_id_number:jr:constraintMsg')" relevant=" /data/contact/role  = 'chw'"/>
-      <bind nodeset="/data/contact/start_date_as_fchv" type="string" constraint="regex(.,'^[0-9]{4}$') and int(.)&gt;= 2044 and int(format-date(today(),'%Y')) + 57 &gt;= int(.)" jr:constraintMsg="jr:itext('/data/contact/start_date_as_fchv:jr:constraintMsg')" relevant=" /data/contact/role  = 'chw'" required="true()"/>
-      <bind nodeset="/data/contact/start_date_as_fchv_ad" type="string" relevant=" /data/contact/role  = 'chw'" calculate="int( /data/contact/start_date_as_fchv ) - 57"/>
-      <bind nodeset="/data/contact/basic_training" type="select1" relevant=" /data/contact/role  = 'chw'" required="true()"/>
+      <bind nodeset="/data/contact/caste_code" type="select" jr:constraintMsg="jr:itext('/data/contact/caste_code:jr:constraintMsg')" constraint="not(selected(., 'unknown') and (selected(., 'dalit') or selected(., 'janajati') or selected(., 'madhesi')or selected(., 'muslim')or selected(., 'brahmin_chettri') or selected(., 'other') ))" relevant=" /data/contact/role  = 'chw'" required="true()"/>
+      <bind nodeset="/data/contact/phone" type="tel" required="true()" constraint="true()" jr:constraintMsg="jr:itext('/data/contact/phone:jr:constraintMsg')"/>
+      <bind nodeset="/data/contact/fchv_id_number" type="string" jr:constraintMsg="jr:itext('/data/contact/fchv_id_number:jr:constraintMsg')" constraint="regex(.,'^[0-9]*$')" relevant=" /data/contact/role  = 'chw'"/>
+      <bind nodeset="/data/contact/start_date_as_fchv" type="string" jr:constraintMsg="jr:itext('/data/contact/start_date_as_fchv:jr:constraintMsg')" constraint="regex(.,'^[0-9]{4}$') and int(.)&gt;= 2044 and int(format-date(today(),'%Y')) + 57 &gt;= int(.)" relevant=" /data/contact/role  = 'chw'" required="true()"/>
+      <bind nodeset="/data/contact/start_date_as_fchv_ad" type="string" calculate="int( /data/contact/start_date_as_fchv ) - 57" relevant=" /data/contact/role  = 'chw'"/>
+      <bind nodeset="/data/contact/basic_training" type="select1" required="true()" relevant=" /data/contact/role  = 'chw'"/>
       <bind nodeset="/data/contact/post" type="select1" relevant=" /data/contact/role  = 'app_user'"/>
       <bind nodeset="/data/contact/meta/created_by" type="string" calculate="../../../inputs/user/name"/>
       <bind nodeset="/data/contact/meta/created_by_person_uuid" type="string" calculate="../../../inputs/user/contact_id"/>
       <bind nodeset="/data/contact/meta/created_by_place_uuid" type="string" calculate="../../../inputs/user/facility_id"/>
       <bind nodeset="/data/c70_fchv_area/parent" type="string"/>
       <bind nodeset="/data/c70_fchv_area/type" type="string"/>
-      <bind nodeset="/data/c70_fchv_area/is_name_generated" type="select1" relevant="not(selected( /data/init/create_new_person ,'none')) and ( /data/init/place_type  = 'c60_chn_area' or  /data/init/place_type  = 'c70_fchv_area')" required="true()"/>
+      <bind nodeset="/data/c70_fchv_area/is_name_generated" type="select1" required="true()" relevant="not(selected( /data/init/create_new_person ,'none')) and ( /data/init/place_type  = 'c60_chn_area' or  /data/init/place_type  = 'c70_fchv_area')"/>
       <bind nodeset="/data/c70_fchv_area/name" type="string" required="true()" calculate="if(  /data/c70_fchv_area/is_name_generated  = 'true',  /data/init/generated_name_translation ,  /data/init/custom_place_name )"/>
       <bind nodeset="/data/c70_fchv_area/external_id" type="string"/>
       <bind nodeset="/data/c70_fchv_area/notes" type="string"/>
@@ -784,46 +1395,10 @@
         </select1>
         <select1 appearance="horizontal" ref="/data/contact/post">
           <label ref="jr:itext('/data/contact/post:label')"/>
-          <item>
-            <label ref="jr:itext('/data/contact/post/ahw:label')"/>
-            <value>ahw</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/post/anm:label')"/>
-            <value>anm</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/post/ha:label')"/>
-            <value>ha</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/post/staff_nurse:label')"/>
-            <value>staff_nurse</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/post/health_coordinator:label')"/>
-            <value>health_coordinator</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/post/medical_officer:label')"/>
-            <value>medical_officer</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/post/community_health_nurse:label')"/>
-            <value>community_health_nurse</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/post/community_health_officer:label')"/>
-            <value>community_health_officer</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/post/public_health_inspector:label')"/>
-            <value>public_health_inspector</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/post/others:label')"/>
-            <value>others</value>
-          </item>
+          <itemset nodeset="instance('post')/root/item[places = 'all' or contains(places,  /data/init/place_type_prefix )]">
+            <value ref="name"/>
+            <label ref="jr:itext(itextId)"/>
+          </itemset>
         </select1>
         <group appearance="hidden" ref="/data/contact/meta"/>
         </group>

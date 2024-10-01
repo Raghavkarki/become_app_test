@@ -1,0 +1,19 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "BECOME: Conditions"
+    },
+    {
+      "locale": "ne",
+      "content": "BECOME: समस्याहरु"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.contact_type === 'c82_person'"
+  },
+  "icon": "icon-become_action",
+  "hidden_fields": []
+}

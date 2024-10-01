@@ -14,6 +14,7 @@ const thisLineage = lineage.filter((parent) => parent && !HIDDEN_TYPES_FROM_LINE
 const allReports = reports;
 
 const context = getContext(thisContact, allReports);
+console.log('data', context);
 
 
 const fields = [

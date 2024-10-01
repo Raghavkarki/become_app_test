@@ -518,12 +518,35 @@ function daysSinceDeliveryInDeliveryForm(report) {
     null;
 }
 
+// function getDueDateForPNCService(report, daysToAdd) {
+//   const daysSinceDelivery = daysSinceDeliveryInDeliveryForm(report);
+//   const deliveryDate = getField(report, 'preg_info.delivery_date');
+//   const numberOfVisit = getField(report, 'pnccheck.pnc_check_no');
+//   return (deliveryDate && daysSinceDelivery <= daysToAdd && 
+//     ((numberOfVisit === '0' && daysToAdd >= 2) || 
+//     (numberOfVisit === '1' && daysToAdd >= 13) || 
+//     (numberOfVisit === '2' && daysToAdd >= 41))) 
+//     ? addDays(deliveryDate, daysToAdd) 
+//     : null;
+// }
 function getDueDateForPNCService(report, daysToAdd) {
   const daysSinceDelivery = daysSinceDeliveryInDeliveryForm(report);
   const deliveryDate = getField(report, 'preg_info.delivery_date');
+  const numberOfVisit = getField(report, 'pnccheck.pnc_check_no');
 
-  return (deliveryDate && daysSinceDelivery <= daysToAdd) ? addDays(deliveryDate, daysToAdd) : null;
+  if (!deliveryDate || daysSinceDelivery > daysToAdd) {
+    return null;
+  }
+
+  const visitConditions = {
+    '0': daysToAdd >= 2,
+    '1': daysToAdd >= 13,
+    '2': daysToAdd >= 41
+  };
+
+  return visitConditions[numberOfVisit] ? addDays(deliveryDate, daysToAdd) : null;
 }
+
 
 function getPncServiceDangerSigns(report) {
   const assignSigns = (signType) => {
@@ -550,17 +573,17 @@ function getPncServiceDangerSigns(report) {
 }
 
 function getPNCServiceDangerSignReferral(report) {
-  const assignCtx = (keys) => keys.reduce((acc, key) => {
-    acc[key.slice(key.lastIndexOf('.') + 1)] = getField(report, key);
-    return acc;
-  }, {});
-  const dangerSignCodes = assignCtx([
-    'danger_sign_mother',
-    'danger_sign_child'
-  ]);
+  const dangerSignCodes = {};
+  const keys = ['danger_sign_mother', 'danger_sign_child'];
+
+  keys.forEach(key => {
+    const shortKey = key.slice(key.lastIndexOf('.') + 1);
+    dangerSignCodes[shortKey] = getField(report, key);
+  });
 
   return dangerSignCodes;
 }
+
 
 module.exports = {
   today,

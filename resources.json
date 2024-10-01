@@ -33,6 +33,11 @@
   "icon-diabetes":"icon-disease-diabetes.svg",
   "icon-diabetes-referral":"icon-diabetes_referral.svg",
   "icon-pnc_service":"icon-pnc_service_form.svg",
-  "icon-pnc_referral":"icon-pnc_referral_followup_form.svg"
+  "icon-pnc_referral":"icon-pnc_referral_followup_form.svg",
+  "icon-become_action":"icon-become_action.svg",
+  "icon-become_session":"icon-become_session.svg"
+
+
+  
   
 }

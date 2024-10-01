@@ -228,15 +228,15 @@
       </instance>
       <bind nodeset="/data/c72_fchv_area_contact/type" type="string"/>
       <bind nodeset="/data/c72_fchv_area_contact/contact_type" type="string"/>
-      <bind nodeset="/data/c72_fchv_area_contact/first_name" type="string" required="true()" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/first_name:jr:constraintMsg')" constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')"/>
-      <bind nodeset="/data/c72_fchv_area_contact/last_name" type="string" required="true()" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/last_name:jr:constraintMsg')" constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')"/>
+      <bind nodeset="/data/c72_fchv_area_contact/first_name" type="string" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/first_name:jr:constraintMsg')" required="true()" constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')"/>
+      <bind nodeset="/data/c72_fchv_area_contact/last_name" type="string" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/last_name:jr:constraintMsg')" required="true()" constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')"/>
       <bind nodeset="/data/c72_fchv_area_contact/name" type="string" calculate="concat( /data/c72_fchv_area_contact/first_name , ' ',  /data/c72_fchv_area_contact/last_name )"/>
-      <bind nodeset="/data/c72_fchv_area_contact/age" type="int" required="true()" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/age:jr:constraintMsg')" constraint=".&lt;=100"/>
+      <bind nodeset="/data/c72_fchv_area_contact/age" type="int" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/age:jr:constraintMsg')" required="true()" constraint=".&lt;=100"/>
       <bind nodeset="/data/c72_fchv_area_contact/gender" type="select1" required="true()"/>
-      <bind nodeset="/data/c72_fchv_area_contact/caste_code" type="select1" required="true()" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/caste_code:jr:constraintMsg')"/>
-      <bind nodeset="/data/c72_fchv_area_contact/phone" type="tel" required="true()" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/phone:jr:constraintMsg')"/>
+      <bind nodeset="/data/c72_fchv_area_contact/caste_code" type="select1" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/caste_code:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/data/c72_fchv_area_contact/phone" type="tel" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/phone:jr:constraintMsg')" required="true()"/>
       <bind nodeset="/data/c72_fchv_area_contact/fchv_id_number" type="string" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/fchv_id_number:jr:constraintMsg')" constraint="regex(.,'^[0-9]*$')"/>
-      <bind nodeset="/data/c72_fchv_area_contact/start_date_as_fchv" type="string" required="true()" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/start_date_as_fchv:jr:constraintMsg')" constraint="regex(.,'^[0-9]{4}$') and int(.)&gt;= 2044 and int(format-date(today(),'%Y')) + 57 &gt;= int(.)"/>
+      <bind nodeset="/data/c72_fchv_area_contact/start_date_as_fchv" type="string" jr:constraintMsg="jr:itext('/data/c72_fchv_area_contact/start_date_as_fchv:jr:constraintMsg')" required="true()" constraint="regex(.,'^[0-9]{4}$') and int(.)&gt;= 2044 and int(format-date(today(),'%Y')) + 57 &gt;= int(.)"/>
       <bind nodeset="/data/c72_fchv_area_contact/start_date_as_fchv_ad" type="string" calculate="int( /data/c72_fchv_area_contact/start_date_as_fchv ) - 57"/>
       <bind nodeset="/data/c72_fchv_area_contact/basic_training" type="select1" required="true()"/>
       <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>

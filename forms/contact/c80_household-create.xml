@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
   <h:head>
     <h:title>House registration</h:title>
     <model>
@@ -577,7 +577,7 @@
         </translation>
       </itext>
       <instance>
-        <data delimiter="#" id="contact:c80_household:create" prefix="J1!contact:c80_household:create!" version="2023-09-19  16-36">
+        <data id="contact:c80_household:create" prefix="J1!contact:c80_household:create!" delimiter="#" version="2023-09-19  18-25">
           <inputs>
             <meta>
               <location>
@@ -619,6 +619,7 @@
             <add_phone/>
             <phone>+977</phone>
             <date_of_birth/>
+            <age_in_years/>
             <gender/>
             <religion/>
             <marital_status/>
@@ -643,43 +644,44 @@
       <bind nodeset="/data/inputs/user/facility_id" type="string"/>
       <bind nodeset="/data/inputs/user/name" type="string"/>
       <bind nodeset="/data/init/name" type="string"/>
-      <bind calculate="coalesce(../../contact/name, ../name)" nodeset="/data/init/contact_name" type="string"/>
+      <bind nodeset="/data/init/contact_name" type="string" calculate="coalesce(../../contact/name, ../name)"/>
       <bind nodeset="/data/contact/parent" type="string"/>
       <bind nodeset="/data/contact/type" type="string"/>
       <bind nodeset="/data/contact/contact_type" type="string"/>
-      <bind constraint="string-length(.)&lt;=30" nodeset="/data/contact/first_name" required="true()" type="string"/>
-      <bind constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')" nodeset="/data/contact/last_name" required="true()" type="string"/>
-      <bind calculate="concat( /data/contact/first_name , ' ',  /data/contact/last_name )" nodeset="/data/contact/name" type="string"/>
-      <bind nodeset="/data/contact/add_phone" required="true()" type="select1"/>
-      <bind nodeset="/data/contact/phone" relevant=" /data/contact/add_phone ='yes'" required="true()" type="tel"/>
-      <bind nodeset="/data/contact/date_of_birth" required="true()" type="date"/>
-      <bind nodeset="/data/contact/gender" required="true()" type="select1"/>
-      <bind nodeset="/data/contact/religion" required="true()" type="select1"/>
-      <bind nodeset="/data/contact/marital_status" required="true()" type="select1"/>
-      <bind nodeset="/data/contact/is_disabled" required="true()" type="select1"/>
-      <bind nodeset="/data/contact/disability" relevant=" /data/contact/is_disabled  = 'yes'" required="true()" type="select"/>
-      <bind nodeset="/data/contact/disability_severity" relevant=" /data/contact/is_disabled  = 'yes'" required="true()" type="select1"/>
-      <bind nodeset="/data/contact/disability_card" relevant=" /data/contact/is_disabled  = 'yes'" required="true()" type="select1"/>
-      <bind nodeset="/data/contact/disability_start" relevant=" /data/contact/is_disabled  = 'yes'" required="true()" type="select1"/>
-      <bind nodeset="/data/contact/disability_start_date" relevant=" /data/contact/disability_start  = 'after_birth'" type="date"/>
-      <bind nodeset="/data/contact/level_of_education" required="true()" type="select1"/>
-      <bind nodeset="/data/contact/occupation" required="true()" type="select1"/>
-      <bind constraint="not(selected(., 'unknown') and (selected(., 'dalit') or selected(., 'janajati') or selected(., 'madhesi')or selected(., 'muslim')or selected(., 'brahmin_chettri') or selected(., 'other') ))" nodeset="/data/contact/caste_code" required="true()" type="select1"/>
-      <bind calculate="&quot;house_head&quot;" nodeset="/data/contact/relation" type="string"/>
+      <bind nodeset="/data/contact/first_name" type="string" constraint="string-length(.)&lt;=30" required="true()"/>
+      <bind nodeset="/data/contact/last_name" type="string" constraint="string-length(.)&lt;=30 and regex(.,'^([^0-9]*)$')" required="true()"/>
+      <bind nodeset="/data/contact/name" type="string" calculate="concat( /data/contact/first_name , ' ',  /data/contact/last_name )"/>
+      <bind nodeset="/data/contact/add_phone" type="select1" required="true()"/>
+      <bind nodeset="/data/contact/phone" type="tel" relevant=" /data/contact/add_phone ='yes'" required="true()"/>
+      <bind nodeset="/data/contact/date_of_birth" type="date" required="true()"/>
+      <bind nodeset="/data/contact/age_in_years" type="string" calculate="floor(difference-in-months(  /data/contact/date_of_birth , today() ) div 12 )"/>
+      <bind nodeset="/data/contact/gender" type="select1" required="true()"/>
+      <bind nodeset="/data/contact/religion" type="select1" required="true()"/>
+      <bind nodeset="/data/contact/marital_status" type="select1" required="true()"/>
+      <bind nodeset="/data/contact/is_disabled" type="select1" required="true()"/>
+      <bind nodeset="/data/contact/disability" type="select" relevant=" /data/contact/is_disabled  = 'yes'" required="true()"/>
+      <bind nodeset="/data/contact/disability_severity" type="select1" relevant=" /data/contact/is_disabled  = 'yes'" required="true()"/>
+      <bind nodeset="/data/contact/disability_card" type="select1" relevant=" /data/contact/is_disabled  = 'yes'" required="true()"/>
+      <bind nodeset="/data/contact/disability_start" type="select1" relevant=" /data/contact/is_disabled  = 'yes'" required="true()"/>
+      <bind nodeset="/data/contact/disability_start_date" type="date" relevant=" /data/contact/disability_start  = 'after_birth'"/>
+      <bind nodeset="/data/contact/level_of_education" type="select1" required="true()"/>
+      <bind nodeset="/data/contact/occupation" type="select1" required="true()"/>
+      <bind nodeset="/data/contact/caste_code" type="select1" constraint="not(selected(., 'unknown') and (selected(., 'dalit') or selected(., 'janajati') or selected(., 'madhesi')or selected(., 'muslim')or selected(., 'brahmin_chettri') or selected(., 'other') ))" required="true()"/>
+      <bind nodeset="/data/contact/relation" type="string" calculate="&quot;house_head&quot;"/>
       <bind nodeset="/data/c80_household/parent" type="string"/>
       <bind nodeset="/data/c80_household/house_number" type="string"/>
-      <bind calculate="if( /data/c80_household/house_number  = '',
+      <bind nodeset="/data/c80_household/generated_name" type="string" calculate="if( /data/c80_household/house_number  = '',
  concat( /data/init/contact_name , &quot; को घर धुरी&quot;),
 concat( /data/init/contact_name , &quot; को घर धुरी (&quot;,  /data/c80_household/house_number , &quot;)&quot;)
-)" nodeset="/data/c80_household/generated_name" type="string"/>
+)"/>
       <bind nodeset="/data/c80_household/generated_name_label" readonly="true()" type="string"/>
       <bind nodeset="/data/c80_household/change_name" type="select1"/>
-      <bind nodeset="/data/c80_household/custom_name" relevant=" /data/c80_household/change_name  = 'yes'" required="true()" type="string"/>
-      <bind calculate="coalesce( /data/c80_household/custom_name ,  /data/c80_household/generated_name )" nodeset="/data/c80_household/name" type="string"/>
+      <bind nodeset="/data/c80_household/custom_name" type="string" relevant=" /data/c80_household/change_name  = 'yes'" required="true()"/>
+      <bind nodeset="/data/c80_household/name" type="string" calculate="coalesce( /data/c80_household/custom_name ,  /data/c80_household/generated_name )"/>
       <bind nodeset="/data/c80_household/external_id" type="string"/>
       <bind nodeset="/data/c80_household/notes" type="string"/>
-      <bind calculate="&quot;NEW&quot;" nodeset="/data/c80_household/contact" type="string"/>
-      <bind calculate="concat('uuid:', uuid())" nodeset="/data/meta/instanceID" readonly="true()" type="string"/>
+      <bind nodeset="/data/c80_household/contact" type="string" calculate="&quot;NEW&quot;"/>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
   </h:head>
   <h:body class="pages">

@@ -491,7 +491,7 @@ function getContext(thisContact, allReports) {
       context.bmi_previous_ctx = 'yes' ;
       //diabetes
       const [bmiForDiabetes, bmiDiabetesResult] = [ncdBmiCalculation(allReports, 'bmi_cal'), ncdBmiCalculation(allReports, 'bmi_result')];
-      const latestDiabetesScreeningReport = getNewestReport(reports, 'diabetes_screening');
+      const latestDiabetesScreeningReport = getNewestReport(allReports, 'diabetes_screening');
       const glucometerData = getField(latestDiabetesScreeningReport, 'diabetes_screening.glucometer');
       const dangerTriggerForPssRbs = getField(latestDiabetesScreeningReport, 'dt_pps_rbs');
       const dangerTriggerForFbs = getField(latestDiabetesScreeningReport, 'dt_fbs');

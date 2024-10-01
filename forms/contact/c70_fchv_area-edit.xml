@@ -5,17 +5,14 @@
     <model>
       <itext>
         <translation lang="en">
-          <text id="/data/c70_fchv_area/contact/change_primary/no:label">
+          <text id="/data/c70_fchv_area/change_primary/no:label">
             <value>No</value>
           </text>
-          <text id="/data/c70_fchv_area/contact/change_primary/yes:label">
+          <text id="/data/c70_fchv_area/change_primary/yes:label">
             <value>Yes</value>
           </text>
-          <text id="/data/c70_fchv_area/contact/change_primary:label">
+          <text id="/data/c70_fchv_area/change_primary:label">
             <value>Do you want to change the primary contact?</value>
-          </text>
-          <text id="/data/c70_fchv_area/contact/contact_name_note:label">
-            <value>Primary contact: <output value=" /data/c70_fchv_area/contact/contact_name "/></value>
           </text>
           <text id="/data/c70_fchv_area/contact/select_center_contact:label">
             <value>Select Person</value>
@@ -37,6 +34,9 @@
           </text>
           <text id="/data/c70_fchv_area/contact/select_ward_contact:label">
             <value>Select Person</value>
+          </text>
+          <text id="/data/c70_fchv_area/contact_name_note:label">
+            <value>Primary contact: <output value=" /data/c70_fchv_area/contact/contact_name "/></value>
           </text>
           <text id="/data/c70_fchv_area/external_id:label">
             <value>External ID</value>
@@ -82,17 +82,14 @@
           </text>
         </translation>
         <translation lang="ne">
-          <text id="/data/c70_fchv_area/contact/change_primary/no:label">
+          <text id="/data/c70_fchv_area/change_primary/no:label">
             <value>होइन</value>
           </text>
-          <text id="/data/c70_fchv_area/contact/change_primary/yes:label">
+          <text id="/data/c70_fchv_area/change_primary/yes:label">
             <value>हो</value>
           </text>
-          <text id="/data/c70_fchv_area/contact/change_primary:label">
+          <text id="/data/c70_fchv_area/change_primary:label">
             <value>सम्पर्क व्यक्ति फेर्न चाहनुहुन्छ?</value>
-          </text>
-          <text id="/data/c70_fchv_area/contact/contact_name_note:label">
-            <value>सम्पर्क व्यक्ति: <output value=" /data/c70_fchv_area/contact/contact_name "/></value>
           </text>
           <text id="/data/c70_fchv_area/contact/select_center_contact:label">
             <value>सम्पर्क व्यक्ति छान्नुहोस्:</value>
@@ -114,6 +111,9 @@
           </text>
           <text id="/data/c70_fchv_area/contact/select_ward_contact:label">
             <value>सम्पर्क व्यक्ति छान्नुहोस्:</value>
+          </text>
+          <text id="/data/c70_fchv_area/contact_name_note:label">
+            <value>सम्पर्क व्यक्ति: <output value=" /data/c70_fchv_area/contact/contact_name "/></value>
           </text>
           <text id="/data/c70_fchv_area/contact_type:label">
             <value>-</value>
@@ -169,7 +169,7 @@
         </translation>
       </itext>
       <instance>
-        <data id="contact:c70_fchv_area:edit" prefix="J1!contact:c70_fchv_area:edit!" delimiter="#" version="2021-12-12 11-55">
+        <data id="contact:c70_fchv_area:edit" prefix="J1!contact:c70_fchv_area:edit!" delimiter="#" version="2021-12-12 17-18">
           <inputs>
             <meta>
               <location>
@@ -194,11 +194,11 @@
             <notes/>
             <place_type/>
             <place_type_translation/>
+            <contact_name_note/>
+            <change_primary>no</change_primary>
             <contact>
               <name/>
               <contact_name/>
-              <contact_name_note/>
-              <change_primary>no</change_primary>
               <select_center_contact/>
               <select_province_contact/>
               <select_district_contact/>
@@ -226,18 +226,18 @@
       <bind nodeset="/data/c70_fchv_area/notes" type="string"/>
       <bind nodeset="/data/c70_fchv_area/place_type" type="select1" calculate="&quot;c70_fchv_area&quot;"/>
       <bind nodeset="/data/c70_fchv_area/place_type_translation" type="string" calculate="jr:choice-name( /data/c70_fchv_area/place_type ,' /data/c70_fchv_area/place_type ')"/>
+      <bind nodeset="/data/c70_fchv_area/contact_name_note" readonly="true()" type="string"/>
+      <bind nodeset="/data/c70_fchv_area/change_primary" type="select1" required="true()"/>
       <bind nodeset="/data/c70_fchv_area/contact/name" type="string" readonly="true()"/>
       <bind nodeset="/data/c70_fchv_area/contact/contact_name" type="string" calculate="../name"/>
-      <bind nodeset="/data/c70_fchv_area/contact/contact_name_note" readonly="true()" type="string"/>
-      <bind nodeset="/data/c70_fchv_area/contact/change_primary" type="select1" required="true()"/>
-      <bind nodeset="/data/c70_fchv_area/contact/select_center_contact" type="string" relevant=" /data/c70_fchv_area/contact/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c10_center'" required="true()"/>
-      <bind nodeset="/data/c70_fchv_area/contact/select_province_contact" type="string" relevant=" /data/c70_fchv_area/contact/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c20_province'" required="true()"/>
-      <bind nodeset="/data/c70_fchv_area/contact/select_district_contact" type="string" relevant=" /data/c70_fchv_area/contact/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c30_district'" required="true()"/>
-      <bind nodeset="/data/c70_fchv_area/contact/select_municipality_contact" type="string" relevant=" /data/c70_fchv_area/contact/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c40_municipality'" required="true()"/>
-      <bind nodeset="/data/c70_fchv_area/contact/select_ward_contact" type="string" relevant=" /data/c70_fchv_area/contact/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c50_ward'" required="true()"/>
-      <bind nodeset="/data/c70_fchv_area/contact/select_chn_area_contact" type="string" relevant=" /data/c70_fchv_area/contact/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c60_chn_area'" required="true()"/>
-      <bind nodeset="/data/c70_fchv_area/contact/select_fchv_area_contact" type="string" relevant=" /data/c70_fchv_area/contact/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c70fchv_area'" required="true()"/>
-      <bind nodeset="/data/c70_fchv_area/contact/_id" type="string" calculate="if( /data/c70_fchv_area/contact/change_primary  = 'yes', coalesce(../select_center_contact, ../select_province_contact, ../select_district_contact, ../select_municipality_contact, ../select_ward_contact, ../select_chn_area_contact, ../select_fchv_area_contact), .)"/>
+      <bind nodeset="/data/c70_fchv_area/contact/select_center_contact" type="string" required="true()" relevant=" /data/c70_fchv_area/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c10_center'"/>
+      <bind nodeset="/data/c70_fchv_area/contact/select_province_contact" type="string" required="true()" relevant=" /data/c70_fchv_area/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c20_province'"/>
+      <bind nodeset="/data/c70_fchv_area/contact/select_district_contact" type="string" required="true()" relevant=" /data/c70_fchv_area/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c30_district'"/>
+      <bind nodeset="/data/c70_fchv_area/contact/select_municipality_contact" type="string" required="true()" relevant=" /data/c70_fchv_area/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c40_municipality'"/>
+      <bind nodeset="/data/c70_fchv_area/contact/select_ward_contact" type="string" required="true()" relevant=" /data/c70_fchv_area/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c50_ward'"/>
+      <bind nodeset="/data/c70_fchv_area/contact/select_chn_area_contact" type="string" required="true()" relevant=" /data/c70_fchv_area/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c60_chn_area'"/>
+      <bind nodeset="/data/c70_fchv_area/contact/select_fchv_area_contact" type="string" required="true()" relevant=" /data/c70_fchv_area/change_primary  = 'yes' and  /data/c70_fchv_area/place_type  = 'c70fchv_area'"/>
+      <bind nodeset="/data/c70_fchv_area/contact/_id" type="string" calculate="if( /data/c70_fchv_area/change_primary  = 'yes', coalesce(../select_center_contact, ../select_province_contact, ../select_district_contact, ../select_municipality_contact, ../select_ward_contact, ../select_chn_area_contact, ../select_fchv_area_contact), .)"/>
       <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
   </h:head>
@@ -295,40 +295,40 @@
           <value>c70_fchv_area</value>
         </item>
       </select1>
+      <input ref="/data/c70_fchv_area/contact_name_note">
+        <label ref="jr:itext('/data/c70_fchv_area/contact_name_note:label')"/>
+      </input>
+      <select1 ref="/data/c70_fchv_area/change_primary">
+        <label ref="jr:itext('/data/c70_fchv_area/change_primary:label')"/>
+        <item>
+          <label ref="jr:itext('/data/c70_fchv_area/change_primary/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/c70_fchv_area/change_primary/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
       <group ref="/data/c70_fchv_area/contact">
-        <input ref="/data/c70_fchv_area/contact/contact_name_note">
-          <label ref="jr:itext('/data/c70_fchv_area/contact/contact_name_note:label')"/>
-        </input>
-        <select1 ref="/data/c70_fchv_area/contact/change_primary">
-          <label ref="jr:itext('/data/c70_fchv_area/contact/change_primary:label')"/>
-          <item>
-            <label ref="jr:itext('/data/c70_fchv_area/contact/change_primary/yes:label')"/>
-            <value>yes</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/c70_fchv_area/contact/change_primary/no:label')"/>
-            <value>no</value>
-          </item>
-        </select1>
-        <input appearance="select-contact type-c10_center_contact" ref="/data/c70_fchv_area/contact/select_center_contact">
+        <input appearance="select-contact type-c12_center_contact" ref="/data/c70_fchv_area/contact/select_center_contact">
           <label ref="jr:itext('/data/c70_fchv_area/contact/select_center_contact:label')"/>
         </input>
-        <input appearance="select-contact type-c20_province_contact" ref="/data/c70_fchv_area/contact/select_province_contact">
+        <input appearance="select-contact type-c22_province_contact" ref="/data/c70_fchv_area/contact/select_province_contact">
           <label ref="jr:itext('/data/c70_fchv_area/contact/select_province_contact:label')"/>
         </input>
-        <input appearance="select-contact type-c30_district_contact" ref="/data/c70_fchv_area/contact/select_district_contact">
+        <input appearance="select-contact type-c32_district_contact" ref="/data/c70_fchv_area/contact/select_district_contact">
           <label ref="jr:itext('/data/c70_fchv_area/contact/select_district_contact:label')"/>
         </input>
-        <input appearance="select-contact type-c40_municipality_contact" ref="/data/c70_fchv_area/contact/select_municipality_contact">
+        <input appearance="select-contact type-c42_municipality_contact" ref="/data/c70_fchv_area/contact/select_municipality_contact">
           <label ref="jr:itext('/data/c70_fchv_area/contact/select_municipality_contact:label')"/>
         </input>
-        <input appearance="select-contact type-c50_ward_contact" ref="/data/c70_fchv_area/contact/select_ward_contact">
+        <input appearance="select-contact type-c52_ward_contact" ref="/data/c70_fchv_area/contact/select_ward_contact">
           <label ref="jr:itext('/data/c70_fchv_area/contact/select_ward_contact:label')"/>
         </input>
-        <input appearance="select-contact type-c60_chn_area_contact" ref="/data/c70_fchv_area/contact/select_chn_area_contact">
+        <input appearance="select-contact type-c62_chn_area_contact" ref="/data/c70_fchv_area/contact/select_chn_area_contact">
           <label ref="jr:itext('/data/c70_fchv_area/contact/select_chn_area_contact:label')"/>
         </input>
-        <input appearance="select-contact type-c70_fchv_area_contact" ref="/data/c70_fchv_area/contact/select_fchv_area_contact">
+        <input appearance="select-contact type-c72_fchv_area_contact" ref="/data/c70_fchv_area/contact/select_fchv_area_contact">
           <label ref="jr:itext('/data/c70_fchv_area/contact/select_fchv_area_contact:label')"/>
         </input>
       </group>

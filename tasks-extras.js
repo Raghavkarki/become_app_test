@@ -60,17 +60,17 @@ const ancSchedule = [
 const pncSchedule = [
 
   {
-    start: 1,
+    start: 100,
     due: 2,
     end: 2
   },
   {
-    start: 6,
+    start: 600,
     due: 13,
     end: 2
   },
   {
-    start: 2,
+    start: 200,
     due: 41,
     end: 2
   }

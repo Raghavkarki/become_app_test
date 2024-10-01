@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
   <h:head>
     <h:title>Edit undefined</h:title>
     <model>
@@ -109,7 +109,7 @@
         </translation>
       </itext>
       <instance>
-        <data delimiter="#" id="contact:c80_household:edit" prefix="J1!contact:c80_household:edit!" version="2022-07-19 14-40">
+        <data id="contact:c80_household:edit" prefix="J1!contact:c80_household:edit!" delimiter="#" version="2022-07-19 14-40">
           <inputs>
             <meta>
               <location>
@@ -151,23 +151,23 @@
       <bind nodeset="/data/inputs/user/contact_id" type="string"/>
       <bind nodeset="/data/inputs/user/facility_id" type="string"/>
       <bind nodeset="/data/inputs/user/name" type="string"/>
-      <bind nodeset="/data/c80_household/parent" readonly="true()" type="string"/>
-      <bind nodeset="/data/c80_household/type" readonly="true()" type="string"/>
-      <bind nodeset="/data/c80_household/contact_type" readonly="true()" type="string"/>
+      <bind nodeset="/data/c80_household/parent" type="string" readonly="true()"/>
+      <bind nodeset="/data/c80_household/type" type="string" readonly="true()"/>
+      <bind nodeset="/data/c80_household/contact_type" type="string" readonly="true()"/>
       <bind nodeset="/data/c80_household/house_number" type="string"/>
-      <bind calculate="if( /data/c80_household/change_name ='yes', /data/c80_household/custom_name ,  /data/c80_household/generated_name )" nodeset="/data/c80_household/name" readonly="true()" type="string"/>
+      <bind nodeset="/data/c80_household/name" type="string" calculate="if( /data/c80_household/change_name ='yes', /data/c80_household/custom_name ,  /data/c80_household/generated_name )" readonly="true()"/>
       <bind nodeset="/data/c80_household/change_name" type="select1"/>
-      <bind nodeset="/data/c80_household/custom_name" relevant=" /data/c80_household/change_name  = 'yes'" required="true()" type="string"/>
-      <bind calculate="if( /data/c80_household/house_number  = '',
+      <bind nodeset="/data/c80_household/custom_name" type="string" required="true()" relevant=" /data/c80_household/change_name  = 'yes'"/>
+      <bind nodeset="/data/c80_household/generated_name" type="string" calculate="if( /data/c80_household/house_number  = '',
  concat( /data/c80_household/contact/contact_name , &quot; को घर धुरी&quot;),
 concat( /data/c80_household/contact/contact_name , &quot; को घर धुरी (&quot;,  /data/c80_household/house_number , &quot;)&quot;)
-)" nodeset="/data/c80_household/generated_name" type="string"/>
+)"/>
       <bind nodeset="/data/c80_household/external_id" type="string"/>
       <bind nodeset="/data/c80_household/notes" type="string"/>
-      <bind nodeset="/data/c80_household/contact/name" readonly="true()" type="string"/>
-      <bind calculate="../name" nodeset="/data/c80_household/contact/contact_name" type="string"/>
-      <bind nodeset="/data/c80_household/contact/_id" required="true()" type="db:person"/>
-      <bind calculate="concat('uuid:', uuid())" nodeset="/data/meta/instanceID" readonly="true()" type="string"/>
+      <bind nodeset="/data/c80_household/contact/name" type="string" readonly="true()"/>
+      <bind nodeset="/data/c80_household/contact/contact_name" type="string" calculate="../name"/>
+      <bind nodeset="/data/c80_household/contact/_id" type="db:person" required="true()"/>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
   </h:head>
   <h:body>

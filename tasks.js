@@ -121,7 +121,7 @@ module.exports = [
         type: 'report',
         form: 'pregnancy_home_visit',
         modifyContent: (content, contact, report, event) => {
-          content.visit = event.id.slice(event.id.length - 1,);
+          content.visit = event.id.slice(event.id.length - 1);
 
           const dueDate = event.dueDate(event, contact, report);
           content.current_period_start = addDays(dueDate, -event.start);
@@ -487,7 +487,7 @@ module.exports = [
 
     events: [
       {
-        start: 3,
+        start: 300,
         days: 4,
         end: 7,
       },
@@ -515,7 +515,7 @@ module.exports = [
 
     events: [
       {
-        start: 3,
+        start: 300,
         days: 4,
         end: 7,
       },
@@ -564,8 +564,8 @@ module.exports = [
           Object.entries(context).forEach(([key, value]) => {
             content[key] = value;
           });
-          Object.assign(content, context , ncdExtractFields(report, 'hypertension'));
-          
+          Object.assign(content, context, ncdExtractFields(report, 'hypertension'));
+
         }
 
       }
@@ -623,7 +623,7 @@ module.exports = [
           Object.entries(context).forEach(([key, value]) => {
             content[key] = value;
           });
-          Object.assign(content, context , ncdExtractFields(report, 'diabetes'));
+          Object.assign(content, context, ncdExtractFields(report, 'diabetes'));
         }
       }
     ],
@@ -753,6 +753,71 @@ module.exports = [
       },
     ]
   },
+  // {
+  //   // combining both task in 1 which will helps us to decrease the code size
+  //   name: 'depression_sessions',
+  //   icon: 'icon-child-health-followup',
+  //   title: 'task.depression_sessions',
+  //   appliesTo: 'reports',
+  //   appliesToType: ['become_sessions', 'become_form'],
+  //   appliesIf: (contact, report) => {
+  //     const anxietySession = getField(report, 'anxiety_session');
+  //     const selectedOptions = getField(report, 'become.hp_selection');
+  //     const selectedOptions1 = getField(report, 'previous_ctx');
+  //     const visitCount = getField(report, 'visit_count_dep');
+
+  //     // Show first session task if depression_session is empty then first task is triggered 
+  //     // if (getField(report, 'depression_session') === 'first') {
+  //     //   return true;
+  //     // }
+  //     if (visitCount === '1') {
+  //       return true;
+
+  //     }
+
+  //     // Show second session task if depression_session value is first which means the first session is completed.
+  //     return (anxietySession === 'second' && selectedOptions1 && selectedOptions1.includes('depression'))
+  //       || (selectedOptions && !selectedOptions.includes('anxiety')
+  //           && selectedOptions.includes('depression'));
+  //   },
+  //   actions: [
+  //     {
+  //       type: 'report',
+  //       form: 'become_sessions',
+  //       modifyContent: function (content,report,event) {
+  //         // const currentSession = getField(report, 'depression_session');
+  //         content.visit_count  = event.id.slice(event.id.length - 1);
+
+  //         const currentSession = report.depression_session;
+  //         console.log(currentSession,'dada');
+  //         // if (currentSession === 'first') {
+  //         //   content.depression_session = 'second';
+  //         // } else {
+  //         //   content.depression_session = 'first';
+  //         // }
+  //         //const currentSession = getField(content, 'depression_session');
+  //         //content.depression_session = currentSession === 'first' ? 'second' : (currentSession || 'first');
+  //         // if (currentSession === '') {
+  //         //   content.depression_session = 'first';
+  //         //   return;
+  //         // }
+
+  //         // if (currentSession === 'first') {
+  //         //   content.depression_session = 'second';
+  //         //   return;
+  //         // }
+  //         //content.depression_session = !currentSession ? 'first' : currentSession === 'first' ? 'second' : currentSession;
+  //       }
+  //     }
+  //   ],
+  //   events: [
+  //     {
+  //       start: 30,
+  //       days: 30,
+  //       end: 15
+  //     },
+  //   ]
+  // },
   {
     name: 'motivational_interviewing',
     icon: 'icon-child-health-followup',
@@ -888,6 +953,7 @@ module.exports = [
     ]
 
   }
+
 ];
 
 

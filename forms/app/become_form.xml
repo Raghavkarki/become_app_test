@@ -47,7 +47,7 @@
             <value>उच्च रक्तचाप</value>
           </text>
           <text id="/become_form/become/hp_selection:label">
-            <value>${patient_name को समस्या चयन गर्नुहोस् I</value>
+            <value><output value=" /become_form/patient_name "/> को समस्या चयन गर्नुहोस् I</value>
           </text>
           <text id="/become_form/inputs/contact:label">
             <value>Contact</value>
